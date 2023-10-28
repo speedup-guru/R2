@@ -16,8 +16,8 @@ jobs:
     - name: Set up AWS CLI
       uses: aws-actions/configure-aws-credentials@v1
       with:
-        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-access-key-id: 9d6216c32ede5bb3482ca34df6472dd5
+        aws-secret-access-key: 662d3997a290ed6cdef84cf765e164cbdf55d73b755b88e26a3c0974357337bb
         aws-region: us-east-1  # Cloudflare R2 не использует region, но AWS CLI требует указания региона
 
     - name: Sync files to Cloudflare R2
