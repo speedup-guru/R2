@@ -1,0 +1,20 @@
+name: Upload to Cloudflare R2
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Copy files to R2
+        run: |
+          # Здесь могут быть команды для копирования файлов в Cloudflare R2
+          # Например, можно использовать AWS CLI, настроенный на работу с Cloudflare R2
+          aws s3 cp ./path/to/your/file s3://your-r2-bucket-name/destination-path/ --endpoint-url=https://<your-r2-endpoint> --recursive
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
