@@ -1,9 +1,9 @@
-name: Upload to Cloudflare R2
+name: Upload to Cloudflare R2 Test
 
 on:
   push:
     branches:
-      - main  # Активируется для push в ветку main
+      - main  # Замените 'main' на название вашей ветки, если нужно
 
 jobs:
   upload-to-r2:
@@ -13,13 +13,10 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v2
 
-    - name: Set up AWS CLI
-      uses: aws-actions/configure-aws-credentials@v1
-      with:
-        aws-access-key-id: 9d6216c32ede5bb3482ca34df6472dd5
-        aws-secret-access-key: 662d3997a290ed6cdef84cf765e164cbdf55d73b755b88e26a3c0974357337bb
-        aws-region: us-east-1  # Cloudflare R2 не использует region, но AWS CLI требует указания региона
-
     - name: Sync files to Cloudflare R2
       run: |
         aws s3 sync . s3://github --endpoint-url=https://ac34229f403bce2e69e97ed47465658c.r2.cloudflarestorage.com
+      env:
+        AWS_ACCESS_KEY_ID: 9d6216c32ede5bb3482ca34df6472dd5
+        AWS_SECRET_ACCESS_KEY: 662d3997a290ed6cdef84cf765e164cbdf55d73b755b88e26a3c0974357337bb
+        AWS_DEFAULT_REGION: 'us-east-1'  # Используйте 'us-east-1' как заглушку
