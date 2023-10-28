@@ -15,7 +15,7 @@ jobs:
 
     - name: Sync files to Cloudflare R2
       run: |
-        aws s3 sync . s3://github --endpoint-url=https://ac34229f403bce2e69e97ed47465658c.r2.cloudflarestorage.com
+        aws s3 sync . s3://github --delete --endpoint-url=https://ac34229f403bce2e69e97ed47465658c.r2.cloudflarestorage.com
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
