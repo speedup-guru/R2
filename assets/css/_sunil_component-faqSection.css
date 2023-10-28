@@ -1,0 +1,214 @@
+/* -------------------------- faq start ------------------------- */
+.faq-hero .heading-bx {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.faq {
+    padding: 70px 0;
+}
+
+.faq .accordion-button {
+    padding: 30px 0;
+    /* text-transform: capitalize; */
+    font-weight: 600;
+    font-size: 14px;
+    background-color: transparent;
+}
+
+.faq .accordion-body {
+    padding: 10px 0 30px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: normal;
+    color: var(--clr-black);
+}
+
+.faq .accordion-item {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #DEDADA;
+}
+
+.faq .accordion-button:not(.collapsed) {
+    box-shadow: none;
+}
+
+.accordion-item:first-child {
+    border-top: none;
+}
+
+.faq .accordion-item:last-child {
+    border-bottom: none;
+}
+
+.faq .accordion-button:not(.collapsed) {
+    color: var(--clr-black);
+    background-color: transparent;
+
+}
+
+.faq .accordion-button:after {
+    display: none;
+}
+
+.faq .accordion-button .container:after {
+    content: '+';
+    height: 20px;
+    width: 20px;
+    color: var(--clr-1);
+    font-size: 25px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-weight: 600;
+}
+
+.faq .accordion-button .container {
+    position: relative;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 600;
+    padding-left: 0;
+}
+
+.faq .accordion-body .container p,
+.faq .accordion-item ul li {
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    padding: 5px 0;
+}
+
+.faq .accordion-button:not(.collapsed) .container:after {
+    content: '-';
+}
+
+.faq .accordion-button:focus {
+    box-shadow: none;
+}
+
+.faq_ques {
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 600;
+    padding-top: 40px;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.faq_ques a,
+.faq_ques button {
+    cursor: pointer;
+    text-decoration: underline !important;
+}
+
+.faq-ask {
+    margin: 20px 0;
+}
+
+.faq-ask a {
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #008763;
+}
+
+.faq-ask a:hover {
+    color: #008763;
+}
+
+.faq .accordion-body>.container {
+    padding: 0;
+}
+
+.faq .accordion-item:last-child {
+    border-bottom: 0;
+}
+
+.faq .accordion-item ul li {
+    list-style-type: disc;
+}
+
+.faq .accordion-item ul.li_decimal li {
+    list-style-type: decimal;
+}
+
+.faq .accordion-item a {
+    color: #008763;
+    text-decoration: underline;
+}
+
+.faq .accordion-item ul {
+    padding-left: 30px;
+}
+
+@media(max-width:767px) {
+    .faq .section_header {
+        max-width: 327px;
+        margin: 0 auto;
+    }
+
+    .faq .accordion-button {
+        padding: 20px 0px;
+    }
+
+    .faq .accordion-body {
+        padding: 0px 0 30px;
+    }
+
+    .faq {
+        padding: 40px 0;
+    }
+
+    .faq_ques {
+        padding-top: 40px;
+    }
+
+    .faq .accordion-button .container:after {
+        font-weight: 500;
+    }
+
+    .faq .accordion-button .container {
+        padding: 0 30px 0 0 !important;
+    }
+
+    .faq .section_header {
+        padding-bottom: 0;
+    }
+
+    .faq .accordion-body>.container {
+        padding: 0 !important;
+    }
+
+    .faq .accordion-body .container p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+}
+
+@media(max-width:576px) {
+    .faq .accordion-button .container {
+        position: relative;
+    }
+
+    .faq .accordion-button .container:after {
+        right: 5px;
+    }
+
+    .faq .accordion-body .container {
+        font-size: 12px;
+        line-height: 22px;
+        font-weight: 400;
+    }
+}

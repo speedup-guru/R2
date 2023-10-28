@@ -1,0 +1,871 @@
+/* -------------------- Refill Banner Start ------------------- */
+.refill_bl {
+    padding-top: 5px;
+    position: relative;
+    min-height: var(--banner-height);
+    overflow: hidden;
+}
+
+.micro_infusion .refill_info .section_header {
+    max-width: 490px;
+}
+
+.micro_infusion_lp .refill_bl .refill_info {
+    max-width: 451px;
+}
+
+.mi_landing .refill_bl .refill_info {
+    max-width: 558px;
+}
+
+.chest_pdp .refill_bl .refill_info {
+    max-width: 455px;
+}
+
+.refill_bl .refill_info {
+    max-width: 537px;
+}
+
+.refill_bl.tabSlider .refill_info .section_header {
+    padding: 0;
+    max-width: 538px;
+}
+
+.refill_bl.tabSlider .refill_info .section_header .title-xl {
+    font-size: 45px;
+    line-height: 57px;
+    font-weight: 500;
+    /* letter-spacing: 0.45px; */
+}
+
+.refill_bl.tabSlider .refill_info .refill_review p {
+    padding-top: 5px;
+}
+
+.refill_bl.tabSlider .refill_review {
+    justify-content: start;
+}
+
+/* .refill_cnt {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+  } */
+
+.refill_bl .refill_img img {
+    width: 100%;
+}
+
+.refill_bl .refill_info {
+    max-width: 475px;
+    padding-left: 0px;
+    /* margin: 0 auto; */
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.refill_info .section_header {
+    padding-bottom: 0;
+}
+
+.swiper-slide.video_popup {
+    position: relative;
+}
+
+.swiper-slide.video_popup .play_btn {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.serum_pdp .refill_bl .refill_info {
+    max-width: 475px;
+}
+
+/* =========== refill review start  ======= */
+.refill_review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.refill_review p {
+    font-size: 13px;
+    line-height: 18px;
+    margin-left: 12px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.gif_banner {
+    height: 377px;
+}
+
+@media(max-width:991px) {
+    .refill_bl.tabSlider .refill_info .section_header .title-xl {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .chest_pdp .refill_bl.tabSlider .refill_info .section_header .title-xl {
+        font-size: 34px;
+        line-height: 40px;
+    }
+}
+
+@media(max-width:767px) {
+
+    .refill_review p {
+        font-size: 10px;
+        line-height: 16px;
+        margin-left: 5px;
+    }
+
+    .refill_bl .refill_img {
+        margin: 0 -24px;
+    }
+
+    .refill_bl .refill_img img,
+    .refill_bl .refill_img img.gif_banner {
+        width: 100%;
+        height: 480px;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .refill_bl .refill_img .play_btn img {
+        width: auto !important;
+        height: auto !important;
+    }
+
+    .refill_bl {
+        padding-top: 0px;
+    }
+
+}
+
+@media(max-width:650px) {
+    .refill_bl .refill_img img {
+        height: 420px;
+    }
+}
+
+@media(max-width:500px) {
+    .refill_bl .refill_img img {
+        height: 380px;
+    }
+}
+
+@media(max-width:400px) {
+    .refill_bl .refill_img img {
+        height: 280px;
+    }
+}
+
+@media(max-width:1199px) {
+    /* .refill_cnt {
+          position: relative;
+      } */
+}
+
+/* =========== refill review end  ======= */
+
+
+.refill_info .section_header .title-lg {
+    letter-spacing: 0.16px;
+    margin: 10px 0;
+}
+
+.refill_ftr {
+    padding-top: 20px;
+}
+
+.r_ftr {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.r_ftr p {
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.16px;
+}
+
+.r_ftr p span {
+    font-weight: 600;
+}
+
+.r_ftr svg {
+    min-width: 42px !important;
+}
+
+.green_bx {
+    background-color: var(--clr-light-green);
+    border-radius: 43px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.green_bx .green_bx_header p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    letter-spacing: 0.16px;
+}
+
+.green_bx .g_bx_info {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+}
+
+.green_bx .green_bx_top {
+    position: absolute;
+    top: -21px;
+    background: #000;
+    color: #fff;
+    /* right: 59px; */
+    right: 10%;
+    border-radius: 13px 13px 0 0;
+    padding: 5px 13px;
+}
+
+.green_bx .green_bx_top p {
+    padding: 0 13px;
+    font-size: 10px;
+    line-height: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.green_bx .green_bx_header {
+    display: -webkit-inline-box;
+}
+
+.green_bx p {
+    line-height: 15px;
+}
+
+.green_bx .green_bx_right p {
+    line-height: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.green_bx .green_bx_right p .compare_price {
+    color: darkgrey;
+    text-decoration: line-through;
+    padding-right: 7px;
+    font-size: 20px;
+}
+
+.green_bx .green_bx_right p .sale_price {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.green_bx .green_bx_header .save_bx {
+    background: var(--clr-green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    color: var(--clr-white);
+    margin-left: 5px;
+}
+
+.green_bx .green_bx_header .save_bx p {
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 400;
+    padding: 0 10px;
+}
+
+.serum_bl {
+    padding-top: 16px;
+}
+
+.serum_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    /* gap: 20px; */
+}
+
+.serum_wrapper p {
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.serum_bx {
+    border-radius: 25px;
+    /* border: 1px solid red; */
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 58px;
+}
+
+.serum_bx.gold-silver {
+    background: linear-gradient(to right, var(--clr-yellow), var(--clr-grey));
+}
+
+.serum_bx.gold {
+    background: #FFFAF1;
+}
+
+.serum_bx.silver {
+    background: #F5F5F5;
+}
+
+.serum_bx:hover {
+    border: 1px solid #C7E7DC;
+}
+
+.serum_bx .s_img {
+    padding: 15px 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s_img img {
+    max-width: 100%;
+}
+
+.s_name {
+    border: 1px solid #D6D6D6;
+    background: #fff;
+    border-radius: 30px;
+    padding: 10px;
+    position: absolute;
+    bottom: 1px;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.serum_bl p {
+    font-weight: 600;
+}
+
+.s_name p {
+    font-size: 11px;
+    line-height: 14px;
+    font-weight: 300;
+}
+
+.serum_bx:hover .s_name {
+    background: #C7E7DC;
+    border: none;
+    bottom: 0;
+}
+
+.serum_bx:hover .s_name p {
+    font-weight: 600;
+}
+
+.buy_btn {
+    background: #000;
+    border-radius: 30px;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    max-width: 100%;
+}
+
+.buy_btn p {
+    letter-spacing: 0.2px;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.buy_btn p span {
+    font-weight: 600;
+}
+
+.buy_btn img {
+    position: absolute;
+    right: 25px;
+    top: 23px;
+}
+
+.buy_btn:hover {
+    color: #fff;
+}
+
+.payment_method {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    justify-content: center;
+}
+
+.payment_method .pmt_img img {
+    padding-right: 5px;
+}
+
+.payment_method p {
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: 300;
+}
+
+.shipping {
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.realResultSlider .swiper-slide {
+    padding-top: 0px;
+}
+
+.subscription_bx {
+    margin-bottom: 20px;
+}
+
+.subscription_bx .subscription_tab {
+    display: flex;
+    border: 1px solid #D6D6D6;
+    border-radius: 40px;
+    padding: 4px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.subscription_bx .serum_prd {
+    display: flex;
+    width: 50%;
+    min-height: 48px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 2;
+}
+
+.subscription_bx .serum_ttl {
+    font-size: 14px;
+    margin: 0;
+}
+
+.subscription_bx .subscription_tab .tab_glider {
+    position: absolute;
+    width: calc(50% - 4px);
+    background: #C7E7DC;
+    border-radius: inherit;
+    z-index: 1;
+    height: calc(100% - 8px);
+    top: 50%;
+    transform: translate(0%, -50%);
+    transition: transform 0.25s;
+}
+
+.subscription_bx a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.subscription_bx a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.subscription_bx .subscription_tab input {
+    display: none;
+}
+
+.subscription_bx .subscription_tab .s_tab input {
+    display: none;
+}
+
+.subscription_bx .subscription_tab .s_tab .serum_prd .serum_ttl {
+    padding: 10px 3px;
+    margin-bottom: 0;
+    padding: 17px 25px;
+}
+
+.subscription_bx .subscription_tab input:checked+.serum_prd .serum_ttl {
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.subscription_bx input[id="m_Subscription1"]:checked~.tab_glider,
+.subscription_bx input[id="m_Subscription3"]:checked~.tab_glider {
+    transform: translate(0, -50%);
+}
+
+.subscription_bx input[id="m_Subscription2"]:checked~.tab_glider,
+.subscription_bx input[id="m_Subscription4"]:checked~.tab_glider {
+    transform: translate(100%, -50%);
+}
+
+.subscription_bx .subscription_tab .s_tab .serum_prd .serum_ttl {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+/* .see_work .play_btn {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} */
+
+.see_work.video_popup {
+    position: relative;
+}
+
+.see_work .play_btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.see_work .play_btn a {
+    padding: 4px 5px;
+    background: rgb(0 0 0 / 30%);
+    border-radius: 30px;
+    color: #fff;
+    width: 100%;
+    max-width: 233px;
+}
+
+.see_work .play_btn a span {
+    display: flex;
+    align-items: center;
+}
+
+.see_work .play_btn a span h6 {
+    margin-bottom: 0;
+    padding-left: 8px;
+    font-size: 16px;
+    line-height: 9px;
+    font-weight: 400;
+}
+
+.refill_s_tab ul {
+    display: grid;
+    grid-template-columns: 168px auto;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.refill_s_tab ul li button {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+
+}
+
+.refill_s_tab {
+    margin-top: 23px;
+}
+
+.refill_s_tab .nav-pills .nav-link {
+    padding: 0 35px;
+    color: #000;
+    border: 1px solid #D0D0D0;
+    border-radius: 20px;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.refill_s_tab .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #000;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+.tab_img {
+    width: 100%;
+}
+
+.refill_s_tab_content .tab-content .swiper-wrapper .swiper-slide {
+    /* height: unset; */
+}
+
+.refill_s_tab_content .tab-content .swiper-wrapper {
+    align-items: stretch;
+}
+
+/* 
+.banner-popup-link {
+    display: block;
+    height: 100%;
+} */
+
+.refill_s_tab_content .tab-content .tab_img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.refill_s_tab_content .swiper.dot_pagination .swiper-pagination {
+    position: absolute;
+    bottom: 20px;
+    padding-top: 0px;
+}
+
+.refill_s_tab_content .swiper.dot_pagination .swiper-pagination-bullet {
+    background: #D9D9D9;
+    opacity: 1;
+
+}
+
+.refill_s_tab_content .swiper.dot_pagination .swiper-pagination-bullet-active {
+    background: #000;
+    opacity: 1;
+}
+
+/* .refill_s_tab_content .swiper.realResultSlider.dot_pagination .swiper-pagination {
+    position: absolute;
+    padding-top: 0px;
+} */
+
+.refill_s_tab_content .refill_images .refill_tag_wrapper,
+.refill_images_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.refill_s_tab_content .refill_images .refill_tag_wrapper {
+    margin-bottom: 20px;
+}
+
+.refill_s_tab_content .refill_images .refill_tag_wrapper .refill_tag {
+    border: 1px solid #00000026;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 4px 0px #00000026;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 3px;
+    background-color: #fff;
+    color: #000;
+}
+
+.realResultSlider .swiper-slide .banner-popup-link,
+.realResultSlider .swiper-slide .banner-popup-link img {
+    width: 100%;
+}
+
+.subscription_bx p {
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+@media (max-width: 490px) {
+    .subscription_bx .serum_prd {
+        min-height: 40px;
+    }
+
+    .subscription_bx .serum_ttl {
+        font-size: 10px;
+    }
+
+    .refill_s_tab ul {
+        grid-template-columns: 1fr 1fr;
+        padding: 0 20px;
+    }
+}
+
+@media(max-width:767px) {
+    .refill_s_tab {
+        margin-top: 20px;
+    }
+
+    .r_ftr p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .green_bx .green_bx_top p {
+        font-size: 9px;
+        line-height: 11px;
+    }
+
+    .serum_wrapper p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .serum_wrapper {
+        grid-template-columns: repeat(3, 29%);
+    }
+
+    .s_img img {
+        max-width: 100%;
+    }
+
+    .green_bx .green_bx_header .save_bx {
+        margin-left: 2px;
+    }
+
+    .shipping {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .chest_pdp .refill_bl .shipping {
+        gap: 10px;
+    }
+
+    .buy_btn {
+        max-width: 100%
+    }
+
+    .subscription_bx .subscription_tab .s_tab .serum_prd .serum_ttl {
+        font-size: 11px;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+    }
+
+    .subscription_bx .subscription_tab .s_tab .serum_prd .serum_ttl {
+        padding: 6px 10px;
+    }
+
+    .subscription_tab {
+        margin-bottom: 20px;
+    }
+
+    .refill_s_tab ul li button {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .refill_s_tab_content .refill_images .refill_tag_wrapper .refill_tag {
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .realResultSlider .swiper-slide {
+        padding-top: 0px;
+    }
+
+    .refill_s_tab_content .refill_images .refill_tag_wrapper {
+        margin-bottom: 13px;
+    }
+}
+
+@media(max-width:767px) {
+    .green_bx .green_bx_header p {
+        line-height: 13px;
+    }
+
+    .green_bx .green_bx_header .save_bx p {
+        font-size: 9px;
+        line-height: 12px;
+        padding: 0 4px;
+    }
+
+    .green_bx .green_bx_left .text-sm {
+        font-size: 10px;
+        line-height: 16px;
+        font-weight: 300;
+    }
+
+    .refill_bl .container-fluid {
+        position: relative;
+    }
+
+    .refill_bl .refill_info {
+        max-width: 100%;
+    }
+
+    .refill_info .supply_steps .step_block {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .refill_info .bs_price .discount_p {
+        margin-top: 10px;
+    }
+
+    .refill_info .refill_ftr {
+        padding-top: 10px;
+    }
+}
+
+@media(max-width:490px) {
+    .s_name {
+        padding: 10px;
+    }
+
+    .refill_bl .refill_info {
+        padding-top: 10px;
+    }
+
+    .payment_method .pmt_img img {
+        padding-right: 0;
+    }
+
+    .payment_method p {
+        font-size: 10px;
+    }
+}
+
+@media(max-width:420px) {
+    .payment_method {
+        flex-direction: column;
+    }
+}
+
+@media(min-width:768px) {
+
+    .refill_bl .swiper-pagination {
+        display: none;
+    }
+
+    .refill_bl.tabSlider .swiper-pagination {
+        display: block;
+    }
+
+    .refill_img {
+        padding-top: 0px;
+        position: absolute;
+        right: 0;
+        left: unset;
+        width: 50%;
+    }
+
+}
+
+@media(max-width:767px) and (min-width:480px) {
+    .buy_btn img {
+        right: 70px;
+    }
+}

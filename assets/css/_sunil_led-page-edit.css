@@ -1,0 +1,207 @@
+/* img{
+    max-width: 100%;
+} */
+.led_mask .bs_price.bs_price_grey .discount_p span.sale_p{
+    font-size: 30px;
+}
+.r_c_info{
+    padding: 12px 0px;
+}
+
+.result_item_info .quote {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    z-index: -1;
+}
+.comparison-row {
+    position: sticky;
+    top: 50px;
+    z-index: 99;
+    background: #fffaf1;
+}
+.comparison-row+.comparison-row {
+    position: static;
+}
+.header_comp_row .comp-col.comp_hdr.bg-default {
+    border-radius: 8px 8px 0px 0px;
+}
+.led_mask .featured_promotion{
+    padding: 30px 0;
+}
+.led_mask .fp_item{
+    align-items: center;
+}
+.led_mask .fp-wrapper{
+    max-width: 990px;
+    margin: 0 auto;
+}
+.led_mask .videosQure .section_header{
+    padding-bottom: 20px;
+}
+
+
+
+@media ( max-width: 767px ){
+    .bs_price h3{
+        font-size: 32px;
+    }
+    .refill_review img {
+        max-width: 92px;
+        margin-right: 10px;
+    }
+    .refill_info .section_header .title-lg{
+        margin: 15px 0;
+    }
+    .health_beauty.section{
+        padding-top: 0 !important;
+    }
+    .health_img{
+        margin: 0 -24px;
+    }
+    .health_img img{
+        width: 100%;
+    }
+    .health_beauty.section .title-lg{
+        margin-bottom: 26px;
+    }
+    /* .health_beauty .section_header p{
+        padding-bottom: 26px;
+    } */
+    .health_beauty .section_header{
+        padding: 40px 0 0 !important;
+    }
+    .refill_img{
+        margin: 0 -24px;
+    }
+    .refill_bl .swiper-pagination {
+        padding-top: 18px;
+    }
+    
+    .r_c_info{
+        padding: 8px 0;
+    }
+    .health_beauty.section{
+        padding-bottom: 15px !important;
+    }
+    
+    .led_mask .result_s .section_header{
+        padding-bottom: 36px;
+        max-width: 290px;
+        margin: 0 auto;
+    }
+    .led_mask .qure_mobile{
+        padding-bottom: 50px !important;
+    }
+    .led_mask .qure_mobile .title-lg {
+        margin: 30px 0 15px;
+    }
+   
+   
+    .led_mask .result_s {
+        padding: 30px 0 50px !important;
+    }
+    .qa_info ul li{
+        padding: 13px 0;
+    }
+    .qa_info ul li .up-icon {
+        margin-right: 30px;
+        max-width: 60px;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .qa_info{
+        padding-bottom: 20px;
+    }
+    
+    .header_comp_row {
+        margin: 0 -24px;
+        top: 50px;
+    }
+    .header_comp_row > .row {
+        padding: 0 24px;
+    }
+    .comparison-row .comp-col.comp_col-price {
+        font-size: 20px !important;
+    }
+    .comparison-row .regular_price {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .comparison-row .comp-col{
+        font-size: 12px !important;
+    }
+    .comparison-row .comp-row__text-wrapper .comp-row__title{
+        font-size: 13px !important;
+    }
+    .comparison-row .comp-row__title-wrapper .comp-row__title--normal{
+        font-size: 12px !important;
+    }
+    .clinical_grade{
+        padding: 50px 0 !important;
+    }
+    .comparison-section{
+        padding-bottom: 0 !important;
+    }
+    .clinical_grade .title-lg {
+        margin-bottom: 20px;
+    }
+    .clinical_grade .section_header {
+        padding-bottom: 30px;
+    }
+    .img_grid .cg_thumnail{
+        padding-left: 12px;
+    }
+    .clinical_grade .refill_review img {
+        max-width: 70px;
+        margin-right: 9px;
+    }
+    .clinical_grade .cg_desc .refill_review p{
+        letter-spacing: 0.1px;
+    }
+    .led_mask .refill_review{
+        margin-bottom: 28px;
+    }
+    
+    .led_mask .qure_app_slider{
+        padding-bottom: 80px;
+    }
+    
+    .img_grid .cg_thumnail.cg_thumnail_left {
+        padding-right: 12px;
+        gap: 12px;
+    }
+    
+}
+@media ( max-width: 490px ){
+    .pmt_img {
+        padding: 0 !important;
+        display: flex;
+        align-items: flex-start;
+        gap: 4px;
+        margin: 4px 0px 0px 4px;
+    }
+    .pmt_img img {
+        max-width: 31px;
+    }
+    .payment_method{
+        align-items: flex-start;
+    }
+    .led_mask .refill_bl .shipping{
+        padding: 11px 23px;
+    }
+    .led_mask .bs_img img{
+        object-fit: cover;
+        aspect-ratio: 1;
+        border-radius: 8px;
+    }
+    .led_mask .bs_price {
+        padding: 8px 0 10px;
+    }
+    .led_mask  .section_header h3{
+        font-size: 22px;
+        line-height: 28px;
+    }   
+}
+

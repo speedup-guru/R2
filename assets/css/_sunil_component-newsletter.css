@@ -1,0 +1,85 @@
+/* ===============================  Newsletter Start ======================================= */
+.newsletter_bl {
+    background: #121212;
+    color: #fff;
+}
+
+.newsletter_bl .newsletter_form input {
+    background: #fff;
+    border-radius: 30px;
+    color: #121212;
+    padding: 10px 15px;
+}
+
+.newsletter_bl h2 {
+    font-size: 32px;
+    line-height: 32px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-family: 'Canela Thin';
+    text-align: center;
+}
+
+.newsletter_bl .newsletter_form .form-input-item {
+    position: relative;
+}
+
+.newsletter_bl .newsletter_form .form-input-item input {
+    width: 100%;
+    border-radius: 40px;
+    border: none;
+    padding: 15px 55px 15px 20px;
+    margin: 0;
+}
+
+.newsletter_bl .newsletter_form .form-input-item input+button {
+    position: absolute;
+    right: 5px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    /* border-radius: 50px; */
+    background: transparent;
+    /* color: #fff; */
+    transition: 0.3s;
+    top: 50%;
+    margin: 0;
+    transform: translateY(-50%);
+    padding: 0;
+}
+
+.newsletter_bl .social_icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    padding-top: 10px;
+}
+
+.newsletter_bl .social_icons img {
+    margin-right: 0px;
+}
+
+@media(max-width:767px) {
+    .newsletter_bl {
+        border-bottom: 1px solid #616161;
+        padding: 64px 0 54px !important;
+    }
+
+    .newsletter_bl h2 {
+        font-size: 28px;
+        padding-bottom: 24px;
+    }
+   
+    .newsletter_bl .newsletter_form .form-input-item {
+        margin: 0 auto;
+        margin-bottom: 10px;
+        width: 420px;
+        max-width: 100%;
+    }
+    .newsletter_bl .followUs {
+        padding-bottom: 10px;
+    }
+}
+
+/* ===============================  Newsletter End ======================================= */
