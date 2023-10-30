@@ -448,6 +448,7 @@ $('.hamburger-container').click(function () {
   $('body').toggleClass("openmenu");
 });
 
+
 $(".expand-content").click(function () {
   $(".content-show").slideToggle("slow");
   $(this).toggleClass("minusClass");
@@ -474,6 +475,11 @@ $(".hamburger-container").on("click", function () {
     middleBar.addClass("rot-45deg");
   }
 });
+
+$("#menu li > a").click(function () {
+  $('body').removeClass("openmenu");
+  bottomBar.removeClass("hidden");
+})
 
 
 // Tab Slider 

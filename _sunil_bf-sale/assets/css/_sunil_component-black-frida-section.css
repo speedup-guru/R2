@@ -664,7 +664,7 @@
     flex-wrap: wrap;
 }
 
-.bf_with_slider .bf-bundles__item-title h4 span {
+.bf_with_slider .bf-bundles__item-title h5 {
     font-size: 14px;
     color: red;
     line-height: 18px;
