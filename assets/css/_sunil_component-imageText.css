@@ -1,0 +1,440 @@
+.imageText .it_info {
+    padding: 0 22px;
+}
+
+.imageText .it_info p {
+    padding-bottom: 20px;
+}
+
+
+.imageText .it_info p:last-child {
+    padding-bottom: 0px;
+}
+
+.it_img p {
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: 400;
+    font-style: italic;
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.50);
+}
+
+.it_img img {
+    width: 100%;
+}
+
+@media(max-width:767px) {
+    .imageText .it_info {
+        padding: 0;
+        padding-top: 30px;
+    }
+
+    .imageText.hardwater .it_info .tag_list p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    /* 
+    .imageText {
+        margin: 30px 0;
+    } */
+
+    .ba_wrapper h2 {
+        text-align: center;
+    }
+}
+
+/* == buzz about css start == */
+.imageText.bg_green {
+    background: #C7E7DC;
+}
+
+.imageText.buzz_about .ba_wrapper p {
+    background: #C92127;
+    color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.imageText.buzz_about {
+    padding: 40px 0;
+}
+
+
+.imageText.buzz_about .secret_grid_wrap .secret_grid {
+    background: #C92127;
+    display: grid;
+    grid-template-columns: 73px 1fr;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.imageText.buzz_about .secret_grid_wrap .secret_grid .secret_grid_info {
+    margin-left: 20px;
+    color: #fff;
+    max-width: 349px;
+}
+
+.imageText.buzz_about .secret_grid_wrap .secret_grid h6 {
+    font-size: 15.232px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27.925px;
+    letter-spacing: 0.152px;
+    margin-bottom: 0;
+}
+
+.imageText.buzz_about .secret_grid_wrap .secret_grid p {
+    background-color: transparent;
+    padding: 0;
+    margin-top: 0;
+    letter-spacing: 0.152px;
+    font-weight: 300;
+    font-family: Poppins;
+    font-size: 12.693px;
+    font-style: normal;
+}
+
+.hollywood_skin .it_img .it_img_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.imageText .aboveText {
+    position: absolute;
+    max-width: 260px;
+    color: #fff;
+    top: 20px;
+    left: 20px;
+}
+
+.imageText .it_info.dual_bl {
+    padding-left: 70px;
+}
+
+.dual_bl p {
+    padding-bottom: 20px !important;
+}
+
+.dual_bl .dual_bl_steps {
+    position: relative;
+}
+
+.dual_bl .dual_bl_steps .d_step {
+    border: 2px solid #C7E7DC;
+    border-radius: 50%;
+    padding: 10px;
+    height: 36px;
+    width: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: #fff;
+    left: -50px;
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: 600;
+}
+
+.dual_bl .dual_bl_steps:nth-child(2)::after {
+    position: absolute;
+    content: '';
+    background: #C7E7DC;
+    width: 2px;
+    top: 20px;
+    height: 100%;
+    z-index: -1;
+    left: -32px;
+}
+
+@media(max-width:767px) {
+    .imageText .it_info.dual_bl {
+        padding-left: 50px;
+    }
+
+    .imageText.buzz_about .ba_wrapper h2 {
+        text-align: center;
+    }
+
+    .buzz_about .it_img {
+        margin: 0 -12px;
+    }
+
+    .imageText.buzz_about .ba_wrapper p {
+        margin: 0 -12px;
+    }
+
+    .imageText.buzz_about .col-12 {
+        padding: 0 !important;
+    }
+
+    .imageText.buzz_about {
+        padding: 0;
+        padding-top: 40px;
+    }
+
+    .imageText.buzz_about .secret_grid_wrap .secret_grid {
+        grid-template-columns: 57px 1fr;
+    }
+
+    .mi_landing .imageText.buzz_about .secret_grid_wrap {
+        margin: 0 -12px;
+    }
+
+    .imageText.buzz_about .secret_grid_wrap .secret_grid .secret_grid_info {
+        margin-left: 10px;
+    }
+
+    .imageText.buzz_about .secret_grid_wrap .secret_grid h6 {
+        font-size: 12px;
+        line-height: 22px;
+        margin-bottom: 0px;
+    }
+
+    .imageText.buzz_about .secret_grid_wrap .secret_grid p {
+        font-size: 10.693px;
+        line-height: 21px;
+        letter-spacing: 0.1px
+    }
+
+    .dual_bl .dual_bl_steps:nth-child(2)::after {
+        width: 1px;
+        left: -39px;
+    }
+
+    .dual_bl .dual_bl_steps .d_step {
+        border: 1px solid #C7E7DC;
+        font-size: 11px;
+        line-height: 17px;
+        font-weight: 600;
+        height: 18px;
+        width: 18px;
+    }
+}
+
+@media(max-width:490px) {
+    .mi_landing .imageText.buzz_about .secret_grid_wrap {
+        position: relative;
+        top: 30px;
+    }
+
+    .mi_landing .imageText.buzz_about {
+        padding: 0;
+        background-color: #fffaf1;
+        padding-top: 40px;
+    }
+}
+
+/* == buzz about css end == */
+
+/* == red carpet css start == */
+.red_carpet .rd_wrapper {
+    background: #FFFAF1;
+    border: 1px solid #EDE7DD;
+    padding: 50px 50px 20px 50px;
+    border-radius: 5px;
+}
+
+.hollywood_skin {
+    margin-top: 50px;
+}
+
+@media(max-width:767px) {
+    .red_carpet .rd_wrapper .it_info {
+        text-align: center;
+    }
+
+    .mi_landing .hollywood_skin {
+        margin-top: 0px;
+    }
+
+}
+
+@media(max-width:556px) {
+    .red_carpet .rd_wrapper {
+        padding: 20px;
+    }
+}
+
+/* == red carpet css end == */
+
+
+/* == join the micro start == */
+.imageText.joinMicro {
+    background-color: #FFFAF1;
+}
+
+.mi_landing .imageText .image_gallery {
+    padding-bottom: 100px;
+    padding-top: 80px;
+}
+
+.imageTextList ul li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.imageTextList ul li img {
+    margin-right: 20px;
+}
+
+.joinMicro .shipping_bg {
+    max-width: 100%;
+}
+
+.joinMicro .imageTextList ul li img {
+    width: 55px;
+    height: 40px;
+    text-align: center;
+}
+
+.ba_wrapper .ss_list {
+    padding: 36px 0
+}
+
+@media(min-width:767px) {
+    .joinMicro .ba_wrapper {
+        margin-left: 40px;
+    }
+
+    .mi_landing .joinMicro .ba_wrapper {
+        margin-left: 0px;
+        margin-right: 40px;
+    }
+}
+
+@media(max-width:767px) {
+    .ba_wrapper .ss_list {
+        padding: 30px 0
+    }
+
+    .joinMicro .imageTextList ul li {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .joinMicro .imageTextList ul {
+        display: grid;
+        /* align-items: center; */
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+
+    .joinMicro .imageTextList ul li img {
+        margin-right: 0px;
+    }
+
+    .joinMicro .imageTextList {
+        padding: 20px 0;
+    }
+
+    .ba_wrapper .ss_list ul li {
+        font-size: 13px;
+        line-height: 22px;
+        font-weight: 400;
+    }
+
+    .mi_landing .imageText .image_gallery {
+        padding-bottom: 40px;
+        padding-top: 0px;
+    }
+}
+
+/* == join the micro end == */
+
+
+/* == hard water start == */
+.tag_list_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 12px;
+}
+
+.tag_list_wrap .tag_list {
+    background: #F5F5F5;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    padding: 5px 7px;
+}
+
+.tag_list_wrap .tag_list img {
+    margin-right: 5px;
+}
+
+.tag_l_wrapper {
+    margin-top: 30px;
+}
+
+
+.hardwater h4 {
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 300;
+    font-family: 'Canela Light';
+    margin-bottom: 30px;
+}
+
+@media(max-width:556px) {
+    .tag_list_wrap {
+        column-gap: 10px;
+        row-gap: 12px;
+    }
+
+    .hardwater h4 {
+        font-size: 22px;
+        line-height: 28px;
+        font-weight: 300;
+        font-family: 'Canela Light';
+        margin-bottom: 15px;
+    }
+}
+
+/* == hard water end == */
+
+/* == Newside Skincare start == */
+.newside_list {
+    max-width: 367px;
+}
+
+.newside_list ul li:not(:last-child) {
+    border-bottom: 1px solid #EDE7DD;
+}
+
+.newside_list ul li {
+    display: flex;
+    padding: 15px 0;
+    align-items: center;
+}
+
+.newside_list ul li svg {
+    margin-right: 10px;
+    min-width: 75px;
+    height: 65px;
+}
+
+.newside_list ul li p {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 600;
+}
+
+@media(max-width:767px) {
+    .newside_list ul li p {
+        font-weight: 400;
+    }
+
+    .newside_list ul li {
+        padding: 10px 0;
+    }
+
+    .new_side .header {
+        padding: 50px 0;
+    }
+}
+
+/* == Newside Skincare end == */
