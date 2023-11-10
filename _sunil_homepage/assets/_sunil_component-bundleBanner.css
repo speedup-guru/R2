@@ -51,7 +51,10 @@
     font-size: 20px;
     letter-spacing: 0.22px;
     text-transform: capitalize;
-    margin-top: 45px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 99999999;
 }
 
 .bfBundle__content .btn-bfBundle:hover {
@@ -230,6 +233,17 @@
     height: 10px;
 }
 
+.bundleWithoutTimer .bundleCycleSlider .swiper-slide {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bundleWithoutTimer .bundleCycleSlider .swiper-slide .cycle-slide {
+    box-shadow: 2px 3px 5px rgb(0 0 0 / 23%);
+}
+.bundleWithoutTimer .bfBundle__content {
+    text-align: left;
+}
 @media(max-width:767px) {
     .bfBundle__bannerBlock {
         text-align: center;
@@ -250,7 +264,7 @@
     .bfBundle__content .bfHeading {
         font-size: 34px;
         line-height: 40px;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
     }
 
     .bfBundle__content .bfSub_heading {
@@ -261,7 +275,8 @@
     .bfBundle__content .btn-bfBundle {
         padding: 10px 16px;
         max-width: 307px;
-        margin-top: -26px;
+        /* margin-top: -26px; */
+        margin-top: 25px;
     }
 
     .bfBundle__content .bfCountdown {
@@ -328,4 +343,27 @@
         opacity: 0;
     }
 
+    .bundleWithoutTimer .bundleCycle {
+        background: transparent;
+        padding: 0;
+    }
+
+    .bundleWithoutTimer .bfBundle__content.bfBundle__content-mob {
+        margin-top: -50px;
+    }
+
+    .bundleWithoutTimer .bundleCycleSlider {
+        padding-bottom: 30px;
+    }
+
+    .bundleWithoutTimer .bundleCycle .swiper-pagination {
+        bottom: -20px;
+        padding-bottom: 20px;
+    }
+    .bundleWithoutTimer .bfBundle__content {
+        text-align: center;
+    }
+    .mw-mob-100 {
+        margin: 0 -24px
+    }
 }
