@@ -52,9 +52,9 @@
     letter-spacing: 0.22px;
     text-transform: capitalize;
     margin-top: 45px;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
     position: relative;
-    z-index: 99999999;
+    z-index: 9;
 }
 
 .bfBundle__content .bfCountdown {
@@ -107,7 +107,7 @@
 
 .bundleCycle {
     margin-left: 22px;
-
+    min-height: 110px;
 }
 
 .bundleCycleSlider {
@@ -159,11 +159,12 @@
     border-radius: 15.873px;
     background: #008763;
     color: #fff;
-    font-size: 9px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 12px;
+    line-height: 16px;
     padding: 3px 5px;
+    text-transform: capitalize;
 }
 
 .cycle_cnt .cycle-hdr {
@@ -262,7 +263,7 @@
     .bfBundle__content .btn-bfBundle {
         padding: 10px 16px;
         max-width: 307px;
-        /* margin-top: -26px; */
+        margin-bottom: 15px;
         margin-top: 25px;
     }
 
@@ -316,8 +317,10 @@
     }
 
     .cycle_cnt .cycle-save {
-        font-size: 8px;
+        font-size: 12px;
         line-height: 10px;
+        font-weight: 500;
+        padding: 0 4px;
     }
 
     .cycle_cnt .btn-cycle {
