@@ -23,7 +23,7 @@
 .bundle_21_wrapper .bundle_21_shop a {
     background: #000;
     border-radius: 30px;
-    padding: 9px 32px;
+    padding: 16px 32px;
     color: #C7E7DC;
     text-align: center;
     font-size: 15.421px;
@@ -83,6 +83,8 @@
     position: relative;
     z-index: 9;
     font-weight: 600;
+    display: inline-block;
+    text-align: center;
 }
 
 .bundle_21_wrapper p {
@@ -102,7 +104,7 @@
     line-height: 53.48px;
     letter-spacing: 0.258px;
     color: #000;
-    margin-bottom: -20px;
+    margin-bottom: 0px;
 }
 
 .bundle_21_shop p>span {
@@ -118,9 +120,55 @@
     align-items: center;
 }
 
+.bundle_21_wrapper .bundle_21_shop .btmBundle a span {
+    margin-left: 10px;
+}
+
 .bfBundle__content {
     text-align: left;
 }
+
+.swiper-slide h3 {
+    margin: 5px 0;
+    font-size: 8px;
+    line-height: 11.02px;
+    font-weight: 400;
+}
+
+.product_slider .swiper-slide {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: auto !important;
+}
+
+.product_slider {
+    padding: 10px 0;
+}
+
+.product_slider img {
+    width: 70px;
+    height: 70px;
+}
+
+.announcement_bar {
+    background: #fff;
+}
+
+.bfBundle__content .bfCountdown .countdown_block span:after,
+.bfBundle__content .bfCountdown .countdown_block span {
+    color: #C92127;
+}
+
+.bfBundle__content .bfCountdown .countdown_block span.dots {
+    background: #C92127;
+}
+
+.bundle_21_wrapper .bundle_21_shop img {
+    width: 100%;
+    max-width: 235px;
+}
+
 
 @media(max-width:767px) {
     .bundle_21_wrapper .bfBundle_bnr_hdr h2 {
@@ -137,6 +185,13 @@
 
     .btmBundle img {
         max-width: 110px;
+    }
+
+    .bundle_21_wrapper p {
+        font-size: 10px;
+        line-height: 16px;
+        letter-spacing: 0.1px;
+        margin-bottom: 5px;
     }
 
     .bundle_21_wrapper .bfBundle__content .btn-bfBundle {
@@ -179,12 +234,7 @@
         letter-spacing: 0.1px;
     }
 
-    .bundle_21_wrapper p {
-        font-size: 10px;
-        line-height: 16px;
-        letter-spacing: 0.1px;
-        margin-bottom: 5px;
-    }
+
 
     span.mob-break {
         display: block;
@@ -199,38 +249,8 @@
         bottom: 20px;
         justify-content: end;
     }
-    .bundle_21_wrapper .bundle_21_shop:before{
+
+    .bundle_21_wrapper .bundle_21_shop:before {
         border-radius: 20px;
     }
-}
-
-
-.swiper-slide h3 {
-    margin: 5px 0;
-    font-size: 8px;
-    line-height: 11.02px;
-}
-
-.product_slider .swiper-slide {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: auto !important;
-}
-
-.product_slider {
-    padding: 10px 0;
-}
-
-.announcement_bar {
-    background: #fff;
-}
-
-.bfBundle__content .bfCountdown .countdown_block span:after,
-.bfBundle__content .bfCountdown .countdown_block span {
-    color: #C92127;
-}
-
-.bfBundle__content .bfCountdown .countdown_block span.dots {
-    background: #C92127;
 }
