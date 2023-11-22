@@ -78,7 +78,7 @@
 .my-floating-cart .discount_flex .percent_off,
 .my-floating-cart .discount_flex .invest-txt {
     flex: 0 0 auto;
-    width: 50%;
+    /* width: 50%; */
 }
 
 .my-floating-cart .discount_flex .progress_bar {
