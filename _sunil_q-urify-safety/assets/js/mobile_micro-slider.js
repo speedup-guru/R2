@@ -42,11 +42,3 @@ function myFunction() {
 }
 
 
-document.addEventListener("DOMContentLoaded", function () {
-  var video = Wistia.api("wistia_video_id"); // Replace 'wistia_video_id' with your video's ID
-
-  video.bind("dblclick", function (event) {
-    event.preventDefault();
-    // Additional code here if needed
-  });
-});

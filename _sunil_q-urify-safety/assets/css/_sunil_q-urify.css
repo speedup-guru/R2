@@ -2,6 +2,10 @@
     padding: 34px 0;
 }
 
+.qurify_safety {
+    overflow: unset !important;
+}
+
 .q-urify_safety .safety-banner {
     background: url(../images/main_page/q-urify_banner_n.png);
     background-repeat: no-repeat;
@@ -124,7 +128,7 @@
 }
 
 .deks-header.bg-black {
-    position: fixed;
+    position: sticky;
     top: 0;
     z-index: 99;
     left: 0;
