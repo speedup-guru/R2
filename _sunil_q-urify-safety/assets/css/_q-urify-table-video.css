@@ -1,0 +1,65 @@
+.q-urify_safety .actVideo_block {
+    height: unset;
+}
+
+.q-urify_safety .actVideo_block .ctmVideo__block {
+    height: max-content;
+}
+
+.q-urify_safety .micro_tips {
+    margin-top: 20px;
+}
+
+.q-urify_safety .tab_con.tab_con_6 p {
+    text-align: left;
+}
+
+
+.q-urify_safety .swiper.dot_pagination .swiper-pagination {
+    padding-bottom: 20px;
+    display: none;
+}
+
+.q-urify_safety .micro_note p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+    opacity: 0.8;
+}
+
+.q-urify_safety .micro_note span {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #CB0000;
+    letter-spacing: 0.14px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.q-urify_safety .micro_step .mico_bullet a {
+    color: #000;
+    text-decoration: underline;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.actVideo_block .ctmVideo__block .player {
+    border-radius: 20px;
+}
+
+@media(max-width:767px) {
+    .q-urify_safety .micro_step {
+        padding: 20px 19px 25px;
+        margin: 0px;
+    }
+
+    .q-urify_safety .micro_note p {
+        font-size: 13px;
+    }
+
+    .q-urify_safety .swiper.dot_pagination .swiper-pagination {
+        display: block;
+    }
+}
