@@ -45,6 +45,10 @@
     cursor: pointer;
 }
 
+.actVideo_block .ctmVideo__block .player {
+    border-radius: 20px;
+}
+
 @media(max-width:767px) {
     .q-urify_safety .micro_step {
         padding: 20px 19px 25px;
@@ -54,7 +58,8 @@
     .q-urify_safety .micro_note p {
         font-size: 13px;
     }
-    .q-urify_safety .swiper.dot_pagination .swiper-pagination{
+
+    .q-urify_safety .swiper.dot_pagination .swiper-pagination {
         display: block;
     }
 }
