@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Canela Web';
+    /* src: url('../fonts/CanelaWeb-Medium.woff') format('woff'); */
+    src: url('../assets/CanelaWeb-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela Regular';
+    src: url('../assets/Canela-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela Light';
+    src: url('../assets/CanelaText-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela Thin';
+    src: url('../assets/Canela-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
