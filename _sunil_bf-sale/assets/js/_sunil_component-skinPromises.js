@@ -19,9 +19,9 @@
 
     mySwiper = new Swiper ('.skin_promises_slider', {
       slidesPerView: '3',
-      loop: true,
+      // loop: true,
       spaceBetween: 10,
-      centeredSlides: true,
+      //centeredSlides: true,
       // a11y: true,
       // keyboardControl: true,
       grabCursor: true,

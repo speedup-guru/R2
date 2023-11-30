@@ -1,273 +1,359 @@
 .bfBundle__banner {
-	position: relative;
+    position: relative;
 }
+
+.bfBundle_bnr_hdr {
+    min-height: 105px;
+}
+
 .bfBundle__bannerImg img {
-	width: 100%;
-	min-height: 600px;
-	object-fit: cover;
-	object-position: right;
+    width: 100%;
+    min-height: 600px;
+    object-fit: cover;
+    object-position: right;
 }
+
 .bfBundle__bannerBlock {
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
-	display: flex;
-	align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
 }
+
 .bfBundle__content .bfHeading {
-	font-family: 'Canela Web';
-	font-size: 60px;
-	line-height: 65px;
-	letter-spacing: 0.6px;
-	text-transform: capitalize;
-	margin-bottom: 15px;
+    font-family: 'Canela Web';
+    font-size: 60px;
+    line-height: 65px;
+    letter-spacing: 0.6px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    position: relative;
 }
+
 .bfBundle__content .bfSub_heading {
-	font-size: 40px;
-	line-height: 48px;
-	margin: 0;
-	font-family: 'Canela light';
+    font-size: 40px;
+    line-height: 48px;
+    margin: 0;
+    font-family: 'Canela light';
 }
+
 .bfBundle__content .bfSub_heading strong {
-	font-family: 'Canela web';
-	font-weight: normal;
+    font-family: 'Canela web';
+    font-weight: normal;
 }
+
 .bfBundle__content .btn-bfBundle {
-	padding: 16px;
-	border-radius: 100px;
-	background: #000;
-	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-	color: #fff;
-	max-width: 373px;
-	width: 100%;
-	font-size: 20px;
-	letter-spacing: 0.22px;
-	text-transform: capitalize;
-	margin-top: 45px;
+    padding: 16px;
+    border-radius: 100px;
+    background: #000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    max-width: 373px;
+    width: 100%;
+    font-size: 20px;
+    letter-spacing: 0.22px;
+    text-transform: capitalize;
+    margin-top: 45px;
+    margin-bottom: 35px;
+    position: relative;
+    z-index: 9;
 }
+
 .bfBundle__content .bfCountdown {
-	padding: 30px 0;
-	display: grid;
-	grid-template-columns: 85px 1fr;
-	align-items: center;
+    padding: 30px 0;
+    display: grid;
+    grid-template-columns: 85px 1fr;
+    align-items: center;
 }
+
 .bfBundle__content .bfCountdown .countdown_hdr {
-	font-family: Poppins;
-	font-size: 13px;
-	font-style: normal;
-	font-weight: 600;
-	line-height: 24px;
-	letter-spacing: 0.13px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.13px;
 }
+
 .bfBundle__content .bfCountdown .countdown_block span {
-	color: #000;
-	text-align: center;
-	font-family: Poppins;
-	font-size: 36.436px;
-	font-style: normal;
-	font-weight: 500;
-	line-height: 32.88px;
-	letter-spacing: 0.364px;
-	padding: 0 9px;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36.436px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32.88px;
+    letter-spacing: 0.364px;
+    padding: 0 9px;
 }
+
 .bfBundle__content .bfCountdown .countdown_block span:after {
-	content: attr(data-name);
-	display: block;
-	font-size: 10px;
-	text-transform: uppercase;
-	line-height: 17px;
-	min-height: 15px;
+    content: attr(data-name);
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: 17px;
+    min-height: 15px;
 }
+
 .bfBundle__content .bfCountdown .countdown_block span.dots {
-	position: relative;
-	color: transparent;
-	min-width:unset;
-	width: 1px;
-	background: #000;
-	margin: 0 4px;
-	padding:0;
-	height:100%;
+    position: relative;
+    color: transparent;
+    min-width: unset;
+    width: 1px;
+    background: #C92127;
+    margin: 0 4px;
+    padding: 0;
+    height: 100%;
+
 }
 
 .bundleCycle {
-	margin-left: 22px;
-	
+    margin-left: 22px;
+    min-height: 110px;
 }
+
 .bundleCycleSlider {
-	width: 330px;
-	margin-left: unset;
+    width: 330px;
+    margin-left: unset;
 }
+
 .bundleCycleSlider .swiper-slide {
-	padding: 0 5px;
-	opacity: 0;
-	visibility: hidden;
+    padding: 0 5px;
+    opacity: 0;
+    visibility: hidden;
 }
-.bundleCycleSlider .swiper-slide.swiper-slide-next, .bundleCycleSlider .swiper-slide.swiper-slide-prev, .bundleCycleSlider .swiper-slide.swiper-slide-visible {
-	visibility: visible;
-	opacity: 1;
+
+.bundleCycleSlider .swiper-slide.swiper-slide-next,
+.bundleCycleSlider .swiper-slide.swiper-slide-prev,
+.bundleCycleSlider .swiper-slide.swiper-slide-visible {
+    visibility: visible;
+    opacity: 1;
 }
+
 .bundleCycleSlider .swiper-slide .cycle-slide {
-	width: 100%;
-	min-height: 110px;
-	background: #f3f2f1;
-	padding: 0 20px;
-	display: grid;
-	align-items: center;
-	color: #000;
-	grid-template-columns: 1fr 1fr;
-	gap: 20px;
-	border-radius: 10px;
-	box-shadow: 1px 0px 2px rgb(0 0 0 / 23%);
-	overflow: hidden;
+    width: 100%;
+    min-height: 110px;
+    background: #f3f2f1;
+    padding: 0 20px;
+    display: grid;
+    align-items: center;
+    color: #000;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 0px 2px rgb(0 0 0 / 23%);
+    overflow: hidden;
 }
+
 .cycle_cnt {
-	text-align: left;
+    text-align: left;
 }
-.bundleCycleSlider .swiper-slide .cycle-slide + .swiper-slide-shadow {
-	display: none;
+
+.bundleCycleSlider .swiper-slide .cycle-slide+.swiper-slide-shadow {
+    display: none;
 }
+
 .bundleCycleSlider .swiper-slide.swiper-slide-active .cycle-slide {
-	background: #fff;
+    background: #fff;
 }
 
 .cycle_cnt .cycle-save {
-	border-radius: 15.873px;
-	background: #008763;
-	color: #fff;
-	font-size: 9px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 12px;
-	padding: 3px 5px;
+    border-radius: 15.873px;
+    background: #008763;
+    color: #fff;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    padding: 0px 8px;
+    text-transform: uppercase;
 }
-.cycle_cnt .cycle-hdr {
-	font-size: 14px;
-	font-style: normal;
-	font-weight: 600;
-	line-height: 15.019px;
-	letter-spacing: 0.14px;
-	margin: 4px 0 8px 0;
-}
-.cycle_cnt .cycle-hdr span {
-	font-weight: normal;
-}
-.cycle_cnt .btn-cycle {
-	font-size: 12px;
-	font-style: normal;
-	font-weight: 600;
-	line-height: 23.007px;
-	letter-spacing: 0.12px;
-	background: #000;
-	color: #fff;
-	width: 100%;
-	display: block;
-	border-radius: 100px;
-	text-align: center;
-	padding: 3px 10px;
-}
-.bundleCycleSlider .swiper-arrow:after {
-	display: none;
-}
-.bundleCycleSlider .swiper-arrow svg {
-	height: 18px;
-	width: 18px;
-}
-.bundleCycleSlider .swiper-arrow.swiper-button-prev {
-	left: -26px;
-}
-.bundleCycleSlider .swiper-arrow.swiper-button-next{
-	right: -30px;
-} 
-.bundleCycle .swiper-pagination {
-	bottom: -30px;
-}
-.bundleCycle .swiper-pagination .swiper-pagination-bullet {
-	background: #000;
-	width: 10px;
-	height: 10px;
-}
-@media(max-width:767px){
-	.bfBundle__bannerBlock {
-			text-align: center;
-			position: relative;
-	}
-	.bfBundle__bannerBlock .bfBundle__banner_mobile {
-			margin: 0 -24px;
-	}
-	.bfBundle__bannerBlock .bfBundle_bnr_hdr {
-			position: absolute;
-			left: 0;
-			right: 0;
-			top: 32px;
-	}
-	.bfBundle__content .bfHeading {
-			font-size: 34px;
-			line-height: 40px;
-			margin-bottom: 10px;
-	}
-	.bfBundle__content .bfSub_heading {
-			font-size: 24px;
-			line-height: 28px;
-	}
-	.bfBundle__content .btn-bfBundle {
-			padding: 10px 16px;
-			max-width: 307px;
-			margin-top: -26px;
-	}
-	.bfBundle__content .bfCountdown {
-			display: flex;
-			justify-content: center;
-			padding:25px 0;
-	}
-	.bfBundle__content .bfCountdown .countdown_hdr{
-			text-align:right;
-			font-size: 11px;
-	}
-	.bfBundle__content .bfCountdown .countdown_block span {
-			font-size: 26px;
-			line-height: 28px;
-			padding: 0 6px;
-	}
-	
-	.bfBundle__content .bfCountdown .countdown_block span.dots{
-			margin: 0 2px;
-	}
-	.bfBundle__content .bfCountdown .countdown_block span:after {
-			font-size: 7px;
-			line-height: 10px;
-			min-height: 10px;
-	}
-	.bundleCycle {
-			margin: 0;
-			padding: 30px 0 30px 0;
-			background: #fffaf1;
-			margin: 0 -24px;
-			overflow:hidden;
-	}
-	.bundleCycleSlider{
-			margin: 0 auto;
-	}
-	.bfBundle__bannerImg img {
-			object-position: center;
-			min-height: auto;
-	}
-	.cycle_cnt .cycle-hdr {
-			font-size: 12px;
-			line-height: 13px;
-	}
-	.cycle_cnt .cycle-save{
-			font-size: 8px;
-			line-height: 10px;
-	}
-	.cycle_cnt .btn-cycle{
-			font-size: 10px;
-			line-height: 20px;
-	}
-	.bundleCycleSlider .swiper-arrow{
-			visibility: hidden;
-			opacity: 0;
-	}
 
+.cycle_cnt .cycle-hdr {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15.019px;
+    letter-spacing: 0.14px;
+    margin: 4px 0 8px 0;
+}
+
+.cycle_cnt .cycle-hdr span {
+    font-weight: normal;
+}
+
+.cycle_cnt .btn-cycle {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23.007px;
+    letter-spacing: 0.12px;
+    background: #000;
+    color: #fff;
+    width: 100%;
+    display: block;
+    border-radius: 100px;
+    text-align: center;
+    padding: 3px 10px;
+}
+
+.bundleCycleSlider .swiper-arrow:after {
+    display: none;
+}
+
+.bundleCycleSlider .swiper-arrow svg {
+    height: 18px;
+    width: 18px;
+}
+
+.bundleCycleSlider .swiper-arrow.swiper-button-prev {
+    left: -26px;
+}
+
+.bundleCycleSlider .swiper-arrow.swiper-button-next {
+    right: -30px;
+}
+
+.bundleCycle .swiper-pagination {
+    bottom: -30px;
+}
+
+.bundleCycle .swiper-pagination .swiper-pagination-bullet {
+    background: #000;
+    width: 10px;
+    height: 10px;
+}
+
+.bf_sale .bundleCycleSlider .swiper-slide {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bf_sale .bundleCycleSlider .swiper-slide .cycle-slide {
+    box-shadow: 2px 3px 5px rgb(0 0 0 / 23%);
+    /* padding: 20px; */
+}
+
+@media(max-width:767px) {
+    .bfBundle__bannerBlock {
+        text-align: center;
+        position: relative;
+    }
+
+    .bfBundle__bannerBlock .bfBundle__banner_mobile {
+        margin: 0 -24px;
+    }
+
+    .bfBundle__bannerBlock .bfBundle_bnr_hdr {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 32px;
+    }
+
+    .bfBundle__content .bfHeading {
+        font-size: 34px;
+        line-height: 40px;
+        margin-bottom: 0px;
+    }
+
+    .bfBundle__content .bfSub_heading {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .bfBundle__content .btn-bfBundle {
+        padding: 10px 16px;
+        max-width: 307px;
+        margin-bottom: 15px;
+        margin-top: 25px;
+    }
+
+    .bfBundle__content .bfCountdown {
+        display: flex;
+        justify-content: center;
+        padding: 25px 0;
+    }
+
+    .bfBundle__content .bfCountdown .countdown_hdr {
+        text-align: right;
+        font-size: 11px;
+    }
+
+    .bfBundle__content .bfCountdown .countdown_block span {
+        font-size: 26px;
+        line-height: 28px;
+        padding: 0 6px;
+    }
+
+    .bfBundle__content .bfCountdown .countdown_block span.dots {
+        margin: 0 2px;
+    }
+
+    .bfBundle__content .bfCountdown .countdown_block span:after {
+        font-size: 7px;
+        line-height: 10px;
+        min-height: 10px;
+    }
+
+    .bundleCycle {
+        margin: 0;
+        padding: 30px 0 30px 0;
+        background: #fffaf1;
+        margin: 0 -24px;
+        overflow: hidden;
+    }
+
+    .bundleCycleSlider {
+        margin: 0 auto;
+    }
+
+    .bfBundle__bannerImg img {
+        object-position: center;
+        min-height: auto;
+    }
+
+    .cycle_cnt .cycle-hdr {
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+    .cycle_cnt .cycle-save {
+        font-size: 12px;
+        line-height: 10px;
+        font-weight: 500;
+        padding: 0 8px;
+    }
+
+    .cycle_cnt .btn-cycle {
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .bundleCycleSlider .swiper-arrow {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .bf_sale .bundleCycle {
+        background: transparent;
+        padding: 0;
+    }
+
+    .bf_sale .bfBundle__content.bfBundle__content-mob {
+        margin-top: -50px;
+    }
+
+    .bf_sale .bundleCycleSlider {
+        padding-bottom: 30px;
+    }
+
+    .bf_sale .bundleCycle .swiper-pagination {
+        bottom: -20px;
+        padding-bottom: 20px;
+    }
 }

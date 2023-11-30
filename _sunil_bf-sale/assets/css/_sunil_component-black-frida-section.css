@@ -118,7 +118,7 @@
     gap: 24px 85px;
     max-width: 986px;
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 .bf-bundles__items-wrapper .bf-bundles__item {
@@ -129,7 +129,7 @@
 }
 
 .bf-bundles__content {
-    padding: 20px;
+    padding: 10px 20px;
     display: grid;
 }
 
@@ -153,9 +153,11 @@
     width: 110px;
     margin-right: 10px;
 }
-
+.bf-bundles__content .bf-bundle__rating img {
+    margin-right: 10px;
+}
 .bf-bundles__content .bf-bundles__item-title h4 {
-    font-family: Canela Regular;
+    font-family: 'Canela Light';
     font-size: 28px;
     font-style: normal;
     font-weight: 300;
@@ -372,8 +374,9 @@
 .bf-mobile {
     display: none;
 }
+
 .bf-bundles__item-included-wrapper {
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 
 @media(max-width:767px) {
@@ -533,8 +536,9 @@
         width: 67px;
         height: 16px;
     }
+
     .bf-bundles__item-included-wrapper {
-        padding-bottom: 10px;
+        padding-bottom: 0px;
     }
 }
 
@@ -560,7 +564,7 @@
     background: linear-gradient(270deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) var(--bgPercent), rgba(206, 206, 206, 1) var(--bgPercent), rgba(206, 206, 206, 1) 100%);
     padding: 14px 0;
     font-size: 22px;
-    margin-top: 15px;
+    margin-top: 10px;
     line-height: 20px;
     font-weight: 600;
 }
@@ -657,6 +661,10 @@
     border-radius: 50%;
 }
 
+.bundle_pdp .sale-bg-cont ul li:after {
+    top: 8px;
+}
+
 .bf_with_slider .bf-bundles__item-title h4 {
     min-height: unset;
     display: flex;
@@ -689,7 +697,7 @@
     left: 0px;
     right: 0;
     content: '';
-    background: url(../images/black-friday/bundle-common/sold-out_n.png);
+    background: url(../images/black-friday/bundle-common/sold-outN.png);
     bottom: 0;
     right: 0;
     z-index: 9;
@@ -706,17 +714,15 @@
 }
 
 .bf_with_slider .bf-bundles__item-included-wrapper .bf-bundles__item-included {
-    padding: 9px 10px;
+    padding: 9px 10px 9px 0;
 }
 
 .bf_with_slider .bf-bundles__item-price-wrapper {
     padding: 0 10px;
 }
-
-.sale-bf-img img {
-    min-height: 292px;
+.bf-bundles__content .payment_method {
+    padding:5px 0; 
 }
-
 @media(max-width:767px) {
     .bf_with_slider .bf-bundles__offer {
         letter-spacing: 0.3px
@@ -803,6 +809,33 @@
     .sale-bg-cont ul li {
         font-size: 10px;
         line-height: 16px;
+    }
+
+    .bundle_pdp .sale-bg-cont ul li:after {
+        top: 6px;
+    }
+
+    .sale-bf-img img {
+        min-height: 292px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .bf_with_slider .container {
+        padding: 0 17px !important;
+    }
+
+    .bf-bundles__item.sold_out:after {
+        background: url(../images/black-friday/bundle-common/sold-outN-mob.png);
+        background-repeat: no-repeat;
+    }
+
+    .bf_with_slider .bf-bundles__item-title h5 {
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .bf-bundles-section.bf_with_slider .bf-buy-button{
+        font-size: 19px;
     }
 }
 

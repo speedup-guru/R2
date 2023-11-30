@@ -1,0 +1,90 @@
+/* =============================== announcement bar start ================== */
+.announcement_bar p {
+    font-size: 13px;
+    margin-bottom: 0;
+    padding: 8px 0;
+}
+
+.announcement_bar p span {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.announcement_bar p .green_coloured {
+    background-color: #008763;
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 0 20px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+div#aws-announcement-bar {
+    display: block;
+    background: #fff;
+}
+
+.aws-announcement-bar .swiper-announcementBar .swiper-slide {
+    width: 100% !important;
+}
+
+.mw-486 {
+    max-width: 486px;
+}
+
+@media(max-width:767px) {
+    .announcement_bar p {
+        font-size: 10px;
+        line-height: 18px;
+        letter-spacing: 0.3px;
+    }
+
+    .announcement_bar p span {
+        font-size: 12px;
+    }
+
+    .announcement_bar p .green_coloured {
+        margin-left: 5px;
+        font-size: 13px;
+        padding: 0 10px;
+    }
+}
+
+/* =============================== announcement bar end ================== */
+
+/* =============================== fonts start ================== */
+@font-face {
+    font-family: 'Canela Web';
+    /* src: url('../fonts/CanelaWeb-Medium.woff') format('woff'); */
+    src: url('../assets/CanelaWeb-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela Regular';
+    src: url('../assets/Canela-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela Light';
+    src: url('../assets/CanelaText-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela Thin';
+    src: url('../assets/Canela-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
