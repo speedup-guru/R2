@@ -1,0 +1,108 @@
+.subscriptions_header {
+    width: 800px;
+    height: 229px;
+    flex-shrink: 0;
+    margin: 0 auto;
+}
+
+.subscription_subheadline {
+    font-family: Canela Web;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 55px;
+}
+
+.subscription_subtext {
+    color: #000;
+    font-family: 'Canela Light';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0.28px;
+}
+
+.subscriptions_content {
+    margin-top: 6rem;
+}
+
+.cancel_section h6 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.16px;
+}
+
+.subscriptions_section ul li {
+    list-style: disc;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.subscriptions_section ol li {
+    list-style: decimal;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.subscriptions_section ._abc ul li {
+    list-style: lower-alpha;
+    padding-bottom: 10px;
+}
+
+.subscriptions_section ul {
+    padding-left: 40px;
+}
+
+.subscriptions_section ol {
+    padding-left: 40px;
+}
+
+.header_content {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .subscriptions_header {
+        width: 100% !important;
+        height: 229px;
+        flex-shrink: 0;
+        margin: 0 auto;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .subscriptions_header {
+        text-align: start !important;
+        padding-bottom: 16rem;
+    }
+
+    .subscription_subheadline {
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 38px;
+        /* 135.714% */
+        letter-spacing: 0.28px;
+    }
+
+    .subscription_subtext {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 26px;
+        /* 162.5% */
+        letter-spacing: 0.16px;
+    }
+
+    .subscriptions_content {
+        margin-top: 3rem;
+    }
+
+    .header_content {
+        font-weight: normal;
+    }
+
+}
