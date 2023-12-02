@@ -153,9 +153,11 @@
     width: 110px;
     margin-right: 10px;
 }
-
+.bf-bundles__content .bf-bundle__rating img {
+    margin-right: 10px;
+}
 .bf-bundles__content .bf-bundles__item-title h4 {
-    font-family: Canela Regular;
+    font-family: 'Canela Light';
     font-size: 28px;
     font-style: normal;
     font-weight: 300;
@@ -712,7 +714,7 @@
 }
 
 .bf_with_slider .bf-bundles__item-included-wrapper .bf-bundles__item-included {
-    padding: 9px 10px;
+    padding: 9px 10px 9px 0;
 }
 
 .bf_with_slider .bf-bundles__item-price-wrapper {

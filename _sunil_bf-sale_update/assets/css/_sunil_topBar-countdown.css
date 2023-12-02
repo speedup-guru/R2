@@ -1,7 +1,14 @@
+.announcement_bar p {
+    font-size: 13px !important;
+    line-height: 19px;
+    text-align: center;
+    padding: 8px 0;
+    font-weight: 600 !important;
+}
 .announcement_bar .bfBundle__content .bfCountdown .countdown_block span:after {
     font-size: 8px;
     line-height: 9px;
-    min-height: 15px;
+    min-height: 10px;
     font-weight: 400;
 }
 
@@ -9,10 +16,11 @@
     font-size: 13px;
     line-height: 24px;
     font-weight: 600;
+    color: #C92127;
 }
 
 .announcement_bar .bfBundle__content .bfCountdown {
-    padding: 10px 0;
+    padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,6 +35,12 @@
     letter-spacing: 0.13px;
 }
 
+.announcement_bar .bfBundle__content .bfCountdown .countdown_block span {
+    font-size: 18px !important;
+    line-height: 18px !important;
+    font-weight: 500 !important;
+}
+
 @media(max-width:767px) {
     .announcement_bar .bfBundle__content .bfCountdown {
         padding: 5px 0
@@ -34,5 +48,14 @@
 
     .announcement_bar .bfBundle__content .bfCountdown .countdown_hdr {
         font-size: 11px;
+    }
+
+    .announcement_bar p {
+        padding: 0;
+    }
+
+    .announcement_bar p {
+        font-size: 12px;
+        line-height: 14px;
     }
 }

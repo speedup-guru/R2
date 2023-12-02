@@ -2,6 +2,10 @@
     position: relative;
 }
 
+.bfBundle_bnr_hdr {
+    min-height: 105px;
+}
+
 .bfBundle__bannerImg img {
     width: 100%;
     min-height: 600px;
@@ -26,6 +30,7 @@
     letter-spacing: 0.6px;
     text-transform: capitalize;
     margin-bottom: 15px;
+    position: relative;
 }
 
 .bfBundle__content .bfSub_heading {
@@ -99,10 +104,11 @@
     color: transparent;
     min-width: unset;
     width: 1px;
-    background: #000;
+    background: #C92127;
     margin: 0 4px;
     padding: 0;
     height: 100%;
+
 }
 
 .bundleCycle {
@@ -111,7 +117,7 @@
 }
 
 .bundleCycleSlider {
-    width: 330px;
+    width: 340px;
     margin-left: unset;
 }
 
@@ -132,12 +138,12 @@
     width: 100%;
     min-height: 110px;
     background: #f3f2f1;
-    padding: 0 20px;
+    padding: 0 15px;
     display: grid;
     align-items: center;
     color: #000;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 15px;
     border-radius: 10px;
     box-shadow: 1px 0px 2px rgb(0 0 0 / 23%);
     overflow: hidden;
@@ -162,9 +168,9 @@
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 16px;
-    padding: 3px 5px;
-    text-transform: capitalize;
+    line-height: 12px;
+    padding: 0px 8px;
+    text-transform: uppercase;
 }
 
 .cycle_cnt .cycle-hdr {
@@ -230,6 +236,10 @@
 .bf_sale .bundleCycleSlider .swiper-slide .cycle-slide {
     box-shadow: 2px 3px 5px rgb(0 0 0 / 23%);
     /* padding: 20px; */
+}
+
+.bfBundle_right img {
+    min-height: 100%;
 }
 
 @media(max-width:767px) {
@@ -320,7 +330,7 @@
         font-size: 12px;
         line-height: 10px;
         font-weight: 500;
-        padding: 0 4px;
+        padding: 0 8px;
     }
 
     .cycle_cnt .btn-cycle {
