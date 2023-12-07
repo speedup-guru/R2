@@ -2,16 +2,23 @@
     padding: 34px 0;
 }
 
-
 .qurify_safety {
     overflow: unset !important;
 }
 
 .q-urify_safety .safety-banner {
-    background: url(../images/main_page/q-urify_banner_n.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 100%;
+    padding: 0;
+    position: relative;
+}
+.q-urify_safety .safety-banner .safety-banner-cnt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
 }
 
 .q-urify_safety .instruction_manual p {
@@ -141,10 +148,6 @@
     padding: 16px 0;
 }
 
-.w-css-reset-tree div {
-    background: none !important;
-}
-
 .ctmVideo__block .player>.wistia_responsive_padding [data-handle="bigPlayButton"] .w-bpb-wrapper .w-big-play-button {
     width: 84px !important;
     height: 84px !important;
@@ -162,6 +165,19 @@
     background-position: center center !important;
     background-size: 60px !important;
 }
+
+.w-css-reset-tree div {
+    background: none !important;
+}
+
+.w-bottom-bar.w-css-reset {
+    display: none !important;
+}
+
+.actVideo_block .ctmVideo__block .player {
+    border-radius: 10px;
+}
+
 
 @media(max-width:767px) {
     .q-urify_safety .instruction_manual p {
@@ -198,13 +214,6 @@
 
     .q-urify_safety .tab_section_header {
         margin-bottom: 30px;
-    }
-
-    .q-urify_safety .safety-banner {
-        background: url(../images/main_page/q-urify_banner-mob.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100%;
     }
 
     .q-urify_safety .new-class {
