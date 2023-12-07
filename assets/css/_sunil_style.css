@@ -33,9 +33,7 @@
       overflow-x: hidden !important;
   }
 
-  body {
-      overflow-x: hidden;
-  }
+
 
   ul {
       margin: 0;
@@ -239,6 +237,12 @@
       .dsn-left-container,
       .dsn-right-container {
           width: 100% !important;
+      }
+  }
+
+  @media(max-width:1024px) {
+      body {
+          overflow-x: hidden;
       }
   }
 
@@ -1846,6 +1850,10 @@
           text-align: center;
       }
 
+      .bf_sale .health_detail ul li img {
+         margin: 0 auto;
+      }
+
       .bf_sale .health_detail ul li p {
           font-size: 12px;
       }
@@ -1853,6 +1861,9 @@
 
       .bf_sale .health_detail ul li svg {
           margin: 0 auto;
+      }
+      .health_img img{
+        transform: scaleX(-1);  
       }
   }
 
@@ -2221,6 +2232,10 @@
 
   .mw-765 {
       max-width: 765px !important;
+  }
+
+  .mw-800 {
+      max-width: 800px !important;
   }
 
   .mw-949 {
@@ -2654,3 +2669,7 @@
   }
 
   /* ======== shipment arriving end ==== */
+  .technology_light a {
+      text-decoration: underline;
+      color: #000;
+  }
