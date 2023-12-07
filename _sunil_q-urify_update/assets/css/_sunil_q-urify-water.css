@@ -1,0 +1,206 @@
+.free_grid {
+    display: grid;
+    grid-template-columns: 492px 1fr;
+    align-items: center;
+    gap: 49px;
+}
+
+.free_report_info .section_header p {
+    max-width: 550px;
+}
+
+.free_report_info .form-control {
+    border-radius: 30px;
+    border: 1px solid #4E4E4E;
+    padding: 10px 18px;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.free_report_info .form-control:nth-child(2) {
+    margin: 5px;
+}
+
+.free_report_info form .btn-primary {
+    border-radius: 30px;
+    padding: 12px;
+    margin: 40px 0 20px 0;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+
+.free_report_info form p {
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: 300;
+}
+
+.free_report_info form p>a {
+    color: #000;
+}
+
+.skin_hydration_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    align-items: center;
+}
+
+.progress_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    padding: 50px 0;
+}
+
+.skin_hydration_grid .skin_hydration_info .progressInfo {
+    text-align: center;
+}
+
+.trusted_bl,
+.trusted_cl {
+    background: transparent;
+}
+
+.trusted_cl_m .t_m_img {
+    min-height: 100%;
+}
+
+.qurify_water .result_content p {
+    font-weight: 300;
+}
+
+.ctmVideo__block .player>.wistia_responsive_padding [data-handle="bigPlayButton"] .w-bpb-wrapper .w-big-play-button {
+    width: 84px !important;
+    height: 84px !important;
+}
+
+.ctmVideo__block .player>.wistia_responsive_padding [data-handle="bigPlayButton"] .w-bpb-wrapper .w-big-play-button svg {
+    position: relative !important;
+    height: 84px !important;
+    border-radius: 100px !important;
+    width: 84px !important;
+    background-color: rgb(0 0 0 / 50%) !important;
+    display: block !important;
+    background-image: url("data:image/svg+xml,%0A%3Csvg width='67' height='67' viewBox='0 0 67 67' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M33.4087 0C14.9972 0 0 14.9073 0 33.2084C0 51.5096 14.9972 66.4169 33.4087 66.4169C51.8202 66.4169 66.8174 51.5096 66.8174 33.2084C66.8174 14.9073 51.8202 0 33.4087 0ZM33.4087 6.64169C48.2092 6.64169 60.1357 18.4967 60.1357 33.2084C60.1357 47.9202 48.2092 59.7752 33.4087 59.7752C18.6082 59.7752 6.68174 47.9202 6.68174 33.2084C6.68174 18.4967 18.6082 6.64169 33.4087 6.64169ZM26.727 21.7022V44.7147L46.7722 33.2084L26.727 21.7022Z' fill='white'/%3E%3C/svg%3E%0A") !important;
+    background-repeat: no-repeat no-repeat;
+    background-position: center center !important;
+    background-size: 60px !important;
+}
+
+.w-css-reset-tree div {
+    background: none !important;
+}
+
+.w-bottom-bar.w-css-reset {
+    display: none !important;
+}
+
+.ctmVideo__block .player {
+    border-radius: 10px;
+}
+
+.wistia_popover_embed [id*="_main"] {
+    max-width: 900px;
+}
+
+.wistia_responsive_wrapper [id*=".big_play_button_background"] {
+    display: none;
+}
+
+.wistia_responsive_wrapper [id*=".big_play_button_graphic"] {
+    display: none !important;
+}
+
+.wistia_responsive_wrapper [id*=".thumbnail_img"] {
+    display: none !important;
+}
+
+.w-bottom-bar.w-css-reset {
+    display: none !important;
+}
+
+.wistia_popover_embed,
+.wistia_placebo_close_button {
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+@media(max-width:768px) {
+    .free_grid {
+        grid-template-columns: 1fr;
+    }
+
+    .free_report_info form .btn-primary {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .skin_hydration_grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .progress_grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 30px 0;
+    }
+
+    .skin_hydration_grid .skin_hydration_info .progressInfo {
+        gap: 10px;
+        display: grid;
+        grid-template-columns: 70px 1fr;
+        align-items: center;
+        text-align: left;
+    }
+
+    .mi_landing_result .result_item_info {
+        padding-top: 10px;
+    }
+
+    .qurify_water .technology_light {
+        padding-top: 0px;
+    }
+
+    .qurify_water .see_item_info p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .qurify_water .subscribe_save_wrapper .subscribeInfo p {
+        font-weight: 300;
+    }
+
+    .qurify_water .subscribe_save_wrapper .with_subscription.buy_btn {
+        font-size: 20px;
+        padding: 17px 0;
+    }
+
+    .qurify_water .payment_method p {
+        font-weight: 400;
+    }
+
+    .free_report_info .form-control {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 300;
+    }
+
+    .skin_hydration_grid .skin_hydration_info p:not(:last-child) {
+        padding-bottom: 10px;
+    }
+
+    .qurify_water .newside_list ul li p {
+        font-size: 13px;
+        line-height: 22px;
+        font-weight: 400;
+    }
+
+    .qurify_water .new_side .header {
+        padding: 30px 0;
+    }
+}

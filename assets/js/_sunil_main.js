@@ -1,3 +1,92 @@
+window.onload = function(){ 
+  console.log("1");
+//Slider settings
+var TwaSettingsSwiper = {
+  init: function() {
+      this.TwaSettingsCarousel();
+  },
+  TwaSettingsCarousel: function() {
+      document.querySelectorAll(".twa__swiper").forEach((e => {
+          this.TwaCarousel(e);
+      }))
+  },
+  TwaCarousel: function(e) {
+      var t = "true" === e?.dataset.autoplay,
+          n = "true" === e.dataset.loop,
+          w = e?.dataset.rows ? e?.dataset.row : 1,
+          o = e?.dataset.slideshow ? e?.dataset.slideshow : 0,
+          i = e?.dataset.desktop ? e?.dataset.desktop : 4,
+          s = e?.dataset.tablet ? e?.dataset.tablet : 2,
+          r = e?.dataset.mobile ? e?.dataset.mobile : 1,
+          a = e?.dataset.autoplaySpeed ? e?.dataset.autoplaySpeed : 3e3,
+          c = e?.dataset.speed ? e?.dataset.speed : 400,
+          l = e?.dataset.effect ? e?.dataset.effect : "slide",
+          d = e?.dataset.sectionId,
+          u = e?.dataset.row ? e?.dataset.row : 1,
+          ut = e?.dataset.rowtablet ? e?.dataset.rowtablet : 1,
+          um = e?.dataset.rowmobile ? e?.dataset.rowmobile : 1,
+          p = window.innerWidth,
+          m = e?.dataset.spacing ? e?.dataset.spacing : 0;
+          cs = "true" === e.dataset.centerslide, 
+          al = e?.dataset.arrowleft ? e?.dataset.arrowleft : "swiper-button-prev",
+          ar = e?.dataset.arrowright ? e?.dataset.arrowright : "swiper-button-next",
+          m = Number(m), a = Number(a), c = Number(c), p <= 767 ? m >= 15 && (m = 15) : p <= 1199 && m >= 30 && (m = 30), new Swiper("#twa__swiper-" + d, {
+          slidesPerView: r,
+          slidesPerColumn: w,
+          spaceBetween: m,
+          centeredSlides: cs,  
+          autoplay: t,
+          delay: a,
+          loop: n,
+          effect: l,
+          speed: c,
+          watchSlidesProgress: !0,
+          watchSlidesVisibility: !0,
+          lazy: true,
+          grid: {
+              rows: um,
+              fill: "row"
+          },
+          navigation: {
+            nextEl: `.${ar}`,
+            prevEl: `.${al}`,
+          },
+          pagination: {
+              clickable: !0,
+              el: e.querySelector(".swiper-pagination")
+          },
+          breakpoints: {
+              768: {
+                  slidesPerView: s,
+                  centeredSlides: cs,
+                  grid: {
+                    rows: ut,
+                    fill: "row"
+                  }
+              },
+              1450: {
+                  slidesPerView: i,
+                  grid: {
+                    rows: u, 
+                    fill: "row"
+                  }
+              }
+          }
+      })
+  }
+};
+TwaSettingsSwiper.init();
+
+};
+
+
+//Header
+function hdrHeight() {
+  var hdrHeight = $(".header-wrapperBlock, .deks-header").outerHeight();
+  let header_item = $('body');
+  header_item.css('--headerheight', hdrHeight + 'px');
+}
+hdrHeight();
 (function ($) {
 
   // Off Canvas JS
@@ -66,13 +155,7 @@
   setInterval(bxHeight, 1000);
 
 
-  //Header
-  function hdrHeight() {
-    var hdrHeight = $(".header-wrapperBlock").outerHeight();
-    let header_item = $('body');
-    header_item.css('--headerheight', hdrHeight + 'px');
-  }
-  hdrHeight();
+
 
   //Header
   function skinBoxheight() {
@@ -81,7 +164,7 @@
     skin_item.css('--posTop', skinHeight + 'px');
   }
   setInterval(
-    function(){
+    function () {
       skinBoxheight();
     }, 1000);
 
@@ -89,7 +172,7 @@
 
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
-    if (scroll >= 10) {
+    if (scroll >= 5) {
       $(".header-wrapperBlock").addClass("header-sticky");
     } else {
       $(".header-wrapperBlock").removeClass("header-sticky");
@@ -240,7 +323,7 @@ accordionHeaders.forEach(header => {
 });
 
 // scroll to id
-$('a[href*="#"]:not([href="#"])').not('.faq-menu__url').click(function () {
+$('a[href*="#"]:not([href="#"])').not('.faq-menu__url, a.popup-modal.ss_c_link').click(function () {
   var target = $(this.hash);
   $('html,body').stop().animate({
     scrollTop: target.offset().top - 100
@@ -440,7 +523,19 @@ $('.banner-popup-link').magnificPopup({
   type: 'image'
 });
 
-
+//Skin Slider Pop Up
+$(function () {
+  $('.popup-modal').magnificPopup({
+    type: 'inline',
+    preloader: false,
+    focus: '#username',
+    modal: true
+  });
+  $(document).on('click', '.popup-modal-dismiss', function (e) {
+    e.preventDefault();
+    $.magnificPopup.close();
+  });
+});
 
 
 // navbar
@@ -625,45 +720,6 @@ addEventListener("resize", (event) => {
 });
 
 
-// ============== countdown JS ============
-// Function to create a countdown timer
-function createCountdownTimer(targetDate, targetElement) {
-  // Update the countdown every 1 second
-  const countdownInterval = setInterval(function () {
-    const currentDate = new Date().getTime();
-    const timeRemaining = targetDate - currentDate;
-
-    if (timeRemaining <= 0) {
-      // Countdown has ended
-      clearInterval(countdownInterval);
-      targetElement.querySelector(".theTimer").innerHTML = "Countdown Expired!";
-    } else {
-      // Calculate days, hours, minutes, and seconds
-      const days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
-      const hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
-      const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
-
-      // Update the countdown display for the target element
-      targetElement.querySelector(".theTimer").innerHTML =
-        `<span data-name="days">${padZeroes(days)}</span> <span class="dots">:</span> <span data-name="hours">${padZeroes(hours)}</span> <span class="dots">:</span> <span data-name="minutes">${padZeroes(minutes)}</span> <span class="dots">:</span> <span data-name="seconds">${padZeroes(seconds)}</span>`;
-    }
-  }, 1000);
-}
-
-// Function to pad zeroes to a number if it's less than 10
-function padZeroes(num) {
-  return num < 10 ? "0" + num : num;
-}
-
-// Set target dates and elements for each countdown section
-const countdownSections = document.querySelectorAll(".countdown_timer");
-
-countdownSections.forEach((section) => {
-  const targetDate = new Date(section.getAttribute("data-target-date")).getTime();
-  const targetElement = section.querySelector(".countdown_block");
-  createCountdownTimer(targetDate, targetElement);
-});
 
 
 // === sticky button ===
@@ -678,83 +734,87 @@ $(window).scroll(function () {
 
 
 // ============ qure video js ======
-// Get all video player elements
-const videoPlayers = document.querySelectorAll('.player');
+const parent = document.querySelector('body');
+const specificChild = parent.querySelector('.player__video');
+if (specificChild) {
+  const videoPlayers = document.querySelectorAll('.player');
 
-videoPlayers.forEach(initVideoPlayer);
+  videoPlayers.forEach(initVideoPlayer);
 
-function initVideoPlayer(player) {
-  const myVid = player.querySelector('video.player__video');
-  const controlPlay = player.querySelector('.player__button');
-  const controlVol = player.querySelector('.player__slider[name="volume"]');
-  const controlRate = player.querySelector('.player__slider[name="playbackRate"]');
-  const controlSkip = player.querySelectorAll('.player__button[data-skip]');
-  const controlFullScreen = player.querySelector('.player__fullscreen');
-  const controlProgress = player.querySelector('.progress');
-  const progressBar = controlProgress.querySelector('.progress__filled');
+  function initVideoPlayer(player) {
+    const myVid = player.querySelector('video.player__video');
+    const controlPlay = player.querySelector('.player__button');
+    const controlVol = player.querySelector('.player__slider[name="volume"]');
+    const controlRate = player.querySelector('.player__slider[name="playbackRate"]');
+    const controlSkip = player.querySelectorAll('.player__button[data-skip]');
+    const controlFullScreen = player.querySelector('.player__fullscreen');
+    const controlProgress = player.querySelector('.progress');
+    const progressBar = controlProgress.querySelector('.progress__filled');
 
-  let drag;
-  let grap;
-  let progression;
+    let drag;
+    let grap;
+    let progression;
 
-  myVid.addEventListener('click', toggleVideo);
-  controlPlay.addEventListener('click', toggleVideo);
-  controlVol.addEventListener('change', updateVol);
-  controlRate.addEventListener('change', updateRate);
-  controlFullScreen.addEventListener('click', goFullScreen);
-  controlSkip.forEach(control => control.addEventListener('click', forward));
-  controlProgress.addEventListener('mouseover', () => { drag = true });
-  controlProgress.addEventListener('mouseout', () => { drag = false; grap = false });
-  controlProgress.addEventListener('mousedown', () => { grap = drag });
-  controlProgress.addEventListener('mouseup', () => { grap = false });
-  controlProgress.addEventListener('click', updateCurrentPos);
-  controlProgress.addEventListener('mousemove', e => { if (drag && grap) { updateCurrentPos(e) } });
+    myVid.addEventListener('click', toggleVideo);
+    controlPlay.addEventListener('click', toggleVideo);
+    controlVol.addEventListener('change', updateVol);
+    controlRate.addEventListener('change', updateRate);
+    controlFullScreen.addEventListener('click', goFullScreen);
+    controlSkip.forEach(control => control.addEventListener('click', forward));
+    controlProgress.addEventListener('mouseover', () => { drag = true });
+    controlProgress.addEventListener('mouseout', () => { drag = false; grap = false });
+    controlProgress.addEventListener('mousedown', () => { grap = drag });
+    controlProgress.addEventListener('mouseup', () => { grap = false });
+    controlProgress.addEventListener('click', updateCurrentPos);
+    controlProgress.addEventListener('mousemove', e => { if (drag && grap) { updateCurrentPos(e) } });
 
-  function toggleVideo() {
-    if (myVid.paused) {
-      myVid.play();
-      controlPlay.innerHTML = "❚ ❚";
-      updateProgress();
-      progression = window.setInterval(updateProgress, 200);
-      myVid.closest(".player").classList.add("video_playing");
-    } else {
-      myVid.pause();
-      controlPlay.innerHTML = "ttt";
-      //controlPlay.innerHTML = '<img src="assets/images/common/plus.png" alt="">';
-      clearInterval(progression);
-      myVid.closest(".player").classList.remove("video_playing");
+    function toggleVideo() {
+      if (myVid.paused) {
+        myVid.play();
+        controlPlay.innerHTML = "❚ ❚";
+        updateProgress();
+        progression = window.setInterval(updateProgress, 200);
+        myVid.closest(".player").classList.add("video_playing");
+      } else {
+        myVid.pause();
+        controlPlay.innerHTML = "ttt";
+        //controlPlay.innerHTML = '<img src="assets/images/common/plus.png" alt="">';
+        clearInterval(progression);
+        myVid.closest(".player").classList.remove("video_playing");
+      }
+    }
+
+    function updateVol() {
+      const volume = controlVol.value;
+      myVid.volume = volume;
+    }
+
+    function updateRate() {
+      const rate = controlRate.value;
+      myVid.playbackRate = rate;
+    }
+
+    function goFullScreen() {
+      if (myVid.webkitSupportsFullscreen) {
+        myVid.webkitEnterFullScreen();
+      }
+    }
+
+    function forward() {
+      const value = Number(this.dataset.skip);
+      myVid.currentTime = myVid.currentTime + value;
+    }
+
+    function updateProgress() {
+      const progress = myVid.currentTime / myVid.duration;
+      progressBar.style.flexBasis = `${Math.floor(progress * 1000) / 10}%`;
+    }
+
+    function updateCurrentPos(e) {
+      const newProgress = (e.clientX - controlProgress.offsetLeft) / controlProgress.clientWidth;
+      progressBar.style.flexBasis = `${Math.floor(newProgress * 1000) / 10}%`;
+      myVid.currentTime = newProgress * myVid.duration;
     }
   }
 
-  function updateVol() {
-    const volume = controlVol.value;
-    myVid.volume = volume;
-  }
-
-  function updateRate() {
-    const rate = controlRate.value;
-    myVid.playbackRate = rate;
-  }
-
-  function goFullScreen() {
-    if (myVid.webkitSupportsFullscreen) {
-      myVid.webkitEnterFullScreen();
-    }
-  }
-
-  function forward() {
-    const value = Number(this.dataset.skip);
-    myVid.currentTime = myVid.currentTime + value;
-  }
-
-  function updateProgress() {
-    const progress = myVid.currentTime / myVid.duration;
-    progressBar.style.flexBasis = `${Math.floor(progress * 1000) / 10}%`;
-  }
-
-  function updateCurrentPos(e) {
-    const newProgress = (e.clientX - controlProgress.offsetLeft) / controlProgress.clientWidth;
-    progressBar.style.flexBasis = `${Math.floor(newProgress * 1000) / 10}%`;
-    myVid.currentTime = newProgress * myVid.duration;
-  }
 }

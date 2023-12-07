@@ -1,0 +1,45 @@
+.ingredients_slider {
+    max-width: 550px;
+    margin: 0 50px;
+}
+
+.ingredients_item {
+    text-align: center;
+    max-width: 112px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.ingredients_item p {
+    display: flex;
+    padding-top: 13px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    min-height: 49px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width:767px) {
+    .ingredients_slider {
+        max-width: 100%;
+        margin: 0 0px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        overflow: unset;
+    }
+
+    .ingredients_item img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .ingredients_item p {
+        font-size: 12px;
+        line-height: 16px;
+        min-height: 45px;
+        align-items: center;
+        display: flex;
+    }
+}
