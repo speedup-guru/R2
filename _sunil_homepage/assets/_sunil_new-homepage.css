@@ -6,17 +6,20 @@
 }
 
 .announcement_bar p span {
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
 }
 
 .announcement_bar p .green_coloured {
-    background-color:#008763;
+    background-color: #008763;
     color: #fff;
     border-radius: 20px;
     text-decoration: none;
-    padding: 0 10px;
+    padding: 0 20px;
     margin-left: 10px;
     font-size: 15px;
+    font-weight: 600;
 }
 
 div#aws-announcement-bar {
@@ -27,14 +30,11 @@ div#aws-announcement-bar {
 .aws-announcement-bar .swiper-announcementBar .swiper-slide {
     width: 100% !important;
 }
-/* .aws-announcement-bar p{
-    padding-bottom:0;
-    margin-bottom: 0;
-} */
-/* .swiper.swiper-announcementBar {
-    max-height: 40px !important;
-    top: 10px;
-} */
+
+.mw-486 {
+    max-width: 486px;
+}
+
 @media(max-width:767px) {
     .announcement_bar p {
         font-size: 10px;
@@ -42,9 +42,14 @@ div#aws-announcement-bar {
         letter-spacing: 0.3px;
     }
 
+    .announcement_bar p span {
+        font-size: 12px;
+    }
+
     .announcement_bar p .green_coloured {
         margin-left: 5px;
-        font-size: 12px;
+        font-size: 13px;
+        padding: 0 10px;
     }
 }
 

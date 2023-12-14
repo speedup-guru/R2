@@ -117,7 +117,7 @@
 }
 
 .bundleCycleSlider {
-    width: 330px;
+    width: 340px;
     margin-left: unset;
 }
 
@@ -138,12 +138,12 @@
     width: 100%;
     min-height: 110px;
     background: #f3f2f1;
-    padding: 0 20px;
+    padding: 0 15px;
     display: grid;
     align-items: center;
     color: #000;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 15px;
     border-radius: 10px;
     box-shadow: 1px 0px 2px rgb(0 0 0 / 23%);
     overflow: hidden;
@@ -236,6 +236,10 @@
 .bf_sale .bundleCycleSlider .swiper-slide .cycle-slide {
     box-shadow: 2px 3px 5px rgb(0 0 0 / 23%);
     /* padding: 20px; */
+}
+
+.bfBundle_right img {
+    min-height: 100%;
 }
 
 @media(max-width:767px) {
