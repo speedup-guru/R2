@@ -1,0 +1,47 @@
+ .all_in_one .subscribe_save_wrapper .with_subscription.buy_btn {
+     font-size: 20px;
+     padding: 17px 0;
+ }
+
+ .richtext_img {
+     text-align: right;
+     margin: 0 auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+ }
+
+ .all_in_one .richtext_prog_section .richtext_img img {
+     max-width: 250px !important;
+     height: 250px !important;
+     width: 100%;
+ }
+
+ .all_in_one .mi_landing_result .result_content p {
+     font-weight: 300;
+     font-size: 11px;
+     line-height: 16px;
+ }
+ .all_in_one  .trusted_cl .t_c_info p {
+    font-style: normal;
+}
+ @media(max-width:767px) {
+     .all_in_one .refill_bl.tabSlider .refill_info .section_header .title-xl {
+         font-size: 34px;
+         line-height: 40px;
+     }
+
+     .all_in_one .subscribe_save_wrapper .subscribeInfo p {
+         font-weight: 300;
+     }
+
+     .richtext_prog_section .progessInfo .text-lg {
+         font-size: 46px !important;
+         line-height: 46px !important;
+     }
+
+     .all_in_one .richtext_prog_section .richtext_img img {
+         width: 153px !important;
+         height: 153px !important;
+     }
+ }
