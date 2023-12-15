@@ -260,6 +260,14 @@
     margin-top: 30px;
 }
 
+.howUse .howUse_item .howUse_content h4 {
+    font-family: 'Canela Light';
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
 @media(max-width:767px) {
     .howUse .howUse_item h6 {
         display: none;
@@ -268,6 +276,12 @@
     .howUse .howUse_item p {
         font-size: 12px;
     }
+    .howUse .howUse_item .howUse_content h4 {
+        font-size: 22px;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+    
 }
 
 /* --------------------- How to Use End ----------------------------- */
