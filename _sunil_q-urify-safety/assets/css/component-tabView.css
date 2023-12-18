@@ -8,9 +8,9 @@
 }
 
 .contents .contents-title {
-    font-family: 'Canela Web';
+    font-family: 'Canela Light';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 36px;
     line-height: 54px;
     text-align: left;
@@ -28,6 +28,20 @@
     width: 100%;
     text-decoration: underline;
     color: #000;
+}
+
+.q-urify_safety.micro_safety .contents-info .tab ul {
+    -webkit-column-count: unset;
+    -moz-column-count: unset;
+    column-count: unset;
+    column-gap: 22px;
+}
+
+.q-urify_safety.micro_safety .tab.split-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 20px; */
+    justify-content: space-between;
 }
 
 .contents-info .tab ul {
@@ -527,7 +541,7 @@
     font-size: 14px;
     line-height: 28px;
     letter-spacing: .01em;
-    color: #000c;
+    color: #000;
     margin: 0;
 }
 
@@ -1096,6 +1110,20 @@
     letter-spacing: .3px;
     color: #000;
     padding: 10px 0 22px;
+}
+
+.accordion-main .set-innner .content ul {
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+.accordion-main .set-innner .content ul li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: .3px;
+    color: #000;
+    list-style-type: disc;
 }
 
 .tab_button {
@@ -1723,6 +1751,12 @@
         font-size: 13px;
         letter-spacing: .01em;
         padding: 10px 0 15px;
+    }
+
+
+    .accordion-main .set-innner .content ul li {
+        font-size: 13px;
+        letter-spacing: .01em;
     }
 
     .tab_button {
