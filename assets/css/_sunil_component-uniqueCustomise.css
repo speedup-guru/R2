@@ -249,6 +249,13 @@
     background: #912A5C;
 }
 
+.u_text_only {
+    height: 610px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @media(max-width:991px) {
     .u_text_only {
         padding: 20px 0;
@@ -256,6 +263,9 @@
 
     .unique_c {
         background: none;
+    }
+    .u_text_only {
+        height: auto;
     }
 }
 

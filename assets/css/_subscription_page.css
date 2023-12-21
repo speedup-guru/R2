@@ -1,39 +1,57 @@
-.subscriptions_header {
-    width: 800px;
-    height: 229px;
-    flex-shrink: 0;
-    margin: 0 auto;
+.subscriptions_section {
+    margin: 70px 0;
 }
 
-.subscription_subheadline {
-    font-family: Canela Web;
+.subscriptions_section .subscriptions_header {
+    max-width: 714px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.subscriptions_section .subscriptions_header .subscription_subheadline {
+    font-family: 'Canela Web';
     font-size: 36px;
     font-weight: 500;
     line-height: 55px;
+    letter-spacing: 0.36px;
+    margin-bottom: 30px;
 }
 
-.subscription_subtext {
-    color: #000;
-    font-family: 'Canela Light';
+.subscriptions_section .subscriptions_header .subscription_subtext {
     font-size: 28px;
-    font-style: normal;
-    font-weight: 300;
     line-height: 32px;
-    letter-spacing: 0.28px;
+    font-weight: 300;
+    font-family: 'Canela Light';
 }
 
-.subscriptions_content {
-    margin-top: 6rem;
+.subscriptions_section .subscriptions_header .subscription_subtext:not(:last-child) {
+    margin-bottom: 30px;
 }
 
-.cancel_section h6 {
-    color: #000;
-    font-family: Poppins;
+.subscriptions_section .subscriptions_content p:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.subscriptions_section .subscriptions_content {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.subscriptions_section .cancel_section {
+    padding: 35px 0;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.subscriptions_section .cancel_section h6 {
     font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
     line-height: 26px;
-    letter-spacing: 0.16px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.subscriptions_section a {
+    text-decoration: underline;
+    color: #000;
 }
 
 .subscriptions_section ul li {
@@ -61,48 +79,53 @@
     padding-left: 40px;
 }
 
-.header_content {
+.subscriptions_section .header_content {
     font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
-    .subscriptions_header {
-        width: 100% !important;
-        height: 229px;
-        flex-shrink: 0;
-        margin: 0 auto;
+    .subscriptions_section {
+        margin: 40px 0;
+        margin-bottom: 70px;
+    }
+
+    .subscriptions_section .subscriptions_header {
         border-bottom: 1px solid #ddd;
     }
 
-    .subscriptions_header {
+    .subscriptions_section .subscriptions_header {
         text-align: start !important;
-        padding-bottom: 16rem;
+        padding-bottom: 30px;
+        margin-bottom: 00px;
     }
 
-    .subscription_subheadline {
+    .subscriptions_section .subscriptions_header .subscription_subheadline {
         font-size: 28px;
-        font-style: normal;
-        font-weight: 500;
         line-height: 38px;
-        /* 135.714% */
         letter-spacing: 0.28px;
     }
 
-    .subscription_subtext {
+    .subscriptions_section .subscriptions_header .subscription_subtext {
         font-size: 16px;
-        font-style: normal;
-        font-weight: 600;
         line-height: 26px;
-        /* 162.5% */
         letter-spacing: 0.16px;
+        font-weight: 600;
     }
 
-    .subscriptions_content {
-        margin-top: 3rem;
+    .subscriptions_section .subscriptions_content {
+        margin-top: 30px;
     }
 
-    .header_content {
+    .subscriptions_section .header_content {
         font-weight: normal;
     }
 
+    .subscriptions_section .cancel_section {
+        padding: 25px 0;
+        border-bottom: 1px solid #dee2e6;
+    }
+
+    .subscriptions_section .cancel_section p:not(:last-child) {
+        margin-bottom: 30px;
+    }
 }

@@ -460,9 +460,9 @@
         width: calc(100% - 30px);
     }
 
-    .mi_refill .supply_steps .step_block {
+    /* .mi_refill .supply_steps .step_block {
         width: 100%;
-    }
+    } */
 
     .micro_infusion .refill_bl .refill_info {
         padding-right: 0;

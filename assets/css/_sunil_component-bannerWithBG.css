@@ -50,6 +50,7 @@
 .main_banner .unique_c_list {
     margin-top: 10px;
 }
+
 .mi_landing .main_banner .unique_c_list ul li {
     padding: 5px 0;
 }
@@ -83,6 +84,10 @@
 
     .main_b_wrapper .app_item img {
         filter: opacity(0.7);
+    }
+
+    .main_banner .main_b_wrapper .section_header {
+        padding: 0 0 0px 0;
     }
 }
 

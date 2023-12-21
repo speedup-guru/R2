@@ -764,7 +764,9 @@
   }
 
   .chest_pdp .buy_btn img,
-  .bundle_pdp .buy_btn img {
+  .bundle_pdp .buy_btn img,
+  .all_in_one .buy_btn img,
+  .clinical_grade .buy_btn img{
       position: absolute;
       right: 25px;
       top: 21px;
@@ -863,6 +865,23 @@
   }
 
   @media(max-width:767px) {
+      .skin_se-list li {
+          display: grid;
+          grid-template-columns: 70px 1fr;
+          gap: 21px;
+          padding: 10px 0;
+          width: 100%;
+      }
+
+      .skin_se-list li svg {
+          width: 100%;
+          height: 100%;
+      }
+
+      .skin_se-list li+li {
+          border-top: 1px solid #ddd;
+      }
+
       .green_bx .green_bx_header p {
           line-height: 13px;
       }
@@ -915,7 +934,7 @@
   /* -- common css for section start --  */
   .section_header {
       max-width: 790px;
-      padding: 0 20px;
+      padding: 0 0 0 20px;
       margin: 0 auto;
       padding-bottom: 30px;
   }
@@ -959,7 +978,7 @@
 
       .section_header {
           max-width: 100%;
-          text-align: center;
+          text-align: start;
           margin: 0 auto;
           padding: 0 0 20px;
       }
@@ -1447,7 +1466,7 @@
   }
 
   .richtext_prog_section .progessInfo .text-lg {
-      font-size: 64px;
+      font-size: 75px;
       letter-spacing: 1px;
       font-family: 'Canela Web';
       font-weight: 500;
@@ -1514,7 +1533,7 @@
 
   .fp-wrapper {
       display: grid;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
       grid-template-columns: repeat(4, 23%);
   }
@@ -1851,7 +1870,7 @@
       }
 
       .bf_sale .health_detail ul li img {
-         margin: 0 auto;
+          margin: 0 auto;
       }
 
       .bf_sale .health_detail ul li p {
@@ -1862,8 +1881,9 @@
       .bf_sale .health_detail ul li svg {
           margin: 0 auto;
       }
-      .health_img img{
-        transform: scaleX(-1);  
+
+      .health_img img {
+          transform: scaleX(-1);
       }
   }
 
@@ -2214,8 +2234,16 @@
       max-width: 421px;
   }
 
+  .mw-500 {
+      max-width: 500px;
+  }
+
   .mw-546 {
       max-width: 546px;
+  }
+
+  .mw-600 {
+      max-width: 600px;
   }
 
   .mw-630 {
@@ -2241,6 +2269,20 @@
   .mw-949 {
       max-width: 949px;
       margin: 0 auto;
+  }
+
+  .mw-680 {
+      max-width: 680px;
+      margin: 0 auto;
+  }
+
+  .mw-750 {
+      max-width: 750px;
+      margin: 0 auto;
+  }
+
+  .bs_vs_item .bs_versace span {
+      font-weight: 400;
   }
 
   .opacity-8 {
@@ -2291,6 +2333,11 @@
       text-transform: uppercase;
   }
 
+  .all_in_one .refill_bl .refill_info .buy_btn img,
+  .qurify_water .refill_bl .refill_info .buy_btn img{
+      top: 20px;
+  }
+
   @media(max-width:767px) {
       .mi_landing .buy_btn a {
           font-size: 18px;
@@ -2316,15 +2363,19 @@
           padding: 13px 0;
       }
 
-      .buy_btn img {
+      .buy_btn img,
+      .all_in_one .refill_bl .refill_info .buy_btn img,
+      .qurify_water .refill_bl .refill_info .buy_btn img,.clinical_grade .buy_btn img {
           top: 18px;
       }
   }
 
   @media(max-width:490px) {
-      .buy_btn img {
+
+      .buy_btn img,.clinical_grade .buy_btn img {
           top: 15px;
       }
+
   }
 
   /* -- common css for button end --- */

@@ -159,6 +159,10 @@
     gap: 10px;
 }
 
+.faq_img_wrap img {
+    max-width: 78px;
+}
+
 @media(max-width:767px) {
     .faq .section_header {
         max-width: 327px;
@@ -201,10 +205,13 @@
         font-size: 12px;
         line-height: 22px;
     }
+
     .faq_img_wrap {
         gap: 10px;
     }
-    .faq .accordion-body .container p, .faq .accordion-item ul li{
+
+    .faq .accordion-body .container p,
+    .faq .accordion-item ul li {
         font-size: 12px;
         line-height: 22px;
     }
@@ -224,8 +231,8 @@
         line-height: 22px;
         font-weight: 400;
     }
-    .faq_img_wrap > img{
-        width: 65px;
-        height: 65px;
+
+    .faq_img_wrap img {
+        max-width: 65px;
     }
 }

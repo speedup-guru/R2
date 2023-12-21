@@ -1,9 +1,9 @@
-.withoutTabSerum .supply_steps .step_block {
+/* .withoutTabSerum .supply_steps .step_block {
     width: 100%
-}
+} */
 
 .withoutTabSerum .supply-detail {
-    padding: 30px 50px;
+    /* padding: 30px 50px; */
     max-width: 512px;
     margin: 0 0 0 auto;
 }
@@ -57,13 +57,13 @@
     justify-content: center;
 }
 
-.withoutTabSerum .supply_steps .step_block .step_content {
+/* .withoutTabSerum .supply_steps .step_block .step_content {
     padding: 15px 0 15px 0;
-}
+} */
 
-.mi_refill .serum_bl p {
+/* .mi_refill .serum_bl p {
     font-weight: 300;
-}
+} */
 
 .mi_refill .q_uses_bl .q_uses_item-outer+.q_uses_item-outer:before {
     height: 286px;
@@ -74,6 +74,11 @@
     line-height: 16px;
     font-size: 11px;
     font-weight: 300;
+    font-style: normal;
+}
+
+.subscribe_save_wrapper.without_subscription .without_subscription {
+    flex-wrap: wrap;
 }
 
 @media(max-width:767px) {
@@ -94,7 +99,7 @@
         padding: 0px;
         max-width: 100%;
         padding-top: 20px;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
     }
 
     .withoutTabSerum .qure__treatments {
@@ -125,12 +130,12 @@
         font-size: 10px;
     }
 
-    .withoutTabSerum .step_block .step_header h3 {
+    /* .withoutTabSerum .step_block .step_header h3 {
         font-size: 12px;
         line-height: 22px;
         font-weight: 600;
         font-family: 'Poppins';
-    }
+    } */
 
     .btn.btn-atc {
         font-size: 20px !important;
@@ -153,5 +158,28 @@
     .mi_refill .result_content p {
         padding-bottom: 10px;
         font-size: 10px !important;
+    }
+
+    .supply-detail .supply_steps:nth-child(2) .step_counter::before {
+        display: none;
+    }
+
+    .choose_serum .c_s_shipping .c_s_bx {
+        max-width: 100%;
+        display: flex;
+    }
+
+    .choose_serum .c_s_shipping .c_s_bx img {
+        margin-right: 5px;
+    }
+
+    .choose_serum .c_s_bx p {
+        text-align: left;
+    }
+}
+
+@media(max-width:490px) {
+    .mi_refill .supply_steps .step_block .serum_prd {
+        padding: 10px 10px 55px 10px;
     }
 }
