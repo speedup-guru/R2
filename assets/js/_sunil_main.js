@@ -1,5 +1,5 @@
 window.onload = function(){ 
-  console.log("1");
+
 //Slider settings
 var TwaSettingsSwiper = {
   init: function() {
@@ -218,24 +218,24 @@ hdrHeight();
 
 // =================================== js for same height ===============================
 //uses div's height match
-$(function () {
-  $('.q_uses_header, .dfrc__hdr, .s_name, .result_item, .trust_item, .serum_bx, .bs_content, .skin_item, .safety_content').matchHeight({
-    property: 'height',
-    target: null,
-    remove: false
-  });
-});
+// $(function () {
+//   $('.q_uses_header, .dfrc__hdr, .s_name, .result_item, .trust_item, .serum_bx, .bs_content, .skin_item, .safety_content').matchHeight({
+//     property: 'height',
+//     target: null,
+//     remove: false
+//   });
+// });
 
 
 $(function () {
-  setInterval(function () {
-    $('.mc_desc').matchHeight({
+  //setTimeout(function () {
+    $('q_uses_header, .dfrc__hdr, .s_name, .result_item, .trust_item, .serum_bx, .bs_content, .skin_item, .safety_content, .mc_desc').matchHeight({
       property: 'height',
       target: null,
       remove: false
     });
 
-  }, 1000);
+  //}, 1000);
 });
 // =================================== js for accordions ===============================
 function toggleContent(expandable) {
@@ -323,7 +323,7 @@ accordionHeaders.forEach(header => {
 });
 
 // scroll to id
-$('a[href*="#"]:not([href="#"])').not('.faq-menu__url, a.popup-modal.ss_c_link').click(function () {
+$('a[href*="#"]:not([href="#"])').not('.faq-menu__url, .skincare_right a.popup-modal.ss_c_link, .popup-youtube, .ss_c_link').click(function () {
   var target = $(this.hash);
   $('html,body').stop().animate({
     scrollTop: target.offset().top - 100
@@ -535,6 +535,10 @@ $(function () {
     e.preventDefault();
     $.magnificPopup.close();
   });
+  $(document).on('click', '.mfp-close', function (e) {
+    e.preventDefault();
+    $.magnificPopup.close();
+  });
 });
 
 
@@ -668,7 +672,18 @@ $('.read_button').click(function () {
   }
 });
 
+  // Read more/less
+  $('.read_button').click(function () {
+    $(this).closest('.ss_list').find('.moretext').slideToggle();
+    if ($(this).text() == "Read More") {
+      $(this).text("Read Less")
+    } else {
+      $(this).text("Read More")
+    }
+  });
 
+
+  
 $(".set-innner a").on("click", function () {
   if ($(this).hasClass("active")) {
     $(this).removeClass("active");
@@ -818,3 +833,13 @@ if (specificChild) {
   }
 
 }
+
+setInterval(function(){
+  var bnrImage =$('.banner-popup-link img');
+  $.each(bnrImage, function(index, bnrImageHeight) {
+    var parentElement = bnrImageHeight.parentNode;
+    var bnnerHeight = bnrImageHeight.clientHeight;
+    this.parentElement.style.setProperty('--aspect-ratio', `${bnnerHeight}px`);
+});
+
+},10)
