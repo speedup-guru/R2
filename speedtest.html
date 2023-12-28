@@ -120,7 +120,7 @@
   
 <script type="text/javascript">const observer = new MutationObserver(e => { e.forEach(({ addedNodes: e }) => { e.forEach(e => { 1 === e.nodeType && "SCRIPT" === e.tagName && (e.innerHTML.includes("asyncLoad") && (e.innerHTML = e.innerHTML.replace("if(window.attachEvent)", "document.addEventListener('asyncLazyLoad',function(event){asyncLoad();});if(window.attachEvent)").replaceAll(", asyncLoad", ", function(){}")), e.innerHTML.includes("PreviewBarInjector") && (e.innerHTML = e.innerHTML.replace("DOMContentLoaded", "asyncLazyLoad")), (e.className == 'analytics') && (e.type = 'text/lazyload'),(e.src.includes("assets/storefront/features")||e.src.includes("assets/shopify_pay")||e.src.includes("connect.facebook.net"))&&(e.setAttribute("data-src", e.src), e.removeAttribute("src")))})})});observer.observe(document.documentElement,{childList:!0,subtree:!0})</script> 
 
-<!-- <script src="https://cdn.shopify.com/s/files/1/0574/0809/4268/t/1/assets/preconnect_resources.js" type="text/javascript"></script> -->
+<script src="https://cdn.shopify.com/s/files/1/0574/0809/4268/t/1/assets/preconnect_resources.js" type="text/javascript"></script>
 <!-- <script src="https://cdn.shopify.com/s/files/1/0603/7530/2276/t/1/assets/globo_checkout.js" type="text/javascript"></script> -->
 
 
@@ -157,7 +157,7 @@
       if(('ontouchstart' in window)||window.DocumentTouch&&document instanceof DocumentTouch)document.documentElement.className=document.documentElement.className.replace(/\bno-touch\b/,'has-touch');
     </script>
 
-    <!-- <script src="https://excellent-supply.com/cdn/shop/t/343/assets/api.js?v=76206469115915889501700366437" defer></script> -->
+    <script src="https://excellent-supply.com/cdn/shop/t/343/assets/api.js?v=76206469115915889501700366437" defer></script>
 
     
       <link href="https://excellent-supply.com/cdn/shop/t/343/assets/theme.css?v=44086739411603190901702075640" rel="stylesheet" type="text/css" media="all" />
