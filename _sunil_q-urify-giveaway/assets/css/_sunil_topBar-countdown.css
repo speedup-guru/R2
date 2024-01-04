@@ -1,0 +1,88 @@
+.announcement_bar .bfBundle__content .bfCountdown .countdown_block span:after {
+    font-size: 8px;
+    line-height: 9px;
+    min-height: 15px;
+    font-weight: 400;
+}
+
+.announcement_bar .bfBundle__content .bfCountdown .countdown_block span {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 500;
+}
+
+.announcement_bar .bfBundle__content .bfCountdown {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bfBundle__content .bfCountdown .countdown_hdr {
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0.13px;
+}
+
+/* ----------------- */
+
+.bfBundle__content .bfCountdown {
+    padding: 30px 0;
+    display: grid;
+    grid-template-columns: 85px 1fr;
+    align-items: center;
+}
+
+.bfBundle__content .bfCountdown .countdown_hdr {
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.13px;
+}
+
+.bfBundle__content .bfCountdown .countdown_block span {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36.436px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32.88px;
+    letter-spacing: 0.364px;
+    padding: 0 9px;
+}
+
+.bfBundle__content .bfCountdown .countdown_block span:after {
+    content: attr(data-name);
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: 17px;
+    min-height: 15px;
+}
+
+.bfBundle__content .bfCountdown .countdown_block span.dots {
+    position: relative;
+    color: transparent;
+    min-width: unset;
+    width: 1px;
+    background: #000;
+    margin: 0 4px;
+    padding: 0;
+    height: 100%;
+}
+
+@media(max-width:767px) {
+    .announcement_bar .bfBundle__content .bfCountdown {
+        padding: 5px 0
+    }
+
+    .announcement_bar .bfBundle__content .bfCountdown .countdown_hdr {
+        font-size: 11px;
+    }
+}
