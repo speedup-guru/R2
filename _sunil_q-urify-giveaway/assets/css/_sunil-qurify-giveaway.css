@@ -45,21 +45,20 @@
 }
 
 .qurify_giveaway .main_banner .bg_banner {
-    min-height: 100%;
+    min-height: 500px;
+    object-fit: cover;
+    object-position: right;
 }
+
 
 /* ---------------------- giveaway form start -------------------- */
 .giveaway_form ul li {
     font-size: 14px;
     line-height: 26px;
     font-weight: 400;
-    max-width: 301px;
+    max-width: 449px;
     list-style-type: none;
     display: flex;
-}
-
-.rejuvalight_giveaway .giveaway_form ul li {
-    max-width: 439px;
 }
 
 .giveaway_form ul li p:first-child {
@@ -68,14 +67,10 @@
 
 .giveaway_form ul {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
     gap: 10px;
     flex-wrap: wrap;
-}
-
-.rejuvalight_giveaway .giveaway_form ul {
-    grid-template-columns: repeat(2, 1fr);
 }
 
 .giveaway_form .grab_yours {
@@ -161,19 +156,22 @@
     color: transparent;
 }
 
+
 .giveaway_form .textfield__input:focus+.textfield__label,
-.giveaway_form .textfield__input:valid+.textfield__label,
-.giveaway_form .textfield__input:disabled+.textfield__label,
-.giveaway_form .textfield__input:visited+.textfield__label {
+.giveaway_form .textfield__input:focus-visible+.textfield__label
+    {
     display: none !important;
 }
 
-.textfield__label.error,
-.giveaway_form .textfield__label.error.textfield__label--required::after {
+
+.textfield__input.error+.textfield__label,
+.giveaway_form .textfield__input.error+.textfield__label--required::after {
     color: transparent;
 }
 
 /* ---------------------- giveaway form end -------------------- */
+
+
 @media(max-width:1200px) {
     .giveaway_header .giveaway_price .g_p_currency {
         font-size: 73px;
@@ -210,13 +208,16 @@
     .giveaway_form ul {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .qurify_giveaway .main_banner .bg_banner {
+        min-height: 450px;
+        object-fit: cover;
+        object-position: right;
+    }
+
 }
 
 @media(max-width:991px) {
-    .giveaway_form ul {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
     .qurify_giveaway .main_banner .bg_banner {
         min-height: 300px;
         object-fit: cover;
@@ -256,12 +257,11 @@
         line-height: 20px;
     }
 
-    .rejuvalight_giveaway .giveaway_form ul {
+    .giveaway_form ul {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .giveaway_form ul li,
-    .rejuvalight_giveaway .giveaway_form ul li {
+    .giveaway_form ul li {
         max-width: 100%;
     }
 
