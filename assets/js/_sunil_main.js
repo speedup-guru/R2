@@ -1,5 +1,3 @@
-window.onload = function(){ 
-
 //Slider settings
 var TwaSettingsSwiper = {
   init: function() {
@@ -76,9 +74,6 @@ var TwaSettingsSwiper = {
   }
 };
 TwaSettingsSwiper.init();
-
-};
-
 
 //Header
 function hdrHeight() {
