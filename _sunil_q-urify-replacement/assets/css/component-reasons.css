@@ -1,0 +1,117 @@
+.reasons_wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.reasons_wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.reasons {
+    max-width: 948px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.rs_item {
+    border-left: none;
+}
+
+.reasons_wrapper .rs_item {
+    text-align: center;
+    padding: 0 17px 20px;
+}
+
+.reasons_wrapper .rs_item:first-child {
+    max-width: 190px;
+}
+
+.reasons_wrapper .rs_item:not(:first-child) {
+    max-width: 160px;
+}
+
+.rs_item:first-child {
+    border: none;
+}
+
+.reasons_wrapper .rs_item .rs_item_content p {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 600;
+}
+
+@media(max-width:991px) {
+    .reasons_wrapper .rs_item {
+        text-align: center;
+        padding: 0 10px 20px;
+    }
+}
+
+@media(max-width:991px) and (min-width:768px) {
+
+    .reasons_wrapper,
+    .reasons_wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .reasons_wrapper .rs_item {
+        margin-bottom: 20px;
+    }
+
+    .rs_item.border-none {
+        border-left: none;
+    }
+}
+
+@media(max-width:767px) {
+    .reasons {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .reasons_wrapper,
+    .reasons_wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .reasons_wrapper .rs_item:first-child {
+        max-width: 100%;
+    }
+
+    .reasons_wrapper .rs_item:not(:first-child) {
+        max-width: 100%;
+    }
+
+
+    .rs_item:first-child {
+        border-bottom: 1px solid #EDE7DD;
+    }
+
+    .rs_item {
+        border-bottom: 1px solid #EDE7DD;
+        border-left: none
+    }
+
+    .rs_item:last-child {
+        border: none;
+    }
+
+    .reasons_wrapper .rs_item {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        padding: 10px 0;
+        align-items: center;
+    }
+
+    .rs_item_content {
+        text-align: left;
+    }
+
+    .reasons_wrapper .rs_item .rs_item_content p {
+        font-size: 12px;
+        line-height: 22px;
+        font-weight: 400;
+    }
+}
