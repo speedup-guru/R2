@@ -384,6 +384,15 @@
       color: var(--clr-white);
   }
 
+  .back_btn {
+      padding: 20px;
+      border-radius: 30px;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 20px;
+      letter-spacing: 0.22px;
+  }
 
   @media(max-width:767px) {
       .btn-1 {
@@ -406,6 +415,12 @@
 
       strong {
           font-weight: 600;
+      }
+
+      .back_btn {
+          padding: 15px;
+          font-size: 20px;
+          line-height: 20px;
       }
 
   }
@@ -535,6 +550,16 @@
       padding-left: 5px;
   }
 
+  .announcement_bar p .green_coloured.green_btn {
+      background-color: var(--clr-green);
+      color: #fff;
+      border-radius: 20px;
+      text-decoration: none;
+      padding: 0 10px;
+      margin-left: 10px;
+      font-size: 15px;
+  }
+
   .mi_landing .announcement_bar p {
       font-size: 13px;
       line-height: 24px;
@@ -547,6 +572,11 @@
           font-size: 10px;
           line-height: 15px;
           letter-spacing: 0.3px;
+      }
+
+      .announcement_bar p .green_coloured.green_btn {
+          margin-left: 5px;
+          font-size: 12px;
       }
   }
 
@@ -760,16 +790,8 @@
   .buy_btn img {
       position: absolute;
       right: 25px;
-      top: 23px;
-  }
-
-  .chest_pdp .buy_btn img,
-  .bundle_pdp .buy_btn img,
-  .all_in_one .buy_btn img,
-  .clinical_grade .buy_btn img{
-      position: absolute;
-      right: 25px;
-      top: 21px;
+      top: 50%;
+      transform: translateY(-50%);
   }
 
   .buy_btn:hover {
@@ -859,8 +881,8 @@
           max-width: 100%
       }
 
-      .chest_pdp .buy_btn img {
-          top: 18px;
+      .buy_btn img {
+          max-height: 15px;
       }
   }
 
@@ -923,11 +945,7 @@
       }
   }
 
-  @media(max-width:767px) and (min-width:480px) {
-      .buy_btn img {
-          right: 70px;
-      }
-  }
+
 
   /* --------------------- Unique Customizable Start ----------------------------- */
 
@@ -2333,11 +2351,6 @@
       text-transform: uppercase;
   }
 
-  .all_in_one .refill_bl .refill_info .buy_btn img,
-  .qurify_water .refill_bl .refill_info .buy_btn img{
-      top: 20px;
-  }
-
   @media(max-width:767px) {
       .mi_landing .buy_btn a {
           font-size: 18px;
@@ -2362,21 +2375,9 @@
       .buy_btn {
           padding: 13px 0;
       }
-
-      .buy_btn img,
-      .all_in_one .refill_bl .refill_info .buy_btn img,
-      .qurify_water .refill_bl .refill_info .buy_btn img,.clinical_grade .buy_btn img {
-          top: 18px;
-      }
   }
 
-  @media(max-width:490px) {
 
-      .buy_btn img,.clinical_grade .buy_btn img {
-          top: 15px;
-      }
-
-  }
 
   /* -- common css for button end --- */
 
@@ -2505,8 +2506,8 @@
       }
 
       .swiper.dot_pagination .swiper-pagination-bullet {
-          width: 8px;
-          height: 8px;
+          width: 10px;
+          height: 10px;
           margin: 0 4px !important;
       }
   }
@@ -2724,3 +2725,99 @@
       text-decoration: underline;
       color: #000;
   }
+
+  /* ================= see detailed section css start ========================= */
+  .see_detailed .see_detailed_info h5 {
+      font-size: 28px;
+      line-height: 32px;
+      font-weight: 300;
+      font-family: 'Canela Light';
+      margin-bottom: 20px;
+  }
+
+  .buy_btn.see_detailed {
+      max-width: 360px;
+      margin-left: auto;
+      display: grid;
+      font-size: 22px;
+      line-height: 20px;
+      font-weight: 600;
+  }
+
+  @media(max-width:767px) {
+      .see_detailed .see_detailed_info h5 {
+          font-size: 22px;
+          line-height: 28px;
+          font-weight: 300;
+          font-family: 'Canela Light';
+          margin-bottom: 20px;
+      }
+
+      .buy_btn.see_detailed {
+          font-size: 20px;
+          line-height: 20px;
+          padding: 12px 0;
+          margin-top: 20px;
+      }
+  }
+
+  /* ================= see detailed section css end ========================= */
+  picture img {
+      height: 100% !important;
+      width: 100%;
+  }
+
+  .color-green {
+      color: #C7E7DC !important;
+  }
+
+  .bg-green {
+      background: #C7E7DC !important;
+  }
+
+  /* ======== 404 page not found start ======= */
+  .error_404_page .section_left h1 {
+      color: #C7E7DC;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 232.4px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 211.273px;
+      letter-spacing: 2.324px;
+  }
+
+  .error_404_page .main_banner {
+      padding: 90px 0;
+  }
+
+  .error_404_page .section_right h2 {
+      font-family: 'Canela Web';
+      font-size: 36px;
+      font-weight: 500;
+      line-height: 55px;
+      letter-spacing: 0.36px;
+  }
+
+  .error_404_page .section_right p {
+      padding: 15px 0px 40px 0;
+  }
+
+  @media(max-width:767px) {
+      .error_404_page .section_left h1 {
+          font-size: 144.4px;
+          line-height: 131.273px;
+          letter-spacing: 1.44px;
+      }
+
+      .error_404_page .section_right h2 {
+          font-size: 28px;
+          line-height: 38px;
+      }
+
+      .error_404_page .section_right {
+          margin-top: 30px;
+      }
+  }
+
+  /* ======== 404 page not found end ======= */
