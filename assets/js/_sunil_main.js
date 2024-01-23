@@ -1,79 +1,80 @@
 //Slider settings
 var TwaSettingsSwiper = {
-  init: function() {
-      this.TwaSettingsCarousel();
+  init: function () {
+    this.TwaSettingsCarousel();
   },
-  TwaSettingsCarousel: function() {
-      document.querySelectorAll(".twa__swiper").forEach((e => {
-          this.TwaCarousel(e);
-      }))
+  TwaSettingsCarousel: function () {
+    document.querySelectorAll(".twa__swiper").forEach((e => {
+      this.TwaCarousel(e);
+    }))
   },
-  TwaCarousel: function(e) {
-      var t = "true" === e?.dataset.autoplay,
-          n = "true" === e.dataset.loop,
-          w = e?.dataset.rows ? e?.dataset.row : 1,
-          o = e?.dataset.slideshow ? e?.dataset.slideshow : 0,
-          i = e?.dataset.desktop ? e?.dataset.desktop : 4,
-          s = e?.dataset.tablet ? e?.dataset.tablet : 2,
-          r = e?.dataset.mobile ? e?.dataset.mobile : 1,
-          a = e?.dataset.autoplaySpeed ? e?.dataset.autoplaySpeed : 3e3,
-          c = e?.dataset.speed ? e?.dataset.speed : 400,
-          l = e?.dataset.effect ? e?.dataset.effect : "slide",
-          d = e?.dataset.sectionId,
-          u = e?.dataset.row ? e?.dataset.row : 1,
-          ut = e?.dataset.rowtablet ? e?.dataset.rowtablet : 1,
-          um = e?.dataset.rowmobile ? e?.dataset.rowmobile : 1,
-          p = window.innerWidth,
-          m = e?.dataset.spacing ? e?.dataset.spacing : 0;
-          cs = "true" === e.dataset.centerslide, 
-          al = e?.dataset.arrowleft ? e?.dataset.arrowleft : "swiper-button-prev",
-          ar = e?.dataset.arrowright ? e?.dataset.arrowright : "swiper-button-next",
-          m = Number(m), a = Number(a), c = Number(c), p <= 767 ? m >= 15 && (m = 15) : p <= 1199 && m >= 30 && (m = 30), new Swiper("#twa__swiper-" + d, {
-          slidesPerView: r,
-          slidesPerColumn: w,
-          spaceBetween: m,
-          centeredSlides: cs,  
-          autoplay: t,
-          delay: a,
-          loop: n,
-          effect: l,
-          speed: c,
-          watchSlidesProgress: !0,
-          watchSlidesVisibility: !0,
-          lazy: true,
-          grid: {
-              rows: um,
+  TwaCarousel: function (e) {
+    var t = "true" === e?.dataset.autoplay,
+      n = "true" === e.dataset.loop,
+      w = e?.dataset.rows ? e?.dataset.row : 1,
+      o = e?.dataset.slideshow ? e?.dataset.slideshow : 0,
+      i = e?.dataset.desktop ? e?.dataset.desktop : 4,
+      s = e?.dataset.tablet ? e?.dataset.tablet : 2,
+      r = e?.dataset.mobile ? e?.dataset.mobile : 1,
+      a = e?.dataset.autoplaySpeed ? e?.dataset.autoplaySpeed : 3e3,
+      c = e?.dataset.speed ? e?.dataset.speed : 400,
+      l = e?.dataset.effect ? e?.dataset.effect : "slide",
+      d = e?.dataset.sectionId,
+      u = e?.dataset.row ? e?.dataset.row : 1,
+      ut = e?.dataset.rowtablet ? e?.dataset.rowtablet : 1,
+      um = e?.dataset.rowmobile ? e?.dataset.rowmobile : 1,
+      p = window.innerWidth,
+      m = e?.dataset.spacing ? e?.dataset.spacing : 0;
+    cs = "true" === e.dataset.centerslide,
+      al = e?.dataset.arrowleft ? e?.dataset.arrowleft : "swiper-button-prev",
+      ar = e?.dataset.arrowright ? e?.dataset.arrowright : "swiper-button-next",
+      m = Number(m), a = Number(a), c = Number(c), p <= 767 ? m >= 15 && (m = 15) : p <= 1199 && m >= 30 && (m = 30), new Swiper("#twa__swiper-" + d, {
+        slidesPerView: r,
+        slidesPerColumn: w,
+        spaceBetween: m,
+        centeredSlides: cs,
+        autoplay: t,
+        delay: a,
+        loop: n,
+        effect: l,
+        speed: c,
+        watchSlidesProgress: !0,
+        watchSlidesVisibility: !0,
+        lazy: true,
+        grid: {
+          rows: um,
+          fill: "row"
+        },
+        navigation: {
+          nextEl: `.${ar}`,
+          prevEl: `.${al}`,
+        },
+        pagination: {
+          clickable: !0,
+          el: e.querySelector(".swiper-pagination")
+        },
+        breakpoints: {
+          768: {
+            slidesPerView: s,
+            centeredSlides: cs,
+            grid: {
+              rows: ut,
               fill: "row"
+            }
           },
-          navigation: {
-            nextEl: `.${ar}`,
-            prevEl: `.${al}`,
-          },
-          pagination: {
-              clickable: !0,
-              el: e.querySelector(".swiper-pagination")
-          },
-          breakpoints: {
-              768: {
-                  slidesPerView: s,
-                  centeredSlides: cs,
-                  grid: {
-                    rows: ut,
-                    fill: "row"
-                  }
-              },
-              1450: {
-                  slidesPerView: i,
-                  grid: {
-                    rows: u, 
-                    fill: "row"
-                  }
-              }
+          1450: {
+            slidesPerView: i,
+            grid: {
+              rows: u,
+              fill: "row"
+            }
           }
+        }
       })
   }
 };
 TwaSettingsSwiper.init();
+
 
 //Header
 function hdrHeight() {
@@ -94,13 +95,13 @@ hdrHeight();
   });
 
   //Responsive Slicknav JS
-  $('.main-menu').slicknav({
-    appendTo: '.res-mobile-menu',
-    closeOnClick: true,
-    removeClasses: true,
-    closedSymbol: '<i class="fal fa-angle-down"></i>',
-    openedSymbol: '<i class="fal fa-angle-up"></i>'
-  });
+  // $('.main-menu').slicknav({
+  //   appendTo: '.res-mobile-menu',
+  //   closeOnClick: true,
+  //   removeClasses: true,
+  //   closedSymbol: '<i class="fal fa-angle-down"></i>',
+  //   openedSymbol: '<i class="fal fa-angle-up"></i>'
+  // });
 
   // Scroll Top Hide Show
   var varWindow = $(window);
@@ -122,23 +123,23 @@ hdrHeight();
     }
   });
 
-  function bxHeight() {
-    if ($(".beauty_img").length) {
-      var hdrHeight = $(".beauty_img").outerHeight();
-      let header_item = $('.bs_grid');
-      header_item.css('--height-header', hdrHeight + 5 + 'px');
-    }
-  }
+  // function bxHeight() {
+  //   if ($(".beauty_img").length) {
+  //     var hdrHeight = $(".beauty_img").outerHeight();
+  //     let header_item = $('.bs_grid');
+  //     header_item.css('--height-header', hdrHeight + 5 + 'px');
+  //   }
+  // }
 
-  bxHeight();
-  $(window).resize(function () {
-    bxHeight();
-  });
+  // bxHeight();
+  // $(window).resize(function () {
+  //   bxHeight();
+  // });
   // =======
 
   function bxHeight() {
-    if ($(".beauty_img").length) {
-      var hdrHeight = $(".beauty_img").outerHeight();
+    if ($(".bs_img").length) {
+      var hdrHeight = $(".bs_img").outerHeight();
       let header_item = $('.bs_grid');
       header_item.css('--height-header', hdrHeight + 5 + 'px');
     }
@@ -206,29 +207,35 @@ hdrHeight();
   $(".bs_feature ul li").height(maxHeight);
 
 
+  // Get items from both divs
+  var itemsDiv1 = $(".rightCircle li");
+  var itemsDiv2 = $(".wrongCircle li");
+  // Compare corresponding items and set height
+  itemsDiv1.each(function (index, element) {
+    var correspondingItemDiv2 = itemsDiv2.eq(index);
+    if (correspondingItemDiv2.length > 0) {
+      var maxHeight = Math.max($(element).height(), correspondingItemDiv2.height());
+      $(element).height(maxHeight);
+      correspondingItemDiv2.height(maxHeight);
+    } else {
+    }
+  });
+
+
 
 })(window.jQuery);
 
 
 
 // =================================== js for same height ===============================
-//uses div's height match
-// $(function () {
-//   $('.q_uses_header, .dfrc__hdr, .s_name, .result_item, .trust_item, .serum_bx, .bs_content, .skin_item, .safety_content').matchHeight({
-//     property: 'height',
-//     target: null,
-//     remove: false
-//   });
-// });
-
 
 $(function () {
   //setTimeout(function () {
-    $('q_uses_header, .dfrc__hdr, .s_name, .result_item, .trust_item, .serum_bx, .bs_content, .skin_item, .safety_content, .mc_desc').matchHeight({
-      property: 'height',
-      target: null,
-      remove: false
-    });
+  $('q_uses_header, .dfrc__hdr, .s_name, .result_item, .trust_item, .serum_bx, .bs_content, .skin_item, .safety_content, .mc_desc').matchHeight({
+    property: 'height',
+    target: null,
+    remove: false
+  });
 
   //}, 1000);
 });
@@ -518,6 +525,8 @@ $('.banner-popup-link').magnificPopup({
   type: 'image'
 });
 
+
+
 //Skin Slider Pop Up
 $(function () {
   $('.popup-modal').magnificPopup({
@@ -667,18 +676,18 @@ $('.read_button').click(function () {
   }
 });
 
-  // Read more/less
-  $('.read_button').click(function () {
-    $(this).closest('.ss_list').find('.moretext').slideToggle();
-    if ($(this).text() == "Read More") {
-      $(this).text("Read Less")
-    } else {
-      $(this).text("Read More")
-    }
-  });
+// Read more/less
+$('.read_button').click(function () {
+  $(this).closest('.ss_list').find('.moretext').slideToggle();
+  if ($(this).text() == "Read More") {
+    $(this).text("Read Less")
+  } else {
+    $(this).text("Read More")
+  }
+});
 
 
-  
+
 $(".set-innner a").on("click", function () {
   if ($(this).hasClass("active")) {
     $(this).removeClass("active");
@@ -829,12 +838,12 @@ if (specificChild) {
 
 }
 
-setInterval(function(){
-  var bnrImage =$('.banner-popup-link img');
-  $.each(bnrImage, function(index, bnrImageHeight) {
+setInterval(function () {
+  var bnrImage = $('.banner-popup-link img');
+  $.each(bnrImage, function (index, bnrImageHeight) {
     var parentElement = bnrImageHeight.parentNode;
     var bnnerHeight = bnrImageHeight.clientHeight;
     this.parentElement.style.setProperty('--aspect-ratio', `${bnnerHeight}px`);
-});
+  });
 
-},10)
+}, 10)

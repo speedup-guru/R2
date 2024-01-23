@@ -71,7 +71,8 @@
     top: calc((var(--height-header)) / 2 - 45px);
 }
 
-.chest_pdp .bs_versace, .qurify_water .bs_versace {
+.chest_pdp .bs_versace,
+.qurify_water .bs_versace {
     font-weight: 400;
 }
 
@@ -84,7 +85,8 @@
     padding: 24px 0 30px;
 }
 
-.mi_landing .beauty_skincare .bs_content {
+.mi_landing .beauty_skincare .bs_content,
+.mi-pdp .beauty_skincare .bs_content {
     padding: 0px 10px;
     margin-bottom: 10px;
 }
@@ -93,7 +95,8 @@
     padding: 24px 0;
 }
 
-.mi_landing .beauty_skincare .bs_content h4 {
+.mi_landing .beauty_skincare .bs_content h4,
+.mi-pdp .beauty_skincare .bs_content h4 {
     padding: 30px 0;
 }
 
@@ -166,7 +169,8 @@
     padding-left: 10px;
 }
 
-.bs_feature ul li {
+.bs_feature ul li,
+.bs_feature_l ul li {
     position: relative;
     min-height: 52px;
     border-bottom: 1px solid #EDE7DD;
@@ -177,7 +181,8 @@
     padding: 12px 0px 12px 28px;
 }
 
-.beauty_ftrs_center .bs_feature ul li {
+.beauty_ftrs_center .bs_feature ul li,
+.beauty_ftrs_center .bs_feature_l ul li {
     width: 185px;
     text-align: center;
     margin: 0 auto;
@@ -185,7 +190,8 @@
     line-height: 22px;
 }
 
-.bs_feature ul li .bsListInner:before {
+.bs_feature ul li .bsListInner:before,
+.bs_feature_l ul li:before {
     margin-right: 10px;
     margin-top: 2px;
     position: absolute;
@@ -196,7 +202,8 @@
     background-repeat: no-repeat;
 }
 
-.bs_feature ul li:last-child {
+.bs_feature ul li:last-child,
+.bs_feature_l ul li:last-child {
     border: none;
 }
 
@@ -270,6 +277,26 @@
     margin-left: 13px;
 }
 
+.bs_feature ul li {
+    display: block;
+}
+
+.bs_feature_l.correctCircle ul li:before {
+    content: url(../../../assets/images/common/correct_circle.svg);
+    position: absolute;
+    left: 0;
+}
+
+.bs_feature_l.incorrectCircle ul li:before {
+    content: url(../../../assets/images/common/incorrect_circle.svg);
+    position: absolute;
+    left: 0;
+}
+
+.bs_feature_l ul li {
+    display: block;
+}
+
 @media (min-width: 768px) {
     .bf-compare__button:nth-child(1) {
         margin-right: 69px;
@@ -291,7 +318,9 @@
 }
 
 @media(max-width:767px) {
-    .mi_landing .beauty_skincare .bs_content {
+
+    .mi_landing .beauty_skincare .bs_content,
+    .mi-pdp .beauty_skincare .bs_content {
         padding: 0;
     }
 
@@ -481,7 +510,8 @@
         top: 10px;
     }
 
-    .chest_pdp .beauty_skincare .title-lg, .led_mask .beauty_skincare .title-lg {
+    .chest_pdp .beauty_skincare .title-lg,
+    .led_mask .beauty_skincare .title-lg {
         font-size: 28px;
     }
 
@@ -496,5 +526,11 @@
 
     .bf_sale .beauty_skincare .bs_content h4 {
         padding-bottom: 20px;
+    }
+
+    .bs_feature ul li,
+    .bs_feature_l ul li {
+        font-size: 12px;
+        line-height: 22px;
     }
 }

@@ -1230,6 +1230,7 @@
           font-size: 13px;
           line-height: 24px;
           font-weight: 600;
+          letter-spacing: 0.12px;
       }
   }
 
@@ -2260,8 +2261,12 @@
       max-width: 546px;
   }
 
+  .mw-590 {
+      max-width: 590px !important;
+  }
+
   .mw-600 {
-      max-width: 600px;
+      max-width: 600px !important;
   }
 
   .mw-630 {
@@ -2817,6 +2822,10 @@
 
       .error_404_page .section_right {
           margin-top: 30px;
+      }
+
+      .error_404_page .main_banner {
+          padding: 55px 0;
       }
   }
 
