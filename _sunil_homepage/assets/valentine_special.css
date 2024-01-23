@@ -1,0 +1,166 @@
+.valentine_special .homepage_info_1 {
+    color: #000;
+}
+
+.valentine_special .homepage_info_2 {
+    color: #000;
+    font-size: 60px;
+    line-height: 78px;
+}
+
+.valentine_special .homepage_info_3 {
+    font-weight: 500 !important;
+    font-family: 'Poppins' !important;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 64px;
+    letter-spacing: 0.24px;
+    text-transform: uppercase;
+    color: #C92127;
+}
+
+.valentine_special .button_shop {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.valentine_special .btn-bfBundle {
+    background: #000;
+    color: #fff;
+    padding: 20px 25px;
+    width: fit-content !important;
+}
+
+.valentine_special .announcement_bar {
+    padding: 8px 0;
+}
+
+.valentine_special .announcement_bar a {
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+
+.valentine_special .announcement_bar .green_coloured {
+    background-color: #C92127;
+    box-shadow: 0px 1.667px 1.667px 0px rgba(0, 0, 0, 0.25);
+    padding: 2px 10px;
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.valentine_special .announcement_bar .a_barText {
+    font-weight: 700;
+    margin-left: 10px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000;
+    text-decoration: none;
+}
+
+.valentine_special .announcement_bar .valentine_star svg {
+    margin: 0 1px;
+}
+
+picture img {
+    height: 100% !important;
+    width: 100%;
+}
+
+.valentine_special .swiper-slide img {
+    display: inline-block;
+}
+
+.valentine_star img:first-child,
+.valentine_star img:last-child {
+    animation: upDown 1.5s infinite linear;
+}
+
+@keyframes upDown {
+    100% {
+        transform: translateY(0%);
+    }
+
+    80% {
+        transform: translateY(0%);
+    }
+
+    60% {
+        transform: translateY(-300%);
+    }
+
+    40% {
+        transform: translateY(0%);
+    }
+
+    20% {
+        transform: translateY(300%);
+    }
+
+    0% {
+        transform: translateY(0);
+    }
+}
+
+.valentine_star img:nth-child(2) {
+    animation: upDown1 1.5s infinite linear;
+}
+
+@keyframes upDown1 {
+    100% {
+        transform: translateY(0%);
+    }
+
+    80% {
+        transform: translateY(0%);
+    }
+
+    60% {
+        transform: translateY(300%);
+    }
+
+    40% {
+        transform: translateY(0%);
+    }
+
+    20% {
+        transform: translateY(-300%);
+    }
+
+    0% {
+        transform: translateY(0);
+    }
+}
+
+@media(max-width:1100px) {
+    .valentine_special .homepage_info_3 {
+        font-size: 15px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+
+    .valentine_special .homepage_info_2 {
+        font-size: 26px;
+        line-height: 38px;
+    }
+
+    .valentine_special .btn-bfBundle {
+        padding: 15px;
+    }
+}
+
+@media(max-width:720px) {
+    .valentine_special .button_shop {
+        flex-direction: column;
+    }
+
+    .valentine_special .btn-bfBundle {
+        width: 100% !important;
+    }
+}
