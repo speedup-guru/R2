@@ -1,0 +1,44 @@
+.valentines_Bundlebanner {
+    background: linear-gradient(180deg, #F9F3F0 51.96%, rgba(249, 243, 240, 0) 100%);
+
+}
+
+.valentines_Bundlebanner .bfBundle__content .btn-bfBundle {
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.valentines_Bundlebanner .bfBundle__content .bfSub_heading {
+    line-height: 50px;
+}
+
+.valentines_Bundlebanner .bfBundle__content {
+    position: relative;
+}
+
+.valentines_Bundlebanner .v_star_d1 {
+    position: absolute;
+    left: -18%;
+    top: 25%;
+    transform: translate(0px, -25%);
+}
+
+.valentines_Bundlebanner .v_star_d2 {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    transform: translate(0px, -10%);
+}
+
+.valentines_Bundlebanner .bfBundle_bnr_hdr {
+    min-height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:767px) {
+    .valentines_Bundlebanner .bfBundle__content .bfSub_heading {
+        line-height: 33px;
+    }
+}
