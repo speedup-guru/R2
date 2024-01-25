@@ -2294,6 +2294,11 @@
       margin: 0 auto;
   }
 
+  .mw-970 {
+      max-width: 970px;
+      margin: 0 auto;
+  }
+
   .mw-680 {
       max-width: 680px;
       margin: 0 auto;

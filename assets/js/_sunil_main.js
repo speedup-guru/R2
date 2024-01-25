@@ -446,7 +446,7 @@ var swiper = new Swiper(".result_slider", {
 
 //micro infusion-lp result slider
 var swiper = new Swiper(".result_slides_2", {
-  spaceBetween: 62,
+  spaceBetween: 60,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
