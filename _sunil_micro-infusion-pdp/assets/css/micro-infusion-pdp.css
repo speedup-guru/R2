@@ -295,10 +295,11 @@
 
     .mi-pdp .compare_listHeader>.compare__img {
         margin-bottom: 10px;
+        height: 142px;
     }
 
     .mi-pdp .compare_list_elements.active:before {
-        height: calc(100% - 155px);
+        height: calc(100% - 71px);
     }
 
     .mi-pdp .bs_img img {
@@ -308,4 +309,30 @@
     .mi-pdp .supply-detail .step_content.step_btn .submit_btn .btn_value {
         font-weight: 600;
     }
+
+    .mi-pdp .compare_section .compare_listRow {
+        align-items: end;
+    }
+
+    .mi-pdp .compare_section .compare_listRow:before {
+        height: calc(100% - 136px);
+    }
 }
+
+/* ============= Micro-Infusion serums css start ==============  */
+.mi-pdp .unique_c_item .u_item_wrapper .u_ftr {
+    width: 100%;
+}
+
+.mi-pdp .unique_grid {
+    grid-template-columns: 1fr 100px 1fr;
+    display: grid;
+}
+
+@media(max-width:767px) {
+    .mi-pdp .unique_grid {
+        grid-template-columns: 1fr
+    }
+}
+
+/* ============= Micro-Infusion serums css end ==============  */
