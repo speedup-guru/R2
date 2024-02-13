@@ -1,7 +1,7 @@
 //see slider
 var swiper = new Swiper(".see_slider3", {
   slidesPerView: 1,
-  spaceBetween: 60,
+  spaceBetween: 20,
   autoplay: false,
   /*autoplay: {
     delay: 2000,

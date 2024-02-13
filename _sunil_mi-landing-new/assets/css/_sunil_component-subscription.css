@@ -96,7 +96,7 @@
     display: none;
 }
 
-.supply-detail .supply_steps:last-child .step_counter:before {
+.supply-detail .supply_steps:last-child() .step_counter:before {
     display: none;
 }
 
@@ -207,6 +207,10 @@
 
 .supply_steps .yellow_bg .serum_prd {
     background: #FFFAF1;
+}
+
+.supply_steps .grey_bg .serum_prd {
+    background: #F5F5F5;
 }
 
 .supply_steps .step_block .serum_prd .serum_ttl {
@@ -498,8 +502,9 @@
         display: flex;
         flex-wrap: wrap;
     }
+
     .mi_landing .qure__treatments {
-        background:none;
+        background: none;
     }
 
     .supply_steps .step_counter span {

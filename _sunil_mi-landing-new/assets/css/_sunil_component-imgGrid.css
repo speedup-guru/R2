@@ -219,7 +219,7 @@ p.title_mob {
 
 .mi_landing .shipping.one_line .s_bx p {
     white-space: nowrap;
-    padding-left: 3px;
+    padding-left: 10px;
 }
 
 @media(max-width:767px) {

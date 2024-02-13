@@ -93,12 +93,12 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .reasons_wrapper .rs_item .r_use_img svg {
+    .reasons_wrapper .rs_item .r_use_img img {
         width: 81px;
         height: 81px;
     }
 
-    .chest_pdp .reasons_wrapper .rs_item .r_use_img svg {
+    .chest_pdp .reasons_wrapper .rs_item .r_use_img img {
         width: 64px;
         height: 53px;
     }

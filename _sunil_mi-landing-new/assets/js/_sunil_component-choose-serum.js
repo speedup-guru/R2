@@ -1,42 +1,44 @@
 //bundle JS
 
-  $('.tab_content').not(':first').hide();
+$('.tab_content').not(':first').hide();
 
 
-  // Bind click event to tabs links
-  $('.step_conten_blocks .planBlock').click(function () {
-    var regular_price = $(this).find(".regular_price").text();
-    var sale_price = $(this).find(".sale_price").text();
-    console.log(regular_price);
+// Bind click event to tabs links
+$('.step_conten_blocks .planBlock').click(function () {
+  var regular_price = $(this).find(".regular_price").text();
+  var sale_price = $(this).find(".sale_price").text();
+  console.log(regular_price);
 
-    var imageLink = $(this).attr("data-image");
-    var data_per = $(this).attr("data-per");
-   
-  
-    $(".total_price").find(".regular_price").text(regular_price);
-    $(".total_price").find(".sale_price").text(sale_price);
-      $(".btn_value").text(data_per);
-    
-      // Set the new value of the span element.
-     
+  var imageLink = $(this).attr("data-image");
+  var data_per = $(this).attr("data-per");
+  var data_pay = $(this).attr("data-pay");
 
-   
-    $("#choosen_image").attr("src", imageLink);
-    //Hide all tab content
-    $('.tab_content').hide();
 
-    // Remove active class from all tabs links
-    $('.step_conten_blocks .planBlock').removeClass('active');
+  $(".total_price").find(".regular_price").text(regular_price);
+  $(".total_price").find(".sale_price").text(sale_price);
+  $(".btn_value").text(data_per);
+  $(".pay_today").text(data_pay);
 
-    // Add active class to clicked tab link
-    $(this).addClass('active');
+  // Set the new value of the span element.
 
-    // Get data-tab attribute value
-    var tab = $(this).data('tab');
 
-    // Show corresponding tab content
-    $('#' + tab).show();
-  });
+
+  $("#choosen_image").attr("src", imageLink);
+  //Hide all tab content
+  $('.tab_content').hide();
+
+  // Remove active class from all tabs links
+  $('.step_conten_blocks .planBlock').removeClass('active');
+
+  // Add active class to clicked tab link
+  $(this).addClass('active');
+
+  // Get data-tab attribute value
+  var tab = $(this).data('tab');
+
+  // Show corresponding tab content
+  $('#' + tab).show();
+});
 
 //product subscription
 $(document).ready(function () {

@@ -8,18 +8,11 @@
     line-height: 32px;
     font-weight: 300;
     font-family: 'Canela Regular';
-    color: var(--clr-green);
     letter-spacing: 1px;
     padding: 10px 0;
     margin-bottom: 0;
 }
 
-/* .see_slider .swiper-slide {
-      width: 28%;
-  } */
-.see_slider .swiper-slide {
-    max-width: 214px;
-}
 
 .see_slider_wrapper {
     padding-bottom: 50px;
@@ -213,8 +206,9 @@
         margin: 0;
         padding: 0 12px
     }
+
     .dsn-right-container {
-        padding:0 24px;
+        padding: 0 24px;
     }
 }
 

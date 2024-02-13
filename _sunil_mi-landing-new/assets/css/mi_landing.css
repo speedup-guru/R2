@@ -1,0 +1,92 @@
+.mi_landing .beauty_skincare .section_header {
+    max-width: 650px;
+    padding-bottom: 70px;
+}
+
+.mi_landing .cg_desc_green {
+    color: #008763;
+}
+
+.mi_landing .tmtFtrs_block .tmtFtr_des {
+    font-size: 11px;
+}
+
+.mi_landing .joinMicro .ba_wrapper .ss_list ul li {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    line-height: 26px;
+}
+
+.mi_landing .joinMicro .ba_wrapper .ss_list ul li:before {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.mi_landing .result_s {
+    padding: 60px 0;
+}
+
+.progress_bar .loading_bar_wrap {
+    height: 20px;
+    margin-bottom: 14px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+    overflow: hidden;
+}
+
+.progress_bar .loading_bar {
+    background-color: #C92127;
+    height: 100%;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-size: 1rem;
+}
+
+.progress_bar p {
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16.8px;
+}
+
+.mi_landing .beauty_skincare .bs_content {
+    padding: 0px !important;
+}
+
+.mi_landing .beauty_img {
+    width: 100%;
+}
+
+.mi_landing .main_banner .btn-lg,
+.mi_landing .clinical_grade .btn-lg {
+    font-size: 22px;
+}
+
+@media(max-width:767px) {
+    .mi_landing .beauty_skincare .section_header {
+        padding-bottom: 40px;
+    }
+
+    .mi_landing .cg_desc_green {
+        margin-top: 20px;
+    }
+
+    .mi_landing .social_media {
+        padding-bottom: 0 !important;
+    }
+
+    .mi_landing .imageText.joinMicro .ss_list {
+        padding: 40px 0;
+    }
+
+    .mi_landing .result_s {
+        padding: 30px 0;
+    }
+
+    .mi_landing .main_banner .btn-lg,
+    .mi_landing .clinical_grade .btn-lg {
+        font-size: 18px;
+    }
+}
