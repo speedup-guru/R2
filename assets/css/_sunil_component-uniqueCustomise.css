@@ -170,6 +170,11 @@
     font-family: 'Canela Web';
 }
 
+.cant_decide .cd_img {
+    max-width: 578px;
+    margin: 0 auto;
+}
+
 .unique_review {
     padding: 20px 0;
     max-width: 300px;
@@ -249,11 +254,31 @@
     background: #912A5C;
 }
 
+.technology_light a {
+    text-decoration: underline;
+    color: #000;
+}
+
 .u_text_only {
     height: 610px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.unique_c_item .u_item_wrapper .u_ftr {
+    width: 100%;
+}
+
+.unique_grid {
+    grid-template-columns: 1fr 100px 1fr;
+    display: grid;
+}
+
+@media(max-width:767px) {
+    .unique_grid {
+        grid-template-columns: 1fr
+    }
 }
 
 @media(max-width:991px) {
@@ -264,6 +289,7 @@
     .unique_c {
         background: none;
     }
+
     .u_text_only {
         height: auto;
     }
@@ -293,6 +319,7 @@
 
     .unique_c_item .u_item_wrapper .u_ftr {
         width: 100%;
+        grid-template-columns: repeat(3, auto);
     }
 
     .u_text_only {
@@ -322,6 +349,13 @@
         padding-left: 10px;
         font-size: 10px;
         line-height: 16px;
+    }
+
+    .cant_decide .section_header h3 {
+        font-size: 22px;
+        line-height: 28px;
+        font-weight: 300;
+        font-family: 'Canela Light';
     }
 }
 
