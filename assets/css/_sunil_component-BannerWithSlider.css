@@ -401,11 +401,6 @@
     font-weight: 600;
 }
 
-.buy_btn img {
-    position: absolute;
-    right: 25px;
-    top: 23px;
-}
 
 .buy_btn:hover {
     color: #fff;
@@ -926,11 +921,13 @@
 }
 
 .subscribe_save_wrapper .with_subscription.buy_btn {
-    display: grid;
+    display: flex;
+    justify-content: center;
 }
 
 .subscribe_save_wrapper.without_subscription .without_subscription.buy_btn {
-    display: grid;
+    display: flex;
+    justify-content: center;
 }
 
 .subscribe_save_wrapper .with_subscription {
@@ -1208,10 +1205,4 @@
         width: 50%;
     }
 
-}
-
-@media(max-width:767px) and (min-width:480px) {
-    .buy_btn img {
-        right: 70px;
-    }
 }
