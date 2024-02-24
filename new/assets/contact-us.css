@@ -1,0 +1,91 @@
+.contact_help {
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.contact_help .section_header h5 {
+    font-family: 'Canela Light';
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0.28px;
+}
+
+.contact_info {
+    display: flex;
+    max-width: 532px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.contact_info .cnt_item h6 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.18px;
+    margin: 28px 0 18px 0;
+}
+
+.cnt_item {
+    text-align: center;
+    max-width: 220px;
+}
+
+.contact_info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+/* ============================contact form css start ================= */
+.contact_form .qure_input .qure_input_field {
+    border-radius: 22px;
+}
+
+.contact_form {
+    max-width: 888px;
+    margin: 0 auto;
+}
+
+.contact_form_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.contact_form .qure_input .qure_input_label {
+    display: none;
+}
+
+.customer_details {
+    background-color: #F2F4F3;
+}
+
+.customer_details .c_d_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.customer_details .c_d_wrapper span {
+    position: relative;
+}
+
+.customer_details .c_d_wrapper span:after {
+    width: 1.3px;
+    display: unset;
+    height: 100%;
+    background-color: #000;
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+}
+
+@media(max-width:767px) {
+    .contact_form_grid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,62 @@
+.led_mask .health_beauty .section_header .title-lg {
+    max-width: 446px;
+    margin: 0 auto;
+}
+
+.led_mask .health_beauty .section_header {
+    max-width: 820px;
+    margin: 0 auto;
+}
+
+.led_mask .qure_advantages .qa__inner .qa_info ul li .up-icon {
+    margin-right: 48px;
+}
+
+.led_mask .see_item_info p {
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.led_mask .clinical_grade .section_header h2 {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.led_mask .clinical_grade.boost_bl .section_header .title-lg {
+    max-width: 518px;
+}
+
+.led_mask .clinical_grade.boost_bl .section_header p {
+    max-width: 559px;
+}
+
+@media(max-width:1024px) {
+    body {
+        overflow-x: unset;
+    }
+}
+
+@media(max-width:767px) {
+    .led_mask .qure_advantages .qa__inner .qa_info ul li .up-icon {
+        margin-right: 24px;
+    }
+
+    .led_mask .beauty_skincare {
+        background-color: var(--clr-yellow);
+    }
+}
+
+@media(max-width:556px) {
+    .led_mask .clinical_grade.boost_bl .section_header {
+        max-width: 100%;
+    }
+
+    .led_mask .clinical_grade.boost_bl .section_header .title-lg {
+        max-width: 327px;
+    }
+
+    .led_mask .clinical_grade.boost_bl .section_header p {
+        max-width: 100%;
+    }
+}

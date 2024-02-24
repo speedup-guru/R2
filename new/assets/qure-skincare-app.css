@@ -1,0 +1,84 @@
+.app_slider_bl {
+    overflow: hidden;
+}
+
+.app_slider_wrapper .app_s_item {
+    display: grid;
+    text-align: center;
+}
+
+.app_slider {
+    overflow: unset;
+}
+
+.app_slider_wrapper .app_s_item .as_img img {
+    width: 100%;
+}
+
+.app_slider_wrapper .app_s_item .as_info {
+    text-align: center;
+}
+
+.app_slider_wrapper .app_s_item .as_info h3 {
+    font-family: 'Canela Light';
+    padding: 30px 0;
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 0;
+}
+
+.app_page .main_banner .section_header {
+    max-width: 569px;
+    margin-left: 0;
+}
+
+.app_page .app_img {
+    display: flex;
+    align-items: center;
+}
+
+@media(max-width:767px) {
+    .app_slider {
+        overflow: hidden;
+    }
+
+    .app_slider_wrapper .app_s_item .as_info h3 {
+        padding: 12px 0 20px;
+    }
+
+    .as_desc {
+        padding: 20px 0;
+    }
+
+    .app_s_item {
+        border-radius: 10px;
+        box-shadow: 0px 5px 15px 0px #B0B0B040;
+        border: 1px solid #C7E7DC;
+        padding: 0 20px;
+    }
+
+
+    .app_slider_wrapper .app_s_item .as_img img {
+        border: 1px solid #EDE7DD;
+        border-radius: 10px;
+    }
+
+    .app_page .skincare_slider {
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+
+    .app_page .skincare_left,
+    .our_story .skincare_left {
+        padding: 24px 16px 0;
+    }
+
+    .app_page .main_banner .section_header {
+        max-width: 301px;
+        margin: 0 auto;
+    }
+
+    .app_page .app_img {
+        justify-content: center;
+    }
+}

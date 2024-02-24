@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="65" viewBox="0 0 64 65" fill="none">
+  <rect width="64" height="64" transform="translate(0 0.312988)" fill="white"/>
+  <circle cx="32.2205" cy="32.5335" r="22.4705" stroke="black" stroke-width="1.5"/>
+  <path d="M41.4248 27.9436L49.1045 30.6196" stroke="black"/>
+  <path d="M46.6006 25.4414L43.9245 33.1211" stroke="black"/>
+  <path d="M41.6104 31.0532L48.9329 27.5151" stroke="black"/>
+  <path d="M43.502 25.6223L47.0401 32.9449" stroke="black"/>
+  <path d="M42.3193 26.4175L48.2072 32.0275" stroke="black"/>
+  <path d="M48.0674 26.2791L42.4574 32.1669" stroke="black"/>
+  <path d="M41.2041 29.3271L49.3343 29.1307" stroke="black"/>
+  <path d="M45.1689 25.1633L45.3654 33.2935" stroke="black"/>
+  <circle cx="29.8298" cy="43.2672" r="2.5756" transform="rotate(19.2113 29.8298 43.2672)" fill="black"/>
+  <circle cx="28.986" cy="25.6112" r="2.5756" transform="rotate(19.2113 28.986 25.6112)" fill="black"/>
+  <circle cx="34.3045" cy="33.8288" r="1.71707" transform="rotate(19.2113 34.3045 33.8288)" fill="black"/>
+  <path d="M18.2373 31.8118L28.5048 35.3896" stroke="black"/>
+  <path d="M25.1602 28.4666L21.5824 38.7341" stroke="black"/>
+  <path d="M18.4883 35.968L28.2784 31.2377" stroke="black"/>
+  <path d="M21.0195 28.7061L25.7499 38.4962" stroke="black"/>
+  <path d="M19.4365 29.7686L27.3084 37.269" stroke="black"/>
+  <path d="M27.1211 29.5833L19.6207 37.4552" stroke="black"/>
+  <path d="M17.9512 33.6602L28.821 33.3975" stroke="black"/>
+  <path d="M23.2549 28.0935L23.5176 38.9634" stroke="black"/>
+  <circle cx="23.3836" cy="33.5278" r="3.27585" transform="rotate(19.2113 23.3836 33.5278)" fill="white" stroke="black"/>
+  <path d="M47.8598 17.4941L17.1807 48.1733" stroke="black" stroke-width="1.5"/>
+</svg>

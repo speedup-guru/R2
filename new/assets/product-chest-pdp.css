@@ -1,0 +1,103 @@
+.chest_pdp .refill_bl .refill_info {
+    max-width: 455px;
+}
+
+.chest_pdp .reasons {
+    max-width: 949px;
+    margin: 0 auto;
+}
+
+.chest_pdp .reasons_wrapper .rs_item {
+    padding: 0 4px 20px;
+}
+
+.chest_pdp .reasons_wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+}
+
+/* -- Chest pdp feature start -- */
+.chest_pdp_ftr .cp_ftr_wrapper .cp_item {
+    display: flex;
+    align-items: center;
+}
+
+.chest_pdp_ftr .cp_ftr_wrapper {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.chest_pdp_ftr .cp_ftr_wrapper .cp_item {
+    display: grid;
+    align-items: center;
+    gap: 40px;
+    grid-template-columns: auto 1fr;
+    margin: 10px 0;
+}
+
+.chest_pdp_ftr .cp_ftr_wrapper .cp_item p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    letter-spacing: 0.16px;
+}
+
+/* -- Chest pdp feature end -- */
+@media(max-width:991px) and (min-width:768px) {
+    .chest_pdp .reasons_wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+@media(min-width:1199px) {
+    .chest_pdp .trusted_left {
+        max-width: 520px;
+    }
+}
+
+@media(max-width:991px) {
+    .chest_pdp .refill_bl.tabSlider .refill_info .section_header .title-xl {
+        font-size: 34px;
+        line-height: 40px;
+    }
+}
+
+@media(max-width:767px) {
+    .chest_pdp .refill_bl .shipping {
+        gap: 10px;
+    }
+
+    .chest_pdp .reasons_wrapper .rs_item {
+        grid-template-columns: 64px auto;
+        gap: 20px
+    }
+
+    .chest_pdp .reasons_wrapper .rs_item {
+        padding: 10px 0;
+    }
+
+    .chest_pdp .reasons_wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .chest_pdp .chest_pdp_ftr {
+        padding-top: 0;
+    }
+
+    .chest_pdp_ftr .cp_ftr_wrapper .cp_item {
+        gap: 20px;
+    }
+
+    .chest_pdp_ftr .cp_ftr_wrapper .cp_item p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .chest_pdp .reasons_wrapper .rs_item .r_use_img img {
+        width: 64px;
+        height: 53px;
+    }
+}
