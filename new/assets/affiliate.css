@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     padding: 12px 0;
+    max-width: 437px;
 }
 
 .join_bl .j_icon {
@@ -124,3 +125,6 @@
 }
 
 /* ======================== social media css end ======================== */
+.affiliate .section_header {
+    max-width: 820px;
+}

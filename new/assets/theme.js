@@ -172,59 +172,31 @@ hdrHeight();
         $(this).next().slideToggle()
     });
 
-    //bs_feature element height
-    // var maxHeight = 0;
-    // $(".bs_feature ul li").each(function () {
-    //     if ($(this).height() > maxHeight) { maxHeight = $(this).height(); }
-    //     $(this).wrapInner("<div class='bsListInner'></div>");
-    // });
-    // $(".bs_feature ul li").height(maxHeight);
-
-    // function adjustHeights() {
-    //     var itemsDiv1 = $(".rightCircle li");
-    //     var itemsDiv2 = $(".wrongCircle li");
-    //     itemsDiv1.each(function (index, element) {
-    //         var correspondingItemDiv2 = itemsDiv2.eq(index);
-    //         if (correspondingItemDiv2.length > 0) {
-    //             var maxHeight = Math.max($(element).height(), correspondingItemDiv2.height());
-    //             $(element).height(maxHeight);
-    //             correspondingItemDiv2.height(maxHeight);
-    //         }
-    //     });
-    // }
-    // // Call the function initially
-    // adjustHeights();
-    // // Call the function every second
-    // setInterval(function () {
-    //     adjustHeights();
-    //     console.log("height matching")
-    // }, 1000);
-    function adjustHeights() {
-        var itemsDiv1 = $(".rightCircle li");
-        var itemsDiv2 = $(".wrongCircle li");
-        itemsDiv1.each(function (index, element) {
-            var correspondingItemDiv2 = itemsDiv2.eq(index);
-            if (correspondingItemDiv2.length > 0) {
-                var maxHeight = Math.max($(element).height(), correspondingItemDiv2.height());
-                $(element).height(maxHeight);
-                correspondingItemDiv2.height(maxHeight);
-            }
-        });
-    }
-
-    // Define the function to be called on resize
-    function handleResize() {
-        adjustHeights();
-    }
-
-    // Call the function initially
-    adjustHeights();
-
-    // Add event listener for window resize
-    window.addEventListener("resize", handleResize);
 
 })(window.jQuery);
 
+// =================================== js for same height of comparision section===============================
+window.addEventListener('load', function () {
+    window.addEventListener("resize", adjustListItemHeights);
+    adjustListItemHeights(); // Call the function initially to set heights on page load
+
+    function adjustListItemHeights() {
+        const leftLiItems = document.querySelectorAll('.rightCircle li');
+        const rightLiItems = document.querySelectorAll('.wrongCircle li');
+
+        // Reset heights to auto to ensure accurate measurement
+        leftLiItems.forEach(li => li.style.height = 'auto');
+        rightLiItems.forEach(li => li.style.height = 'auto');
+
+        // Loop through each pair of corresponding li items and set their heights to match
+        leftLiItems.forEach((leftLi, index) => {
+            const rightLi = rightLiItems[index];
+            const maxHeight = Math.max(leftLi.offsetHeight, rightLi.offsetHeight);
+            leftLi.style.height = maxHeight + 'px';
+            rightLi.style.height = maxHeight + 'px';
+        });
+    }
+});
 // =================================== js for same height ===============================
 $(function () {
     //setTimeout(function () {

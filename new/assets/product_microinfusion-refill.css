@@ -89,6 +89,10 @@
     gap: 0;
 }
 
+.mi_refill .choose_serum {
+    background: transparent;
+}
+
 @media(max-width:767px) {
     .refill_bl.tabSlider .refill_info .section_header .title-xl {
         font-size: 34px;
@@ -113,6 +117,7 @@
     .withoutTabSerum .qure__treatments {
         margin-bottom: 0;
         background: linear-gradient(180deg, #C7E7DC 0%, rgba(255, 255, 255, 0.00) 100%);
+        background: transparent;
     }
 
     .withoutTabSerum .tmtFtrs_image {
@@ -188,6 +193,7 @@
     .unique_c_item .u_item_wrapper .u_ftr {
         gap: 10px;
     }
+
     .mi_refill .trusted_cl {
         background: linear-gradient(180deg, rgba(199, 231, 220, 0.91) -98.65%, #FFFFFF 69.3%);
     }

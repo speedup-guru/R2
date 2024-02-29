@@ -1,0 +1,297 @@
+.creative_guide .section {
+    padding: 80px 0 !important;
+}
+
+/* -- main banner start -- */
+.creative_guide .btn_white {
+    max-width: 272px;
+}
+
+.creative_guide .title-xl {
+    font-family: 'Canela Web';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 80px;
+    letter-spacing: 0.6px;
+}
+
+.creative_guide .c_guide_info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0;
+    flex-direction: column;
+}
+
+.content_instructions .main_banner .main_b_wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    display: flex;
+    align-items: end;
+}
+
+.content_instructions .main_banner .btn_white {
+    margin: 10px 0 0px;
+    padding: 16px 25px;
+}
+
+.content_instructions .videosQure .section_header h5 {
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 300;
+    font-family: 'Canela Light';
+}
+
+@media(min-width:1600px) {
+    .creative_guide .c_guide_info {
+        align-items: center;
+    }
+}
+
+@media(max-width:767px) {
+    .content_instructions .videosQure .section_header h5 {
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 28px;
+        letter-spacing: 0.22px;
+    }
+
+    .creative_guide .section {
+        padding: 49px 0 !important;
+    }
+}
+
+
+
+/* -- main banner end -- */
+
+/* -- instagram slider start -- */
+.meet_your_gif {
+    border-radius: 20px;
+}
+
+.insta_tag img {
+    max-width: 23px;
+}
+
+@media(max-width:767px) {
+    .meet_your_gif {
+        border-radius: 0px;
+    }
+}
+
+/* -- instagram slider end -- */
+
+/* -- amazing content start -- */
+.a_content_img img {
+    max-height: 527px;
+}
+
+.a_content_info ul li {
+    padding: 17px 18px;
+    background: #F5F5F5;
+    border-radius: 20px;
+    position: relative;
+    padding-left: 50px;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+}
+
+.a_content_info ul li:before {
+    position: absolute;
+    content: url(../assets/correct_circle.svg);
+    left: 20px;
+    height: 18px;
+    padding-top: 6px;
+}
+
+.a_content_info ul li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+/* -- amazing content end -- */
+@media(max-width:767px) {
+    .a_content_info ul li {
+        padding: 17px 18px;
+        background: #F5F5F5;
+        border-radius: 20px;
+        position: relative;
+        padding-left: 50px;
+        font-size: 13px;
+        line-height: 24px;
+        letter-spacing: 0.13px;
+    }
+}
+
+/* -- key messages start --  */
+.keyMessage_wrap .keyMessage_grid {
+    column-gap: 70px;
+    display: grid;
+    grid-template-columns: 177px 1fr;
+    padding: 40px 20px;
+}
+
+.keyMessage_wrap .keyMessage_grid:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+
+.keyMessage_wrap .keyMessage_info h4 {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0.28px;
+    font-family: 'Canela Light';
+    margin-bottom: 20px;
+}
+
+.keyMessage_wrap .keyMessage_info_grid {
+    max-width: 787px;
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.keyMessage_wrap .keyMessage_info_grid_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 60px;
+    row-gap: 20px;
+}
+
+.keyMessage_wrap .keyBenefits_item {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.keyMessage_wrap .keyBenefits_item img {
+    max-width: 50px;
+}
+
+.keyMessage_wrap .keyMessage_info_unique {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.keyMessage_wrap .keyMessage_info_unique .unique_c_item .u_item_wrapper .u_ftr {
+    grid-template-columns: repeat(3, auto);
+}
+
+.keyMessage_info_unique {
+    margin-top: 20px;
+}
+
+.keyMessage_wrap .keyMessage_info_unique .u_item_wrapper {
+    max-width: 342px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.keyMessage_wrap .keyMessage_info_unique .unique_c_item {
+    text-align: center;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 328px 328px;
+}
+
+@media(min-width:767px) {
+    .meet_your_gif img {
+        border-radius: 18px;
+    }
+}
+
+@media(max-width:1199px) {
+    .keyMessage_wrap .keyMessage_info_grid {
+        column-gap: 20px;
+    }
+
+    .keyMessage_wrap .keyMessage_info_grid_3 {
+        column-gap: 20px;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width:991px) {
+    .keyMessage_item {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 64px 1fr;
+        align-items: center;
+    }
+
+    .keyMessage_info h4 {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        font-family: 'Canela Light';
+    }
+
+    .keyBenefits_item {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .keyBenefits_item .r_use_img img {
+        width: 81px;
+        height: 81px;
+    }
+
+    .key_message .faq .accordion-button .container:after {
+        top: 50%;
+        transform: translateY(-50%);
+        content: url(../assets/faq-arrow.svg) !important;
+        font-size: 0;
+    }
+
+    .key_message .faq .accordion-item {
+        border-bottom: none;
+    }
+
+    .key_message .unique_c_item .u_item_wrapper .u_ftr .u_ftr_item p {
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15px;
+    }
+
+    .key_message .faq .accordion-button {
+        padding: 10px 0;
+    }
+
+    .key_message .faq .accordion-button:not(.collapsed) .container:after {
+        transform: rotate(180deg);
+    }
+
+    .key_message .faq .accordion-body .container .u_text_only p {
+        font-size: 22px;
+        line-height: 28px;
+        font-weight: 300;
+        font-family: 'Canela Light';
+    }
+
+    .key_message .faq {
+        padding: 0;
+    }
+
+    .key_message .unique_c_item img {
+        max-width: 88px;
+    }
+}
+
+/* -- key messages end --  */
