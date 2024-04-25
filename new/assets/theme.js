@@ -1,6 +1,7 @@
 /* 
 * Common JS Start
 */
+
 var TwaSettingsSwiper = {
     init: function () {
         this.TwaSettingsCarousel();
@@ -200,7 +201,7 @@ window.addEventListener('load', function () {
 // =================================== js for same height ===============================
 $(function () {
     //setTimeout(function () {
-    $('.q_uses_header, .dfrc__hdr, .s_name, .result_item, .trust_item, .serum_bx, .bs_content, .skin_item, .safety_content, .mc_desc, .blog_wrap').matchHeight({
+    $('.q_uses_header, .dfrc__hdr, .s_name, .result_item, .trust_item, .serum_bx, .bs_content, .skin_item, .safety_content, .mc_desc, .blog_wrap, .see_item img').matchHeight({
         property: 'height',
         target: null,
         remove: false
@@ -243,10 +244,12 @@ risk.forEach((story) => {
     const button = story.querySelector(".risk__accordion");
     button.addEventListener("click", () => {
         const paragraph = story.querySelector(".risk__hidden-div");
+        const more_text = button.getAttribute("data-more") || "Read More..";
+        const less_text = button.getAttribute("data-less") || "Read Less..";
         paragraph.classList.toggle("hidden");
         const text = paragraph.classList.contains("hidden")
-            ? "Read More..."
-            : "Read Less...";
+            ? more_text
+            : less_text;
         button.textContent = text;
     });
 });
@@ -267,8 +270,8 @@ faq.forEach((story) => {
         const paragraph = story.querySelector(".faq__hidden-div");
         paragraph.classList.toggle("hidden");
         const text = paragraph.classList.contains("hidden")
-            ? "Show More Questions"
-            : "Hide More Questions";
+            ? story.querySelector(".faq_ques").getAttribute("data-show")
+            : story.querySelector(".faq_ques").getAttribute("data-hide");
         button.textContent = text;
     });
 });
@@ -290,7 +293,7 @@ accordionHeaders.forEach(header => {
 });
 
 // scroll to id
-$('a[href*="#"]:not([href="#"])').not('.faq-menu__url, .skincare_right a.popup-modal.ss_c_link, .popup-youtube, .ss_c_link').click(function () {
+$('a[href*="#"]:not([href="#"])').not('.faq-menu__url, .skincare_right a.popup-modal.ss_c_link, .popup-youtube, .ss_c_link, .collection-form .button_primary').click(function () {
     var target = $(this.hash);
     $('html,body').stop().animate({
         scrollTop: target.offset().top - 100
@@ -514,13 +517,13 @@ $(".hamburger-container").on("click", function () {
     }
 });
 
-$("#menu li > a").click(function () {
-    $('body').removeClass("openmenu");
-    bottomBar.removeClass("hidden");
-})
+// $("#menu li > a").click(function () {
+//     $('body').removeClass("openmenu");
+//     bottomBar.removeClass("hidden");
+// })
 
 
-// Tab Slider 
+// // Tab Slider 
 $(".tabing-new .tab .tablinks").each(function (e) {
     if (e != 0) $(this).hide();
 });
@@ -537,7 +540,10 @@ $(".tab_button .next-btn").click(function () {
     $(window).scrollTop($(".tabing-new").offset().top - 100); // Scroll to the top of the section
     return false;
 });
-
+$(".let_start").click(function () {
+    $(window).scrollTop($(".tabing-new").offset().top - 100); // Scroll to the top of the section
+    return false;
+});
 $(".tab_button .preview-btn").click(function () {
     var count = $(".tabing-new .tab .tablinks:visible").next().addClass('active');
 
@@ -686,93 +692,93 @@ $(window).scroll(function () {
     }
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+    // ============ qure video js ======
+    const parent = document.querySelector('body');
+    const specificChild = parent.querySelector('.player__video');
+    if (specificChild) {
+        const videoPlayers = document.querySelectorAll('.player');
 
-// ============ qure video js ======
-const parent = document.querySelector('body');
-const specificChild = parent.querySelector('.player__video');
-if (specificChild) {
-    const videoPlayers = document.querySelectorAll('.player');
+        videoPlayers.forEach(initVideoPlayer);
 
-    videoPlayers.forEach(initVideoPlayer);
+        function initVideoPlayer(player) {
+            const myVid = player.querySelector('video.player__video');
+            const controlPlay = player.querySelector('.player__button');
+            const controlVol = player.querySelector('.player__slider[name="volume"]');
+            const controlRate = player.querySelector('.player__slider[name="playbackRate"]');
+            const controlSkip = player.querySelectorAll('.player__button[data-skip]');
+            const controlFullScreen = player.querySelector('.player__fullscreen');
+            const controlProgress = player.querySelector('.progress');
+            const progressBar = controlProgress.querySelector('.progress__filled');
 
-    function initVideoPlayer(player) {
-        const myVid = player.querySelector('video.player__video');
-        const controlPlay = player.querySelector('.player__button');
-        const controlVol = player.querySelector('.player__slider[name="volume"]');
-        const controlRate = player.querySelector('.player__slider[name="playbackRate"]');
-        const controlSkip = player.querySelectorAll('.player__button[data-skip]');
-        const controlFullScreen = player.querySelector('.player__fullscreen');
-        const controlProgress = player.querySelector('.progress');
-        const progressBar = controlProgress.querySelector('.progress__filled');
+            let drag;
+            let grap;
+            let progression;
 
-        let drag;
-        let grap;
-        let progression;
+            myVid.addEventListener('click', toggleVideo);
+            controlPlay.addEventListener('click', toggleVideo);
+            controlVol.addEventListener('change', updateVol);
+            controlRate.addEventListener('change', updateRate);
+            controlFullScreen.addEventListener('click', goFullScreen);
+            controlSkip.forEach(control => control.addEventListener('click', forward));
+            controlProgress.addEventListener('mouseover', () => { drag = true });
+            controlProgress.addEventListener('mouseout', () => { drag = false; grap = false });
+            controlProgress.addEventListener('mousedown', () => { grap = drag });
+            controlProgress.addEventListener('mouseup', () => { grap = false });
+            controlProgress.addEventListener('click', updateCurrentPos);
+            controlProgress.addEventListener('mousemove', e => { if (drag && grap) { updateCurrentPos(e) } });
 
-        myVid.addEventListener('click', toggleVideo);
-        controlPlay.addEventListener('click', toggleVideo);
-        controlVol.addEventListener('change', updateVol);
-        controlRate.addEventListener('change', updateRate);
-        controlFullScreen.addEventListener('click', goFullScreen);
-        controlSkip.forEach(control => control.addEventListener('click', forward));
-        controlProgress.addEventListener('mouseover', () => { drag = true });
-        controlProgress.addEventListener('mouseout', () => { drag = false; grap = false });
-        controlProgress.addEventListener('mousedown', () => { grap = drag });
-        controlProgress.addEventListener('mouseup', () => { grap = false });
-        controlProgress.addEventListener('click', updateCurrentPos);
-        controlProgress.addEventListener('mousemove', e => { if (drag && grap) { updateCurrentPos(e) } });
+            function toggleVideo() {
+                if (myVid.paused) {
+                    myVid.play();
+                    controlPlay.innerHTML = "❚ ❚";
+                    updateProgress();
+                    progression = window.setInterval(updateProgress, 200);
+                    myVid.closest(".player").classList.add("video_playing");
+                } else {
+                    myVid.pause();
+                    controlPlay.innerHTML = "ttt";
+                    //controlPlay.innerHTML = '<img src="assets/images/common/plus.png" alt="">';
+                    clearInterval(progression);
+                    myVid.closest(".player").classList.remove("video_playing");
+                }
+            }
 
-        function toggleVideo() {
-            if (myVid.paused) {
-                myVid.play();
-                controlPlay.innerHTML = "❚ ❚";
-                updateProgress();
-                progression = window.setInterval(updateProgress, 200);
-                myVid.closest(".player").classList.add("video_playing");
-            } else {
-                myVid.pause();
-                controlPlay.innerHTML = "ttt";
-                //controlPlay.innerHTML = '<img src="assets/images/common/plus.png" alt="">';
-                clearInterval(progression);
-                myVid.closest(".player").classList.remove("video_playing");
+            function updateVol() {
+                const volume = controlVol.value;
+                myVid.volume = volume;
+            }
+
+            function updateRate() {
+                const rate = controlRate.value;
+                myVid.playbackRate = rate;
+            }
+
+            function goFullScreen() {
+                if (myVid.webkitSupportsFullscreen) {
+                    myVid.webkitEnterFullScreen();
+                }
+            }
+
+            function forward() {
+                const value = Number(this.dataset.skip);
+                myVid.currentTime = myVid.currentTime + value;
+            }
+
+            function updateProgress() {
+                const progress = myVid.currentTime / myVid.duration;
+                progressBar.style.flexBasis = `${Math.floor(progress * 1000) / 10}%`;
+            }
+
+            function updateCurrentPos(e) {
+                const newProgress = (e.clientX - controlProgress.offsetLeft) / controlProgress.clientWidth;
+                progressBar.style.flexBasis = `${Math.floor(newProgress * 1000) / 10}%`;
+                myVid.currentTime = newProgress * myVid.duration;
             }
         }
 
-        function updateVol() {
-            const volume = controlVol.value;
-            myVid.volume = volume;
-        }
-
-        function updateRate() {
-            const rate = controlRate.value;
-            myVid.playbackRate = rate;
-        }
-
-        function goFullScreen() {
-            if (myVid.webkitSupportsFullscreen) {
-                myVid.webkitEnterFullScreen();
-            }
-        }
-
-        function forward() {
-            const value = Number(this.dataset.skip);
-            myVid.currentTime = myVid.currentTime + value;
-        }
-
-        function updateProgress() {
-            const progress = myVid.currentTime / myVid.duration;
-            progressBar.style.flexBasis = `${Math.floor(progress * 1000) / 10}%`;
-        }
-
-        function updateCurrentPos(e) {
-            const newProgress = (e.clientX - controlProgress.offsetLeft) / controlProgress.clientWidth;
-            progressBar.style.flexBasis = `${Math.floor(newProgress * 1000) / 10}%`;
-            myVid.currentTime = newProgress * myVid.duration;
-        }
     }
-
-}
-
+});
 setInterval(function () {
     var bnrImage = $('.banner-popup-link img');
     $.each(bnrImage, function (index, bnrImageHeight) {
@@ -806,6 +812,30 @@ $('.subscriptionType').click(function () {
 /*
 * See Slider with 3 slides Start 
 */
+// var swiper = new Swiper(".see_slider3", {
+//     slidesPerView: 1,
+//     spaceBetween: 20,
+//     autoplay: false,
+//     pagination: {
+//         el: ".swiper-pagination",
+//         clickable: true,
+//         renderBullet: function (index, className) {
+//             return '<span class="' + className + '"><span class="pg_counter counter_title">STEP</span><span class="pg_counter counter_dot"></span>' + '<span class="pg_counter  counter_block">0' + (index + 1) + "</span></span>";
+//         },
+//     },
+//     breakpoints: {
+//         556: {
+//             slidesPerView: 1,
+
+//         },
+//         768: {
+//             slidesPerView: 2,
+//         },
+//         1024: {
+//             slidesPerView: 3,
+//         },
+//     },
+// });
 var swiper = new Swiper(".see_slider3", {
     slidesPerView: 1,
     spaceBetween: 20,
@@ -814,7 +844,8 @@ var swiper = new Swiper(".see_slider3", {
         el: ".swiper-pagination",
         clickable: true,
         renderBullet: function (index, className) {
-            return '<span class="' + className + '"><span class="pg_counter counter_title">STEP</span><span class="pg_counter counter_dot"></span>' + '<span class="pg_counter  counter_block">0' + (index + 1) + "</span></span>";
+            var title = $('.step_slider').data('counter-title') || 'STEP'; // Get title from data attribute of .step_slider or default to 'STEP'
+            return '<span class="' + className + '"><span class="pg_counter counter_title">' + title + '</span><span class="pg_counter counter_dot"></span>' + '<span class="pg_counter  counter_block">0' + (index + 1) + "</span></span>";
         },
     },
     breakpoints: {
@@ -830,6 +861,8 @@ var swiper = new Swiper(".see_slider3", {
         },
     },
 });
+
+
 /*
 * See Slider with 3 slides Start 
 */
@@ -1278,7 +1311,7 @@ $('.faq-menu__item a[href*="#"]').click(function (e) {
     e.preventDefault()
     console.log("click11")
     var el = $(this),
-        target = el.attr('href'),
+        target = el.attr('href').substring(el.attr('href').indexOf("#")),
         indiTarget = $('[data-id="' + target + '"]');
     $(target).add(indiTarget).addClass('active').siblings().removeClass('active');
 });
@@ -1395,3 +1428,31 @@ document.addEventListener('DOMContentLoaded', function () {
 /*
 * gift card js end
 */
+
+var initMicro = false;
+var swiperMicro;
+function swiperMicro() {
+    if (window.innerWidth <= 767) {
+        if (!initMicro) {
+            initMicro = true;
+            swiperMicro = new Swiper(".mobile_micro-slider", {
+                slidesPerView: "1",
+                // autoplay: {
+                //   delay: 2000,
+                //   disableOnInteraction: false,
+                // },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+        }
+    } else if (initMicro) {
+        swiperMicro.destroy();
+        initMicro = false;
+    }
+}
+swiperMicro();
+window.addEventListener("resize", swiperMicro);
+
+

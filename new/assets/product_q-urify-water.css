@@ -44,7 +44,7 @@
 
 .skin_hydration_grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 490px 1fr;
     gap: 70px;
     align-items: center;
 }
@@ -102,6 +102,24 @@
     font-weight: 400;
 }
 
+.it_info .header {
+    margin-top: -14px;
+}
+
+.qurify_water .newside_list ul li p {
+    font-weight: 400;
+}
+
+.qurify_water .cp_item {
+    max-width: 156px;
+}
+
+.qurify_water .cp_ftr_wrapper {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+}
+
 @media(max-width:768px) {
     .free_grid {
         grid-template-columns: 1fr;
@@ -134,10 +152,10 @@
     .mi_landing_result .result_item_info {
         padding-top: 10px;
     }
-
+/* 
     .qurify_water .technology_light {
         padding-top: 0px;
-    }
+    } */
 
     .qurify_water .see_item_info p {
         font-size: 12px;
@@ -170,7 +188,6 @@
     .qurify_water .newside_list ul li p {
         font-size: 13px;
         line-height: 22px;
-        font-weight: 400;
     }
 
     .qurify_water .new_side .header {
@@ -197,4 +214,21 @@
         align-items: center;
         display: flex;
     }
+
+    .it_info .header {
+        margin-top: 0px;
+    }
+
+    .qurify_water .cp_ftr_wrapper {
+        flex-direction: column;
+        text-align: left;
+        gap: 20px;
+    }
+
+    .qurify_water .cp_item {
+        max-width: 100%;
+        display: flex;
+        gap: 20px;
+    }
+
 }

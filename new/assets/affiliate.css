@@ -9,6 +9,10 @@
     margin-right: 20px;
 }
 
+.j_icon img {
+    max-width: 90px;
+}
+
 .join_bl .j_desc h6 {
     font-size: 16px;
     line-height: 24px;
@@ -50,6 +54,12 @@
 
 .social_media .sm_item {
     position: relative;
+}
+
+.social_media .instagram_slider1.swiper-grid>.swiper-wrapper {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
 }
 
 .insta_img {
@@ -121,6 +131,9 @@
         line-height: 25px;
         font-weight: 500;
         text-align: left;
+    }
+    .social_media .instagram_slider1{
+        overflow: unset;
     }
 }
 

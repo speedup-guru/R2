@@ -1,0 +1,222 @@
+/* ======= mi-patches-pdf start ======== */
+.mi-patches-pdf .bs_item h4 {
+    word-break: normal;
+}
+
+.mi-patches-pdf .skincare_right {
+    padding: 0px 0px 0px 40px;
+}
+
+.mi-patches-pdf .accordion-button::after {
+    filter: grayscale(1);
+}
+
+.mi-patches-pdf .bs_content {
+    border-bottom: 1px solid #EDE7DD;
+}
+
+.mi-patches-pdf .beauty_skincare .bs_item h4 {
+    border-bottom: none;
+}
+
+.mi-patches-pdf .result_c_info .star_gp p {
+    font-size: 13px;
+}
+
+.mi-patches-pdf .r_c_info {
+    padding: 15px 0px;
+}
+
+.mi-patches-pdf .skin_item,
+.mi-patches-pdf .skincare_left {
+    box-shadow: none;
+    border: none;
+    background: none;
+}
+
+.mi-patches-pdf .accordionTechnologyWrapper>#accordionTechnology {
+    grid-template-columns: 1fr;
+}
+
+.mi-patches-pdf .accordionTechnologyWrapper p {
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.13px;
+}
+
+.combat_slider {
+    overflow: unset;
+}
+
+.patches_tech_grid {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    align-items: center;
+    gap: 20px;
+}
+
+.patches_tech_grid .patches_tech_item {
+    max-width: 284px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.patches_tech_img img {
+    max-width: 193px;
+}
+
+.patches_tech_item .patches_tech_content {
+    font-size: 13px;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.patches_tech_plus {
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.patches_tech_item .patches_tech_content h6 {
+    font-weight: 600;
+}
+
+.patches_ingredients .pi_header {
+    position: relative;
+}
+
+.patches_ingredients .accordion-item {
+    max-width: 380px;
+    margin-bottom: 20px;
+}
+
+.patches_ingredients .pi_header {
+    position: relative;
+}
+
+.patches_ingredients .pi_heading {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.patches_ingredients .skincare_right .accordion-body p {
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.14px;
+}
+
+.patches_ingredients .pi-item .accordion-button::after {
+    position: absolute;
+    right: 10px;
+    bottom: 23px;
+}
+
+.patches_ingredients .skincare_right .accordion-button {
+    /* padding: 0; */
+}
+
+.patches_ingredients .skincare_right {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.patches_ingredients .accordion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.patches_ingredients .skincare_right .accordion-item {
+    border: none;
+}
+
+.patches_ingredients .u_item_question {
+    border-radius: 15px !important;
+}
+
+.mi-patches-pdf .bs_item {
+    max-width: 470px;
+}
+
+@media (max-width: 991px) {
+    .skincaree {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .mi-patches-pdf .rightCircle {
+        width: 100%;
+    }
+
+    .mi-patches-pdf .r_c_info .c_information p {
+        font-size: 10px;
+    }
+
+    .mi-patches-pdf .refill_info .refill_review .star_gp img {
+        max-width: 93px;
+    }
+
+    .mi-patches-pdf .refill_bl.tabSlider .refill_info .section_header .title-xl {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    .mi-patches-pdf .skincare_right {
+        padding: 10px;
+    }
+
+    .mi-patches-pdf .beauty_skincare .bs_item h4 {
+        max-width: 146px;
+        margin: 0 auto;
+    }
+
+    .patches_tech_grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skincaree {
+        gap: 20px;
+    }
+
+    .skincaree p {
+        padding: 15px;
+        padding-bottom: 0;
+    }
+
+    .skincaree .accordionTechnologyWrapper .accordion-body {
+        padding: 0;
+        padding-bottom: 15px !important
+    }
+
+    .patches_ingredients .accordion {
+        display: block;
+    }
+
+    .patches_ingredients .skincare_right .accordion-body p {
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 0.14px;
+    }
+
+    .patches_ingredients .accordion-item {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 575px) {
+    .skincaree_main {
+        gap: 20px;
+    }
+
+    .patches_tech_grid .patches_tech_img img {
+        max-width: 120px;
+    }
+}
+
+/* ======= mi-patches-pdf end ======== */

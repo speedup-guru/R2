@@ -1,0 +1,99 @@
+.top_heading span.new_btn {
+    background: #C7E7DC;
+    padding: 0px 13px;
+    border-radius: 30px;
+    color: #000;
+    font-size: 18px;
+    line-height: 15px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.top_heading {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.homepage .main_banner .main_b_wrapper .m_b_content {
+    max-width: 544px;
+}
+
+.homepage .main_banner .main_b_wrapper .m_b_content .title-xl {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 57.4px;
+    letter-spacing: 0.45px;
+    max-width: 470px;
+    margin: 16px 0 20px 0;
+    padding-bottom: 0;
+}
+
+.btn_black {
+    background-color: #000;
+    color: #fff;
+    padding: 11px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    letter-spacing: 0.167px;
+    font-size: 20px;
+}
+
+.homepage .main_banner .main_b_wrapper .m_b_content p {
+    padding: 0 0 40px 0 !important;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.homepage .main_banner .main_b_wrapper .m_b_content p span {
+    font-weight: 400;
+}
+
+@media(max-width:767px) {
+    .homepage .main_banner .main_b_wrapper .m_b_content {
+        color: #fff;
+        padding-top: 20px;
+        margin: 0 auto;
+    }
+
+    .top_heading,
+    .top_heading span.new_btn {
+        font-size: 11px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .homepage .main_banner .main_b_wrapper .m_b_content .title-xl {
+        font-size: 40px;
+        line-height: 40px;
+        margin: 9px 0;
+        text-align: center;
+        color: #000;
+        padding-bottom: 0;
+        max-width: unset;
+    }
+
+    .homepage .main_banner .main_b_wrapper .m_b_content p {
+        color: #000;
+        text-align: center;
+        padding-bottom: 23px !important;
+        font-size: 14px;
+    }
+
+    .homepage .main_banner .main_b_wrapper .m_b_content p span {
+        font-weight: 600;
+    }
+
+    .btn_black {
+        font-size: 16px;
+        line-height: 15px;
+    }
+
+    .main_banner .main_b_wrapper {
+        align-items: start;
+        bottom: 35px;
+        text-align: center;
+    }
+
+}

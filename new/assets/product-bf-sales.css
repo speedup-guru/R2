@@ -251,22 +251,22 @@
 /* Grid */
 .bf-bundles__items-wrapper {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 24px 85px;
-    max-width: 986px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px 16px;
     margin: 0 auto;
     margin-top: 50px;
 }
 
 .bf-bundles__items-wrapper .bf-bundles__item {
     background-color: #fff;
-    box-shadow: 0px 0px 13px 0px rgba(176, 176, 176, 0.25);
+    /* box-shadow: 0px 0px 13px 0px rgba(176, 176, 176, 0.25); */
     border-radius: 8px;
     overflow: hidden;
+    box-shadow: 0px 0px 4px 0px rgba(12, 12, 12, 0.25);
 }
 
 .bf-bundles__content {
-    padding: 10px 20px;
+    padding: 10px 15px;
     display: grid;
 }
 
@@ -297,12 +297,12 @@
 
 .bf-bundles__content .bf-bundles__item-title h4 {
     font-family: 'Canela Light';
-    font-size: 28px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 300;
     line-height: 32px;
     letter-spacing: 0.28px;
-    margin: 10px 0;
+    /* margin: 10px 0; */
     opacity: 0.8;
     min-height: 54px;
 }
@@ -364,10 +364,10 @@
 .bf-bundles__item-before {
     text-decoration-line: line-through;
     color: #C4C4C4;
-    font-size: 38px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    line-height: 44.442px;
+    line-height: 20px;
     letter-spacing: 0.38px;
 }
 
@@ -383,7 +383,7 @@
 
 .bf-bundles__item-save {
     text-transform: uppercase;
-    padding: 1px 9px;
+    padding: 0px 9px;
     background: #008763;
     border-radius: 20px;
     display: flex;
@@ -393,10 +393,10 @@
     color: #FFF;
     text-align: center;
     font-family: Poppins;
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 300;
-    line-height: 23px;
+    line-height: 18px;
 }
 
 .bf-bundles__item-save span {
@@ -493,12 +493,12 @@
 
 .bf-bundles__pplChoice {
     position: absolute;
-    bottom: 0;
-    left: 32px;
-    padding: 2.387px 11.937px;
+    top: 0;
+    right: 0;
+    padding: 3px 11.937px;
     text-align: center;
     color: #fff;
-    border-radius: 15.707px 15.707px 0px 0px;
+    border-radius: 8px;
     background: #000;
     font-family: Poppins;
     font-size: 11.937px;
@@ -693,8 +693,8 @@
 }
 
 .bf-bundles-section.bf_with_slider .bf-bundles__item-after {
-    font-size: 31px;
-    line-height: 45px;
+    font-size: 20px;
+    line-height: 20px;
     font-weight: 600;
     color: #C92127;
 }
@@ -746,9 +746,14 @@
 }
 
 .bf-bundles-section.bf_with_slider .swiper.dot_pagination .swiper-pagination {
-    position: relative;
-    bottom: 0px;
-    padding-top: 10px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.bf-bundles-section.bf_with_slider .swiper.dot_pagination .swiper-pagination-bullet {
+    margin: 0 6px !important;
+    height: 10px;
+    width: 10px;
 }
 
 .bf-bundles-section.bf_with_slider .sale-bf-img {
@@ -870,7 +875,7 @@
 }
 
 .bf_with_slider .bf-bundles__item-included-wrapper .bf-bundles__item-included {
-    padding: 9px 10px 9px 0;
+    padding: 9px 10px 0px 0;
 }
 
 .bf_with_slider .bf-bundles__item-price-wrapper {
@@ -879,10 +884,31 @@
 
 .bf-bundles__content .payment_method {
     padding: 5px 0;
+    margin: 0 -9px;
 }
 
 .sale-bf-bgImg {
     position: relative;
+}
+
+.bf_sale .payment_method .pmt_img {
+    display: flex;
+}
+
+.bf_sale .payment_method p {
+    font-size: 10px;
+}
+
+@media(min-width:1199px) {
+    .payment_method {
+        display: -webkit-inline-box;
+    }
+}
+
+@media(max-width:1199px) and (min-width:767px) {
+    .bf-bundles__items-wrapper {
+        grid-template-columns: repeat(2, 1fr)
+    }
 }
 
 @media(max-width:767px) {
@@ -977,7 +1003,7 @@
         top: 6px;
     }
 
-    .sale-bf-img img {
+    .sale-bf-img>img {
         min-height: 292px;
         object-fit: cover;
         width: 100%;
@@ -1003,6 +1029,22 @@
 
     .bf-bundles-section.bf_with_slider .bf-buy-button .bf_btn_text img {
         right: 15px;
+    }
+
+    .bf-bundles-section.bf_with_slider .swiper.dot_pagination .swiper-pagination {
+        position: relative;
+        bottom: 0;
+        padding-top: 10px;
+    }
+
+    .bf-bundles__pplChoice {
+        bottom: 0;
+        top: auto;
+        border-radius: 15.71px 15.71px 0 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        padding: 4px 11.937px;
     }
 }
 
@@ -1494,6 +1536,14 @@
     min-height: 100%;
 }
 
+.cycle_img {
+    text-align: center;
+}
+
+.cycle_img img {
+    max-height: 76px;
+}
+
 @media(max-width:767px) {
     .bfBundle__bannerBlock {
         text-align: center;
@@ -1615,3 +1665,94 @@
 }
 
 /* ========================== bundle banner slider end ========================== */
+.doctorly_rec img {
+    max-width: 79px;
+    border: 5px solid #c9e7dd;
+    border-radius: 50%;
+    filter: drop-shadow(0px 0.477px 5.724px rgba(0, 0, 0, 0.30));
+    background: #f0f4f7;
+    z-index: 9;
+}
+
+.doctorly_rec {
+    position: absolute;
+    top: 12px;
+    right: -10px;
+    display: flex;
+    align-items: center;
+}
+
+.doctorly_text {
+    background: #000;
+    height: fit-content;
+    padding: 7px 18px;
+    border-radius: 0 30px 30px 0;
+    transform: translateX(-18px);
+}
+
+.doctorly_text p {
+    font-size: 15.164px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14.955px;
+    letter-spacing: 0.152px;
+    color: #fff;
+    padding-left: 7px;
+}
+
+.doctorly_text p>span {
+    font-size: 9.146px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 13.56px;
+    letter-spacing: 0.091px;
+}
+
+.doctorly_rec.mothers_day_bundle {
+    left: 10px;
+}
+
+.mothers_day_bundle p {
+    font-size: 9.548px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 13.845px;
+    letter-spacing: 0.477px;
+    color: #000;
+}
+
+.mothers_day_bundle p>span {
+    font-weight: 400;
+}
+
+.mothers_day_bundle .doctorly_text {
+    background: #C7E7DC;
+}
+
+@media(max-width:767px) {
+    .doctorly_rec img {
+        max-width: 63px;
+        height: unset;
+        min-height: unset;
+    }
+
+    .doctorly_text {
+        background: #000;
+        height: fit-content;
+        padding: 7px 18px;
+        border-radius: 0 30px 30px 0;
+        transform: translateX(-18px);
+    }
+
+    .doctorly_text p {
+        font-size: 12.164px;
+    }
+
+    .doctorly_text p>span {
+        font-size: 7.146px;
+    }
+
+    .mothers_day_bundle p {
+        font-size: 9.548px;
+    }
+}

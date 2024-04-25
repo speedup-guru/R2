@@ -415,6 +415,7 @@
     line-height: 26px;
     font-weight: 400;
     text-align: center !important;
+    font-size: 14px !important;
 }
 
 .q-urify_safety .tabing-new .tab_con h2 {
@@ -685,7 +686,7 @@
     max-width: 1180px;
 }
 
-.contents .contents-title {
+.contents-title {
     font-family: 'Canela Light';
     font-style: normal;
     font-weight: 300;
@@ -763,6 +764,10 @@
 
 .tabing-new .tabcontent {
     display: none;
+}
+
+.tabing-new .tabcontent.active {
+    display: block;
 }
 
 /*  */
@@ -1418,7 +1423,7 @@
     color: #000c;
     padding: 8px 20px;
     display: block;
-    width: 65px;
+    width: fit-content;
 }
 
 .micro_tips p {
@@ -1718,11 +1723,15 @@
 
 .tab_button {
     width: 996px;
-    margin: 28px auto 0;
+    /* margin: 28px auto 0; */
     text-align: right;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    /* padding: 30px 0; */
+    margin: 28px auto;
+    z-index: 9;
+    position: relative;
 }
 
 .tab_button a.next-btn.lets_started {
@@ -1859,7 +1868,7 @@
 }
 
 @media(max-width:991px) {
-    .contents .contents-title {
+    .contents-title {
         font-size: 28px;
         line-height: 40px;
     }
@@ -2467,3 +2476,409 @@
 }
 
 /* ================================= tab view end =================================== */
+/* ==== led guide start ===== */
+.q-urify_safety.led_guide .contents-info .tab ul {
+    column-count: 1;
+}
+
+.q-urify_safety.led_guide .guide_links {
+    background-color: #f9f9f9;
+}
+
+.q-urify_safety.led_guide .guide_content,
+.q-urify_safety.led_guide .guide_links {
+    padding-left: 100px;
+}
+
+.q-urify_safety.led_guide .instruction_manual p {
+    padding-bottom: 20px;
+}
+
+.q-urify_safety.led_guide .instruction_manual ul {
+    padding: 20px 0 20px 20px;
+}
+
+.q-urify_safety.led_guide .instruction_manual ul li {
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+    list-style-type: disc;
+    color: #000c;
+    padding-left: 20px;
+    position: relative;
+    list-style-type: none;
+    opacity: 0.8;
+}
+
+.q-urify_safety.led_guide .instruction_manual ul li:after {
+    content: '';
+    height: 5px;
+    width: 5px;
+    left: 0;
+    background: #000c;
+    position: absolute;
+    top: 9px;
+    border-radius: 50%;
+}
+
+.q-urify_safety.led_guide .see_more {
+    padding: 15px 20px;
+    border-radius: 30px;
+}
+
+.q-urify_safety.led_guide .contents-info .tablinks {
+    display: inline-block !important;
+}
+
+.q-urify_safety.led_guide .tab_button a.next-btn.lets_started {
+    width: fit-content;
+    padding: 15px 20px;
+}
+
+.q-urify_safety.led_guide .instruction {
+    padding: 100px 0;
+    max-width: 1116px;
+    margin: 0 auto;
+}
+
+.q-urify_safety.led_guide #introduction[style="display: block;"]~.tab_button {
+    margin: 0;
+}
+
+.q-urify_safety.led_guide #introduction[style="display:block;"]~.tab_button {
+    margin: 0;
+}
+
+#introduction[style="display: block;"]~.steps_by_steps {
+    display: none;
+}
+
+.tab_button a.rounded_btn {
+    border-radius: 50%;
+    width: 54px;
+    height: 54px;
+    border: 1.22795px solid #DBDBDB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 19.44px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: .324px;
+    color: #000;
+    margin-right: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    background: #fff;
+}
+
+.q-urify_safety.led_guide #Tokyo_5[style="display: block;"]~.tab_button a.next-btn {
+    display: none;
+}
+
+a.preview-btn+.first__box {
+    display: none;
+}
+
+a.preview-btn.hide+.first__box {
+    display: flex;
+}
+
+.preview-btn.showLast+.first__box {
+    display: flex;
+    width: 156px;
+    border-radius: 30px;
+    color: #8f8f8f;
+}
+
+.preview-btn.showLast {
+    order: 2;
+}
+
+.showLast img {
+    filter: invert(1);
+    margin-right: 5px;
+}
+
+.first__box .icon2 {
+    display: none;
+}
+
+.preview-btn.showLast+.first__box .icon2 {
+    display: block !important;
+}
+
+.preview-btn.showLast+.first__box img {
+    filter: opacity(0.5);
+}
+
+.showLast {
+    background-color: #000000 !important;
+    border-radius: 30px !important;
+    width: 141px !important;
+    color: #fff !important;
+}
+
+.showLast span {
+    display: block !important;
+}
+
+.preview-btn span {
+    display: none;
+}
+
+a.preview-btn.hide+.first__box span {
+    display: none;
+}
+
+.guide_progress_wrap {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    position: relative;
+    z-index: 9;
+}
+
+.progress_step a span {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000;
+    opacity: 0.5;
+}
+
+.progress_step.active a>span {
+    opacity: 1;
+}
+
+.guide_progress_wrap .progress_step.progress_setp_first {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-width: 2px 0 2px 2px;
+}
+
+.guide_progress_wrap .progress_step.progress_setp_last {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-width: 2px 2px 2px 0;
+    margin-left: 0;
+}
+
+.guide_progress_wrap .progress_step.progress_setp_first:after {
+    display: none;
+}
+
+.guide_progress_wrap .progress_step.progress_setp_last:before {
+    display: none;
+}
+
+.guide_progress_wrap .progress_step1 {
+    overflow: hidden;
+    margin-left: -17px;
+}
+
+.guide_progress_wrap .progress_step {
+    border-width: 2px 0;
+    position: relative;
+    display: block;
+    padding: 0.75em 0 0.75em 0.5em;
+    /* margin-left: 1.6em; */
+    margin-right: 1.6em;
+    letter-spacing: 0.5em;
+    text-decoration: center;
+    padding: 0.75em 1.25em 0.75em 1.95em;
+    border-color: #C7E7DC;
+    /* border-width: 2px; */
+    border-style: solid;
+    white-space: nowrap;
+    -webkit-transition: border-color 500ms ease, color 250ms ease;
+    -moz-transition: border-color 500ms ease, color 250ms ease;
+    -ms-transition: border-color 500ms ease, color 250ms ease;
+    -o-transition: border-color 500ms ease, color 250ms ease;
+    transition: border-color 500ms ease, color 250ms ease;
+
+}
+
+.guide_progress_wrap .progress_step:before {
+    content: "";
+    display: inline-block;
+    border-width: 0;
+    border-bottom-width: 2px;
+    border-right-width: 2px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    position: absolute;
+    top: -2px;
+    bottom: 0;
+    left: auto;
+    border-style: solid;
+    border-color: #C7E7DC;
+    -moz-transition: border-color 500ms ease;
+    -ms-transition: border-color 500ms ease;
+    -o-transition: border-color 500ms ease;
+    transition: border-color 500ms ease;
+    z-index: -9;
+    height: 52px;
+    width: 52px;
+    right: -14px;
+}
+
+.guide_progress_wrap .progress_step:after {
+    content: "";
+    display: inline-block;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    -webkit-transform-origin: 0% 100%;
+    -moz-transform-origin: 0% 100%;
+    -ms-transform-origin: 0% 100%;
+    -o-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+    position: absolute;
+    top: -50%;
+    bottom: 50%;
+    left: 1.7em;
+    right: 0;
+    border-color: #C7E7DC;
+    border-style: solid;
+    z-index: -9;
+}
+
+.guide_progress_wrap .progress_step.active {
+    background-color: #C7E7DC;
+    z-index: -99;
+}
+
+.guide_progress_wrap .progress_step.active:before {
+    background-color: #C7E7DC;
+}
+
+.guide_progress_wrap .progress_step.active:after {
+    background-color: #fff;
+    z-index: 99;
+}
+
+.mico_bullet {
+    display: grid;
+    grid-template-columns: 170px 1fr;
+}
+
+.shine_you h4.title-lg {
+    font-family: 'Canela Light';
+}
+
+.shine_you p {
+    font-size: 13px;
+}
+
+.progress__containerGroup {
+    margin-top: 50px;
+}
+
+.q-urify_safety.led_guide .tab_button {
+    margin: 28px auto 100px;
+    padding: 0 20px;
+}
+
+.q-urify_safety.led_guide .safety-banner .safety-banner-cnt {
+    align-items: end;
+}
+
+.led_guide .menu li {
+    padding-right: 21px;
+}
+
+.led_guide .menu {
+    width: 36.33%;
+}
+
+.led_guide .logo {
+    width: 30.33%;
+}
+
+.led_guide #introduction {
+    background: #F9F9F9;
+}
+
+@media(min-width:767px) {
+    .q-urify_safety.led_guide #introduction .tab_img_text .tab_text {
+        padding-left: 90px;
+    }
+}
+
+@media(max-width:767px) {
+    .q-urify_safety.led_guide .instruction {
+        padding: 50px 0;
+    }
+
+    .short_info {
+        padding-bottom: 30px;
+    }
+
+    .mico_bullet {
+        grid-template-columns: 1fr;
+    }
+
+    .q-urify_safety.led_guide .micro_step {
+        margin: 30px 0;
+    }
+
+    .tab_con {
+        padding: 0 20px;
+    }
+
+    .q-urify_safety.led_guide .instruction_manual ul li {
+        line-height: 24px;
+        font-size: 13px;
+    }
+
+    .guide_progress_wrap .progress_step {
+        padding: 2px 10px;
+        margin-right: 1.5em;
+
+    }
+
+    .progress_step a span {
+        font-size: 11px;
+        /* width: 40px; */
+        display: block;
+        padding-left: 8px;
+    }
+
+
+    .guide_progress_wrap .progress_step:after {
+        left: 1.59em;
+    }
+
+    .showLast {
+        margin-right: 0 !important;
+    }
+
+    .q-urify_safety.led_guide .tab_section_header p {
+        font-size: 13px !important;
+        text-align: center !important;
+    }
+
+    .guide_progress_wrap .progress_step:before {
+        right: -10px;
+        width: 60px;
+        height: 44px;
+    }
+
+    .guide_progress_wrap .progress_step:after {
+        left: 16px;
+
+    }
+}
+
+
+/* ==== led guide end ===== */

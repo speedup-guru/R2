@@ -183,7 +183,7 @@
 }
 
 .pt_item img {
-    max-width: 50px;
+    /* max-width: 50px; */
     height: 64px;
 }
 
@@ -491,7 +491,7 @@
 }
 
 /* =============================== announcement bar start ================== */
-.announcement_bar p {
+/* .announcement_bar p {
     font-size: 13px;
 }
 
@@ -520,7 +520,7 @@
         margin-left: 5px;
         font-size: 12px;
     }
-}
+} */
 
 /* =============================== announcement bar end ================== */
 /* ================================== homepage old start ================================ */

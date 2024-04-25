@@ -29787,6 +29787,10 @@ p {
     .py-86 {
         padding: 86px 0 !important;
     }
+
+    .md-bg-yellow {
+        background-color: var(--clr-yellow) !important;
+    }
 }
 
 
@@ -29937,7 +29941,7 @@ p {
     padding: 20px 40px;
     border-radius: 100px;
     font-size: 20px;
-    line-height: 20px;
+    line-height: 22px;
     max-width: 452px;
     width: 100%;
 }
@@ -29952,6 +29956,7 @@ p {
     border: none;
     outline: none;
     box-shadow: none;
+    background-color: #000;
 }
 
 .buy_btn img {
@@ -30133,7 +30138,7 @@ p {
 }
 
 .rounded-20 {
-    border-radius: 20px;
+    border-radius: 20px !important;
 }
 
 
@@ -30413,6 +30418,14 @@ p {
     max-width: 452px;
 }
 
+.mw-464 {
+    max-width: 464px !important;
+}
+
+.mw-476 {
+    max-width: 476px !important;
+}
+
 .mw-486 {
     max-width: 486px;
 }
@@ -30426,8 +30439,12 @@ p {
     max-width: 500px;
 }
 
+.mw-525 {
+    max-width: 525px;
+}
+
 .mw-546 {
-    max-width: 546px;
+    max-width: 546px !important;
 }
 
 .mw-590 {
@@ -30445,15 +30462,17 @@ p {
 
 .mw-680 {
     max-width: 680px;
-}
-
-.mw-970 {
-    max-width: 970px;
     margin: 0 auto;
 }
 
 .mw-736 {
     max-width: 736px !important;
+}
+
+
+.mw-750 {
+    max-width: 750px;
+    margin: 0 auto;
 }
 
 .mw-765 {
@@ -30469,15 +30488,16 @@ p {
     margin: 0 auto;
 }
 
-.mw-680 {
-    max-width: 680px;
+.mw-970 {
+    max-width: 970px;
+    margin: 0 auto;
+}
+.mw-1050 {
+    max-width: 1050px;
     margin: 0 auto;
 }
 
-.mw-750 {
-    max-width: 750px;
-    margin: 0 auto;
-}
+
 
 .bs_vs_item .bs_versace span {
     font-weight: 400;
@@ -30494,6 +30514,10 @@ p {
 
     .mw-mob-100 {
         margin: 0 -24px
+    }
+
+    .mw-mob-70 {
+        margin: 0 -10px
     }
 }
 
@@ -31491,7 +31515,7 @@ li.dropdown.mega-dropdown.new-menu ul.dropdown-menu-hp.mega-dropdown-menu.row {
         padding: 8px 25px;
         border: 1px solid #000;
         display: grid;
-        grid-template-columns: repeat(3, 90px);
+        grid-template-columns: repeat(3, 96px);
         justify-content: center;
     }
 
@@ -34433,11 +34457,17 @@ p.insurance__text--bottom {
     background: #fff;
 }
 
+.announcement_bar a:hover,
+.announcement_bar a:active,
+.announcement_bar a:focus {
+    color: unset;
+}
+
 .announcement_bar p {
-    font-size: 12px;
+    font-size: 13px;
     line-height: 19px;
     text-align: center;
-    padding: 8px 0;
+    padding: 4px 0;
     font-weight: 400;
 }
 
@@ -34472,7 +34502,7 @@ p.insurance__text--bottom {
 
 @media(max-width:767px) {
     .announcement_bar p {
-        font-size: 10px;
+        font-size: 13px;
         line-height: 15px;
         letter-spacing: 0.3px;
     }
@@ -34775,6 +34805,35 @@ picture img {
     margin-left: calc(var(--column-gap)/-2);
     margin-right: calc(var(--column-gap)/-2)
 }
+
+
+/* =========== affiliate_t_conditons start ============ */
+.affiliate_t_conditons ol {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.affiliate_t_conditons .subscriptions_content p strong {
+    font-size: 13px;
+}
+
+.affiliate_t_conditons .subscriptions_content p {
+    font-size: 12px;
+}
+
+.affiliate_t_conditons .cancel_section h6 {
+    margin-bottom: 20px;
+}
+
+.affiliate_t_conditons .subscriptions_content p:not(:last-child) {
+    margin-bottom: 20px !important;
+}
+
+.affiliate_t_conditons .cancel_section {
+    padding: 15px 0;
+}
+
+/* =========== affiliate_t_conditons end ============ */
 
 @media screen and (max-width:1279px) {
     .custom__grid {

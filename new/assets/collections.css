@@ -40,14 +40,26 @@
 .product-grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px 16px;
+    gap: 16px;
 }
 
 .productBlockGrid {
     border-radius: 8px;
     border: 1px solid rgba(0, 0, 0, 0.08);
-    padding: 12px;
     position: relative;
+    overflow: hidden;
+}
+
+.fixed_height_btn {
+    position: relative;
+    padding-bottom: var(--collectionBtnHeight);
+}
+
+.pdt_cln_bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .productBlockGrid .product-grid__image img {
@@ -135,8 +147,11 @@
     color: #000;
     text-align: left;
     margin-bottom: 10px;
-    padding-bottom: 10px;
-    /* border-bottom: 1px solid #EDE7DD; */
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .productBlockGrid .product-grid__price.abtest {
@@ -150,24 +165,20 @@
 }
 
 .productBlockGrid .product-grid__price.abtest .product-grid__sale-price {
-    order: 2;
-    color: #c92127;
-    margin-left: 6px;
+    color: #000;
 }
 
 .productBlockGrid .product-grid__price.abtest .product-grid__compare-price {
-    order: 1;
-    color: rgb(0 0 0 / 80%);
+    color: #C92127;
+    margin-left: 6px;
 }
 
 .productBlockGrid .collection-form {
-    position: static;
-    transform: none;
     margin-top: 15px;
-    /* display: flex; */
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    column-gap: 5px;
+    gap: 5px;
 }
 
 .productBlockGrid .collection-form .button_primary {
@@ -180,7 +191,6 @@
     text-align: center;
     letter-spacing: .2px;
     color: #fff;
-    /* min-width: 135px; */
     height: 38px;
     padding: 5px 20px;
     text-transform: capitalize;
@@ -194,22 +204,6 @@
     z-index: 2;
 }
 
-.productBlockGrid .collection-form .button_primary:before {
-    background-color: #42525e;
-    transition: .3s;
-    -webkit-transition: .3s;
-    position: absolute;
-    height: 100%;
-    width: 0;
-    left: 0;
-    top: 0;
-    content: "";
-    z-index: 1;
-}
-
-.productBlockGrid .collection-form .button_primary:hover:before {
-    width: 100%;
-}
 
 .productBlockGrid .collection-form a.collec-more {
     /* width: 130px; */
@@ -217,11 +211,10 @@
     border-radius: 100px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 38px;
+    line-height: 22px;
     text-align: center;
     letter-spacing: .2px;
     color: #000;
-    /* height: 38px; */
     padding: 7px 20px;
 }
 
@@ -403,10 +396,6 @@ html.filterActive {
         gap: 15px 15px;
     }
 
-    .productBlockGrid .collection-form {
-        display: block;
-    }
-
     .productBlockGrid .collection-form .button_primary {
         width: 100%;
         font-size: 16px;
@@ -416,10 +405,7 @@ html.filterActive {
     }
 
     .productBlockGrid .collection-form a.collec-more {
-        /* width: 100%; */
         display: block;
-        /* height: 35px; */
-        margin-top: 6px;
         font-size: 16px;
         line-height: 20px;
         font-weight: 500;
@@ -431,16 +417,8 @@ html.filterActive {
         height: 18px;
     }
 
-    .productBlockGrid .collection-description {
-        display: none;
-    }
-
     .collectionAccordion {
         display: none;
-    }
-
-    .productBlockGrid {
-        background: linear-gradient(360deg, #FFFAF1 0%, #FFFFFF 37.55%);
     }
 }
 
@@ -452,12 +430,10 @@ html.filterActive {
         margin-left: 5px;
     }
 
-    .productBlockGrid {
-        padding: 2px 7px 10px 7px;
-    }
-
     .productBlockGrid .cus-tag {
-        top: 2px
+        top: 6px;
+        left: 13px;
+        right: auto;
     }
 
     .productBlockGrid .cus-tag .cus-save,
@@ -539,13 +515,6 @@ html.filterActive {
         font-size: 12px;
     }
 
-    /* .col-filter,
-    .collectio-banner img,
-    .collection-icon .br-banner-icons-wrapper .br-banner-icons__item:nth-child(3) .br-banner-icons__item-text br,
-    .cus-shorting label,
-    facet-filters-form.facets.small-hide {
-        display: none;
-    } */
     .r_c_info .c_information p {
         font-size: 10px;
     }
@@ -629,6 +598,7 @@ html.filterActive {
 
 .collection_page .filter_sort_wrap .offcanvas-bottom {
     border-radius: 15px 15px 0 0;
+    height: fit-content;
 }
 
 
@@ -678,10 +648,137 @@ html.filterActive {
     border-top: none;
 }
 
-@media(max-width:767px) {
+.pdt_cln_info,
+.pdt_cln_bottom {
+    padding: 0 12px 12px;
+}
+
+.product_card_info {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.36px;
+}
+
+.product_card_userName {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.product_verified {
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 300;
+}
+
+.collection_card {
+    padding: 32px 12px;
+}
+
+.doctor_card h6 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    font-family: 'Canela Light';
+}
+
+.dr_profile {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.productVogue {
+    position: absolute;
+    bottom: 40px;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+
+.productVogue h5 {
+    font-size: 33px;
+    line-height: 39px;
+    font-family: 'Canela Web';
+}
+
+.productVogue .discover_btn {
+    color: #fff;
+    background: #000;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 16px;
+    display: inline-block;
+}
+
+@media(max-width:991px) {
+    .productBlockGrid .collection-form {
+        flex-direction: column;
+        align-items: unset;
+    }
+}
+
+@media(max-width:556px) {
     .collection_page .filter_sort_wrap .offcanvas-bottom {
-        /* height: calc(100vh - 85px); */
         height: fit-content;
+    }
+
+    .prdStar img {
+        max-height: 12px;
+    }
+
+    .pdt_cln_info,
+    .pdt_cln_bottom {
+        padding: 0 8px 8px;
+    }
+
+    .product_card_info {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .product_card_userName {
+        font-size: 10px;
+        line-height: 18px;
+        padding: 5px 0;
+    }
+
+    .col-product .product-grid__title {
+        line-height: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .collection_card {
+        padding: 12px 8px;
+    }
+
+    .doctor_card p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .dr_profile {
+        font-size: 10px;
+        line-height: 16px;
+        margin-top: 5px;
+    }
+
+    .productVogue {
+        padding: 0 6px;
+    }
+
+    .productBlockGrid img {
+        object-fit: cover;
+    }
+
+    .productVogue .discover_btn {
+        margin-top: 10px;
     }
 }
 

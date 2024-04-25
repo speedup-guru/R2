@@ -25,6 +25,7 @@
 .mi_landing .see_work .play_btn {
     right: 15px;
     justify-content: flex-end;
+    bottom: 0;
 }
 
 .mi_landing .main_banner .unique_c_list ul li {
@@ -161,6 +162,7 @@
 .mi_landing .main_banner .btn-lg,
 .mi_landing .clinical_grade .btn-lg {
     font-size: 22px;
+    line-height: 25px;
 }
 
 @media(min-width:767px) {
@@ -202,6 +204,8 @@
 
     .mi_landing .see_work .play_btn {
         justify-content: center;
+        max-width: fit-content;
+        margin: 0 auto;
     }
 
     .mb_contents {
