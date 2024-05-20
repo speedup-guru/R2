@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="60" viewBox="0 0 52 60" fill="none">
+  <g opacity="0.8">
+    <circle cx="25.5" cy="25" r="23.9286" stroke="black" stroke-width="2.14286"/>
+    <path d="M35.4121 20.0586L43.6803 22.9397" stroke="black" stroke-width="1.42857"/>
+    <path d="M40.9805 17.3643L38.0994 25.6325" stroke="black" stroke-width="1.42857"/>
+    <path d="M35.6074 23.4062L43.4912 19.597" stroke="black" stroke-width="1.42857"/>
+    <path d="M37.6484 17.5581L41.4577 25.4419" stroke="black" stroke-width="1.42857"/>
+    <path d="M36.373 18.4146L42.7121 24.4544" stroke="black" stroke-width="1.42857"/>
+    <path d="M42.5625 18.2651L36.5226 24.6042" stroke="black" stroke-width="1.42857"/>
+    <path d="M35.166 21.5474L43.9193 21.3358" stroke="black" stroke-width="1.42857"/>
+    <path d="M39.4375 17.064L39.649 25.8172" stroke="black" stroke-width="1.42857"/>
+    <circle cx="22.9249" cy="36.5559" r="2.77298" transform="rotate(19.2113 22.9249 36.5559)" fill="black"/>
+    <circle cx="22.0147" cy="17.5471" r="2.77298" transform="rotate(19.2113 22.0147 17.5471)" fill="black"/>
+    <circle cx="27.7448" cy="26.3945" r="1.84866" transform="rotate(19.2113 27.7448 26.3945)" fill="black"/>
+    <path d="M10.4434 24.2227L21.4978 28.0746" stroke="black" stroke-width="1.42857"/>
+    <path d="M17.8984 20.6206L14.0465 31.675" stroke="black" stroke-width="1.42857"/>
+    <path d="M10.7168 28.6978L21.2572 23.6049" stroke="black" stroke-width="1.42857"/>
+    <path d="M13.4434 20.8799L18.5362 31.4203" stroke="black" stroke-width="1.42857"/>
+    <path d="M11.7305 22.0239L20.2057 30.0991" stroke="black" stroke-width="1.42857"/>
+    <path d="M20.0059 21.8237L11.9307 30.2989" stroke="black" stroke-width="1.42857"/>
+    <path d="M10.1309 26.2139L21.8337 25.931" stroke="black" stroke-width="1.42857"/>
+    <path d="M15.8438 20.2197L16.1266 31.9226" stroke="black" stroke-width="1.42857"/>
+    <circle cx="15.9813" cy="26.0707" r="3.70286" transform="rotate(19.2113 15.9813 26.0707)" fill="white" stroke="black" stroke-width="1.42857"/>
+    <path d="M42.3389 8.80811L9.30859 41.8384" stroke="black" stroke-width="2.14286"/>
+  </g>
+</svg>

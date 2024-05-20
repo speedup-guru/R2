@@ -346,7 +346,7 @@
 .q-urify_safety .see_work .play_btn a span h6 {
     color: #fff;
     margin-bottom: 0;
-    margin-left: 10px;
+    margin-right: 10px;
     font-weight: 400;
 }
 
@@ -356,7 +356,8 @@
     border-radius: 30px;
     color: #fff;
     width: 100%;
-    max-width: 231px;
+    /* max-width: 231px; */
+    max-width: fit-content;
 }
 
 .q-urify_safety .video_popup .play_btn {
@@ -730,6 +731,11 @@
     column-gap: 22px;
 }
 
+.contents-info ul li span {
+    color: #000;
+    opacity: 0.8;
+}
+
 .contents-info ul li {
     font-family: Poppins;
     font-style: normal;
@@ -758,8 +764,9 @@
     letter-spacing: .3px;
     text-decoration-line: underline;
     margin-left: 0;
-    color: #000c !important;
+    color: #000 !important;
     text-align: left;
+    opacity: 0.8;
 }
 
 .tabing-new .tabcontent {
@@ -2495,7 +2502,7 @@
 }
 
 .q-urify_safety.led_guide .instruction_manual ul {
-    padding: 20px 0 20px 20px;
+    padding: 0px 0 20px 10px;
 }
 
 .q-urify_safety.led_guide .instruction_manual ul li {
@@ -2504,7 +2511,7 @@
     font-weight: 400;
     letter-spacing: 0.14px;
     list-style-type: disc;
-    color: #000c;
+    color: #000;
     padding-left: 20px;
     position: relative;
     list-style-type: none;
@@ -2516,10 +2523,11 @@
     height: 5px;
     width: 5px;
     left: 0;
-    background: #000c;
+    background: #000;
     position: absolute;
     top: 9px;
     border-radius: 50%;
+    opacity: 0.8;
 }
 
 .q-urify_safety.led_guide .see_more {
@@ -2657,6 +2665,7 @@ a.preview-btn.hide+.first__box span {
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     border-width: 2px 0 2px 2px;
+    margin-left: 1.7em;
 }
 
 .guide_progress_wrap .progress_step.progress_setp_last {
@@ -2664,6 +2673,7 @@ a.preview-btn.hide+.first__box span {
     border-bottom-right-radius: 30px;
     border-width: 2px 2px 2px 0;
     margin-left: 0;
+    margin-right: 1em;
 }
 
 .guide_progress_wrap .progress_step.progress_setp_first:after {
@@ -2809,6 +2819,35 @@ a.preview-btn.hide+.first__box span {
     background: #F9F9F9;
 }
 
+a.tablinks.see_more.active {
+    background-color: #000;
+}
+
+.short_info_wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.short_info {
+    padding: 15px 15px 28px;
+    border: 1px solid #DBDBDB;
+    border-radius: 20px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.q-urify_safety.led_guide .short_info .see_more span {
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.short_info .title-lg {
+    margin: 22px 0;
+}
+
 @media(min-width:767px) {
     .q-urify_safety.led_guide #introduction .tab_img_text .tab_text {
         padding-left: 90px;
@@ -2822,6 +2861,15 @@ a.preview-btn.hide+.first__box span {
 
     .short_info {
         padding-bottom: 30px;
+        border-radius: 8px;
+    }
+
+    .short_info .title-lg {
+        margin: 0 0 22px 0;
+    }
+
+    .short_info .see_work {
+        margin-bottom: 22px;
     }
 
     .mico_bullet {
@@ -2877,6 +2925,25 @@ a.preview-btn.hide+.first__box span {
     .guide_progress_wrap .progress_step:after {
         left: 16px;
 
+    }
+
+    .short_info_wrap {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
+
+    .q-urify_safety.led_guide .see_more {
+        padding: 10px 20px;
+        border-radius: 30px;
+    }
+
+    .q-urify_safety.led_guide .short_info .see_more span {
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .q-urify_safety.led_guide .instruction_manual ul {
+        padding: 0px 0 10px 10px;
     }
 }
 

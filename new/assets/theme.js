@@ -201,7 +201,7 @@ window.addEventListener('load', function () {
 // =================================== js for same height ===============================
 $(function () {
     //setTimeout(function () {
-    $('.q_uses_header, .dfrc__hdr, .s_name, .result_item, .trust_item, .serum_bx, .bs_content, .skin_item, .safety_content, .mc_desc, .blog_wrap, .see_item img').matchHeight({
+    $('.q_uses_header, .dfrc__hdr, .s_name, .result_item, .trust_item, .serum_bx, .bs_content, .skin_item, .safety_content, .mc_desc, .blog_wrap, .see_item img, .q_water_card').matchHeight({
         property: 'height',
         target: null,
         remove: false
@@ -420,50 +420,50 @@ $(document).ready(function () {
 });
 
 // Image PopUp Refill Banner
-document.addEventListener('DOMContentLoaded', function () {
-    const sourceImage = document.querySelectorAll('source.tab_img');
-    const images = document.querySelectorAll('img.tab_img');
-    let popupLink = Array.from(images);
-    popupLink.map((popupUrl) => {
-        popupUrl.addEventListener('click', function (event) {
-            event.preventDefault();
-            var dynamicImageUrl = popupUrl.src;
-            console.log(dynamicImageUrl);
-            $.magnificPopup.open({
-                type: 'image',
-                items: {
-                    src: dynamicImageUrl
-                }
-            });
-        });
-    });
-});
+// document.addEventListener('DOMContentLoaded', function () {
+//     const sourceImage = document.querySelectorAll('source.tab_img');
+//     const images = document.querySelectorAll('img.tab_img');
+//     let popupLink = Array.from(images);
+//     popupLink.map((popupUrl) => {
+//         popupUrl.addEventListener('click', function (event) {
+//             event.preventDefault();
+//             var dynamicImageUrl = popupUrl.src;
+//             console.log(dynamicImageUrl);
+//             $.magnificPopup.open({
+//                 type: 'image',
+//                 items: {
+//                     src: dynamicImageUrl
+//                 }
+//             });
+//         });
+//     });
+// });
 
-$(document).ready(function () {
-    var imageElement = document.getElementById('image-id');
-    if (imageElement) {
-        imageElement.addEventListener('click', function () {
-            var imageUrl = '';
-            var sources = this.getElementsByTagName('source');
-            for (var i = 0; i < sources.length; i++) {
-                if (window.matchMedia(sources[i].getAttribute('media')).matches) {
-                    imageUrl = sources[i].getAttribute('srcset');
-                    break;
-                }
-            }
-            if (!imageUrl) {
-                imageUrl = this.getElementsByTagName('img')[0].src;
-            }
+// $(document).ready(function () {
+//     var imageElement = document.getElementById('image-id');
+//     if (imageElement) {
+//         imageElement.addEventListener('click', function () {
+//             var imageUrl = '';
+//             var sources = this.getElementsByTagName('source');
+//             for (var i = 0; i < sources.length; i++) {
+//                 if (window.matchMedia(sources[i].getAttribute('media')).matches) {
+//                     imageUrl = sources[i].getAttribute('srcset');
+//                     break;
+//                 }
+//             }
+//             if (!imageUrl) {
+//                 imageUrl = this.getElementsByTagName('img')[0].src;
+//             }
 
-            $.magnificPopup.open({
-                items: {
-                    src: imageUrl
-                },
-                type: 'image'
-            });
-        });
-    }
-});
+//             $.magnificPopup.open({
+//                 items: {
+//                     src: imageUrl
+//                 },
+//                 type: 'image'
+//             });
+//         });
+//     }
+// });
 
 //Skin Slider Pop Up
 $(function () {
@@ -1455,4 +1455,72 @@ function swiperMicro() {
 swiperMicro();
 window.addEventListener("resize", swiperMicro);
 
+//rpelacing &nbsp with blank space
+var listItems = document.querySelectorAll('.ss_list li');
+listItems.forEach(function (item) {
+    if (item.innerHTML.includes('&nbsp;')) {
+        item.innerHTML = item.innerHTML.replace(/&nbsp;/g, ' ');
+    }
+});
 
+
+
+//  why should qurify your water start -- show more accordion
+
+if (window.matchMedia("(max-width: 767px)").matches) {
+    const qwCard = document.querySelectorAll(".qwCard_expandable");
+    qwCard.forEach((story) => {
+        const button = story.querySelector(".qwCard__accordion");
+        button.addEventListener("click", () => {
+            const paragraph = story.querySelector(".qwCard__hidden-div");
+            const more_text = button.getAttribute("data-more") || "Show More..";
+            const less_text = button.getAttribute("data-less") || "Show Less..";
+            paragraph.classList.toggle("hidden");
+            const text = paragraph.classList.contains("hidden")
+                ? more_text
+                : less_text;
+            button.textContent = text;
+        });
+    });
+}
+
+
+// affect your skin start
+const swiperAffect = new Swiper(".swiper-containerAffect", {
+    // loop: true,
+    slidesPerView: "2.5",
+    spaceBetween: 20,
+    breakpoints: {
+        300: {
+            slidesPerView: 1.1
+        },
+        600: {
+            slidesPerView: 2.5,
+            spaceBetween: 40,
+        }
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
+
+
+var initQWater = false;
+var swiperQWater;
+function swiperQWater() {
+    if (window.innerWidth >= 767) {
+        if (!initQWater) {
+            initQWater = true;
+            swiperQWater = new Swiper(".q_w_slider", {
+                slidesPerView: "3",
+                spaceBetween: 45
+            });
+        }
+    } else if (initQWater) {
+        swiperQWater.destroy();
+        initQWater = false;
+    }
+}
+swiperQWater();
+window.addEventListener("resize", swiperQWater);

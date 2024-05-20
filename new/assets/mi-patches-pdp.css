@@ -48,7 +48,9 @@
 .combat_slider {
     overflow: unset;
 }
-
+.combat_slider .swiper-wrapper{
+   justify-content: center;
+}
 .patches_tech_grid {
     display: grid;
     grid-template-columns: repeat(5, auto);

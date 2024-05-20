@@ -724,7 +724,7 @@
 .bf-bundles-section.bf_with_slider .bf-buy-button .bf_btn_text {
     position: absolute;
     top: 50%;
-    right: 0;
+    right: 10px;
     transform: translateY(-50%);
     width: var(--bgPercent);
     display: flex;
@@ -733,7 +733,7 @@
 }
 
 .bf-bundles-section.bf_with_slider .bf-buy-button .bf_btn_text img {
-    right: 20px;
+    right: 8px;
     position: absolute;
 }
 
@@ -1028,7 +1028,7 @@
     }
 
     .bf-bundles-section.bf_with_slider .bf-buy-button .bf_btn_text img {
-        right: 15px;
+        right: 5px;
     }
 
     .bf-bundles-section.bf_with_slider .swiper.dot_pagination .swiper-pagination {
@@ -1296,9 +1296,9 @@
     position: relative;
 }
 
-.bfBundle_bnr_hdr {
+/* .bfBundle_bnr_hdr {
     min-height: 105px;
-}
+} */
 
 .bfBundle__bannerImg img {
     width: 100%;
@@ -1324,19 +1324,18 @@
     letter-spacing: 0.6px;
     text-transform: capitalize;
     margin-bottom: 15px;
+    margin-top: 15px;
     position: relative;
-}
-
-.bfBundle__content .bfSub_heading {
-    font-size: 40px;
-    line-height: 48px;
-    margin: 0;
-    font-family: 'Canela light';
 }
 
 .bfBundle__content .bfSub_heading strong {
     font-family: 'Canela web';
     font-weight: normal;
+}
+
+.bfBundle__content .subHeading {
+    background: #fff;
+    color: #000;
 }
 
 .bfBundle__content .btn-bfBundle {
@@ -1350,7 +1349,7 @@
     font-size: 20px;
     letter-spacing: 0.22px;
     text-transform: capitalize;
-    margin-top: 45px;
+    margin-top: 35px;
     margin-bottom: 35px;
     position: relative;
     z-index: 9;
@@ -1407,7 +1406,7 @@
 
 .bundleCycle {
     margin-left: 22px;
-    min-height: 110px;
+    /* min-height: 110px; */
 }
 
 .bundleCycleSlider {
@@ -1547,7 +1546,7 @@
 @media(max-width:767px) {
     .bfBundle__bannerBlock {
         text-align: center;
-        position: relative;
+        /* position: relati.bf_sale .bundleCycleSlider .swiper-slide .cycle-slideve; */
     }
 
     .bfBundle__bannerBlock .bfBundle__banner_mobile {
@@ -1708,25 +1707,47 @@
     letter-spacing: 0.091px;
 }
 
-.doctorly_rec.mothers_day_bundle {
-    left: 10px;
+.doctorly_rec img {
+    padding: 6px;
+    max-width: 64px;
+    max-height: 64px;
+    height: 64px;
 }
 
-.mothers_day_bundle p {
-    font-size: 9.548px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 13.845px;
-    letter-spacing: 0.477px;
-    color: #000;
+.doctorly_rec.new_bundle {
+    display: block;
+    right: 20px;
+    text-align: center;
 }
 
-.mothers_day_bundle p>span {
-    font-weight: 400;
-}
-
-.mothers_day_bundle .doctorly_text {
+.doctorly_rec.new_bundle .doctorly_text {
     background: #C7E7DC;
+    border-radius: 30px;
+    transform: translateY(-5px);
+    padding: 7px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.doctorly_rec.new_bundle img {
+    border: 5px solid #c9e7dd;
+    box-shadow: 0.88px 1.76px 1.94px 0px #00000040;
+    filter: none;
+}
+
+.doctorly_rec.new_bundle .doctorly_text p {
+    font-size: 10px;
+    color: #000;
+    line-height: 14px;
+    letter-spacing: 0.51px;
+    font-weight: 700;
+    padding-left: 0;
+}
+
+.bf-bundle_slider .swiper-slide {
+    background: #fefefc;
+    height: unset;
+    display: grid;
+    align-items: center;
 }
 
 @media(max-width:767px) {
@@ -1752,7 +1773,98 @@
         font-size: 7.146px;
     }
 
-    .mothers_day_bundle p {
-        font-size: 9.548px;
+    .doctorly_rec.new_bundle img {
+        max-width: 54px;
+        height: 54px;
+    }
+
+    .doctorly_rec.new_bundle .doctorly_text p {
+        font-size: 8.406px;
+        line-height: 12.189px;
+        letter-spacing: 0.42px;
     }
 }
+
+/* ======= new design holiday sales banner start ======== */
+
+.bfBundle__content .bfSub_heading {
+    font-size: 40px;
+    line-height: 48px;
+    margin: 0;
+    font-family: 'Canela light';
+}
+
+.bfBundle__content .subHeading {
+    background: #fff;
+    color: #000;
+    max-width: fit-content;
+    padding: 9px 16px;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+.bfBundle__bannerBlock .bfBundle__content {
+    max-width: 436px;
+    text-align: center;
+}
+
+.bfBundle__content .subHeading .bfSub_heading {
+    font-size: 18px;
+    line-height: 15px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.18px;
+    text-transform: uppercase;
+}
+
+.bfBundle__content .bfSub_heading strong {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.bfBundle__content .btn-bfBundle {
+    padding: 14px;
+    max-width: 273px;
+}
+
+@media(max-width:767px) {
+    .bfBundle__content .subHeading .bfSub_heading {
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 15.153px;
+        letter-spacing: 0.11px;
+    }
+
+    .bfBundle__content .btn-bfBundle {
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .bfBundle__content .bfHeading {
+        margin-top: 10px;
+    }
+
+    .bf_sale .bundleCycle {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .bf_sale .bundleCycleSlider {
+        max-width: 320px;
+    }
+}
+
+@media(max-width:991px) {
+
+    .bfBundle__content,
+    .bundleCycleSlider {
+        margin: 0 auto;
+    }
+
+    .bf_sale .bundleCycle .swiper-pagination {
+        bottom: -20px;
+        padding-bottom: 20px;
+    }
+}
+
+/* ======= new design holiday sales banner end ======== */
