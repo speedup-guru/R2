@@ -120,6 +120,16 @@
     opacity: 0.8;
 }
 
+@media(min-width:767px) {
+    .q_water_card {
+        min-height: 202px;
+    }
+    .q_water_card img {
+        min-height: 60px;
+        object-fit: none;
+    }
+}
+
 /* -- why should qurify your water end --  */
 
 /* -- new side of skincare start --  */
@@ -158,9 +168,7 @@
     margin: 20px 0 12px;
 }
 
-.why_qurify .trusted_bl_lp .trusted_bl_info h2 {
-    letter-spacing: 0;
-}
+
 
 .why_qurify .giveaway_form .textfield p {
     font-size: 11px;
@@ -177,15 +185,7 @@
     stroke-width: 3px !important;
 }
 
-@media(min-width:1199px) {
-    .header-new .menu li {
-        padding-right: 28px !important;
-    }
 
-    .clinically_proven_wrap .cp_progress_wrap {
-        margin-bottom: 20px;
-    }
-}
 
 /* -- new side of skincare end --  */
 @media(max-width:767px) {

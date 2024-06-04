@@ -1,0 +1,56 @@
+.dek-menu {
+    background-color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0px 15px 0px;
+    width: 100%;
+}
+
+.dek-menu ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.dek-menu ul li a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.dek-menu .logo {
+    width: 33.33%;
+    text-align: center;
+}
+
+.led_guide .logo {
+    width: 30.33%;
+}
+
+.dek-menu .saf-icon {
+    width: 33.33%;
+    text-align: right;
+}
+@media(max-width:1199px) {
+    .menu.saf-menu {
+        display: none;
+    }
+}
+@media(max-width:767px) {
+    .dek-menu {
+        padding: 16px 24px;
+    }
+}
+

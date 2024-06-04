@@ -1,5 +1,5 @@
 var swiper = new Swiper(".combat_slider", {
-    slidesPerView: 3.8,
+    slidesPerView: 3.6,
     grid: {
         rows: 1,
         fill: "row",

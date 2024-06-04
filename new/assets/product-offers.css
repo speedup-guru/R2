@@ -164,11 +164,7 @@
 }
 
 /* ---------------------- giveaway form end -------------------- */
-@media(min-width:1199px) {
-    .header-new .menu li {
-        padding-right: 22px;
-    }
-}
+
 
 @media(max-width:1200px) {
     .giveaway_header .giveaway_price .g_p_currency {

@@ -34,14 +34,14 @@
     color: #D9D9D9;
 }
 
-.app_page .app_subhheading {
+.app_press .app_subhheading {
     font-size: 28px;
     line-height: 32px;
     font-weight: 300;
     font-family: 'Canela Light';
 }
 
-.app_page .app_press_slider .app_subhheading {
+.app_press .app_press_slider .app_subhheading {
     padding: 50px 0;
 }
 

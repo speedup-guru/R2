@@ -48,9 +48,11 @@
 .combat_slider {
     overflow: unset;
 }
-.combat_slider .swiper-wrapper{
-   justify-content: center;
+
+.combat_slider .swiper-wrapper {
+    justify-content: center;
 }
+
 .patches_tech_grid {
     display: grid;
     grid-template-columns: repeat(5, auto);
@@ -145,6 +147,15 @@
     max-width: 470px;
 }
 
+.beauty_skincare {
+    margin: 0 auto;
+    max-width: 1017px;
+}
+
+.ingredients_item {
+    text-align: center;
+}
+
 @media (max-width: 991px) {
     .skincaree {
         gap: 20px;
@@ -218,6 +229,14 @@
 
     .patches_tech_grid .patches_tech_img img {
         max-width: 120px;
+    }
+
+    .ingredients_item p {
+        font-size: 12px;
+    }
+
+    .combat_slider .swiper-wrapper {
+        justify-content: unset;
     }
 }
 

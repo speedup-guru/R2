@@ -1,0 +1,511 @@
+:root {
+    --text-font-size: 14px;
+    --text-font-size-mobile: 14px;
+    --text-font-weight: 400;
+    --text-time: 20s;
+    --text-spacing: 50px;
+    --text-spacing-mobile: 30px;
+    --s-text-color: black !important;
+}
+
+.qurify_lp.led_lp .refill_info .section_header .title-lg {
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.4px;
+}
+
+.qurify_lp.led_lp .refill_bl .refill_info {
+    max-width: 550px;
+}
+
+.qurify_lp.led_lp .refill_s_tab {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.qurify_lp.led_lp .refill_s_tab_content .swiper.dot_pagination .swiper-pagination {
+    position: relative;
+    bottom: 0;
+    padding-top: 10px;
+}
+
+.qurify_lp.led_lp .refill_s_tab {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.user_report_wrap .progressCont {
+    text-align: center;
+    width: 100%;
+}
+
+.user_report_wrap .progressCont p {
+    font-weight: 400;
+}
+
+.user_report_wrap .progressCont p {
+    color: #000;
+}
+
+.tooltip_btn {
+    width: 100%;
+}
+
+.user_report_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 32px;
+    padding: 48px;
+    border-radius: 16px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.10);
+}
+
+.tooltip_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.tootltip_text {
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    padding-top: 10px;
+    letter-spacing: 0.11px;
+    position: relative;
+}
+
+.tootltip_text img {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.tooltip_info p {
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 170%;
+    letter-spacing: 0.1px;
+    padding: 16px;
+}
+
+.tootltip_text .tooltip_info {
+    opacity: 0;
+    position: absolute;
+    width: 320px;
+    visibility: hidden;
+}
+
+.tootltip_text:hover .tooltip_info {
+    opacity: 1;
+    border-radius: 8px;
+    border: 1px solid var(--Gradient, #FFF);
+    background: #F4F4F4;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.10);
+    margin-top: 20px;
+    z-index: 1;
+    visibility: visible;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.tootltip_text .tooltip_info img {
+    top: -13px;
+    position: absolute;
+}
+
+.thumbnail_qurify .price {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 55px;
+    letter-spacing: 0.24px;
+    margin: 10px 0;
+}
+
+.thumbnail_qurify .tq_info .tq_list p {
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+.led_lp .banner_content {
+    max-width: 379px;
+    background-color: #fff;
+    color: #000;
+    padding: 20px 30px 40px;
+    border-radius: 10px;
+}
+
+.price_wrap {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    gap: 15px;
+}
+
+.price_wrap .price {
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.price .old_price {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.18px;
+    text-decoration: line-through;
+    color: #C4C4C4;
+}
+
+.price .new_price {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+}
+
+.price_wrap .green_tag {
+    border-radius: 30px;
+    padding: 0 9px;
+}
+
+.price_wrap .green_tag p {
+    font-weight: 400 !important;
+}
+
+.price_wrap .green_tag p span {
+    font-weight: 500 !important;
+}
+
+.tq_list p {
+    padding: 5px 0;
+}
+
+.bundle_outer {
+    background-color: #C92127;
+    margin-left: auto;
+    margin-right: 20px;
+    max-width: fit-content;
+    padding: 2px 16px;
+    border-radius: 20px 20px 0 0;
+}
+
+.bundle_outer p {
+    font-family: 'Canela Web';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.18px;
+}
+
+.led_lp .main_banner .main_b_wrapper .neck_bundle_wrap {
+    margin-top: 20px;
+    position: relative;
+}
+
+
+.led_lp .bs_content {
+    padding: 24px 0 24px;
+}
+
+.led_lp .bs_item h4 {
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    border-bottom: none;
+}
+
+.bs_content {
+    border-bottom: none;
+}
+
+.faq .accordion-item:last-child {
+    border-bottom: 1px solid #DEDADA;
+}
+
+.led_lp .single_step .section_header h2.title-lg.paddingB {
+    font-size: 30px;
+    line-height: 45px;
+}
+
+
+.led_lp .video_with_slide {
+    justify-content: flex-end;
+}
+
+.neck_led_bundle .get_clearer_wrapper .btn_green {
+    font-size: 16px;
+    padding: 11px 0;
+    line-height: 18px;
+}
+
+.thumbnail_qurify .refill_review p {
+    font-size: 13px;
+    text-decoration: none;
+    margin-left: 7px;
+}
+
+.led_lp .result_item.result_item_info_with_fixed {
+    padding-bottom: 100px !important;
+}
+
+.led_lp .result_learnMore .skin_concerns {
+    letter-spacing: 0;
+}
+
+.led_lp .mi_landing_result .result_c_info .star_gp p {
+    margin-left: 0;
+}
+
+.wistia_responsive_padding .w-css-reset [data-handle="thumbnail"] * {
+    height: 100% !important;
+    object-fit: cover !important;
+    border-width: 0 !important;
+    width: 100% !important;
+}
+
+@media(max-width:767px) {
+    .user_report_wrap {
+        flex-direction: column;
+        padding: 30px 15px;
+    }
+
+    .qurify_lp.led_lp .refill_info .section_header .title-lg {
+        font-size: 34px;
+        line-height: 40px;
+        letter-spacing: 0.4px;
+    }
+
+    .qurify_lp.led_lp .q_uses_bl {
+        background: transparent;
+    }
+
+    .qurify_lp.led_lp .progressWrapper svg {
+        height: 77px;
+        width: 77px;
+    }
+
+    .qurify_lp.led_lp .thumbnail_qurify .title-lg,
+    .neck_led_bundle .title-lg,
+    .qurify_lp.led_lp .title-lg {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .qurify_lp.led_lp .get_clearer_wrapper p {
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .qurify_lp.led_lp .payment_method {
+        flex-direction: column;
+        align-items: center !important;
+    }
+
+    .qurify_lp.led_lp .pmt_img img {
+        max-width: 100%;
+    }
+
+    .bundle_outer.bundle_outer {
+        margin-left: 0px;
+        position: absolute;
+        top: -50px;
+    }
+
+    .qurify_lp.led_lp .thumbnail_qurify.section {
+        padding: 48px 0 80px !important;
+    }
+
+    .led_lp .main_banner .main_b_wrapper {
+        align-items: flex-start;
+    }
+
+    .led_lp .banner_content {
+        padding: 20px;
+    }
+
+    .led_lp .star_gp img {
+        max-width: 84px;
+    }
+
+    .led_lp .affect_skin .dsn-right-container {
+        padding: 0 24px;
+    }
+
+    .led_lp .affect_skin .affect_skinContent {
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    .led_lp .bs_content {
+        padding: 24px 0 15px;
+    }
+
+    .faq .accordion-item {
+        border-bottom: 1px solid #DEDADA;
+        padding: 0 10px;
+    }
+}
+
+@media(max-width:440px) {
+    .qurify_lp.led_lp .refill_bl.tabSlider .refill_info .section_header {
+        margin: 0 20px;
+    }
+}
+
+/* -- get compliment css start -- */
+.get_compliment_wrap .gc_img_wrap {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    overflow: hidden;
+}
+
+.get_compliment_wrap .gc_img img {
+    width: 300px;
+}
+
+.get_compliment_wrap #pills-tab-skin {
+    display: flex;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.get_compliment_wrap .tab-pane {
+    opacity: 0;
+    transition: fade;
+}
+
+
+.get_compliment_wrap .tab-pane.show {
+    opacity: 1;
+}
+
+.get_compliment_wrap .nav-pills .nav-link {
+    color: #D9D9D9;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.14px;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.get_compliment_wrap .nav-pills .nav-link.active,
+.get_compliment_wrap .nav-pills .show>.nav-link {
+    color: #000;
+    background-color: transparent;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 3px;
+}
+
+.get_compliment_wrap ul li {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.13px;
+    opacity: 0.8;
+    color: #000;
+}
+
+.get_compliment_wrap #pills-tabContent2 {
+    max-width: 540px;
+}
+
+@media(max-width:767px) {
+    .get_compliment_wrap #pills-tab-skin {
+        gap: 10px
+    }
+
+    .get_compliment_wrap .nav-pills .nav-link {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .get_compliment_wrap .gc_img_wrap {
+        gap: 12px;
+    }
+
+    .get_compliment_wrap ul li {
+        font-size: 12px;
+    }
+}
+
+/* -- get compliment css end -- */
+
+.led_lp .videosQure .qureSlider .swiper-slide {
+    height: 100%;
+}
+
+.led_lp .videosQure,
+.led_lp .result_s {
+    overflow: hidden;
+}
+
+.led_lp .qureSlider,
+.led_lp .result_slider {
+    overflow: unset;
+}
+
+.vQ_name {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32.348px;
+    letter-spacing: 0.175px;
+}
+
+.vQ_desc {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.565px;
+    letter-spacing: 0.135px;
+    opacity: 0.5;
+}
+
+.led_lp .qureSlider .accordion-item {
+    background-color: transparent;
+    border: none;
+}
+
+.led_lp .qureSlider .accordion-button {
+    padding: 20px 0 10px;
+}
+
+.led_lp .qureSlider .accordion-button:not(.collapsed) {
+    color: var(--clr-black);
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.led_lp .qureSlider .accordion-body {
+    padding: 10px 0;
+}
+
+.led_lp .qureSlider .accordion-body p {
+    line-height: 22px;
+}
+
+.led_lp .qureSlider .accordion-button::after {
+    margin-left: 10px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='8' viewBox='0 0 11 8' fill='none'%3E%3Cpath d='M1.37616 1.04704L1.04677 0.670876L0.294441 1.32967L0.623838 1.70583L1.37616 1.04704ZM5.37838 6.37643L5.00222 6.70583L5.36833 7.12393L5.74555 6.71582L5.37838 6.37643ZM10.3672 1.71582L10.7066 1.34865L9.97221 0.669874L9.63283 1.03705L10.3672 1.71582ZM0.623838 1.70583L5.00222 6.70583L5.75454 6.04704L1.37616 1.04704L0.623838 1.70583ZM9.63283 1.03705L5.01121 6.03705L5.74555 6.71582L10.3672 1.71582L9.63283 1.03705Z' fill='%23333333'/%3E%3C/svg%3E");
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 6px;
+    width: 9px;
+
+}

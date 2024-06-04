@@ -201,7 +201,7 @@ window.addEventListener('load', function () {
 // =================================== js for same height ===============================
 $(function () {
     //setTimeout(function () {
-    $('.q_uses_header, .dfrc__hdr, .s_name, .result_item, .trust_item, .serum_bx, .bs_content, .skin_item, .safety_content, .mc_desc, .blog_wrap, .see_item img, .q_water_card').matchHeight({
+    $('.q_uses_header, .dfrc__hdr, .s_name, .result_item, .trust_item, .serum_bx, .bs_content, .skin_item, .safety_content, .mc_desc, .blog_wrap, .see_item img').matchHeight({
         property: 'height',
         target: null,
         remove: false
@@ -324,8 +324,8 @@ var swiper = new Swiper(".result_slider", {
         clickable: true,
     },
     navigation: {
-        nextEl: ".swiper-arrowResult-next",
-        prevEl: ".swiper-arrowResult-prev",
+        nextEl: ".qureSlider-swiper-next",
+        prevEl: ".qureSlider-swiper-prev",
     },
     breakpoints: {
         556: {
@@ -1058,7 +1058,7 @@ $('.subscriptionType').click(function () {
 /*
 * Ingredients Slider Start
 */
-var swiper = new Swiper(".ingredients_slider", {
+var swiper = new Swiper(".ingredients_slider1", {
     slidesPerView: 4.5,
     grid: {
         rows: 1,
@@ -1466,24 +1466,26 @@ listItems.forEach(function (item) {
 
 
 //  why should qurify your water start -- show more accordion
-
-if (window.matchMedia("(max-width: 767px)").matches) {
-    const qwCard = document.querySelectorAll(".qwCard_expandable");
-    qwCard.forEach((story) => {
-        const button = story.querySelector(".qwCard__accordion");
-        button.addEventListener("click", () => {
-            const paragraph = story.querySelector(".qwCard__hidden-div");
-            const more_text = button.getAttribute("data-more") || "Show More..";
-            const less_text = button.getAttribute("data-less") || "Show Less..";
-            paragraph.classList.toggle("hidden");
-            const text = paragraph.classList.contains("hidden")
-                ? more_text
-                : less_text;
-            button.textContent = text;
+function handleExpandableCards() {
+    if (window.matchMedia("(max-width: 767px)").matches) {
+        const qwCard = document.querySelectorAll(".qwCard_expandable");
+        qwCard.forEach((story) => {
+            const button = story.querySelector(".qwCard__accordion");
+            button.addEventListener("click", () => {
+                const paragraph = story.querySelector(".qwCard__hidden-div");
+                const more_text = button.getAttribute("data-more") || "Show More..";
+                const less_text = button.getAttribute("data-less") || "Show Less..";
+                paragraph.classList.toggle("hidden");
+                const text = paragraph.classList.contains("hidden")
+                    ? more_text
+                    : less_text;
+                button.textContent = text;
+            });
         });
-    });
+    }
 }
-
+handleExpandableCards();
+window.addEventListener('resize', handleExpandableCards);
 
 // affect your skin start
 const swiperAffect = new Swiper(".swiper-containerAffect", {
@@ -1524,3 +1526,20 @@ function swiperQWater() {
 }
 swiperQWater();
 window.addEventListener("resize", swiperQWater);
+
+
+//animation progress js
+document.addEventListener('DOMContentLoaded', () => {
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('animation_active');
+                observer.unobserve(entry.target); // Stop observing after the animation has been triggered once
+            }
+        });
+    }, { threshold: 0.1 }); // Trigger when 10% of the element is visible
+
+        document.querySelectorAll('.user_report_wrap').forEach(section => {
+            observer.observe(section);
+    });
+});

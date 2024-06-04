@@ -383,7 +383,7 @@
 
 .bf-bundles__item-save {
     text-transform: uppercase;
-    padding: 0px 9px;
+    padding: 5px 9px;
     background: #008763;
     border-radius: 20px;
     display: flex;
@@ -393,10 +393,10 @@
     color: #FFF;
     text-align: center;
     font-family: Poppins;
-    font-size: 12px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 300;
-    line-height: 18px;
+    line-height: 14px;
 }
 
 .bf-bundles__item-save span {
@@ -612,7 +612,6 @@
         font-size: 28px;
         letter-spacing: 0.28px;
         line-height: 28px;
-        ;
     }
 
     .bf-bundles__item-after {
@@ -623,10 +622,8 @@
     }
 
     .bf-bundles__item-save {
-        font-size: 11px;
         font-style: normal;
         font-weight: 300;
-        line-height: 16px;
         margin-left: 10px;
         white-space: nowrap;
     }
@@ -689,12 +686,13 @@
 
 .bf-bundles-section.bf_with_slider .bf-bundles__item-before {
     font-weight: 500;
-    color: #000;
+    font-size: 25px;
+    line-height: 25px;
 }
 
 .bf-bundles-section.bf_with_slider .bf-bundles__item-after {
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 32px;
+    line-height: 32px;
     font-weight: 600;
     color: #C92127;
 }
@@ -893,6 +891,12 @@
 
 .bf_sale .payment_method .pmt_img {
     display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.bf_sale .payment_method .pmt_img img:not(:last-child) {
+    padding-right: 0px;
 }
 
 .bf_sale .payment_method p {
