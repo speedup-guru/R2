@@ -1310,7 +1310,7 @@ img.fa.fa-user.nav__icon {
 }
 
 .dek-menu .menu {
-    width: 33.33%;
+    width: 36.33%;
 }
 
 @media(max-width:767px) {
@@ -1718,7 +1718,9 @@ img.fa.fa-user.nav__icon {
     .menu-mobile {
         display: none;
     }
-
+    .header-new .menu>li:hover a {
+        font-weight: 700;
+    }
 }
 
 @media(min-width:767px) {
@@ -2047,6 +2049,18 @@ img.fa.fa-user.nav__icon {
     .mi-landing-page .menu_icon_footer .mi_ftrBlock {
         text-align: center;
     }
+
+    .openmenu nav.mobile-menu-custome #menu .title {
+        margin: 20px 0;
+    }
+
+    .dek-menu .mobile-menu-custome #menu li a {
+        display: flex;
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
 }
 
 @media(max-width:1024px) {
@@ -2136,7 +2150,7 @@ img.fa.fa-user.nav__icon {
     align-items: center;
     list-style: none;
     /* justify-content: space-between; */
-    gap: 20px;
+    gap: 25px;
 }
 
 .dek-menu ul li a {
@@ -2152,13 +2166,10 @@ img.fa.fa-user.nav__icon {
 }
 
 .dek-menu .logo {
-    width: 33.33%;
+    width: 30.33%;
     text-align: center;
 }
 
-.led_guide .logo {
-    width: 30.33%;
-}
 
 .dek-menu .saf-icon {
     width: 33.33%;
@@ -2173,7 +2184,7 @@ img.fa.fa-user.nav__icon {
 
 @media(max-width:767px) {
     .dek-menu {
-        padding: 16px 24px;
+        padding: 14px 0px 15px 0px !important;
     }
 
     .nav__cart-count {

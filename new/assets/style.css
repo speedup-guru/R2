@@ -30414,6 +30414,10 @@ p {
     max-width: 394px !important;
 }
 
+.mw-402 {
+    max-width: 402px !important;
+}
+
 .mw-421 {
     max-width: 421px;
 }
@@ -30422,8 +30426,16 @@ p {
     max-width: 423px;
 }
 
+.mw-427 {
+    max-width: 427px;
+}
+
 .mw-452 {
     max-width: 452px;
+}
+
+.mw-455 {
+    max-width: 455px !important;
 }
 
 .mw-464 {
@@ -30618,17 +30630,22 @@ p {
         padding: 0 !important;
         display: flex;
         align-items: flex-start;
-        gap: 4px;
-        margin: 4px 0px 0px 4px;
+        gap: 5px;
+        /* margin: 4px 0px 0px 4px; */
+    }
+
+    .payment_method .pmt_img img:not(:last-child) {
+        padding-right: 0px !important;
     }
 
     .pmt_img img {
-        max-width: 31px;
+        /* max-width: 31px; */
+        max-width: 37px;
     }
 
-    .payment_method {
+    /* .payment_method {
         align-items: flex-start !important;
-    }
+    } */
 }
 
 @media (max-width: 420px) {

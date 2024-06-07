@@ -904,7 +904,7 @@
 }
 
 @media(min-width:1199px) {
-    .payment_method {
+    .bf-bundles__content .payment_method {
         display: -webkit-inline-box;
     }
 }

@@ -91,10 +91,6 @@
 
 /* ============== tap water end ========== */
 /* ============== tap water form  start ========== */
-.free_water .giveaway_form {
-    background: rgba(199, 231, 220, 0.20);
-}
-
 .free_water .giveaway_form .textfield p {
     font-size: 11px;
     line-height: 16px;
@@ -158,7 +154,7 @@
 
 /* =============== did you know end ============= */
 .skincare_routine {
-    background: rgba(199, 231, 220, 0.50);
+    background: #C7E7DC;
 }
 
 .get_report_btn {
