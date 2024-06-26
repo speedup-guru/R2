@@ -21010,7 +21010,7 @@ fieldset:disabled .btn {
     font-weight: normal;
     font-display: auto;
     /* src: url(../assets/fa-brands-400.woff) format("woff") */
-    src: url(../assets/../assets/fa-brands-400.woff) format("woff")
+    src: url(../assets/fa-brands-400.woff) format("woff")
 }
 
 .fab {
@@ -31757,9 +31757,9 @@ p {
 
 @media(max-width:767px) {
     .announcement_bar p {
-        font-size: 10px;
-        line-height: 15px;
-        letter-spacing: 0.3px;
+        font-size: 10px !important;
+        line-height: 15px !important;
+        letter-spacing: 0.3px !important;
     }
 
     .announcement_bar p .green_coloured.green_btn {

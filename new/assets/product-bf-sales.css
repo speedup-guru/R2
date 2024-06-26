@@ -1059,7 +1059,7 @@
 
 /* ====================== bf_sale page css end  ========================================== */
 /* =================== header and announcement bar for bf sales and led offer starts ====================== */
-.announcement_bar p {
+#_include_announcementBfSales .announcement_bar p {
     font-size: 13px !important;
     line-height: 19px;
     text-align: center;
@@ -1171,11 +1171,11 @@
         font-size: 11px;
     }
 
-    .announcement_bar p {
+    #_include_announcementBfSales .announcement_bar p {
         padding: 0;
     }
 
-    .announcement_bar p {
+    #_include_announcementBfSales .announcement_bar p {
         font-size: 12px;
         line-height: 14px;
     }

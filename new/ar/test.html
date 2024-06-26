@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subscription Qure</title>
+    <!--== Favicon ==-->
+    <link rel="shortcut icon" href="assets/qure_favicon.png" type="image/x-icon" />
+    <!--== CSS ==-->
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="stylesheet" href="../assets/product.css">
+    <!-- <link rel="stylesheet" href="assets/header_new.css"> -->
+    <style>
+        .team_info {
+            padding-left: 50px;
+        }
+
+        .team_item {
+            position: relative;
+        }
+
+        .social_icons {
+            position: absolute;
+            top: 60px;
+        }
+
+        .team_img img {
+            width: 100%;
+        }
+
+        .team_item:after {
+            position: absolute;
+            top: 40px;
+            right: 40px;
+            left: -20px;
+            bottom: 0;
+            background: #fff;
+            content: '';
+            z-index: -1;
+            border-radius: 10px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            transition: all 600ms ease;
+            -webkit-transition: background-image 2s ease-out;
+            -moz-transition: background-image 2s ease-out;
+            -o-transition: background-image 2s ease-out;
+            transition: background-image 2s ease-out;
+            /* opacity: 0;
+            visibility: hidden; */
+            transition-duration: 5s;
+        }
+
+        .team_item:hover:after {
+            background-image: linear-gradient(to right bottom, red, yellow);
+            z-index: -2;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .team_content {
+            padding: 20px 0;
+        }
+
+        .social_icons li {
+            padding: 10px;
+            border-radius: 50%;
+            background-color: #fff;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
+            aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2"
+            aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse"
+            aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both
+            elements</button>
+    </p>
+    <div class="row">
+        <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div class="card card-body">
+                    Some placeholder content for the first collapse component of this multi-collapse example. This panel
+                    is hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample2">
+                <div class="card card-body">
+                    Some placeholder content for the second collapse component of this multi-collapse example. This
+                    panel is hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--=======================Javascript============================-->
+    <script src="../assets/jquery.min.js"></script>
+    <script src="../assets/vendor.js"></script>
+    <script src="../assets/theme.js"></script>
+    <script>
+        const checkbox = document.querySelector("input");
+        const button = document.querySelector("button");
+        const square = document.querySelector(".square");
+
+        checkbox.addEventListener("change", ({ target }) => {
+            if (checkbox.checked) {
+                square.classList.add("has-transition");
+            } else {
+                square.classList.remove("has-transition");
+            }
+        });
+
+    </script>
+</body>
+
+</html>

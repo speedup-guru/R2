@@ -1,0 +1,278 @@
+.see_work .play_btn a {
+    max-width: fit-content;
+}
+
+.mi_landing .see_work .play_btn {
+    justify-content: flex-start;
+}
+
+.see_work .play_btn a span h6 {
+    padding-right: 10px;
+}
+
+.imageText.buzz_about .secret_grid_wrap .secret_grid {
+    grid-template-columns: 1fr 73px;
+}
+
+.fp-wrapper {
+    grid-template-columns: repeat(4, auto);
+}
+
+.fp_item .fp_icon {
+    margin-right: 0;
+}
+
+.fp_item {
+    gap: 10px;
+}
+
+.r_c_info {
+    justify-content: flex-end;
+}
+
+.mi_landing .result_s .result_s_wrapper .result_item .ss_list li,
+.mi_landing .skin_item_header {
+    text-align: end;
+}
+
+.imageText .aboveText {
+    right: auto;
+}
+
+.trusted_cl .t_c_info {
+    margin-right: auto;
+}
+
+.trusted_bl .trust_img .play_btn a span,
+.sale-bf-img .play_btn a span {
+    justify-content: flex-end;
+}
+
+.mi_landing_result .result_c_info {
+    text-align: end;
+}
+
+.mi_landing_result .result_c_info .r_flag,
+.mi_landing_result .result_c_info .star_gp,
+.mi_landing_result .result_c_info .verified_img {
+    justify-content: end;
+}
+
+.compare_list_elements .compare_list_Block {
+    grid-template-columns: 1fr 20px;
+}
+
+.compare_list_elements .compare_list_Block h5,
+.compare_listBlock {
+    text-align: end;
+}
+
+.see_it .section_header {
+    max-width: 740px;
+    text-align: end;
+}
+
+.supply_steps .step_counter:before {
+    right: 18px;
+}
+
+.supply-detail .supply_steps {
+    flex-direction: row-reverse;
+}
+
+.step_block .step_header h3 {
+    grid-template-columns: 1fr auto;
+    text-align: end;
+}
+
+.planBlock .monthly_plans .price .plan_prc+.plan_prc,
+.pmtBlock .pmt_plans .price .pmt_prc+.pmt_prc {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.planBlock .monthly_plans .plan_hdr {
+    justify-content: flex-end;
+}
+
+.choose_serum .u_item__hidden-div p,
+.choose_serum .cs_item__accordion,
+.pmtBlock .pmt_plans .pmt_des,
+.planBlock .monthly_plans .plan_des,
+.safety_info,
+.clinical_grade .cg_desc .ss_list ul li,
+.imageText .aboveText .title-lg,
+.mi_landing .joinMicro .ba_wrapper .ss_list ul li,
+.cg_desc .title-lg,
+.shipping .s_bx p,
+.ss_list ul li,
+.cg_desc,
+.faq .accordion-body .container p {
+    text-align: left;
+}
+
+.pmtBlock .pmt_plans .pmt_options,
+.planBlock .plan_choosed {
+    margin-right: auto;
+}
+
+.step_block .step_header h3 span {
+    margin-left: 10px;
+}
+
+.u_item_question .accordion-button::after {
+    position: absolute;
+    right: 19px;
+}
+
+.u_item_question .accordion-button {
+    justify-content: flex-end;
+}
+
+.cg_desc .shipping {
+    margin-right: auto;
+}
+
+.shipping .s_bx {
+    grid-template-columns: 1fr auto;
+}
+
+.mi_landing .refill_bl .refill_info .ss_list ul li,
+.trusted_cl .t_c_info p {
+    text-align: right;
+}
+
+.secret_grid_wrap {
+    max-width: 499px;
+}
+
+.r_c_info .c_information p {
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.compare_listHeadings .compare__titleBlock {
+    justify-content: flex-end;
+}
+
+.compare_section {
+    padding: 100px 0;
+}
+
+.see_item_info p {
+    font-size: 13px;
+    line-height: 26px;
+}
+
+.progress_bar .loading_bar {
+    margin-right: auto;
+}
+
+.copyright ul li:first-child {
+    margin-left: 52px;
+}
+
+.reasons_wrapper {
+    direction: initial;
+}
+
+.mi_landing .shipping.one_line .s_bx p {
+    white-space: nowrap;
+    padding-left: 10px;
+    max-width: fit-content;
+    margin-right: auto;
+    text-align: right;
+}
+
+.mb_contents .title-lg {
+    max-width: fit-content;
+    text-align: start;
+}
+
+.mb_contents .title-lg {
+    max-width: fit-content !important;
+    text-align: start !important;
+}
+
+.refill_s_tab ul {
+    grid-template-columns: 160px 160px;
+}
+
+.cs_item__accordion {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(min-width:1199px) {
+    .trusted_left {
+        text-align: end;
+    }
+
+    .header-new .icon-section {
+        justify-content: flex-start;
+    }
+
+    .mi_landing .img_grid.img_grid_row .cg_thumnail {
+        direction: initial;
+    }
+}
+
+@media(max-width:767px) {
+    .fp_item {
+        grid-template-columns: 1fr 42px;
+    }
+
+    .fp-wrapper {
+        grid-template-columns: repeat(2, 50%);
+    }
+
+    .mi_landing .clinical_grade .img_grid.img_grid_row {
+        direction: initial;
+    }
+
+    .supply_steps .step_counter:before {
+        right: 12px;
+    }
+
+    .reasons_wrapper .rs_item {
+        direction: ltr;
+    }
+
+    .rs_item_content {
+        text-align: right;
+    }
+
+    .mi_landing .skin_item_header {
+        text-align: center;
+    }
+
+    .reasons .section_header {
+        margin-left: auto !important;
+        margin-right: 0 !important;
+    }
+
+    .step_slider .swiper-pagination {
+        flex-direction: row-reverse;
+    }
+
+    .compare_section {
+        padding: 60px 0;
+    }
+
+    .step_slider .swiper-pagination-bullet .pg_counter.counter_title {
+        font-size: 0px;
+    }
+
+    .unique_grid {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .mb_contents .title-lg {
+        text-align: end !important;
+    }
+
+    .fp_icon_text {
+        text-align: end;
+    }
+}
