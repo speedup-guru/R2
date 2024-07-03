@@ -30685,7 +30685,8 @@ p {
 .pagination_navigation .swiper-pagination {
     padding-top: 0 !important;
     top: 0;
-    margin: 20px 0;
+    /* margin: 20px 0; */
+    top: 50%;
 }
 
 .pagination_navigation .swiper-button {
@@ -32105,6 +32106,10 @@ picture img {
 
 .animation_active .OKwUu {
     animation: progress-animation 3s ease-in-out;
+}
+
+.bg_clr_transparent {
+    background: transparent !important;
 }
 
 @keyframes progress-animation {

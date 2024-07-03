@@ -265,13 +265,6 @@
     margin-left: 0;
 }
 
-.wistia_responsive_padding .w-css-reset [data-handle="thumbnail"] * {
-    height: 100% !important;
-    object-fit: cover !important;
-    border-width: 0 !important;
-    width: 100% !important;
-}
-
 @media(max-width:767px) {
     .user_report_wrap {
         flex-direction: column;
@@ -445,67 +438,10 @@
 
 /* -- get compliment css end -- */
 
-.led_lp .videosQure .qureSlider .swiper-slide {
-    height: 100%;
-}
-
-.led_lp .videosQure,
 .led_lp .result_s {
     overflow: hidden;
 }
 
-.led_lp .qureSlider,
 .led_lp .result_slider {
     overflow: unset;
-}
-
-.vQ_name {
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 32.348px;
-    letter-spacing: 0.175px;
-}
-
-.vQ_desc {
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 21.565px;
-    letter-spacing: 0.135px;
-    opacity: 0.5;
-}
-
-.led_lp .qureSlider .accordion-item {
-    background-color: transparent;
-    border: none;
-}
-
-.led_lp .qureSlider .accordion-button {
-    padding: 20px 0 10px;
-}
-
-.led_lp .qureSlider .accordion-button:not(.collapsed) {
-    color: var(--clr-black);
-    background-color: transparent;
-    box-shadow: none;
-}
-
-.led_lp .qureSlider .accordion-body {
-    padding: 10px 0;
-}
-
-.led_lp .qureSlider .accordion-body p {
-    line-height: 22px;
-}
-
-.led_lp .qureSlider .accordion-button::after {
-    margin-left: 10px;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='8' viewBox='0 0 11 8' fill='none'%3E%3Cpath d='M1.37616 1.04704L1.04677 0.670876L0.294441 1.32967L0.623838 1.70583L1.37616 1.04704ZM5.37838 6.37643L5.00222 6.70583L5.36833 7.12393L5.74555 6.71582L5.37838 6.37643ZM10.3672 1.71582L10.7066 1.34865L9.97221 0.669874L9.63283 1.03705L10.3672 1.71582ZM0.623838 1.70583L5.00222 6.70583L5.75454 6.04704L1.37616 1.04704L0.623838 1.70583ZM9.63283 1.03705L5.01121 6.03705L5.74555 6.71582L10.3672 1.71582L9.63283 1.03705Z' fill='%23333333'/%3E%3C/svg%3E");
-    background-repeat: no-repeat no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 6px;
-    width: 9px;
-
 }

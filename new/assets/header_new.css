@@ -36,7 +36,7 @@ body.openmenu {
 }
 
 .header-new .menu>li {
-    padding-right: 0px;
+    padding-right: 0px !important;
     max-width: 100%;
 }
 
@@ -462,7 +462,7 @@ img.fa.fa-shopping-cart.nav__icon.cart-mb-icon {
     line-height: 26px;
     font-family: 'Poppins';
     letter-spacing: 0.14px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .slide_cart .drawer__cart-subtotal .drawer_savings {
@@ -501,12 +501,22 @@ img.fa.fa-shopping-cart.nav__icon.cart-mb-icon {
     font-weight: 600;
 }
 
-.slide_cart .drawer__cart-total,
 .slide_cart .drawer__cart-checkout-btn {
     padding: 7px 31px !important;
+}
+
+.slide_cart .drawer__cart-total {
+    padding: 15px 31px !important;
+    border-top: 1px solid #EDE7DD;
+}
+
+.slide_cart .drawer__cart-total,
+.slide_cart .drawer__cart-checkout-btn {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+
 
 .slide_cart .drawer__cart-total-price {
     gap: 10px;
@@ -1055,11 +1065,10 @@ img.fa.fa-shopping-cart.nav__icon.cart-mb-icon {
 }
 
 p.insurance__text--top {
-    font-size: 12px;
-    font-weight: 400;
-    margin-bottom: 3px;
+    font-size: 11px;
+    font-weight: 300;
     cursor: pointer;
-    line-height: initial;
+    line-height: 16px;
 }
 
 p.insurance__text--top .insurance__text--info {
@@ -1174,7 +1183,7 @@ p.insurance__text--bottom {
 
 .drawer__cart-total-price .old_price-cart {
     text-align: right;
-    font-size: 22.8px;
+    font-size: 22px;
     font-weight: 700;
     line-height: normal;
     letter-spacing: .38px;
@@ -1322,6 +1331,15 @@ img.fa.fa-user.nav__icon {
     padding: 0 !important;
 }
 
+.text_green {
+    color: #008763;
+}
+
+.price_before {
+    color: #C4C4C4;
+    text-decoration: line-through;
+}
+
 @media(max-width:767px) {
     .slide_cart .free_shpngBox {
         justify-content: flex-end;
@@ -1356,7 +1374,12 @@ img.fa.fa-user.nav__icon {
     }
 
     .slide_cart p.insurance__text--top {
-        font-size: 10px;
+        font-size: 9px;
+        max-width: 132px;
+    }
+
+    .slide_cart .drawer__cart-checkout-btn {
+        padding: 7px 21px !important;
     }
 
     .slide_cart .insurance__switch-wrapper {
@@ -1646,7 +1669,7 @@ img.fa.fa-user.nav__icon {
         align-items: center;
         width: 33.33%;
         list-style: none;
-        gap: 30px;
+        gap: 25px;
     }
 
     .mobile-menu-custome {

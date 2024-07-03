@@ -1702,6 +1702,81 @@
     transition-property: max-height, margin;
 }
 
+.q_uses_mob_wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.q_uses_mob_wrap .q_uses_item {
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.12);
+    padding: 9px !important;
+}
+
+.q_uses_mob_wrap .q_uses_item:hover {
+    border: 1px solid #C7E7DC;
+}
+
+.q_uses_mob_wrap .q_uses_item_grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 10px;
+}
+
+.q_uses_item_grid img.img-fluid {
+    max-width: 35px;
+}
+
+.q_uses_mob_wrap .q_uses_item h6 {
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 0.12px;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.q_uses_mob_wrap .q_uses_item .modal-body {
+    padding: 24px 20px;
+    position: relative;
+}
+
+.q_uses_mob_wrap .q_uses_item .modal-body .btn-close {
+    position: absolute;
+    right: 20px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='none'%3E%3Cpath d='M19.375 9.76067C19.375 14.792 15.192 18.8963 10 18.8963C4.80797 18.8963 0.625 14.792 0.625 9.76067C0.625 4.72936 4.80797 0.625 10 0.625C15.192 0.625 19.375 4.72936 19.375 9.76067Z' stroke='%23D9D9D9' stroke-width='1.25'/%3E%3Cpath d='M7 13.0147L13.1111 7.0498' stroke='%23D9D9D9' stroke-width='1.5'/%3E%3Cpath d='M13.1094 13.0137L6.99826 7.04883' stroke='%23D9D9D9' stroke-width='1.5'/%3E%3C/svg%3E");
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    box-shadow: none !important;
+}
+
+.q_uses_mob_wrap .q_uses_item .modal-body h5 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.3px;
+}
+
+.q_uses_mob_wrap .q_uses_item .modal-body p {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.12px;
+    margin: 20px 0;
+}
+
+.btn-check:focus+.btn,
+.btn:focus {
+    box-shadow: none;
+}
+
 @media (min-width: 992px) {
     .q_uses_desc {
         margin-top: -20px;
@@ -1714,6 +1789,11 @@
     justify-content: space-between;
     padding: 20px 0px;
     cursor: pointer;
+}
+
+.q_uses_header_wrap {
+    display: grid;
+    grid-template-columns: 80% 20%;
 }
 
 .q_uses_bl .q_uses_header p {
@@ -3514,6 +3594,10 @@ p.border-r {
 
 .trusted_bl_with_pagintion .trustedSwipper .swiper-pagination {
     display: block;
+}
+
+.wistia_popover_embed {
+    box-shadow: none !important;
 }
 
 .wistia_popover_embed [id*="_main"] {
@@ -8024,6 +8108,12 @@ p.title_mob {
     color: #fff;
 }
 
+.future_skincare.fs_dark .fs-content p {
+    color: #fff;
+    opacity: 0.8;
+    margin: 50px 0;
+}
+
 .future_skincare .fs-content span {
     font-family: 'Playfair Display', serif;
     font-style: italic;
@@ -8072,7 +8162,7 @@ p.title_mob {
     .future_skincare .fs-content {
         flex: 0 0 100%;
         max-width: 100%;
-        padding: 40px 0 56px;
+        padding: 40px 24px 56px;
     }
 
     .future_skincare .fs-content h2 {
@@ -8505,3 +8595,324 @@ p.title_mob {
 }
 
 /* ========== upgrade routine end ================= */
+/* ============== target specific skin concerns start ================= */
+.target_skin .target_skin_img {
+    position: relative;
+}
+
+.target_skin .target_skin_info {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    text-align: right;
+}
+
+.target_skin .target_skin_info h4 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.18px;
+    color: #fff;
+    margin-bottom: 14px;
+}
+
+.target_skin .target_skin_info a {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.018px;
+    letter-spacing: 0.18px;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 8px 20px;
+    display: inline-block;
+    color: #000;
+}
+
+@media(max-width:767px) {
+    .target_skin .target_skin_info h4 {
+        font-size: 14px;
+        letter-spacing: 0.14px;
+    }
+
+    .target_skin .target_skin_info a {
+        font-size: 16px;
+    }
+
+    .target_skin .target_skin_info h4 {
+        max-width: 175px;
+        margin-left: auto;
+    }
+
+    .skin_concern .title-lg {
+        padding: 0 24px;
+    }
+}
+
+/* ============== target specific skin concerns end ================= */
+
+/* ============ customer favourite start ================= */
+.customer_fav .customer_fav_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 22px;
+}
+
+.customer_fav .fav_pdt_info .refill_review {
+    justify-content: flex-start;
+    margin: 20px 0;
+    color: #000;
+}
+
+.customer_fav .fav_pdt_name {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.18px;
+    color: #000;
+}
+
+.customer_fav .fav_pdt_price {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 27.922px;
+    letter-spacing: 0.16px;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 0px;
+    color: #000;
+}
+
+.customer_fav .fav_pdt_price span {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0.22px;
+}
+
+.customer_fav .fav_pdt {
+    position: relative;
+    padding-bottom: 37px;
+}
+
+.customer_fav .fav_best_seller {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #C92127;
+    padding: 0px 15px;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27.569px;
+    letter-spacing: 1.732px;
+}
+
+@media(max-width:991px) {
+    .customer_fav .customer_fav_grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 19px;
+    }
+
+    .customer_fav .fav_pdt_name {
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 0.13px;
+    }
+
+    .customer_fav .fav_pdt_price {
+        font-size: 10px;
+    }
+
+    .customer_fav .fav_pdt_price span {
+        font-size: 13px;
+    }
+
+    .customer_fav .refill_review .star_gp img {
+        max-width: 75px;
+    }
+
+    .customer_fav .fav_pdt {
+        padding-bottom: 0;
+    }
+
+    .customer_fav .fav_pdt_price {
+        position: relative;
+    }
+
+    .customer_fav .fav_pdt_info .refill_review {
+        margin: 10px 0;
+    }
+
+    .customer_fav .fav_best_seller {
+        padding: 0px 8px;
+        font-size: 11px;
+        line-height: 19.569px;
+        letter-spacing: 1px;
+    }
+}
+
+/* ============ customer favourite end ================= */
+
+/* ==================== skincare journey start =============== */
+.skincare_journey {
+    background-color: #FBFBFB;
+}
+
+.skincare_journey .sj_grid .sj_header {
+    max-width: 457px;
+}
+
+.skincare_journey .sj_grid {
+    display: flex;
+    gap: 30px;
+}
+
+.skincare_journey .sj_item {
+    border-radius: 15px;
+    display: flex;
+    gap: 21px;
+    align-items: center;
+    margin-bottom: 12px;
+    padding: 12px;
+    background-color: #fff;
+    color: #000;
+}
+
+.skincare_journey .sj_content_wrap .sj_content {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.437px;
+    letter-spacing: 0.18px;
+}
+
+.skincare_journey .sj_content_wrap .sj_content .sj_info {
+    opacity: 0.8;
+}
+
+.skincare_journey .btn_black {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    line-height: 22px;
+}
+
+@media(max-width:767px) {
+    .skincare_journey .sj_grid {
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .skincare_journey .sj_item {
+        gap: 13px;
+    }
+
+    .skincare_journey .sj_content_wrap .sj_content {
+        font-size: 12px;
+        line-height: 22.437px;
+        letter-spacing: 0.12px;
+    }
+
+    .skincare_journey .sj_content_wrap .sj_content .sj_title {
+        font-size: 13px;
+    }
+
+    .sj_img img {
+        max-width: 75px;
+    }
+}
+
+/* ==================== skincare journey end =============== */
+
+/* ======== videosQure with dropdown start ========= */
+.videosQure.videosQure_dropdown .qureSlider .swiper-slide {
+    height: 100%;
+}
+
+.videosQure.videosQure_dropdown {
+    overflow: hidden;
+}
+
+.videosQure.videosQure_dropdown .qureSlider {
+    overflow: unset;
+}
+
+.videosQure.videosQure_dropdown .wistia_responsive_padding .w-css-reset [data-handle="thumbnail"] * {
+    height: 100% !important;
+    object-fit: cover !important;
+    border-width: 0 !important;
+    width: 100% !important;
+}
+
+.videosQure_dropdown .vQ_name {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32.348px;
+    letter-spacing: 0.175px;
+}
+
+.videosQure_dropdown .vQ_desc {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.565px;
+    letter-spacing: 0.135px;
+    opacity: 0.5;
+}
+
+.videosQure_dropdown .qureSlider .accordion-item {
+    background-color: transparent;
+    border: none;
+}
+
+.videosQure_dropdown .qureSlider .accordion-button {
+    padding: 20px 0 10px;
+}
+
+.videosQure_dropdown .qureSlider .accordion-button:not(.collapsed) {
+    color: var(--clr-black);
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.videosQure_dropdown .qureSlider .accordion-body {
+    padding: 10px 0;
+}
+
+.videosQure_dropdown .qureSlider .accordion-body p {
+    line-height: 22px;
+}
+
+.videosQure_dropdown .qureSlider .accordion-button::after {
+    margin-left: 10px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='8' viewBox='0 0 11 8' fill='none'%3E%3Cpath d='M1.37616 1.04704L1.04677 0.670876L0.294441 1.32967L0.623838 1.70583L1.37616 1.04704ZM5.37838 6.37643L5.00222 6.70583L5.36833 7.12393L5.74555 6.71582L5.37838 6.37643ZM10.3672 1.71582L10.7066 1.34865L9.97221 0.669874L9.63283 1.03705L10.3672 1.71582ZM0.623838 1.70583L5.00222 6.70583L5.75454 6.04704L1.37616 1.04704L0.623838 1.70583ZM9.63283 1.03705L5.01121 6.03705L5.74555 6.71582L10.3672 1.71582L9.63283 1.03705Z' fill='%23333333'/%3E%3C/svg%3E");
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 6px;
+    width: 9px;
+}
+
+/* .videosQure_dropdown .qureSlider .accordion-button:not(.collapsed)::after {
+    transform: rotate(0deg);
+} */
+
+.videosQureTrusted .trusted_bl .trust_img .play_btn a {
+    max-width: 100%;
+    margin: 0 20px;
+}
+
+.videosQureTrusted .trusted_bl .trust_img .play_btn {
+    align-items: end;
+    bottom: 20px;
+}
+
+/* ======== videosQure with dropdown end ========= */
