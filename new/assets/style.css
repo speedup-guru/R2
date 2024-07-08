@@ -32151,3 +32151,8 @@ picture img {
         padding: calc(var(--column-gap-mobile, var(--column-gap))/2)
     }
 }
+
+.blog_banner_wrap .blog_banner_img img {
+    max-height: 388px;
+    object-fit: contain
+}
