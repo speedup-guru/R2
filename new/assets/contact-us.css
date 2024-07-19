@@ -144,6 +144,9 @@
     top: 0;
     bottom: 0;
 }
+.customer_details .c_d_wrapper .c_d_wrapper_links a{
+font-size: 14px;
+}
 
 @media(max-width:767px) {
     .contact_form_grid {

@@ -127,7 +127,7 @@
 .sf_form {
     max-width: 430px;
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 .sf_form input {
@@ -351,10 +351,6 @@
     display: none;
 }
 
-.pagination_navigation {
-    padding-bottom: 20px;
-}
-
 .future_skincare .fs-content .future_btn {
     padding: 18.5px 31px;
     color: #000;
@@ -384,7 +380,7 @@
 
 .homepage .q_uses_bl .q_use_img {
     margin-bottom: 0;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     max-width: 156px;
 }
 
@@ -410,16 +406,142 @@
     content: url(./correct_circle.svg);
 }
 
+.skin_concern .section_header h4 {
+    font-family: 'Canela Light';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0.28px;
+}
 
+.trusted_bl.trustedVerified .trusted_verified {
+    background-color: #F3F3F3;
+    padding: 12px 16px 12px 12px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 21px 1fr;
+    align-items: center;
+    gap: 5px;
+}
+
+.trusted_bl.trustedVerified .trusted_verified p {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #797D7C;
+    padding: 0;
+}
+
+.trusted_bl.trustedVerified .trusted_left .section_header h2.title-lg {
+    font-size: 34px;
+    line-height: 46px;
+}
+
+.trusted_bl.trustedVerified .play_btn .popup-youtube {
+    background: transparent;
+}
+
+.trusted_bl.trustedVerified .trustedVerified_Play {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 20px;
+    justify-content: space-between;
+    text-align: left;
+    color: #fff;
+}
+
+.trusted_bl.trustedVerified .trustedVerified_Play h5 {
+    font-size: 20px;
+}
+
+.trusted_bl.trustedVerified .trustedVerified_Play h6 {
+    font-size: 14px;
+}
+
+.trusted_bl.trustedVerified {
+    padding: 60px 0;
+}
+
+.trusted_bl.trustedVerified .trust_item {
+    border: 1px solid #f3f3f3;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.12);
+}
+
+.trusted_bl.trustedVerified .trust_item .trust_item_info .result_content {
+    padding: 0;
+}
+
+.trusted_bl.trustedVerified .trust_item .trust_item_info {
+    padding: 16px 24px;
+}
+
+.contact_us_bl .customer_details {
+    background-color: transparent;
+    margin-top: 40px;
+}
+
+.contact_us_bl .customer_details .c_d_wrapper span:after {
+    background-color: #fff;
+}
+
+/* .result_item.result_item_info_with_fixed {
+    padding-bottom: 100px !important;
+} */
+
+.mi_landing_result .result_c_info .star_gp p {
+    margin-left: 0px;
+}
+
+.result_item.result_item_info_with_fixed .result_product_name {
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0.11px;
+    padding: 5px 15px;
+}
+
+.result_item.result_item_info_with_fixed .result_learnMore .result_c_info {
+    padding: 0;
+}
+
+.homepage .result_item.result_item_info_with_fixed .result_c_info {
+    padding: 15px 15px 0;
+}
+
+.homepage .q_uses_bl .q_uses_mob_wrap {
+    display: flex;
+    gap: 0;
+}
+
+.homepage .mySwiperTest {
+    padding: 10px;
+}
+
+.trusted_bl .trust_item .trust_item_info .result_content p,
+.trust_item .trust_item_info .result_content h6 {
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.beauty_skincare .section_header .title-lg {
+    max-width: 441px;
+}
+
+.homepage .result_item.result_item_info_with_fixed .result_c_info .verified_img p {
+    color: #797D7C;
+}
 
 @media(max-width:767px) {
     .ss_clinical .ss_c_detail a.ss_c_link {
         font-size: 12px;
         line-height: 22px;
-    }
-
-    .homepage .trusted_bl {
-        background: linear-gradient(180deg, rgba(199, 231, 220, .91) -98.65%, #fff 69.3%)
     }
 
     .sf_form {
@@ -439,14 +561,7 @@
         width: 100% !important;
     }
 
-    /* .homepage .main_banner .main_b_wrapper {
-        align-items: flex-start;
-    } */
 
-    /* .homepage .main_banner .main_b_wrapper .m_b_content {
-        margin-bottom: 30px;
-        color: #fff;
-    } */
     .homepage .main_banner .main_b_wrapper {
         align-items: flex-start;
         top: 30px;
@@ -471,6 +586,44 @@
     .skin_concern .swiper-button-next.swiper-button-disabled,
     .skin_concern .swiper-button-prev.swiper-button-disabled {
         opacity: 0;
+    }
+
+    .skin_concern .section_header h4 {
+        font-size: 22px;
+        line-height: 28px;
+        letter-spacing: 0.22px;
+    }
+
+    .trusted_bl.trustedVerified .trusted_verified p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .trusted_bl.trustedVerified .trusted_verified {
+        gap: 10px;
+        padding: 10px 24px;
+        margin-top: 20px;
+    }
+
+    .trusted_bl.trustedVerified .trusted_left .section_header h2.title-lg {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .customer_fav .btn_black {
+        max-width: 100%;
+    }
+
+    .result_item.result_item_info_with_fixed .result_product_name {
+        padding: 6px 15px 15px;
+    }
+
+    .homepage .mySwiperTest {
+        padding: 5px;
+    }
+
+    .newsletter_bl {
+        border-bottom: none;
     }
 }
 

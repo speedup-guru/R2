@@ -1160,6 +1160,14 @@
 
 }
 
+.cycle_cnt .cycle-save.btn_blue {
+    background: #4897F8;
+}
+
+.cycle_cnt .cycle-save.btn_blue span {
+    color: #000;
+}
+
 @media(max-width:767px) {
 
     .announcement_bar .bfBundle__content .bfCountdown,
