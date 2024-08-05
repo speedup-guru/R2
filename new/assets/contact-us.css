@@ -121,31 +121,8 @@
     background-color: #F2F4F3;
 }
 
-.customer_details .c_d_wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 10px 0;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.customer_details .c_d_wrapper span {
-    position: relative;
-}
-
 .customer_details .c_d_wrapper span:after {
-    width: 1.3px;
-    display: unset;
-    height: 100%;
     background-color: #000;
-    position: absolute;
-    content: '';
-    top: 0;
-    bottom: 0;
-}
-.customer_details .c_d_wrapper .c_d_wrapper_links a{
-font-size: 14px;
 }
 
 @media(max-width:767px) {

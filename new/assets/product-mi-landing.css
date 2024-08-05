@@ -165,6 +165,26 @@
     line-height: 25px;
 }
 
+
+.trusted_bl {
+    padding: 60px 0;
+}
+
+.trusted_cl {
+    padding: 0 !important;
+}
+
+.trusted_left .section_header {
+    padding: 20px 0px 50px 0;
+}
+
+.mi_landing_result .result_c_info .star_gp p {
+    line-height: 18px;
+}
+
+
+
+
 @media(min-width:767px) {
     .mi_landing .tmtFtrs_image img {
         max-width: 455px;
@@ -236,5 +256,26 @@
     .mi_landing .main_banner .btn-lg,
     .mi_landing .clinical_grade .btn-lg {
         font-size: 18px;
+    }
+
+    .qure_MI_ftr {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .trusted_bl {
+        padding: 30px 0;
+    }
+
+    .qure_MI_ftr_wrap .btn-primary {
+        max-width: 100% !important;
+    }
+
+    .featured_promotion {
+        background-color: transparent;
+    }
+
+    .qure_MI_ftr_wrap {
+        padding-top: 0;
     }
 }

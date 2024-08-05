@@ -155,7 +155,9 @@
 .ingredients_item {
     text-align: center;
 }
-
+.mi-patches-pdf .get_compliment_wrap #pills-tabContent2 {
+    max-width: 670px;
+}
 @media (max-width: 991px) {
     .skincaree {
         gap: 20px;

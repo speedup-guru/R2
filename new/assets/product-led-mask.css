@@ -73,7 +73,9 @@
     text-align: center;
     margin: 10px 0 0;
 }
-
+.led_mask .get_compliment_wrap #pills-tabContent2 {
+    max-width: 670px;
+}
 @media(max-width:1024px) {
     body {
         overflow-x: unset;

@@ -30399,6 +30399,9 @@ p {
 /* -- commom css for shipping with bg end -- */
 /* -- common css for max width start --- */
 
+.mw-268 {
+    max-width: 268px !important;
+}
 
 .mw-359 {
     max-width: 359px !important;
@@ -30470,7 +30473,7 @@ p {
 }
 
 .mw-525 {
-    max-width: 525px;
+    max-width: 525px !important;
 }
 
 .mw-546 {
@@ -31798,6 +31801,7 @@ p {
 .fp_item {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .fp_item .fp_icon {
