@@ -424,7 +424,7 @@
     }
 
     .qure_founder_img {
-        max-width: 153px;
+        max-width: 80px;
     }
 
     .qure_founder_info h3 {
@@ -490,7 +490,7 @@
     }
 
     #acAccordion>.accordion-item:not(:last-child) {
-        margin-bottom: 50px;
+        margin-bottom: 36px;
     }
 
     .need_help .contact_btns {
@@ -522,7 +522,7 @@
     }
     .qure_founder-wrap-mobile .qure_founder_info h5 {
         font-size: 18px;
-        font-family: "Canela Web";
+        font-family: "Canela Light";
         margin-bottom: 44px;
         line-height: 27px;
         letter-spacing: 0.18px;
@@ -559,7 +559,21 @@
         left: 17px;
         transform: translateY(-50%);
         width: 100%;
-        max-width: 190px;
+        max-width: 182px;
+    }
+    .content_instructions_patches .creative_guide .c_guide_infos p:nth-child(4) {
+        padding-top: 20px;
+    }
+    .content_instructions_patches .learn_more-content {
+        display: flex;
+        align-items: center;
+    }
+    .qure_founder {
+        background: #fff;
+        padding: 0 0 20px 0;
+    }
+    .content_instructions_patches .trusted_verified{
+        margin-top: 10px !important;
     }
 }
 
