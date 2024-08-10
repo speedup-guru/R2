@@ -999,7 +999,15 @@ $(document).ready(function () {
         $('.tab_content').hide();
         $('.step_conten_blocks .planBlock').removeClass('active');
         $(this).addClass('active');
+
+
         var tab = $(this).data('tab');
+
+        if(tab == "month_2"){
+            $(".supply-detail").addClass("offer_active");
+        }else{
+            $(".supply-detail").removeClass("offer_active");
+        }
         $('#' + tab).show();
     });
 

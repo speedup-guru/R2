@@ -186,8 +186,8 @@
         margin: 0 12px !important;
     }
 
-    .app_press .app_subhheading {
-        padding: 0;
+    .app_press .app_press_slider .app_subhheading {
+        padding: 22px 0;
         font-size: 22px;
         line-height: 28px;
     }

@@ -222,6 +222,9 @@
     .patches_ingredients .accordion-item {
         margin-bottom: 10px;
     }
+    .mi-patches-pdf .app_press_sl_content {
+        padding: 0 !important;
+    }
 }
 
 @media (max-width: 575px) {

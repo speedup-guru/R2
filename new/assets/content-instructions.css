@@ -69,6 +69,15 @@
     font-family: 'Canela Light';
 }
 
+.qure_founder_info.trusted_bl.trustedVerified h3 {
+    font-size: 20px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 34px;
+    letter-spacing: 0.2px;
+}
+
 .qure_founder_wrap {
     display: grid;
     grid-template-columns: 232px 1fr;
@@ -364,17 +373,21 @@
     margin-bottom: 0;
     line-height: 22px;
 }
+
 .ingredient_text p {
     padding-bottom: 20px;
 }
+
 .show_how-work {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 12px;
 }
+
 .content_instructions_patches .qure_founder_info h3 {
     font-size: 20px;
 }
+
 /* -- amazing content end -- */
 @media(min-width:1600px) {
     .creative_guide .c_guide_info {
@@ -427,7 +440,7 @@
         max-width: 80px;
     }
 
-    .qure_founder_info h3 {
+    .qure_founder_info h3, .qure_founder_info.trusted_bl.trustedVerified h3{
         font-size: 16px;
         font-weight: 300;
         line-height: 25px;
@@ -517,9 +530,11 @@
     .ac_desc_grid .ac_desc a {
         font-size: 13px;
     }
+
     .ingredient_text p {
         padding-bottom: 24px !important;
     }
+
     .qure_founder-wrap-mobile .qure_founder_info h5 {
         font-size: 18px;
         font-family: "Canela Light";
@@ -528,12 +543,14 @@
         letter-spacing: 0.18px;
         color: #fff;
     }
+
     .qure_founder-wrap-mobile .qure_founder_info p {
         font-size: 16px;
         font-weight: 600;
         line-height: normal;
         color: #fff;
     }
+
     .qure_founder-wrap-mobile .qure_founder_info span {
         font-size: 12px;
         font-style: normal;
@@ -542,16 +559,20 @@
         letter-spacing: 0.12px;
         color: #fff;
     }
+
     .qure_founder-wrap-mobile .qure_founder_info {
         position: relative;
         z-index: 2;
     }
-    .qure_founder-wrap-mobile{
+
+    .qure_founder-wrap-mobile {
         position: relative;
     }
-    .qure_founder-wrap-mobile img{
+
+    .qure_founder-wrap-mobile img {
         width: 100%;
     }
+
     .qure_founder-wrap-mobile .qure_founder_info {
         position: absolute;
         z-index: 2;
@@ -561,18 +582,22 @@
         width: 100%;
         max-width: 182px;
     }
+
     .content_instructions_patches .creative_guide .c_guide_infos p:nth-child(4) {
         padding-top: 20px;
     }
+
     .content_instructions_patches .learn_more-content {
         display: flex;
         align-items: center;
     }
+
     .qure_founder {
         background: #fff;
         padding: 0 0 20px 0;
     }
-    .content_instructions_patches .trusted_verified{
+
+    .content_instructions_patches .trusted_verified {
         margin-top: 10px !important;
     }
 }
@@ -716,6 +741,10 @@
     gap: 10px;
     display: grid;
     grid-template-columns: 328px 328px;
+}
+
+.c_guide_img .wistia_responsive_padding {
+    pointer-events: none;
 }
 
 @media(min-width:767px) {

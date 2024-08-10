@@ -1,0 +1,966 @@
+.anti_cream-text p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+}
+
+.ss_list {
+    border-radius: 8px;
+    background-color: #FAF8F8;
+    padding: 25px 19px;
+    margin: 30px 0;
+}
+
+.section_header p {
+    padding: 0;
+}
+
+.beauty_skincare .section_header h2 {
+    margin-bottom: 20px;
+}
+
+.beauty_skincare .section_header {
+    margin-bottom: 42px !important;
+}
+
+.anti-creams-microinfusion .bs_item h4 {
+    border: none;
+}
+
+.your_quest h2 {
+    text-align: center;
+}
+
+.your_quest-inner {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: #FAF8F8;
+    border-radius: 8px;
+    padding: 12px 18px;
+}
+
+.your_quest-inner p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.your_quest .your_quest-inner:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.your_quest .title-lg {
+    margin-bottom: 20px;
+}
+
+.anti-creams-microinfusion .beauty_skincare .bs_content {
+    padding: 20px 0 0 0;
+}
+
+.anti-creams-microinfusion .beauty_skincare .bs_content h4 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 28px;
+}
+
+.your_quest {
+    padding-top: 60px;
+}
+
+.your_quest .your_quest-btn {
+    margin-top: 24px;
+}
+
+.anti-creams-result .result_c_info {
+    padding-top: 20px;
+}
+
+.anti-creams-result .result_img_m img {
+    border-radius: 8px;
+}
+
+.anti-creams-result .r_c_name {
+    font-weight: 600;
+}
+
+.anti-creams-result .verified_img p {
+    color: #008763;
+    font-size: 11px;
+}
+
+.anti-creams-result .reviewed p {
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.anti-creams-result {
+    padding: 40px 0;
+}
+
+.anti-creams-microinfusion .beauty_skincare {
+    padding: 28px 0;
+}
+
+.trusted_doctor-info h2 {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 32.348px;
+    letter-spacing: 0.175px;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+.videosQure_dropdown .trusted_doctor-info .vQ_desc {
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+.trusted_doctor-info .vq_txt {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.anti_cream-banner .section_header h2 {
+    font-size: 45px;
+    line-height: 57.37px;
+}
+
+.anti_cream-trusted .play_btn a span h6 {
+    line-height: 16.21px;
+    font-size: 18px;
+}
+
+.anti_cream-trusted .trust_img .play_btn a {
+    padding: 6px;
+    border-radius: 50px;
+    max-width: 226px;
+    margin-bottom: 20px;
+}
+
+.anti_cream-trusted .trust_img .play_btn {
+    align-items: end;
+}
+
+.anti_cream-trusted .trust_img .play_btn img {
+    width: 46px !important;
+}
+
+.anti_cream-trusted .trusted_tag_sm {
+    right: unset;
+    left: 12px;
+    font-size: 13px;
+}
+
+.anti_cream-trusted .trust_img img {
+    border-radius: 10px;
+}
+
+.anti_cream-trusted .trusted_wrapper {
+    margin-top: 30px;
+}
+
+.stamping_your-skin .section_heading h2 {
+    margin-bottom: 40px;
+}
+
+.stamping_skin-content h5 {
+    font-family: "Canela Light";
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.22px;
+    margin-bottom: 0;
+}
+
+.stamping_content-head {
+    display: flex;
+    gap: 20px;
+}
+
+.stamping_skin-content p {
+    line-height: 24px;
+    padding-top: 34px;
+}
+
+.stamping_content-main {
+    box-shadow: 0px 5px 15px 0px rgba(176, 176, 176, 0.12);
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    row-gap: 50px;
+}
+
+.stamping_skin-gif {
+    padding-right: 48px;
+}
+
+.stamping_your-skin .section_header {
+    padding-bottom: 68px;
+}
+
+.get_confident-btn {
+    padding-top: 68px;
+}
+
+.skincare_journey {
+    margin: 40px 0;
+    padding: 44px 0;
+}
+
+.deliver_detail {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: fit-content;
+    margin-left: auto;
+    border-radius: 20px;
+    border: 1px solid #D7D9D9;
+    padding: 0 16px;
+    gap: 12px;
+}
+
+.deliver_detail .deliver_content:nth-child(1) {
+    padding-right: 16px;
+    font-weight: 600;
+}
+
+.deliver_detail-main {
+    width: 100%;
+    padding-bottom: 24px;
+}
+
+.deliver_detail .deliver_content {
+    display: flex;
+    gap: 8px;
+    font-weight: 500;
+}
+
+.step1-purchase-card-container .step4-card-choise-container p {
+    background-color: #000;
+    color: #fff;
+    padding: 1px 7.6px 1px 16px;
+    border-radius: 16px 16px 0 0;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: .05em;
+    text-align: left;
+}
+
+.step1-purchase-card-container .step4-card-choise-container {
+    position: absolute;
+}
+
+.step1-purchase-card-container .step4-card-choise-container {
+    position: absolute;
+    top: -27px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 224px;
+    width: 100%;
+}
+
+.new-landing-purchase {
+    background: #fff;
+}
+
+.anti_comparison-section .comparison-row .comp-col {
+    padding: 20px 0;
+    height: 100%;
+}
+
+.comparison_row-main {
+    box-shadow: 0px 3.451px 10.353px rgba(188, 188, 188, 0.25);
+    border-radius: 20px;
+    padding: 0 50px;
+}
+
+.comparison_row--main {
+    padding: 0 50px;
+}
+
+.comparison_row--main .comp_mask_img img {
+    max-width: 70px;
+    height: 94px;
+    object-fit: contain;
+}
+
+.comparison_row--main .comp_mask_img {
+    position: relative;
+    z-index: 1;
+}
+
+.comparison_row--main .comparison-row .comp-col.bg-default {
+    background: #fff;
+    position: relative;
+}
+
+.comparison_row--main .comparison-row .comp-col.bg-default:after {
+    content: '';
+    width: 100%;
+    height: 60%;
+    background: #c7e7dc;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.comparison_row-main .comparison-row {
+    border-bottom: 1px solid rgb(194 188 177 / 40%);
+}
+
+.comp_mask_img h6 {
+    font-family: "Canela Web";
+    padding-top: 10px;
+}
+
+.comparison-row .comp_mask_img .comp_mask--text {
+    font-family: 'Canela Light';
+}
+
+.anti_comparison-section .get_confident-btn {
+    padding-top: 40px;
+}
+
+.affect_howToUse .get_confident-btn {
+    padding-top: 40px;
+}
+
+.result_s {
+    padding: 48px 0 40px;
+}
+
+.result_s .get_confident-btn {
+    padding-top: 0;
+}
+
+.announcement_bar p {
+    font-size: 13px !important;
+}
+
+.anti_cream-banner {
+    padding-top: 60px;
+}
+
+.videosQure .get_confident-btn {
+    padding-top: 40px;
+}
+.anti_result_slider{
+    overflow: unset;
+}
+.g__checkBox,
+.cross__checkBox {
+    height: 13px;
+    width: 13px;
+}
+@media(max-width: 767px) {
+    .anti_cream-banner .section_header h2 {
+        font-size: 34px;
+        line-height: 40px;
+        padding-top: 48px;
+    }
+
+    .anti_cream-text p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .skincare_journey .ps_wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center !important;
+        gap: 16px;
+    }
+
+    .skincare_journey {
+        margin-bottom: 8px;
+        padding: 32px 0;
+    }
+
+    .beauty_skincare .bs_grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .beauty_skincare .bs_item {
+        width: auto;
+    }
+
+    .beauty_skincare .bs_versace {
+        position: unset;
+        margin: 0;
+        transform: unset;
+        width: 70px;
+        height: 70px;
+    }
+
+    .beauty_skincare .bs_vs_item {
+        width: auto;
+        padding: 40px 0;
+    }
+
+    .beauty_skincare .bs_content {
+        border: none;
+    }
+
+    .your_quest {
+        padding-top: 40px;
+    }
+
+    .your_quest-inner p {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .your_quest .title-lg {
+        text-align: start;
+    }
+
+    .anti-creams-result {
+        padding: 8px 0 18px 0;
+    }
+
+    .result_item .verified_img {
+        align-items: center;
+    }
+
+    .anti_cream-trusted .trustedSwipper {
+        overflow: unset;
+    }
+
+    .stamping_your-skin .section_heading h2 {
+        margin-bottom: 32px;
+    }
+
+    .stamping_your-skin .section_header {
+        padding-bottom: 40px;
+    }
+
+    .stamping_content-main {
+        padding: 45px 16px;
+        box-shadow: unset;
+        padding-bottom: 36px;
+    }
+
+    .stamping_skin-row {
+        border-radius: 8px;
+        border: 1px solid #C7E7DC;
+        box-shadow: 0px 5px 15px 0px rgba(176, 176, 176, 0.12);
+    }
+
+    .get_confident-btn {
+        padding-top: 40px;
+    }
+
+    .stamping_skin-gif {
+        padding-right: 0;
+    }
+    .ps_wrapper  .ps_item img {
+        height: 22px;
+    }
+
+    .step1-purchase-card-container .step4-card-choise-container p {
+        padding: 0;
+        text-align: center;
+        height: 20px;
+    }
+
+    .step1-purchase-card-container .step4-card-choise-container {
+        top: -21px;
+        max-width: 75px;
+    }
+
+    .deliver_detail {
+        gap: 2px;
+    }
+    .deliver_detail .deliver_content:nth-child(1) {
+        padding-right: 0;
+    }
+    .deliver_detail-main {
+        padding-top: 16px;
+    }
+    .deliver_detail .deliver_content p{
+        font-weight: 500;
+    }
+    .comparison_row--main {
+        padding: 0;
+    }
+
+    .comparison_row-main {
+        padding: 0 12px;
+    }
+
+    .comparison-row .comp-col.comp-row__text-wrapper {
+        background: #fff;
+        margin-right: 12px;
+    }
+
+    .comparison_row--main .comparison-row .comp-col.bg-default:after {
+        /* width: 76px; */
+        width: calc(100% - 6px);
+    }
+
+    .comparison-row .comp-row__text-wrapper .comp-row__title {
+        font-size: 10px;
+        line-height: 13px;
+    }
+
+    .anti_comparison-section .comparison-row .comp-col {
+        padding: 10px 0;
+    }
+
+    .comp_mask_img h6 {
+        font-family: "Canela Web";
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+
+    .comparison_row--main .comp_mask_img img {
+        max-width: 67px;
+    }
+
+    .g__checkBox {
+        height: 13px;
+        width: 13px;
+        background-image: url("../assets/tick_circle.svg");
+    }
+
+    .cross__checkBox {
+        background-image: url("../assets/cross_circle.svg");
+        height: 13px;
+        width: 13px;
+    }
+    .videosQure_dropdown .pagination_navigation .swiper-button{
+        display: flex;
+    }
+    .anti_cream-banner {
+        padding-top: 0;
+    }
+    .twa__swiper{
+        overflow: unset;
+    }
+    .verified_img img {
+        height: 12px;
+    }
+}
+
+/* ========================================================================================================================================= */
+/* ============ effective cream start =================== */
+
+/* .anti_cream-trusted .play_btn a span h6 {
+    line-height: 16.21px;
+    font-size: 18px;
+}
+
+.anti_cream-trusted .trust_img .play_btn a {
+    padding: 6px;
+    border-radius: 50px;
+    max-width: 226px;
+    margin-bottom: 20px;
+}
+
+.anti_cream-trusted .trust_img .play_btn {
+    align-items: end;
+}
+
+.anti_cream-trusted .trust_img .play_btn img {
+    width: 46px;
+}
+
+.anti_cream-trusted .trusted_tag_sm {
+    right: unset;
+    left: 12px;
+}
+
+.anti_cream-trusted .trust_img img {
+    border-radius: 10px;
+}
+
+.anti_cream-trusted .trusted_wrapper {
+    margin-top: 30px;
+}
+
+.stamping_your-skin .section_heading h2 {
+    margin-bottom: 40px;
+}
+
+.stamping_skin-content h5 {
+    font-family: "Canela Light";
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.22px;
+    margin-bottom: 0;
+}
+
+.stamping_content-head {
+    display: flex;
+    gap: 20px;
+}
+
+.stamping_skin-content p {
+    line-height: 24px;
+    padding-top: 34px;
+}
+
+.stamping_content-main {
+    box-shadow: 0px 5px 15px 0px rgba(176, 176, 176, 0.12);
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.stamping_your-skin .section_heading {
+    padding-bottom: 68px;
+} */
+
+.effective_creams .progress_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 28px;
+}
+
+.effective_creams .progress_grid .progressInfo {
+    text-align: center;
+}
+
+.effective_creams .progress_grid .progressInfo p {
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 0.13px;
+}
+
+.effective_creams .progressCont {
+    margin: 24px 0 16px;
+}
+
+.light_green_tag {
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.11px;
+    text-transform: uppercase;
+    border-radius: 93.8px;
+    background: #C7E7DC;
+    max-width: fit-content;
+    padding: 4px 12px;
+    margin: 0 auto;
+}
+
+.effective_creams .ec_b_a p {
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 0.13px;
+    opacity: 0.8;
+    margin-top: 27px;
+}
+
+@media(max-width:767px) {
+    .light_green_tag {
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    .progressWrapper svg {
+        height: auto;
+        width: auto;
+    }
+
+    .effective_creams .progress_grid .progressInfo p {
+        font-size: 10px;
+        line-height: 16px;
+        letter-spacing: 0.1px;
+    }
+
+    .effective_creams .ec_b_a p {
+        font-size: 12px;
+        letter-spacing: 0.13px;
+        opacity: 0.8;
+        margin-top: 3px;
+    }
+}
+
+/* ============ effective cream end =================== */
+/* ============ accelerte serum start =================== */
+.patches_ingredients .pi_header {
+    position: relative;
+}
+
+.patches_ingredients .accordion-item {
+    max-width: 380px;
+    margin-bottom: 20px;
+}
+
+.patches_ingredients .pi_header {
+    position: relative;
+}
+
+.patches_ingredients .pi_heading {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.patches_ingredients .skincare_right .accordion-body p {
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.14px;
+}
+
+.patches_ingredients .pi-item .accordion-button::after {
+    position: absolute;
+    right: 10px;
+    bottom: 23px;
+}
+
+.patches_ingredients .skincare_right .accordion-button {
+    /* padding: 0; */
+}
+
+.patches_ingredients .skincare_right {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.patches_ingredients .accordion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.patches_ingredients .skincare_right .accordion-item {
+    border: none;
+}
+
+.patches_ingredients .u_item_question {
+    border-radius: 15px !important;
+}
+
+.serum_bl_wrap h3 {
+    font-size: 28px;
+    font-family: 'Canela Light';
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0.28px;
+    margin-bottom: 20px;
+}
+
+.serum_bl_wrap {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 380px;
+    margin-bottom: 30px;
+}
+
+.serum_bl_img {
+    max-width: 66px;
+}
+
+@media(max-width:767px) {
+    .patches_ingredients .accordion {
+        display: block;
+    }
+
+    .patches_ingredients .skincare_right .accordion-body p {
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 0.14px;
+    }
+
+    .patches_ingredients .accordion-item {
+        margin-bottom: 10px;
+    }
+
+    .serum_bl_img {
+        max-width: 50px;
+    }
+
+    .serum_bl_wrap {
+        gap: 20px;
+    }
+
+    .serum_bl_wrap h3 {
+        font-size: 22px;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+
+    .pi_grid:not(:last-child) {
+        margin-bottom: 40px;
+    }
+
+    .patches_ingredients .skincare_right {
+        padding: 0;
+    }
+}
+
+/* ============ accelerte serum end =================== */
+/* -- trusted section start -- */
+.trusted_cl .t_c_info {
+    padding: 20px 17px;
+}
+.trusted_cl .t_c_info h6{
+    padding-top: 10px;
+}
+.trusted_cl .t_c_info p {
+    font-style: italic;
+}
+
+.trusted_cl .t_c_info h6 span {
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.trusted_cl_m .play_btn {
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trusted_cl .play_btn .popup-youtube {
+    padding: 8px;
+}
+
+.trusted_cl_m .play_btn span h6 {
+    font-size: 18px;
+    line-height: 15px;
+}
+
+@media(max-width:767px) {
+    .trusted_cl .t_c_info {
+        flex-wrap: wrap;
+    }
+
+    .trusted_cl .t_c_info>p {
+        flex: 0 0 100%;
+        margin-bottom: 17px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .c_img {
+        flex: 0 0 30%;
+        max-width: fit-content;
+    }
+
+    .c_desc {
+        flex: 0 0 70%;
+    }
+}
+
+/* -- trusted section start -- */
+/* -- safest_way start -- */
+.safest_way .trusted_cl {
+    padding: 0 !important;
+}
+
+.safest_way .safest_way_ftr {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.safest_way_item {
+    border-radius: 8px;
+    background: #FAF8F8;
+    padding: 12px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 116px 1fr;
+    gap: 16px;
+}
+
+.safest_way_item p {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.sw_item {
+    grid-template-columns: 100px 1fr;
+    gap: 15px;
+}
+
+@media(max-width:991px) {
+    .safest_way .safest_way_ftr {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width:767px) {
+    .safest_way .safest_way_ftr {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .sw_item {
+        grid-template-columns: 100px 1fr;
+        gap: 15px;
+    }
+
+    .sw_item img {
+        height: 80px;
+        object-fit: cover;
+        border-radius: 3px;
+    }
+}
+
+/* -- safest_way end -- */
+/* -- skin barrier start -- */
+.skin_barrier_item {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    gap: 12px;
+    background: #faf8f8;
+    padding: 12px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.skin_barrier_item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.skin_barrier_item p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.reveal_glow .skincare_percent {
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.reveal_glow .skincare_percent .progessInfo {
+    font-size: 14px;
+}
+
+@media(max-width:767px) {
+    .reveal_glow .skincare_percent {
+        margin-top: 10px;
+    }
+
+    .rg_item {
+        margin-bottom: 30px;
+    }
+}
+
+/* -- skin barrier start -- */
+/* ======================================================================================================================= */

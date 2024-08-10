@@ -1042,6 +1042,9 @@
     bottom: 20px;
     padding-top: 0px;
 }
+.refill_slider_new .refill_s_tab_content .swiper.dot_pagination .swiper-pagination {
+    bottom: 0px;
+}
 
 .refill_s_tab_content .swiper.dot_pagination .swiper-pagination-bullet {
     background: #D9D9D9;
@@ -3147,7 +3150,9 @@
     font-size: 14px;
     color: inherit;
 }
-
+.technology_light #accordionTechnology .accordion-header{
+    border-radius: 20px !important;
+}
 .unique_c_item .u_item_expandable {
     padding: 0px 0px 0;
     border-radius: 20px;
@@ -3763,6 +3768,20 @@ p.border-r {
 
 .w-bottom-bar.w-css-reset {
     display: block !important;
+}
+
+.w-bottom-bar-lower .w-css-reset {
+    background-color: transparent !important;
+    color: #000 !important;
+}
+
+.w-bottom-bar-lower .w-css-reset div[aria-label="Volume Slider"] {
+    background-color: rgb(43, 42, 42) !important;
+    color: #000 !important;
+}
+
+.w-bottom-bar-lower .w-css-reset .w-volume-track {
+    background-color: #fff !important;
 }
 
 .w-bottom-bar-lower .w-css-reset {
@@ -9325,6 +9344,14 @@ p.title_mob {
     font-weight: 500 !important;
 }
 
+.refill_bl .price .old_price,
+.refill_bl .price .new_price {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+}
+
 /* ====== qure_MI_ftr start =============== */
 
 .qure_MI_ftr {
@@ -9418,9 +9445,9 @@ p.title_mob {
     max-width: 540px;
 }
 
-.affect_howToUse p:not(:last-child) {
+/* .affect_howToUse p:not(:last-child) {
     padding-bottom: 16px;
-}
+} */
 
 .surgeon_video .w-css-reset img {
     object-fit: cover !important;
@@ -9439,6 +9466,10 @@ p.title_mob {
 
     .affect_howToUse .get_compliment_wrap #pills-tab-skin {
         justify-content: space-between;
+    }
+
+    .affect_howToUse {
+        overflow: hidden;
     }
 
     .affect_skin.affect_howToUse .dsn-right-container {

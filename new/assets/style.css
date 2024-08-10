@@ -28717,7 +28717,7 @@ fieldset:disabled .btn {
 }
 
 .swiper-button-lock {
-    display: none
+    display: none;
 }
 
 .swiper-button-next:after,
@@ -30494,7 +30494,7 @@ p {
 }
 
 .mw-680 {
-    max-width: 680px;
+    max-width: 680px !important;
     margin: 0 auto;
 }
 
@@ -30716,6 +30716,16 @@ p {
     width: 14px;
 }
 
+.result_s_wrapper .swiper-button-prev {
+    left: -60px;
+    display: flex;
+}
+
+.result_s_wrapper .swiper-button-next {
+    right: -60px;
+    display: flex !important;
+}
+
 @media (max-width: 767px) {
     .dot_pagination .swiper-pagination {
         padding-top: 20px;
@@ -30742,6 +30752,12 @@ p {
 
     .videosQure_dropdown .pagination_navigation .swiper-button {
         display: none
+    }
+    .result_s_wrapper .swiper-button-prev {
+        left: 10px;
+    }
+    .result_s_wrapper .swiper-button-next {
+        right: 10px;
     }
 }
 
