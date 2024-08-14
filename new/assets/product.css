@@ -6781,7 +6781,9 @@ p.title_mob {
     background: #C7E7DC;
     border: 1px solid #C7E7DC;
 }
-
+.planBlock input:checked+.monthly_plans .plan_prc.sale_price {
+    font-weight: 700;
+}
 .planBlock .monthly_plans .plan_hdr {
     display: flex;
     align-items: center;

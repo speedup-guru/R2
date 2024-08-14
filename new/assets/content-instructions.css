@@ -397,12 +397,15 @@
 
 @media(min-width:1199px) {
     .header-new .header-logo {
-        width: 28.33%;
+        width: 10%;
+    }
+    .mi_instruction-header .icon-section {
+        width: 45%;
     }
 
     .header-new .menu {
-        width: 38.33%;
-        gap: 14px;
+        width: 45%;
+        gap: 18px;
     }
 }
 

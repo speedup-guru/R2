@@ -196,35 +196,6 @@
     display: flex !important;
 }
 
-.planBlock .plan_choosed span {
-    background: #C92127;
-}
-
-.offer_tag {
-    background-color: #C92127;
-    max-width: fit-content;
-    padding: 0 10px;
-    border-radius: 20px;
-    color: #fff;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 22px;
-    letter-spacing: 0.13px;
-}
-
-.offer_active .supply_steps .step_block .step_content .serumBlock input.active+.serum_prd:after {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    content: '1';
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='34' height='34' viewBox='0 0 34 34' fill='none'%3E%3Ccircle cx='16.7109' cy='16.7109' r='16.7109' fill='%23C92127'/%3E%3C/svg%3E");
-    background-repeat: no-repeat no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 40px;
-    width: 40px;
-}
 
 @media(min-width:991px) {
     .supply-detail.supply-detail-without-counter .step_block .step_content.serum_image {
