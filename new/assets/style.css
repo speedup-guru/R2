@@ -30542,7 +30542,14 @@ p {
     margin: 0 auto;
 }
 
-
+/* -- common css for font size start --- */
+.fs-11{
+    font-size: 11px;
+}
+.fs-12{
+    font-size: 12px;
+}
+/* -- common css for font size start --- */
 
 .bs_vs_item .bs_versace span {
     font-weight: 400;
@@ -31787,14 +31794,19 @@ p {
 
 @media(max-width:767px) {
     .announcement_bar p {
-        font-size: 10px !important;
-        line-height: 15px !important;
+        font-size: 12px !important;
+        line-height: 17px !important;
         letter-spacing: 0.3px !important;
     }
 
     .announcement_bar p .green_coloured.green_btn {
         margin-left: 5px;
         font-size: 12px;
+    }
+}
+@media(max-width: 410px){
+    .announcement_bar p {
+        font-size: 11px !important;
     }
 }
 

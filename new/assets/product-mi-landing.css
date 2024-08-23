@@ -319,4 +319,8 @@
     .qure_MI_ftr_wrap {
         padding-top: 0;
     }
+    .mi_lp .planBlock .plan_choosed span {
+        font-size: 9px;
+        padding: 4px 10px;
+    }
 }

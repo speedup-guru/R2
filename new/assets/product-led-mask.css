@@ -76,6 +76,19 @@
 .led_mask .get_compliment_wrap #pills-tabContent2 {
     max-width: 670px;
 }
+.see_more-question a{
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000;
+}
+.ask_question a{
+    font-size: 13px;
+    color: #008763;
+}
+.see_more-question{
+    padding-top: 25px;
+}
 @media(max-width:1024px) {
     body {
         overflow-x: unset;

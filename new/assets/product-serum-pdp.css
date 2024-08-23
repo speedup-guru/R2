@@ -124,7 +124,10 @@
 .all_in_one .skincare_slider .section_header p{
     opacity: 1;
 }
-
+.all_in_one
+.accordionTechnologyWrapper .accordion-header{
+    border-radius: 16px;
+}
 @media(max-width:991px) {
     /* .skin_item {
         padding: 30px;
@@ -194,5 +197,9 @@
 
     .serum_pdp .trusted_wrapper {
         padding: 0 !important;
+    }
+    .accordionTechnologyWrapper>#accordionTechnology {
+        grid-template-columns: 1fr;
+        gap: 0px;
     }
 }
