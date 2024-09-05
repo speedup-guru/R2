@@ -83,7 +83,12 @@
 .chest_pdp .technology_light .accordion-item p {
     padding: 0;
 }
-
+.chest_pdp .app_press_sl_img1 .swiper-slide{
+    opacity: 0.4;
+}
+.chest_pdp .app_press_sl_img1 .swiper-slide-thumb-active {
+    opacity: 1;
+}
 .technology_light .u_item_question,
 .technology_light .accordion-header {
     border-radius: 20px;
@@ -103,11 +108,11 @@
     margin: 0 auto;
 }
 
-.chest_pdp .app_press_sl_img .swiper-slide {
+.chest_pdp .app_press_sl_img1 .swiper-slide {
     pointer-events: none;
 }
 
-.chest_pdp .app_press_sl_img .swiper-slide {
+.chest_pdp .app_press_sl_img1 .swiper-slide {
     pointer-events: none;
 }
 

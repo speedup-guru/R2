@@ -1,3 +1,39 @@
+/* ... 03 Sept, 2024 ... */
+.technology_light .accordion-item p>span {
+    color: #000;
+}
+/* ... 03 Sept, 2024 ... */
+
+/* ... 30 Aug, 2024 ... */
+.led_mask .limited_offer  .ur_item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.led_mask .limited_offer .ur_item .ur_itemName {
+    font-size: 14px;
+}
+.led_mask .ur_info .free_product span {
+    background: #008763;
+    color: #fff;
+    padding: 0 12px;
+    border-radius: 28px;
+    margin-right: 10px;
+}
+.led_mask .ur_info .free_product {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: start;
+}
+main.led_mask .limited_offer {
+    padding: 18px;
+}
+.arror_r{
+    vertical-align: -webkit-baseline-middle;
+    margin-left: 8px;
+}
+/* ... 30 Aug, 2024 ... */
+
 .led_mask .health_beauty .section_header .title-lg {
     max-width: 446px;
     margin: 0 auto;
@@ -102,6 +138,25 @@
 
     .led_mask .beauty_skincare {
         background-color: var(--clr-yellow);
+    }
+    .led_mask
+    .refill_bl.tabSlider .refill_info 
+    .section_header .title-xl {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .led_mask .limited_offer  .ur_item {
+        gap: 16px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .led_mask .limited_offer .ur_item .ur_itemName {
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 0.13px;
+    }
+    .led_mask .ur_info .free_product {
+        font-size: 13px !important;
     }
 }
 

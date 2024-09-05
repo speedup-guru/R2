@@ -30558,7 +30558,82 @@ p {
 .opacity-8 {
     opacity: 0.8;
 }
+/* -- app press slider start -- */
 
+.app_press {
+    background-color: #D9D9D91A;
+    overflow: hidden;
+}
+
+.app_press .press_bl {
+    max-width: 820px;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+.app_press_info img {
+    max-height: 29px;
+}
+
+.press_bl .p_bl_header p {
+    color: #D9D9D9;
+}
+
+.app_press .app_subhheading {
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 300;
+    font-family: 'Canela Light';
+}
+
+.app_press .app_press_slider .app_subhheading {
+    padding: 50px 0;
+}
+
+.app_press_sl_img .swiper-slide {
+    opacity: 0.4;
+}
+
+.app_press_sl_img .swiper-slide-thumb-active {
+    opacity: 1;
+}
+
+.app_press_slider .swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width:767px){
+    .app_slider {
+        overflow: hidden;
+    }
+
+    .app_slider_wrapper .app_s_item .as_info h3 {
+        padding: 12px 0 20px;
+    }
+
+    .as_desc {
+        padding: 20px 0;
+    }
+
+    .app_press_info img {
+        max-height: 26px;
+    }
+
+    .app_press_sl_content {
+        padding: 0 24px !important;
+        margin: 0 12px !important;
+    }
+
+    .app_press .app_press_slider .app_subhheading {
+        padding: 22px 0;
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+}
+/* -- app press slider end -- */
 @media(max-width:767px) {
     .mw-327 {
         max-width: 327px;

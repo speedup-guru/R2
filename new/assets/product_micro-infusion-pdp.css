@@ -421,4 +421,7 @@
     .affect_howToUse .affect_skin .howUse_slider_img {
         overflow: unset;
     }
+    .mi-pdp .skin_item_n_tag p {
+        text-align: start;
+    }
 }

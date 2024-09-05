@@ -1590,3 +1590,41 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+
+//// App Slider ////
+var swiper_press = new Swiper(".app_press_sl_img", {
+    spaceBetween: 20,
+    slidesPerView: 2.9,
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
+    loop: true,
+    breakpoints: {
+        640: {
+            slidesPerView: 3.5,
+            spaceBetween: 20,
+        },
+        768: {
+            slidesPerView: 5,
+            spaceBetween: 20,
+            touchRatio: 0
+        }
+    },
+});
+var swiper_press2 = new Swiper(".app_press_sl_content", {
+    spaceBetween: 10,
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
+    loop: true,
+    thumbs: {
+        swiper: swiper_press,
+    },
+});
+$('.thumbs img').click(function () {
+    $('.largeImage').attr('src', $(this).attr('src').replace('thumb', 'large'));
+    $(this).addClass('current').siblings().removeClass('current');
+});

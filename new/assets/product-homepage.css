@@ -1,112 +1,3 @@
-/* ..22 Aug, 2024.. */
-.bfBundle__content .bfSub_heading {
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 28px;
-    letter-spacing: 0.124px;
-    font-family: Poppins;
-    padding: 0 5px;
-    margin-top: 10px;
-}
-.labourday_sale-mob {
-    grid-template-columns: 1.3fr  1fr;
-    gap: 24px;
-    border-radius: 12px;
-    background: rgba(255, 255, 255, 0.45);
-    backdrop-filter: blur(4.423652648925781px);
-    padding: 14px;
-    text-align: start;
-}
-.labourday_sale-text p {
-    color: #10355D;
-    font-size: 8px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20.269px;
-    letter-spacing: 0.237px;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.labourday_sale-text p span {
-    border-radius: 48.26px;
-    background: #C92127;
-    font-size: 7px;
-    color: #fff;
-    line-height: normal;
-    padding: 4px 14px;
-}
-.labourday_sale-text h6 {
-    color: #10355D;
-    font-family: "Canela Web";
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20.269px;
-    letter-spacing: 0.237px;
-    margin-bottom: 12px;
-}
-.labourday_sale-text a {
-    padding: 7px 11px;
-    background: #fff;
-    border-radius: 14px;
-    color: #10355D;
-    font-family: Poppins;
-    font-size: 8px;
-    font-weight: 500;
-    letter-spacing: 0.237px;
-    text-transform: capitalize;
-    line-height: 20.269px;
-}
-.labourday_sale-text {
-    padding-right: 10px;
-}
-
-.bfBundle__banner {
-    position: relative;
-}
-.bfBundle__bannerBlock {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-}
-.bfBundle__bannerBlock .bfBundle__content {
-    max-width: 320px;
-    text-align: center;
-}
-
-.bfBundle__content .bfHeading {
-    color: #10355D;
-    text-align: center;
-    font-family: "Canela Web";
-    font-size: 45px;
-    font-weight: 500;
-    line-height: 57.4px;
-    letter-spacing: 0.45px;
-}
-
-.bfBundle__content .btn-bfBundle {
-    padding: 15px;
-    border-radius: 100px;
-    background: #C92127;
-    color: #fff;
-    width: 100%;
-    font-size: 20px;
-    letter-spacing: 0.22px;
-    text-transform: capitalize;
-    margin-top: 32px;
-    margin-bottom: 12px;
-    position: relative;
-    z-index: 9;
-    line-height: 20px;
-}
-/* ..22 Aug, 2024 End.. */
-
 .homepage .r_c_info {
     padding: 15px 0;
 }
@@ -116,7 +7,7 @@
 }
 
 .homepage .main_banner .main_b_wrapper .m_b_content {
-    max-width: 438px;
+    max-width: 498px;
 }
 
 .homepage .main_banner .bg_banner {
@@ -395,50 +286,6 @@
     .m_b_content .section_header .title-xl {
         padding-bottom: 10px;
     }
-    .bfBundle__content .subHeading {
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 21.652px;
-        letter-spacing: 0.124px;
-        padding-top: 10px;
-    }
-    .bfBundle__content .btn-bfBundle {
-        padding: 10px 16px;
-        max-width: max-content;
-        margin-bottom: 15px;
-        margin-top: 25px;
-    }
-    .bfBundle__bannerBlock .container {
-        height: 100%;
-    }
-    .bfBundle_inner-content {
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding: 23px 0;
-    }
-    .bfBundle__content .btn-bfBundle span{
-        font-size: 14px;
-        font-weight: 600;
-        line-height: 16.733px; 
-        letter-spacing: 0.251px;
-    }
-    .bfBundle__content .btn-bfBundle {
-        padding: 13px 25px;
-        margin: 0;
-    }
-    .bfBundle__content .bfHeading {
-        margin-top: 0px;
-        font-size: 34px;
-        line-height: 40px;
-    }
-    .bfBundle__content .bfSub_heading {
-        font-size: 12px;
-    }
-    .bfBundle__bannerBlock .bfBundle__content {
-        margin: 0 auto;
-    }
 }
 
 @media (max-width: 640px) {
@@ -521,11 +368,25 @@
     font-size: 20px;
     margin-bottom: 15px;
     display: inline-block;
-    max-width: 354px;
+    max-width: 218px;
     width: 100%;
     text-align: center;
 }
 
+.homepage .main_banner .m_b_content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.124px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+.homepage .main_banner .m_b_content h1{
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 57.4px;
+    letter-spacing: 0.45px;
+}
 .homepage .main_b_wrapper .section_header p {
     font-size: 18px;
     line-height: 28px;
@@ -640,10 +501,6 @@
     gap: 0;
 }
 
-.homepage .mySwiperTest {
-    padding: 10px;
-}
-
 .trusted_bl .trust_item .trust_item_info .result_content p,
 .trust_item .trust_item_info .result_content h6 {
     font-size: 12px;
@@ -671,7 +528,7 @@
     .homepage .btn_black {
         /* background-color: #fff;
         color: #000; */
-        max-width: 231px;
+        max-width: 181px;
         padding: 10px 28px;
     }
 
@@ -682,14 +539,31 @@
     }
 
     .homepage .main_banner .main_b_wrapper .btn_black {
-        background-color: #fff;
-        color: #000;
+        font-size: 14px;
     }
 
+    .homepage .main_banner .m_b_content h1 {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.28px;
+    }
+    .homepage .main_banner .m_b_content p {
+    font-size: 12px;
+    line-height: 21.652px;
+    letter-spacing: 0.124px;
+    text-align: center;
+    padding-bottom: 16px;
+    padding-top: 0;
+    }
     .homepage .main_banner .main_b_wrapper {
-        /* align-items: flex-start;
-        top: 30px; */
-        color: #fff;
+        align-items: start;
+        padding-top: 23px;
+    }
+    .homepage .main_banner .main_b_wrapper .m_b_content {
+        max-width: 324px;
+        margin: auto;
     }
 
     .homepage .main_b_wrapper .section_header p {
