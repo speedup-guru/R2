@@ -1,0 +1,50 @@
+.main_banner .section_header .qure_logo {
+    max-width: 178px;
+    margin: auto;
+}
+.main_banner .section_header h1{
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 57.37px;
+    letter-spacing: 0.45px;
+}
+.loyalty_program .main_banner .section_header {
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 60px;
+}
+.loyalty_program .main_banner .main_b_wrapper {
+    align-items: start;
+}
+.already_member-content .button_content a {
+    padding: 12px;
+    width: 100%;
+    font-size: 18px;
+}
+.button_content .login_here h2{
+    font-size: 32px;
+    letter-spacing: 0.28px;
+    font-family: "Canela light";
+    font-weight: 300;
+}
+.already_member-content .login_here a {
+    border: 1px solid #000;
+    border-radius: 30px;
+    font-weight: 500;
+    display: inline-block;
+}
+.already_member .button_content {
+    text-align: center;
+}
+@media(max-width: 768px){
+    .main_banner .section_header h1 {
+        font-size: 34px;
+    }
+    .main_banner .section_header .qure_logo {
+        max-width: 140px;
+    }
+    .loyalty_program .main_banner .section_header {
+        padding-top: 44px;
+    }
+}

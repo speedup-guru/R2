@@ -603,6 +603,12 @@
     .content_instructions_patches .trusted_verified {
         margin-top: 10px !important;
     }
+    .ac_desc_grid .ac_desc.faq .accordion-button {
+        padding: 12px 0;
+    }
+    .ac_desc_grid .ac_desc ul li {
+        font-size: 13px;
+    }
 }
 
 

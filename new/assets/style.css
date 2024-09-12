@@ -30522,6 +30522,11 @@ p {
     margin: 0 auto;
 }
 
+.mw-860 {
+    max-width: 860px !important;
+    margin: 0 auto;
+}
+
 .mw-932 {
     max-width: 932px;
     margin: 0 auto;
