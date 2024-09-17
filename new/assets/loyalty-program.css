@@ -2,49 +2,303 @@
     max-width: 178px;
     margin: auto;
 }
-.main_banner .section_header h1{
+
+.main_banner .section_header h1 {
     font-size: 45px;
     font-weight: 500;
     line-height: 57.37px;
     letter-spacing: 0.45px;
 }
+
 .loyalty_program .main_banner .section_header {
     max-width: 350px;
     margin: 0 auto;
     text-align: center;
     padding-top: 60px;
 }
+
 .loyalty_program .main_banner .main_b_wrapper {
     align-items: start;
 }
+
+/* ...... already member start ....... */
 .already_member-content .button_content a {
     padding: 12px;
     width: 100%;
     font-size: 18px;
 }
-.button_content .login_here h2{
+
+.button_content .login_here h2 {
     font-size: 32px;
     letter-spacing: 0.28px;
     font-family: "Canela light";
     font-weight: 300;
 }
+
 .already_member-content .login_here a {
     border: 1px solid #000;
     border-radius: 30px;
     font-weight: 500;
     display: inline-block;
+    color: #000;
 }
+
+.button_content .login_here {
+    max-width: fit-content;
+    margin: auto;
+    padding-top: 60px;
+}
+
 .already_member .button_content {
     text-align: center;
 }
-@media(max-width: 768px){
+
+.loyalty_program .already_member {
+    padding-top: 92px;
+}
+
+.already_member-content .text_content p:not(:last-child) {
+    padding-bottom: 20px;
+}
+
+/* ...... already member end ....... */
+
+/* ...... what do i get start ....... */
+.product .qoins {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.get_pd-content .product del {
+    color: #00000085;
+}
+
+.get_pd-content .product span {
+    background: #C7E7DC;
+    border-radius: 20px;
+    padding: 0 8px;
+    font-weight: 600;
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.get_pd-content .product p {
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0.13px;
+    font-weight: 400;
+}
+
+.get_pd-content .product .qoins p {
+    font-weight: 600;
+}
+
+.product h6 {
+    margin-bottom: 13px;
+}
+
+.get_pd-content .product {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    padding-right: 0;
+}
+
+.get_pd-content{
+    border-radius: 8px;
+    position: relative;
+}
+.get_content-inner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+/* ...... what do i get end ....... */
+
+/* ...... how it works start ....... */
+.how_it-works .section_header p {
+    padding: 0;
+}
+.how_it-works .section_header h2{
+    padding-bottom: 35px;
+}
+.return_step-body {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-bottom: 16px;
+}
+.return_step-body h5 {
+    font-family: "Canela light";
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0.28px;
+    margin-bottom: 0;
+}
+.how_it-works .return_step_bx {
+    font-size: 17px;
+}
+.how_it-works .return_step p{
+    font-size: 14px;
+}
+/* ...... how it works end ....... */
+
+/* ...... Club tiers & rewards start ....... */
+.club_tier-reward .return_step-body {
+    display: block;
+    text-align: center;
+}
+.club_tier-reward .return_step_bx {
+    width: max-content;
+    border-radius: 20px;
+    padding: 0 12px;
+    margin: 0 auto;
+    gap: 8px;
+}
+.return_step span.line {
+    height: 1px;
+    display: block;
+    background: #EDE7DD;
+    max-width: 160px;
+    width: 100%;
+    margin: auto;
+}
+.club_tier-reward .return_step .ss_list {
+    padding: 12px 25px;
+}
+.club_tier-reward .return_step {
+    height: auto;
+}
+.club_tier-reward .ss_list ul li{
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+/* ...... Club tiers & rewards end ....... */
+
+/* ...... way to earn start start ....... */
+.way_to-earn .return_step_bx {
+    width: max-content;
+    border-radius: 20px;
+    padding: 0 12px;
+    margin: 0 auto;
+    gap: 8px;
+}
+.way_to-earn-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+}
+.way_to-earn-content .way {
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.12);
+    padding: 24px 12px;
+    text-align: center;
+}
+.way_to-earn-content a {
+    border-radius: 25px;
+    font-size: 13px;
+    padding: 6px 16px;
+}
+.way_to-earn-content a img {
+    margin-left: 8px;
+    height: 10px;
+    vertical-align: baseline;
+}
+.way_to-earn-content .way p {
+    padding-top: 12px;
+    font-size: 13px;
+    line-height: 24px;
+}
+/* ...... way to earn start end ....... */
+@media(max-width: 768px) {
     .main_banner .section_header h1 {
         font-size: 34px;
     }
+
     .main_banner .section_header .qure_logo {
         max-width: 140px;
     }
+
     .loyalty_program .main_banner .section_header {
         padding-top: 44px;
+    }
+    .loyalty_program .already_member {
+        padding-top: 40px;
+    }
+    .button_content {
+        padding-top: 32px;
+    }
+    .already_member-content .button_content a {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .button_content .login_here h2 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .button_content .login_here {
+        padding: 24px 50px;
+        background: rgba(217, 217, 217, 0.10);
+        max-width: unset;
+    }
+    .get_pd-content .product p {
+        font-size: 11px;
+    }
+    .get_pd-content .product span{
+        font-size: 12px;
+    }
+    .get_pd-content .product del{
+        font-size: 14px;
+    }
+    .what_do-get-content .col-md-6:nth-child(even) .get_content-inner {
+        justify-content: end;
+    }
+    .what_do-get-content .col-md-6:nth-child(even) .get_content-inner .product {
+        text-align: end;
+    }
+    .what_do-get-content .col-md-6:nth-child(even) .get_content-inner .product
+    .qoins {
+        justify-content: end;
+    }
+    .get_pd-content .product{
+        padding-right: 24px;
+    }
+    .how_it-works .section_header p:not(:nth-child(3)) {
+        padding-top: 16px;
+    }
+    .return_step-body h5 {
+        font-size: 22px;
+    }
+    .way_to-earn-content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+    .way_to-earn-content .way p {
+        font-size: 11px;
+        line-height: 18px;
+        letter-spacing: 0.11px;
+    }
+    .way_to-earn .return_step_bx {
+        font-size: 10px;
+    }
+    .way_to-earn-content a {
+        font-size: 10px;
+    }
+    .way_to-earn-content .way>img {
+        width: 41px;
+    }
+    .product.mob-serum>p {
+        padding-left: 65px;
+    }
+    .return_step h6 {
+        font-size: 13px;
+    }
+    .club_tier-reward .return_step_bx {
+        font-size: 13px;
     }
 }

@@ -752,10 +752,6 @@
     grid-template-columns: 328px 328px;
 }
 
-.c_guide_img .wistia_responsive_padding {
-    pointer-events: none;
-}
-
 @media(min-width:767px) {
     .meet_your_gif img {
         border-radius: 18px;
