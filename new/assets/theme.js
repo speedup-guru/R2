@@ -983,7 +983,9 @@ $(".serumBlock").click(function () {
 * choose serum js start 
 */
 $(document).ready(function () {
-    $('.tab_content').not(':first').hide();
+    $('.tab_content').hide(); // Hide all tab contents initially
+    $('.tab_content').eq(1).show(); // Show the second tab content by default
+
     $('.step_conten_blocks .planBlock').click(function () {
         var regular_price = $(this).find(".regular_price").text();
         var sale_price = $(this).find(".sale_price").text();
@@ -1000,7 +1002,6 @@ $(document).ready(function () {
         $('.step_conten_blocks .planBlock').removeClass('active');
         $(this).addClass('active');
 
-
         var tab = $(this).data('tab');
 
         if(tab == "month_2"){
@@ -1013,11 +1014,9 @@ $(document).ready(function () {
 
     //product subscription
 
-
     var data_month1_image = $(".serum_img.active").attr('data-month1-image');
     var data_month2_image = $(".serum_img.active").attr('data-month2-image');
     var data_month3_image = $(".serum_img.active").attr('data-month3-image');
-
 
     $(".planBlock").each(function () {
         var data_tab = $(this).attr("data-tab");
@@ -1029,7 +1028,6 @@ $(document).ready(function () {
             $(this).attr("data-image", data_month1_image);
         }
     });
-
 
     $(".serumBlock").click(function () {
         var imageLinkss = $(".step_conten_blocks a.planBlock.active").attr('data-image');
@@ -1056,6 +1054,7 @@ $(document).ready(function () {
     });
 
 });
+
 /*
 * choose serum js end 
 */
@@ -1525,6 +1524,30 @@ const swiperAffect = new Swiper(".swiper-containerAffect", {
         el: ".swiper-pagination",
         clickable: true,
     },
+});
+
+// affect your skin start
+const swiperAffect2 = new Swiper(".swiper-containerAffect2", {
+    // loop: true,
+    slidesPerView: "2.5",
+    spaceBetween: 20,
+    breakpoints: {
+        300: {
+            slidesPerView: 1.1
+        },
+        600: {
+            slidesPerView: 2.5,
+            spaceBetween: 20,
+        }
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    navigation: {
+        nextEl: ".swiper-arrow-next",
+        prevEl: ".swiper-arrow-prev",
+    }
 });
 
 

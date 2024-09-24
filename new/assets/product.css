@@ -6796,7 +6796,7 @@ p.title_mob {
     margin: 0;
 }
 
-.planBlock .monthly_plans .plan_hdr .saved_price {
+.planBlock .monthly_plans .plan_hdr .saved_price, .planBlock .monthly_plans .saved_price {
     display: block;
     border-radius: 15.873px;
     background: #008763;
@@ -6806,6 +6806,7 @@ p.title_mob {
     font-weight: 500;
     padding: 1px 4px;
     margin-left: 8px;
+    max-width: fit-content;
 }
 
 .planBlock .monthly_plans .plan_des {
@@ -6950,7 +6951,7 @@ p.title_mob {
     .btn.btn-atc {
         font-size: 18px;
         line-height: 20px;
-        padding: 8px 23px;
+        padding: 15px 23px;
     }
 
     .supply_steps .step_block {
@@ -9527,6 +9528,19 @@ p.title_mob {
 
     .qure_MI_ftr_wrap {
         padding-top: 0;
+    }
+    .section__header .des p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .pmtBlock .pmt_plans .price .pmt_prc+.pmt_prc {
+        font-size: 18px;
+    }
+    .pmtBlock .price .pmt_prc.pay_today {
+        font-size: 18px;
+    }
+    .pmtBlock .pmt_plans .pmt_des {
+        font-size: 10px;
     }
 }
 
