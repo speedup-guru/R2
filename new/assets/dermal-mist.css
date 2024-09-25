@@ -238,4 +238,7 @@
     .bs_img .beauty_img {
         object-fit: contain;
     }
+    .swiper-containerAffect2 {
+        overflow: unset;
+    }
 }

@@ -1529,14 +1529,11 @@ const swiperAffect = new Swiper(".swiper-containerAffect", {
 // affect your skin start
 const swiperAffect2 = new Swiper(".swiper-containerAffect2", {
     // loop: true,
-    slidesPerView: "2.5",
+    slidesPerView: "1.05",
     spaceBetween: 20,
     breakpoints: {
-        300: {
-            slidesPerView: 1.1
-        },
         600: {
-            slidesPerView: 2.5,
+            slidesPerView: 2,
             spaceBetween: 20,
         }
     },
