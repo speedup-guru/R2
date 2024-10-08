@@ -81,6 +81,7 @@
     font-weight: 600;
     margin-left: 5px;
     font-size: 13px;
+    color: #000;
 }
 
 .get_pd-content .product p {
@@ -88,6 +89,7 @@
     line-height: 24px;
     letter-spacing: 0.13px;
     font-weight: 400;
+    color: #000;
 }
 
 .get_pd-content .product .qoins p {
@@ -190,8 +192,8 @@
 }
 .way_to-earn-content {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 32px;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
 }
 .way_to-earn-content .way {
     border-radius: 8px;
@@ -213,6 +215,35 @@
     padding-top: 12px;
     font-size: 13px;
     line-height: 24px;
+}
+.club_tier-reward ul li span {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 16px;
+}
+.club_tier-reward .qoins_desc {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.13px;
+    text-align: center;
+    padding-top: 20px;
+}
+.refer_friend .refer_friend-content input {
+    border-radius: 50px;
+    border: 1px solid #4E4E4E;
+    background: #FFF;
+    padding: 10px 26px;
+    font-size: 14px;
+}
+.refer_friend .refer_friend-content input::placeholder {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 15px;
+    letter-spacing: 0.14px;
+    color: #4E4E4E;
 }
 /* ...... way to earn start end ....... */
 @media(max-width: 768px) {

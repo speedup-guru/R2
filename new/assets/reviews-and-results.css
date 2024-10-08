@@ -1,0 +1,48 @@
+.review_and-results .main_banner .main_b_wrapper{
+    align-items: start;
+}
+.review_and-results .main_banner .main_b_wrapper h1{
+    line-height: 57.37px;
+    padding-top: 45px;
+}
+.review_and-results .main_banner .main_b_wrapper h1+img {
+    max-width: 223px;
+    padding: 22px 0 14px;
+}
+.reviews_tabs .reviews_tabs-content .qure_tabs {
+    border-bottom: unset;
+    gap: 10px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.reviews_tabs .reviews_tabs-content .nav-tabs button {
+    border-radius: 40px;
+    border: 1px solid #D0D0D0;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.13px;
+    color: #000;
+    padding: 3px 15px;
+}
+.reviews_tabs .reviews_tabs-content .nav-tabs button.active {
+    background-color: #000;
+    color: #fff;
+}
+@media(max-width: 767px){
+    .reviews_tabs .reviews_tabs-content .qure_tabs {
+        overflow-x: auto;
+        justify-content: unset;
+        overflow-y: hidden;
+        margin: 0 -24px;
+    }
+    .reviews_tabs .reviews_tabs-content .nav-tabs button {
+        width: max-content;
+        margin-bottom: 5px;
+    }
+    .reviews_tabs .reviews_tabs-content .qure_tabs li:nth-child(1) {
+        padding-left: 24px;
+    }
+}

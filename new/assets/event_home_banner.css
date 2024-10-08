@@ -1,4 +1,4 @@
-.homepage .main_banner .m_b_content h6 {
+.homepage .main_banner h6 {
     font-size: 20px;
     font-weight: 300;
     line-height: 36.93px;
@@ -6,114 +6,100 @@
     text-transform: uppercase;
     color: #D453AF;
 }
-.main_banner .main_b_wrapper {
-    align-items: start;
+.homepage .main_banner h1 {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 57.4px;
+    letter-spacing: 0.45px;
 }
-.homepage .main_banner .main_b_wrapper .m_b_content {
-    padding-top: 50px;
-}
-.main_b_wrapper .head_band-main {
-    display: grid;
-    grid-template-columns: 1fr 1.9fr;
-    gap: 26px;
-    border-radius: 12px;
-    background: rgba(255, 255, 255, 0.55);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.12));
-    padding: 15px;
-}
-.head_band{
-    width: 100%;
-    max-width: 472px;
-}
-.head_band-main .band_img{
-    background-color: #fff;
+.homepage .main_banner .event_text {
+    background-color: #DEE9EA;
+    padding: 50px 30px 50px 50px;
+    height: 100%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    border-radius: 8px;
 }
-.main_b_wrapper .head_band-main h4 {
-    color: #000;
+.homepage .main_banner .banner_product {
+    width: 100%;
+    max-width: 291px;
+    margin: auto;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.homepage .main_banner a {
+    padding: 10px 42px;
+}
+.homepage .main_banner .banner_product h4 {
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 20.269px;
+    letter-spacing: 0.237px;
+    text-transform: uppercase;
+    color: #D453AF;
+}
+.homepage .main_banner .banner_product h5 {
     font-family: "Canela Web";
     font-size: 18px;
     font-weight: 500;
     line-height: 22px;
     letter-spacing: 0.237px;
 }
-.head_band-main .band_txt h5 {
-    color: #D453AF;
-    font-family: Poppins;
-    font-size: 11px;
-    font-weight: 600;
-    line-height: 20.269px;
-    letter-spacing: 0.237px;
-    text-transform: uppercase;
-    margin-bottom: 8px;
-    margin-top: 5px;
-}
-.head_band-main .band_img img {
-    width: 100%;
-    max-width: 112px;
-    margin: auto;
-}
-.main_banner .main_b_wrapper .head_band p {
-    color: #000;
-    font-family: Poppins;
+.homepage .main_banner .banner_product p {
     font-size: 11px;
     font-weight: 300;
     line-height: 16.494px;
     letter-spacing: 0.11px;
-    padding: 12px 0 0;
+    padding-top: 20px;
+    color: #000;
 }
-.event_banner-content{
-    display: flex;
-    justify-content: space-between;
-}@media(max-width:767px){
-    .event_banner-content {
-        flex-direction: column;
-        align-items: baseline;
-        height: 61%;
-        justify-content: end;
+.homepage .main_banner .banner_product .product_text {
+    padding-top: 20px;
+}
+
+@media(max-width:767px){
+    .homepage .main_banner .banner_product .product_text {
+        padding-top: 0px;
     }
-    .main_b_wrapper .head_band-main h4 {
-        font-size: 15px;
-        line-height: 20px;
-        text-align: start;
+    .homepage .main_banner .event_text {
+        padding: 35px 25px 25px 25px;
     }
-    .head_band-main .band_txt h5 {
-        font-size: 8px;
-        text-align: start;
-        margin-bottom: 0;
-    }
-    .main_b_wrapper .head_band-main {
-        gap: 20px;
-        grid-template-columns: 128px auto;
-    }
-    .homepage .main_banner .m_b_content h6 {
-        font-size: 13px;
-        line-height: 22px;
-        text-align: center;
-        padding-bottom: 5px;
-    }
-    .homepage .main_banner .main_b_wrapper .m_b_content {
-        padding-top: 0;
-    }
-    .homepage .main_banner .m_b_content h1 {
+    .homepage .main_banner h1 {
         font-size: 34px;
         line-height: 40px;
-        padding: 0 10px;
-        margin-bottom: 10px;
+        letter-spacing: 0.34px;
+        margin: 5px 0 10px;
     }
-    .homepage .main_banner .main_b_wrapper .container,
-    .homepage .main_banner .main_b_wrapper .m_b_content {
-        height: 100%;
-    }
-    .homepage .main_banner .main_b_wrapper{
-        padding-top: 0;
-    }
-    .event_banner-text {
+    .homepage .main_banner h6 {
+        font-size: 13px;
+        line-height: 22px;
+        letter-spacing: 0.13px;
         text-align: center;
-        padding-top: 23px;
-        height: 38%;
+    }
+    .homepage .main_banner a {
+        padding: 13px 25px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 16.733px;
+        letter-spacing: 0.251px;
+        margin-bottom: 0;
+    }
+    .homepage .main_banner .event_banner-text{
+        text-align: center;
+    }
+    .homepage .main_banner .banner_product {
+        padding: 16px 4px 26px 20px;
+    }
+    .homepage .main_banner .event_content-main {
+        margin: 0 -3px;
+    }
+    .homepage .main_banner .banner_product h5{
+        font-size: 16px;
+    }
+    .homepage .main_banner .event_banner-text p {
+        font-size: 11px;
+        line-height: 16.494px;
+        letter-spacing: 0.11px;
     }
 }

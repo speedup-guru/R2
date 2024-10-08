@@ -554,6 +554,9 @@
     overflow: unset;
 }
 @media(max-width:767px) {
+    .homepage .q_uses_bl .q_use_img {
+        max-width: 280px;
+    }
     .advisor_content .advisor_detail h6{
         font-size: 14px;
     }
