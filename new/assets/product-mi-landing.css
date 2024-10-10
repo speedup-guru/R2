@@ -1,3 +1,18 @@
+.mi_lp.mi_lp_v2 .offer_active .supply_steps .step_block .step_content .serumBlock input.active+.serum_prd:after {
+    display: none;
+}
+
+.mi_lp.mi_lp_v2 .planBlock .plan_choosed span {
+    background: #000;
+}
+
+.mi_lp.mi_lp_v2 .planBlock .plan_choosed {
+    text-align: left;
+    position: relative;
+    left: 30px;
+    max-width: 100%;
+}
+
 .mi_landing .img_grid.img_grid_row .cg_thumnail {
     padding-top: 4px;
 }
@@ -134,19 +149,23 @@
     height: 40px;
     width: 40px;
 }
-.limited_offer-text{
+
+.limited_offer-text {
     font-size: 11px;
     font-weight: 300;
     line-height: 16px;
     letter-spacing: 0.11px;
     padding-bottom: 10px;
 }
+
 .available_bar p {
     font-weight: 500;
 }
+
 .offer_active .btn_icon {
     display: none;
 }
+
 .mi_landing .joinMicro .ba_wrapper .ss_list ul li {
     padding-top: 16px;
     padding-bottom: 16px;
@@ -325,56 +344,74 @@
     .qure_MI_ftr_wrap {
         padding-top: 0;
     }
+
     .mi_lp .planBlock .plan_choosed span {
         font-size: 12px;
         padding: 0px 10px;
         vertical-align: bottom;
     }
+
     .planBlock .monthly_plans .price {
         gap: 8px;
     }
-    .pmtBlock .pmt_plans .price .regular_price{
+
+    .pmtBlock .pmt_plans .price .regular_price {
         font-size: 20px;
     }
+
     .pmtBlock .pmt_plans .price .pmt_prc+.pmt_prc {
         font-size: 18px;
     }
-    .planBlock .monthly_plans .price .regular_price{
+
+    .planBlock .monthly_plans .price .regular_price {
         font-size: 20px;
     }
-    .planBlock .limited__offer .price .regular_price{
+
+    .planBlock .limited__offer .price .regular_price {
         font-size: 18px;
     }
-    .planBlock .limited__offer .price .plan_prc+.plan_prc{
+
+    .planBlock .limited__offer .price .plan_prc+.plan_prc {
         font-size: 16px !important;
     }
-    .planBlock .monthly_plans .price .plan_prc+.plan_prc{
+
+    .planBlock .monthly_plans .price .plan_prc+.plan_prc {
         font-size: 18px;
     }
-    .planBlock .monthly_plans .price .sale_price{
+
+    .planBlock .monthly_plans .price .sale_price {
         font-size: 18px;
     }
-    .supply_steps .step_block .serum_prd .serum_ttl span{
+
+    .supply_steps .step_block .serum_prd .serum_ttl span {
         font-size: 10px;
     }
+
     .choose_serum .cs_item__accordion {
         font-size: 12px;
     }
+
     .planBlock .monthly_plans .saved_price.saved_price50 {
         font-size: 11px;
     }
-    .planBlock .monthly_plans .plan_hdr .saved_price, .planBlock .monthly_plans .saved_price{
+
+    .planBlock .monthly_plans .plan_hdr .saved_price,
+    .planBlock .monthly_plans .saved_price {
         font-size: 9px;
     }
+
     .supply_steps .step_counter span {
         font-size: 11px;
     }
-    .supply_steps .step_block .serum_prd .serum_ttl{
+
+    .supply_steps .step_block .serum_prd .serum_ttl {
         padding: 4px;
     }
-    .supply_steps .step_block input:checked+.serum_prd .serum_ttl span{
+
+    .supply_steps .step_block input:checked+.serum_prd .serum_ttl span {
         font-weight: 500;
     }
+
     .limited__offer.monthly_plans {
         padding: 6px 14px;
     }

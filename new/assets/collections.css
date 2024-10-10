@@ -20,7 +20,10 @@
 .collectio-banner img {
     max-width: 100%;
 }
-
+.fullImage img{
+    width: 100%;
+    object-fit: cover;
+}
 @media(max-width:767px) {
     .collectio-banner h1 {
         font-size: 18px;

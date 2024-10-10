@@ -1,0 +1,312 @@
+ /* ---------- black friday sale main banner start --------------  */
+ .bfs_main_banner .title-xl {
+     font-size: 45px;
+     line-height: 55px;
+     letter-spacing: 0.36px;
+ }
+
+ .bfs_main_banner .bfs_mb_btn .bfs_mb_btn_img {
+     max-width: 169px;
+ }
+
+ .bfs_tag {
+     max-width: fit-content;
+     border-radius: 4px;
+     overflow: hidden;
+ }
+
+ .bfs_tag p {
+     font-size: 18px;
+     font-weight: 500;
+     line-height: 22px;
+     letter-spacing: 0.18px;
+     color: #fff;
+     display: inline-flex;
+ }
+
+ .bfs_tag .bfs_tag_bf {
+     background-color: #000;
+     padding: 4px 13px;
+ }
+
+ .bfs_tag .bfs_tag_sale {
+     background-color: #C4121A;
+     padding: 4px 13px;
+     font-weight: 700;
+ }
+
+ .bfs_main_banner .bfs_mb_btn {
+     border-top: 1px solid #CAE4DB;
+     padding-top: 24px;
+     margin-top: 24px;
+ }
+
+ .bfs_main_banner .bfBundle__content .btn-bfBundle {
+     width: 300px;
+     font-size: 18px;
+     padding: 16px 14px;
+ }
+
+ .bfs_main_banner .ss_list ul li {
+     font-size: 11px;
+     line-height: 16px;
+     max-width: fit-content;
+ }
+
+ .bfs_main_banner .ss_list ul li:before {
+     position: absolute;
+     content: url(../assets/tick_grey.svg);
+     left: 0;
+     top: 50%;
+     bottom: 0;
+     transform: translateY(-50%);
+ }
+
+ .bfs_main_banner .bfs_mb_sl {
+     max-width: calc(100% - 70px);
+     margin: 0 auto;
+ }
+
+ .bfs_main_banner .thumbsSlider_wrap {
+     position: relative;
+ }
+
+ .bfs_main_banner .thumbsSlider_wrap .swiper-button {
+     border-radius: 50%;
+     height: 40px;
+     width: 40px;
+     background: var(--White, #FFF);
+     box-shadow: 0px 0px 3.284px 0px rgba(0, 0, 0, 0.25);
+ }
+
+ .bfs_main_banner .thumbsSlider_wrap .swiper-button-next {
+     right: -20px;
+ }
+
+ .bfs_main_banner .thumbsSlider_wrap .swiper-button-prev {
+     left: -20px;
+ }
+
+ @media(min-width:991px) {
+     .bfs_mb_slider {
+         margin-left: 50px;
+     }
+ }
+
+ @media(max-width:767px) {
+     .bfs_tag p {
+         font-size: 14px;
+         line-height: 17px;
+     }
+
+     .bfs_main_banner .title-xl {
+         font-size: 28px;
+         line-height: 40px;
+         letter-spacing: 0.36px;
+     }
+
+     .bfs_main_banner .bfBundle__content .btn-bfBundle {
+         width: 100%;
+         font-size: 18px;
+         padding: 11px 14px;
+     }
+
+     .bfs_main_banner .bfs_mb_sl {
+         max-width: 224px;
+     }
+
+     .bfs_main_banner .thumbsSlider_wrap .swiper-button-next {
+         right: 0px;
+     }
+
+     .bfs_main_banner .thumbsSlider_wrap .swiper-button-prev {
+         left: 0px;
+     }
+
+     .bfs_main_banner .ss_list ul li {
+         margin: 0 auto;
+     }
+
+     .bfs_main_banner .bfs_mb_btn {
+         border-top: none;
+         padding-top: 0;
+     }
+ }
+
+ /* -- black friday sale main banner end --  */
+
+ /* -- featured promotion start -- */
+ .black_friday_sale .fp_item .fp_icon img {
+     max-height: 50px;
+ }
+
+ .black_friday_sale .fp-wrapper {
+     grid-template-columns: repeat(4, 24%);
+ }
+
+ @media(min-width:767px) {
+     .black_friday_sale .fp_icon_text p {
+         font-size: 13px;
+         line-height: 24px;
+     }
+ }
+
+ @media(max-width:767px) {
+     .black_friday_sale .fp-wrapper {
+         grid-template-columns: repeat(2, 50%);
+         column-gap: 10px;
+     }
+
+     .black_friday_sale .fp_item {
+         grid-template-columns: 32px 1fr;
+         gap: 5px;
+     }
+ }
+
+ /* -- featured promotion end -- */
+
+ /* -- top rated product start --  */
+ .top_rated .top_rated_ftr {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .top_rated .tr_ftr_item {
+     text-align: center;
+ }
+
+ .top_rated_ftr .tr_ftr_item p {
+     margin-top: 10px;
+ }
+
+ .top_rated .section_header h6 {
+     color: #656565;
+     font-size: 16px;
+     font-weight: 600;
+     line-height: 20px;
+     letter-spacing: 0.16px;
+     text-transform: uppercase;
+     margin-top: 10px;
+     margin-bottom: 0;
+ }
+
+ .red-line {
+     position: relative;
+     width: fit-content;
+     display: inline-flex;
+ }
+
+ .red-line:after {
+     position: absolute;
+     right: 0;
+     bottom: -2px;
+     content: '';
+     width: 194px;
+     height: 9px;
+     background-image: url(../assets/red-line.svg);
+     background-repeat: no-repeat;
+ }
+
+ .tr_item {
+     display: flex;
+     gap: 4px;
+ }
+
+ .tr_item_tag.tr_item_tag_a {
+     background-color: #C7E7DC;
+ }
+
+ .tr_item_tag.tr_item_tag_b {
+     border: 1px solid #E9E9E9;
+ }
+
+ .tr_item_tag {
+     border-radius: 6px 6px 0 0;
+     max-width: fit-content;
+     margin: 0 auto;
+     padding: 3px 20px;
+     font-size: 13px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 24px;
+ }
+
+ .rt_slider {
+     margin: 40px 0;
+ }
+
+ .btn.btn-secondary {
+     background-color: transparent;
+     color: #000;
+     border-color: #D0D0D0;
+ }
+
+ .rt_slider .swiper-slide.swiper-slide-prev,
+ .rt_slider .swiper-slide.swiper-slide-next {
+     opacity: 0.5;
+ }
+
+ @media(max-width:767px) {
+     .red-line:after {
+         width: 100%;
+         background-size: contain;
+         bottom: -7px;
+     }
+
+     .top_rated .top_rated_ftr {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         gap: 20px;
+     }
+ }
+
+ /* -- top rated product end --  */
+
+ /* -- black friday bundle start --  */
+ .light_green_tag {
+     background-color: #C7E7DC;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 24px;
+     letter-spacing: 0.2px;
+     max-width: fit-content;
+     padding: 4px 19px;
+     border-radius: 4px;
+     margin: 0 auto;
+ }
+
+ .bf_bundle_sale_ftr {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 20px;
+     justify-content: center;
+ }
+
+ .bf_bundle_sale_ftr_item {
+     border-radius: 8px;
+     border: 1px solid #C7E7DC;
+     background: rgba(255, 255, 255, 0.00);
+     box-shadow: 0px 5px 15px 0px rgba(176, 176, 176, 0.25);
+     text-align: center;
+     padding: 17px;
+ }
+
+ /* -- black friday bundle end --  */
+ .bs_item {
+     max-width: 494px;
+     width: 100%;
+     max-width: 100%;
+ }
+
+ .bs_vs_item {
+     padding: 0;
+     margin: 0 -48px;
+ }
+
+ .bs_versace {
+     border: 20px solid #fff;
+     height: 116px;
+     width: 116px;
+ }

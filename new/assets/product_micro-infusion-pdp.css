@@ -80,6 +80,7 @@
 
 .mi-pdp .planBlock .plan_choosed span {
     font-weight: 500;
+    background: #008763;
 }
 
 .mi-pdp .bs_feature ul li {
@@ -196,6 +197,57 @@
     display: flex !important;
 }
 
+.mi-pdp.black_friday .serum_bl .planBlock .monthly_plans .price {
+    position: relative;
+    max-width: fit-content;
+    margin-left: auto;
+}
+
+.mi-pdp.black_friday .serum_bl .planBlock .monthly_plans .price:after {
+    /* max-width: fit-content; */
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #C4121A;
+    transform: rotate(8deg);
+}
+
+.mi-pdp.black_friday .serum_bl .bf_price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.mi-pdp.black_friday .serum_bl .bf_price h6 {
+    color: #C4121A;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.12px;
+    margin-bottom: 0;
+}
+
+.mi-pdp.black_friday .serum_bl .bf_price_wrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mi-pdp.black_friday .serum_bl .planBlock .monthly_plans .saved_price {
+    height: fit-content;
+    padding: 4px 8px;
+    background: #C4121A;
+}
+
+.mi-pdp.black_friday .serum_bl .bf_price_wrap .plan_prc.sale_price {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+}
 
 @media(min-width:991px) {
     .supply-detail.supply-detail-without-counter .step_block .step_content.serum_image {
@@ -421,7 +473,14 @@
     .affect_howToUse .affect_skin .howUse_slider_img {
         overflow: unset;
     }
+
     .mi-pdp .skin_item_n_tag p {
         text-align: start;
+    }
+    .mi-pdp.black_friday .serum_bl .bf_price h6{
+        font-size: 11px;
+    }
+    .mi-pdp.black_friday .serum_bl .planBlock .monthly_plans .saved_price{
+        font-size: 9px;
     }
 }

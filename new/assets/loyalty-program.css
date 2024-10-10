@@ -29,10 +29,12 @@
 }
 
 .button_content .login_here h2 {
-    font-size: 32px;
+    font-size: 28px;
+    line-height: 32px;
     letter-spacing: 0.28px;
     font-family: "Canela light";
     font-weight: 300;
+    margin-bottom: 20px;
 }
 
 .already_member-content .login_here a {
@@ -265,7 +267,7 @@
         padding-top: 32px;
     }
     .already_member-content .button_content a {
-        font-size: 20px;
+        font-size: 16px;
         padding: 10px;
     }
     .button_content .login_here h2 {
@@ -331,5 +333,11 @@
     }
     .club_tier-reward .return_step_bx {
         font-size: 13px;
+    }
+    .how_it-works .section_header h2 {
+        padding-bottom: 15px;
+    }
+    .way_to-earn-content a img{
+        height: 7px;
     }
 }

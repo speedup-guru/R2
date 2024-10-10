@@ -29786,13 +29786,15 @@ p {
 .object-fit-cover {
     object-fit: cover;
 }
+
 .newsletter_bl p {
     color: #fff;
     border: 1px solid #fff;
     padding: 15px;
     border-radius: 30px;
-    font-family: Poppins,sans-serif !important;
+    font-family: Poppins, sans-serif !important;
 }
+
 @media (min-width: 768px) {
     .py-86 {
         padding: 86px 0 !important;
@@ -30473,6 +30475,9 @@ p {
     max-width: 493px;
 }
 
+.mw-499 {
+    max-width: 499px;
+}
 
 .mw-500 {
     max-width: 500px;
@@ -30554,12 +30559,14 @@ p {
 }
 
 /* -- common css for font size start --- */
-.fs-11{
+.fs-11 {
     font-size: 11px;
 }
-.fs-12{
+
+.fs-12 {
     font-size: 12px;
 }
+
 /* -- common css for font size start --- */
 
 .bs_vs_item .bs_versace span {
@@ -30569,6 +30576,7 @@ p {
 .opacity-8 {
     opacity: 0.8;
 }
+
 /* -- app press slider start -- */
 
 .app_press {
@@ -30615,7 +30623,8 @@ p {
     justify-content: center;
     align-items: center;
 }
-@media(max-width:767px){
+
+@media(max-width:767px) {
     .app_slider {
         overflow: hidden;
     }
@@ -30644,6 +30653,7 @@ p {
     }
 
 }
+
 /* -- app press slider end -- */
 @media(max-width:767px) {
     .mw-327 {
@@ -30846,9 +30856,11 @@ p {
     .videosQure_dropdown .pagination_navigation .swiper-button {
         display: none
     }
+
     .result_s_wrapper .swiper-button-prev {
         left: 10px;
     }
+
     .result_s_wrapper .swiper-button-next {
         right: 10px;
     }
@@ -31890,7 +31902,8 @@ p {
         font-size: 12px;
     }
 }
-@media(max-width: 410px){
+
+@media(max-width: 410px) {
     .announcement_bar p {
         font-size: 11px !important;
     }
