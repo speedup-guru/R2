@@ -34,11 +34,14 @@ setTimeout(function () {
                 dir = e?.dataset.direction ? e.dataset.direction : 'horizontal',  // Default to 'horizontal'
                 rtl = document.documentElement.dir === 'rtl',  // Check the document's direction
                 initialSlide = e?.dataset.initialSlide ? Number(e.dataset.initialSlide) : 0,  // Default to 0
+                  centeredSlidesMobile = "true" === e?.dataset.centeredMobile,
+            centeredSlidesDesktop = "true" === e?.dataset.centeredDesktop;
                 m = Number(m), a = Number(a), c = Number(c), p <= 767 ? m >= 15 && (m = 15) : p <= 1199 && m >= 30 && (m = 30), new Swiper("#twa__swiper-" + d, {
                     slidesPerView: r,
                     slidesPerColumn: w,
                     spaceBetween: m,
-                    centeredSlides: cs,
+                    // centeredSlides: cs,
+                    centeredSlides: p <= 767 ? centeredSlidesMobile : centeredSlidesDesktop,
                     autoplay: t,
                     delay: a,
                     loop: n,
@@ -65,7 +68,8 @@ setTimeout(function () {
                     breakpoints: {
                         768: {
                             slidesPerView: s,
-                            centeredSlides: cs,
+                            // centeredSlides: cs,
+                            centeredSlides: centeredSlidesDesktop,
                             grid: {
                                 rows: ut,
                                 fill: "row"
@@ -210,7 +214,7 @@ window.addEventListener('load', function () {
 // =================================== js for same height ===============================
 $(function () {
     //setTimeout(function () {
-    $('.q_uses_header, .dfrc__hdr, .s_name, .result_item, .trust_item, .serum_bx, .bs_content, .skin_item, .safety_content, .mc_desc, .blog_wrap, .see_item img, .menu li a, .return_step1').matchHeight({
+    $('.q_uses_header, .dfrc__hdr, .s_name, .result_item, .trust_item, .serum_bx, .bs_content, .skin_item, .safety_content, .mc_desc, .blog_wrap, .see_item img, .menu li a, .return_step1, .result_tabs .rt_wrap_header .nav-link').matchHeight({
         property: 'height',
         target: null,
         remove: false
@@ -498,6 +502,10 @@ setTimeout(function () {
     $('.hamburger-container').click(function () {
         $('body').toggleClass("openmenu");
     });
+    $("#menu li > a").click(function () {
+        $('body').removeClass("openmenu");
+        bottomBar.removeClass("hidden");
+    })
 }, 500);
 
 
@@ -529,10 +537,10 @@ $(".hamburger-container").on("click", function () {
     }
 });
 
-$("#menu li > a").click(function () {
-    $('body').removeClass("openmenu");
-    bottomBar.removeClass("hidden");
-})
+// $("#menu li > a").click(function () {
+//     $('body').removeClass("openmenu");
+//     bottomBar.removeClass("hidden");
+// })
 
 
 // // Tab Slider 
@@ -1004,9 +1012,9 @@ $(document).ready(function () {
 
         var tab = $(this).data('tab');
 
-        if(tab == "month_2"){
+        if (tab == "month_2") {
             $(".supply-detail").addClass("offer_active");
-        }else{
+        } else {
             $(".supply-detail").removeClass("offer_active");
         }
         $('#' + tab).show();

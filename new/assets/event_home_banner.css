@@ -6,12 +6,14 @@
     text-transform: uppercase;
     color: #D453AF;
 }
+
 .homepage .main_banner h1 {
     font-size: 45px;
     font-weight: 500;
     line-height: 57.4px;
     letter-spacing: 0.45px;
 }
+
 .homepage .main_banner .event_text {
     background-color: #DEE9EA;
     padding: 50px 30px 50px 50px;
@@ -20,6 +22,7 @@
     flex-direction: column;
     justify-content: center;
 }
+
 .homepage .main_banner .banner_product {
     width: 100%;
     max-width: 291px;
@@ -28,9 +31,11 @@
     height: 100%;
     align-items: center;
 }
+
 .homepage .main_banner a {
     padding: 10px 42px;
 }
+
 .homepage .main_banner .banner_product h4 {
     font-size: 11px;
     font-weight: 600;
@@ -39,6 +44,7 @@
     text-transform: uppercase;
     color: #D453AF;
 }
+
 .homepage .main_banner .banner_product h5 {
     font-family: "Canela Web";
     font-size: 18px;
@@ -46,6 +52,7 @@
     line-height: 22px;
     letter-spacing: 0.237px;
 }
+
 .homepage .main_banner .banner_product p {
     font-size: 11px;
     font-weight: 300;
@@ -54,49 +61,295 @@
     padding-top: 20px;
     color: #000;
 }
+
 .homepage .main_banner .banner_product .product_text {
     padding-top: 20px;
 }
 
-@media(max-width:767px){
+
+/* <----------Banners CSS-----------> */
+/* <!--.Main Banner--> */
+.bf_sale-banners h1 {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 57.4px;
+    letter-spacing: .45px;
+}
+
+.bf_sale-banners .red-line {
+    position: relative;
+    width: fit-content;
+    display: inline-flex;
+}
+
+.bf_sale-banners .red-line:after {
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    content: '';
+    width: 194px;
+    height: 9px;
+    background-image: url(../assets/red-line.svg);
+    background-repeat: no-repeat;
+}
+
+.bf_sale-banners .banner_bf-text h5 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.124px;
+    margin: 29px 0;
+}
+
+.bf_sale-banners .btn_black {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 64px;
+    border-radius: 30px;
+    font-weight: 600;
+    letter-spacing: .167px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    display: inline-block;
+    width: auto;
+    text-align: center;
+}
+
+.bf_sale-banners .main_banner {
+    background-color: #F1F4F5;
+}
+
+.main_banner .newCycle {
+    margin-left: 22px;
+}
+
+.main_banner .bf_sale-slider .newCycleSlider .swiper-slide .new-slide {
+    width: 100%;
+    min-height: 110px;
+    padding: 9px 7px;
+    display: grid;
+    align-items: center;
+    color: #000;
+    grid-template-columns: 1fr 2fr;
+    gap: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.55);
+    box-shadow: 0px 3.922px 3.922px rgba(0, 0, 0, 0.12);
+    margin-bottom: 8px;
+}
+
+.main_banner .new_content {
+    text-align: left;
+}
+
+.main_banner .bf_sale-slider .new_content .new-header {
+    font-family: "Canela Web";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.553px;
+    letter-spacing: 0.233px;
+    margin-bottom: 0;
+}
+
+.main_banner .newCycleSlider .swiper-arrow:after {
+    display: none;
+}
+
+.main_banner .bf_sale-slider .new_img {
+    text-align: center;
+    background: #fff;
+    height: 100%;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.main_banner .event_content-main .event_pd-content {
+    max-width: 606px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.main_banner .bf_sale-slider .swiper-button {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 0px 3.284px 0px rgba(0, 0, 0, 0.25);
+}
+
+.main_banner .bf_sale-slider {
+    position: relative;
+    margin-top: 35px;
+}
+
+.main_banner .bf_sale-slider .swiper-button-prev {
+    left: -60px;
+}
+
+.main_banner .bf_sale-slider .swiper-button-next {
+    right: -60px;
+}
+
+.main_banner .bf_sale-slider .new_content span {
+    color: #F10000;
+    font-family: Poppins;
+    font-size: 10.786px;
+    font-weight: 700;
+    line-height: 19.876px;
+    letter-spacing: 0.233px;
+    text-transform: uppercase;
+}
+
+.main_banner .bf_sale-slider .new_content .new-header span {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22.553px;
+    letter-spacing: 0.233px;
+    color: #000;
+    display: block;
+    text-transform: capitalize;
+}
+/* <!--Collection Banner--> */
+.bf_sale-banners .collection_banner h1 {
+    font-family: "Canela light";
+}
+.collection_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+/* <----Banners CSS End-------> */
+
+@media(max-width:991px) {
+    .main_banner .bf_sale-slider .swiper-button {
+        bottom: 0;
+        top: auto;
+    }
+}
+@media(max-width:767px) {
+/* <----Banners CSS Start-------> */
+/* <!--.Main Banner--> */
+.bf_sale-banners .main_banner h1 {
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0.28px;
+}
+.bf_sale-banners .banner_bf-text h5 {
+    font-size: 13px;
+    margin: 29px 0;
+    line-height: 24px;
+    letter-spacing: 0.124px;
+}
+.banner_bf-text {
+    text-align: center;
+    padding-top: 30px;
+    max-width: 300px;
+    width: 100%;
+    margin: auto;
+}
+.bf_sale-banners .red-line:after {
+    bottom: -8px;
+    width: 80px;
+    height: 10px;
+    background-size: contain;
+}
+.main_banner .bf_sale-slider .swiper-button-prev {
+    left: 20px;
+}
+.main_banner .bf_sale-slider .swiper-button-next {
+    right: 20px;
+}
+.main_banner .bf_sale-slider {
+    margin-top: 20px;
+    padding: 0 12px;
+}
+.main_banner .pagination_navigation .swiper-pagination{
+    top: 0;
+}
+.main_banner .pagination_navigation .swiper-pagination
+.swiper-pagination-bullet-active{
+    background: #000;
+}
+.main_banner .event_content-main .event_pd-content{
+    padding-bottom: 36px;
+}
+.bf_sale-banners .btn_black {
+    font-size: 14px;
+}
+/* <!--Collection Banner--> */
+.bf_sale-banners .collection_banner h1 {
+    font-family: "Canela light";
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.24px;
+}
+.collection_banner .btn_black {
+    font-size: 11px;
+    padding: 6px 19px;
+    width: 100%;
+}
+.bf_sale-banners .collection_banner h1 strong {
+    display: block;
+}
+/* <----Banners CSS End-------> */
+
     .homepage .main_banner .banner_product .product_text {
         padding-top: 0px;
     }
+
     .homepage .main_banner .event_text {
         padding: 35px 25px 25px 25px;
     }
+
     .homepage .main_banner h1 {
         font-size: 34px;
         line-height: 40px;
         letter-spacing: 0.34px;
         margin: 5px 0 10px;
     }
+
     .homepage .main_banner h6 {
         font-size: 13px;
         line-height: 22px;
         letter-spacing: 0.13px;
         text-align: center;
     }
+
     .homepage .main_banner a {
-        padding: 13px 25px;
+        padding: 13px 50px;
         font-size: 14px;
         font-weight: 600;
         line-height: 16.733px;
         letter-spacing: 0.251px;
         margin-bottom: 0;
     }
-    .homepage .main_banner .event_banner-text{
+
+    .homepage .main_banner .event_banner-text {
         text-align: center;
     }
+
     .homepage .main_banner .banner_product {
         padding: 16px 4px 26px 20px;
     }
-    .homepage .main_banner .event_content-main {
+
+    .main_banner .event_content-main {
         margin: 0 -3px;
     }
-    .homepage .main_banner .banner_product h5{
+
+    .homepage .main_banner .banner_product h5 {
         font-size: 16px;
     }
+
     .homepage .main_banner .event_banner-text p {
         font-size: 11px;
         line-height: 16.494px;
