@@ -1270,6 +1270,12 @@
     background: #c7e7dc;
 }
 
+.subscribe_save_wrapper .subscribeInfo p {
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
 .subscribe_save_wrapper .subscribePrice p {
     font-size: 18px;
     line-height: 18px;
@@ -1300,12 +1306,6 @@
 }
 
 .subscribe_save_wrapper.without_subscription .subscribeInfo h6 {
-    font-weight: 400;
-}
-
-.subscribe_save_wrapper .subscribeInfo p {
-    font-size: 11px;
-    line-height: 16px;
     font-weight: 400;
 }
 
@@ -1412,20 +1412,7 @@
     max-height: 550px !important;
 }
 
-@media (max-width: 490px) {
-    .subscription_bx .serum_prd {
-        min-height: 40px;
-    }
 
-    .subscription_bx .serum_ttl {
-        font-size: 10px;
-    }
-
-    .refill_s_tab ul {
-        grid-template-columns: 1fr 1fr;
-        padding: 0 20px;
-    }
-}
 
 @media(max-width:767px) {
     .refill_s_tab {
@@ -1642,7 +1629,20 @@
         width: 40px;
     }
 }
+@media (max-width: 490px) {
+    .subscription_bx .serum_prd {
+        min-height: 40px;
+    }
 
+    .subscription_bx .serum_ttl {
+        font-size: 10px;
+    }
+
+    .refill_s_tab ul {
+        grid-template-columns: 1fr 1fr;
+        padding: 0 20px;
+    }
+}
 
 @media(min-width:768px) {
 
@@ -8141,28 +8141,32 @@ p.title_mob {
     border-radius: 30px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
     margin-bottom: 10px;
     column-gap: 20px;
 }
 
-.best_seller_info .special_deal_btn {
+.best_seller_info .special_deal_btn a span {
     background-color: #C92127;
-    padding: 10px 16px;
-    border-radius: 30px;
-    width: 100%;
-    text-align: center;
+    padding: 10px 14px 10px;
+    margin-left: 14px;
+    letter-spacing: 0.308px;
+}
+.best_seller_info .special_deal_btn a {
+    background-color: #000;
+    color: #fff;
+    line-height: 20.558px;
+    letter-spacing: 0.308px;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+    padding-left: 21px;
 }
 
 .best_seller_info .special_deal_btn img {
     margin-left: 5px;
-}
-
-.best_seller_info .special_deal_btn a {
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: 600;
-    color: #fff !important;
 }
 
 .special_deals>img {
@@ -9598,3 +9602,21 @@ p.title_mob {
 }
 
 /* ====== qure_MI_ftr end =============== */
+
+@media(max-width: 460px){
+    .best_seller_info .special_deal_btn a span {
+        padding: 6px 0px 5px 5px;
+        margin-left: 5px;
+    }
+    .best_seller_info .special_deal_btn a {
+        padding-left: 6px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .best_seller_info .special_deal_btn img {
+        margin-left: 0;
+    }
+    .bundle_pdp .buy_btn {
+        padding: 15px;
+    }
+}

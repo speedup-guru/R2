@@ -1,8 +1,19 @@
-.silk_pillowcase .refill_bl .refill_info .section_header .title-xl {
-    font-size: 40px;
-    line-height: 55px;
+.pillow_imgs{
+    position: relative;
+}
+.pillow_imgs p {
     font-weight: 500;
-    letter-spacing: 0.36px;
+    font-size: 14px;
+    background-color: #C7E7DC;
+    padding: 7px 16px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 67px;
+    width: max-content;
+    border: 3px solid #fff;
+    bottom: -10px;
+    box-shadow: 1.69px 4.056px 2.704px 0px rgba(0, 0, 0, 0.12);
 }
 .silk_pillowcase .section_header .silk_heading {
     color: rgba(0, 0, 0, 0.60);
@@ -272,5 +283,12 @@
     }
     .swiper-slide-active .ps_item img {
         filter: invert(1);
+    }
+    .silk_pillowcase .section_header .silk_heading{
+        padding-bottom: 0;
+    }
+    .pillow_imgs p {
+        font-size: 12px;
+        padding: 3px 16px;
     }
 }

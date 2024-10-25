@@ -32,9 +32,6 @@
     align-items: center;
 }
 
-.homepage .main_banner a {
-    padding: 10px 42px;
-}
 
 .homepage .main_banner .banner_product h4 {
     font-size: 11px;
@@ -270,7 +267,6 @@
     right: 20px;
 }
 .main_banner .bf_sale-slider {
-    margin-top: 20px;
     padding: 0 12px;
 }
 .main_banner .pagination_navigation .swiper-pagination{
@@ -311,12 +307,6 @@
         padding: 35px 25px 25px 25px;
     }
 
-    .homepage .main_banner h1 {
-        font-size: 34px;
-        line-height: 40px;
-        letter-spacing: 0.34px;
-        margin: 5px 0 10px;
-    }
 
     .homepage .main_banner h6 {
         font-size: 13px;

@@ -5,35 +5,47 @@
     line-height: 26px;
     letter-spacing: 0.14px;
 }
+
 .refill_bl .refill_info .buy_btn {
     font-size: 18px;
 }
+
 .refill_bl .mask_select_clr h5 {
     font-weight: 600;
 }
+
 .row.subscribe_save_bx {
     --bs-gutter-x: 0;
 }
+
 .mask_select_clr .form-check-input:checked+label img {
     border: 2px solid #C7E7DC;
 }
-.subscribe_save_wrapper .noSubscription .noSubscriptionPrice{
+
+/* .subscribe_save_wrapper .noSubscription .noSubscriptionPrice{
     font-size: 14px;
-}
+} */
 .subscribe_save_bx p {
     font-size: 14px;
     font-weight: 600;
 }
+
 .refill_bl .mask_select_clr h5 {
     font-size: 14px;
 }
-.subscribe_save_wrapper .subscribePrice p,
+
+.subscribe_save_wrapper .subscribeInfo .subscribeInfoDesc {
+    max-width: 300px;
+}
+
+/* .subscribe_save_wrapper .subscribePrice p,
 .subscribe_save_wrapper .subscribePrice p span {
     font-size: 14px;
-}
-.press_bl .ps_wrapper .ps_item{
+} */
+.press_bl .ps_wrapper .ps_item {
     margin: 0;
 }
+
 .mask_select_clr input {
     display: none;
     opacity: 0;
@@ -115,11 +127,13 @@
     padding: 20px 7px;
     height: 100%;
 }
+
 .reasons .reasons_wrapper {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
+
 .reasons .reasons_wrapper .rs_item-main {
     width: 20%;
     box-sizing: border-box;
@@ -132,11 +146,14 @@
     display: none;
     padding-top: 22px;
 }
+
 .faucet_filter .result_content p {
     font-size: 13px;
     line-height: 24px;
     letter-spacing: 0.13px;
+    padding-bottom: 0;
 }
+
 .faucet_filter .read-more {
     display: inline-block;
     font-size: 13px;
@@ -146,9 +163,11 @@
     text-decoration-line: underline;
     color: #000;
 }
-.faucet_filter .mi_landing_result .result_item_info{
+
+.faucet_filter .mi_landing_result .result_item_info {
     padding: 0 19px 19px;
 }
+
 .faucet_filter .timeline-info {
     position: relative;
     background: #f3f1f1;
@@ -157,10 +176,6 @@
     border: 1px solid #f3f1f1;
     border-radius: 8px;
     margin-left: 54px;
-}
-
-.faucet_filter .result_s .result_s_wrapper .result_item {
-    height: 100% !important;
 }
 
 .result_s_wrapper .swiper-button-lock {
@@ -174,9 +189,11 @@
     margin: 32px 0;
     text-align: center;
 }
+
 .ingredients_list .section_header a {
     color: #000;
 }
+
 .ingredients_list .ingredient {
     border-radius: 8px;
     padding: 24px 16px;
@@ -233,12 +250,15 @@
     justify-content: center;
     gap: 5px;
 }
-.ingredients_list .ingredient p{
+
+.ingredients_list .ingredient p {
     opacity: .8;
 }
+
 .ingredients_list .ingredients_img p {
     font-size: 11px;
 }
+
 /* ---------- ingredients list end --------------  */
 
 /* ---------- how to install start --------------  */
@@ -263,6 +283,7 @@
 
 .how_to-install .step_cards .step_flag p {
     font-weight: 600;
+    font-size: 13px;
 }
 
 .step_cards .step_text p {
@@ -387,9 +408,11 @@
 .filter_comparsion .filter_info p {
     font-weight: 600;
 }
+
 .advanced-filtration .filter_benefit h6 {
     font-size: 14px;
 }
+
 /* ---------- advanced filtration end --------------  */
 .new::after {
     content: 'New';
@@ -406,13 +429,55 @@
     padding: 2px 4px 0;
     border-radius: 15px;
 }
+
 .beauty_skincare .bs_content h4 {
     font-size: 28px;
     font-family: Poppins;
     font-weight: 500;
     letter-spacing: 0.101px;
 }
+
+.faucet_filter .qure_MI_ftr_wrap .nozzel_benefit p {
+    font-weight: 600;
+}
+
+.faucet_filter .cp_ftr_wrapper {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+}
+
+.faucet_filter .cp_item {
+    max-width: 206px;
+}
+.faucet_filter .dot_pagination .swiper-pagination-bullet {
+    margin: 0 10px !important;
+    height: 14px;
+    width: 14px;
+}
 @media(max-width: 767px) {
+    .subscribe_save_wrapper .subscribeInfo .subscribeInfoDesc{
+        font-size: 10px;
+    }
+    .refill_bl .refill_info .buy_btn {
+        font-size: 20px;
+        padding: 15px;
+    }
+    .shipping.shipping_bg{
+        padding: 7px;
+    }
+    .faucet_filter .cp_ftr_wrapper {
+        flex-direction: column;
+        text-align: left;
+        gap: 20px;
+    }
+
+    .faucet_filter .cp_item {
+        max-width: 100%;
+        display: flex;
+        gap: 20px;
+    }
+
     .refill_bl .mask_select_clr h5 {
         font-size: 13px;
     }
@@ -427,15 +492,18 @@
         font-size: 34px;
         line-height: 40px;
     }
+
     .reasons .reasons_wrapper {
         flex-wrap: wrap;
         gap: 0;
         row-gap: 20px;
         padding: 0;
     }
+
     .reasons .reasons_wrapper .rs_item-main {
         width: 50%;
     }
+
     .faucet_filter .reasons .rs_item {
         display: flex;
         flex-direction: column;
@@ -443,73 +511,92 @@
         margin: 0 10px;
         min-height: 133px;
     }
-    .reasons_wrapper .rs_item .rs_item_content p{
+
+    .reasons_wrapper .rs_item .rs_item_content p {
         font-size: 11px;
         line-height: 16px;
         letter-spacing: 0.11px;
         text-align: center;
     }
-    .faucet_filter .reasons .rs_item img{
+
+    .faucet_filter .reasons .rs_item img {
         height: 35px;
         width: 40px;
     }
-    .faucet_filter .section_header h2.title-lg{
+
+    .faucet_filter .section_header h2.title-lg {
         font-size: 24px;
     }
+
     .mi_landing_result .result_content p {
         font-size: 12px;
         line-height: 22px;
     }
+
     .ingredients_list .ingredient .ingredient_flag {
         top: -34px;
     }
-    .ingredients_list .ingredient p{
+
+    .ingredients_list .ingredient p {
         font-size: 14px;
     }
+
     .ingredients_list .skin_problems {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
+
     .trusted_bl.trustedVerified .trusted_left .section_header h2.title-lg {
         line-height: 34px;
     }
-    .how_to-install .step_cards{
+
+    .how_to-install .step_cards {
         filter: unset;
         box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.12);
     }
+
     .advanced-filtration .filter_benefit {
         display: flex;
         align-items: center;
         gap: 16px;
     }
-    .advanced-filtration .filter_benefit h6{
+
+    .advanced-filtration .filter_benefit h6 {
         font-size: 13px;
         margin-bottom: 5px;
     }
-    .advanced-filtration .filter_benefit p{
+
+    .advanced-filtration .filter_benefit p {
         font-size: 10px;
         line-height: 15px;
     }
+
     .filter_comparsion {
         padding-top: 40px;
     }
-    .faucet_filter .beauty_skincare .bs_versace span{
+
+    .faucet_filter .beauty_skincare .bs_versace span {
         font-size: 8px;
     }
-    .faucet_filter .beauty_skincare .bs_versace{
+
+    .faucet_filter .beauty_skincare .bs_versace {
         width: 28px;
         height: 28px;
     }
-    .faucet_filter .beauty_skincare .bs_item ul li{
+
+    .faucet_filter .beauty_skincare .bs_item ul li {
         font-size: 10px;
     }
+
     .faucet_filter .beauty_skincare .bs_vs_item {
         width: 20px;
         padding: 0;
     }
-    .faucet_filter .beauty_skincare .bs_img img{
+
+    .faucet_filter .beauty_skincare .bs_img img {
         padding: 15px;
     }
+
     .faucet_filter .beauty_skincare .bs_item ul li {
         height: 44px !important;
         padding: 5px 0 5px 24px;
@@ -517,7 +604,13 @@
         display: flex;
         align-items: center;
     }
-    .skin_problems .problem_inner p{
+
+    .skin_problems .problem_inner p {
         font-size: 11px;
+    }
+
+    .faucet_filter .subscribe_save_wrapper .subscribe_save_bx {
+        padding: 10px 15px;
+        grid-template-columns: auto 34%;
     }
 }
