@@ -30535,7 +30535,9 @@ p {
 .mw-765 {
     max-width: 765px !important;
 }
-
+.mw-768 {
+    max-width: 768px !important;
+}
 .mw-800 {
     max-width: 800px !important;
 }

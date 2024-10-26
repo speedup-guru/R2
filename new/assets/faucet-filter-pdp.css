@@ -312,7 +312,10 @@
 .how_to-install .steps_tabs {
     padding-top: 30px;
 }
-
+.w-css-reset[data-handle="bigPlayButton"] > div {
+    transform: translateX(-50%) translateY(-50%) !important;
+    margin: 0 !important;
+}
 /* ---------- how to install end --------------  */
 
 /* ---------- advanced filtration start --------------  */

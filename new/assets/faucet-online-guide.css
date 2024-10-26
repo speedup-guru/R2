@@ -1,0 +1,166 @@
+.safety-banner {
+    background-image: unset;
+}
+/* .tab_button a.preview-btn {
+    display: none;
+} */
+#Tokyo_10[style="display: block;"]~.tab_button a.next-btn {
+    display: block;
+}
+#Tokyo_11[style="display: block;"]~.tab_button a.next-btn {
+    display: none;
+}
+#Tokyo_10[style="display: block;"]~.tab_button a.next-btn.lets_started {
+    display: none;
+}
+.contents .contents-info ul li span {
+    color: #008763;
+}
+.faucet_guide .contact_ul li {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.13px;
+    opacity: 0.8;
+}
+.faucet_care-detail .care_content p:before{
+    content: none;
+}
+.faucet_care-detail .care_content p{
+    padding-left: 0;
+}
+.faucet_care-detail .care_content h6{
+    margin-bottom: 10px;
+}
+.faucet_guide .faucet_install-guide h6 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 35px;
+    letter-spacing: 0.22px;
+    font-family: "Canela light";
+    margin-bottom: 0;
+}
+.faucet_guide .faucet_install-guide ul li {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.14px;
+    list-style: unset;
+    opacity: 0.8;
+}
+.faucet_guide .faucet_install-guide ul {
+    padding: 20px 0 15px 20px;
+}
+.faucet_guide .faucet_install-guide{
+    padding-bottom: 20px;
+}
+
+.faucet_guide .tab_con.tab_con_2 {
+    width: 1093px;
+}
+
+.faucet_guide .tab_con.tab_con_2 ul li {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.13px;
+    list-style-type: none;
+    opacity: 0.8;
+}
+
+.q-urify_safety.faucet_guide .unique_c_list_block ul li {
+    grid-template-columns: 1fr 244px 1fr;
+    font-size: 12px;
+}
+
+.q-urify_safety.faucet_guide .unique_c_list_block ul li:before {
+    width: 100%;
+    left: 0px;
+}
+
+.faucet_guide .tab_con_4 .care_content {
+    width: 100%;
+}
+
+.faucet_guide ul.care_content_li {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+}
+
+
+.faucet_guide .care_contentli_wrap li {
+    margin-bottom: 20px;
+}
+
+.faucet_guide .care_contentli_wrap {
+    margin-top: 90px;
+}
+
+.faucet_guide .wm_item h6 {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.13px;
+    text-transform: uppercase;
+    color: #C7E7DC;
+    margin-top: 20px;
+}
+
+.faucet_guide .wm_item p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.14px;
+    opacity: 0.8;
+}
+@media(min-width:768px) {
+    .q-urify_safety.faucet_guide .tab_con_1 .guideline_content .guideline_left {
+        width: 100%;
+        max-width: 331px;
+    }
+
+    .q-urify_safety.faucet_guide .tab_con_1 .guideline_content .guideline_right {
+        width: 100%;
+        max-width: 331px;
+    }
+}
+
+@media(max-width:991px) {
+    .q-urify_safety.faucet_guide .unique_c_list_block .unique_c_list {
+        order: 1;
+    }
+}
+@media(max-width:767px) {
+    .faucet_guide .instruction .see_work .play_btn img {
+        max-width: 40px;
+    }
+    .faucet_guide .instruction .see_work .play_btn img {
+        max-width: 40px;
+    }
+
+    .faucet_guide .tab_con.tab_con_2 ul {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .faucet_guide .care_contentli_wrap {
+        margin-top: 40px;
+    }
+
+    .faucet_guide ul.care_content_li {
+        grid-template-columns: 1fr;
+    }
+
+    .faucet_guide .care_contentli_wrap li {
+        margin-bottom: 0px;
+    }
+
+    .q-urify_safety.faucet_guide .tab_con_1 .guideline_content {
+        flex-direction: column;
+    }
+}

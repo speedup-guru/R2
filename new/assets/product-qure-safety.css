@@ -1556,17 +1556,19 @@
     width: 331px;
 }
 
-.care_detail .care_content h6 {
+.care_detail .care_content h6,
+.care_contentli_wrap h6 {
     font-weight: 600;
     font-size: 14px;
     line-height: 26px;
     letter-spacing: .01em;
     text-transform: uppercase;
-    color: #c7e7dc;
+    color: #C7E7DC;
     margin: 0 0 16px;
 }
 
-.care_detail .care_content p {
+.care_detail .care_content p,
+.care_contentli_wrap li {
     font-weight: 400;
     font-size: 14px;
     line-height: 26px;
@@ -1576,8 +1578,8 @@
     position: relative;
     padding-left: 32px;
 }
-
-.care_detail .care_content p:before {
+.care_detail .care_content p:before,
+.care_contentli_wrap li:before {
     content: "";
     width: 10px;
     height: 10px;
