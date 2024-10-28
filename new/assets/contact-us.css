@@ -130,3 +130,8 @@
         grid-template-columns: 1fr;
     }
 }
+.form-select.qure_input_field:focus {
+    border-color: unset;
+    outline: 0;
+    box-shadow: none;
+}

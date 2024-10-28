@@ -121,7 +121,8 @@
     margin-left: 22px;
 }
 
-.main_banner .bf_sale-slider .newCycleSlider .swiper-slide .new-slide {
+.main_banner .bf_sale-slider .newCycleSlider .swiper-slide .new-slide,
+.main_banner2 .bf_sale-slider .newCycleSlider .swiper-slide .new-slide {
     width: 100%;
     min-height: 110px;
     padding: 9px 7px;
@@ -141,7 +142,8 @@
     text-align: left;
 }
 
-.main_banner .bf_sale-slider .new_content .new-header {
+.main_banner .bf_sale-slider .new_content .new-header,
+.main_banner2 .bf_sale-slider .new_content .new-header {
     font-family: "Canela Web";
     font-size: 14px;
     font-style: normal;
@@ -224,6 +226,35 @@
     align-items: center;
     justify-content: center;
     height: 100%;
+}
+
+/* <!--21% Discount Banner--> */
+.discount_banner .collection_text h6 {
+    color: #F10000;
+    font-size: 17.941px;
+    font-weight: 700;
+    line-height: 35.659px;
+    letter-spacing: 0.418px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.discount_banner .collection_text h1 {
+    font-size: 71px;
+    font-weight: 500;
+    line-height: 90.655px;
+    letter-spacing: 0.711px;
+    color: #fff;
+    margin-bottom: 0;
+}
+.discount_banner {
+    background-color: #000;
+}
+.discount_banner .collection_text p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 32.357px;
+    letter-spacing: 1.54px;
+    color: #fff;
 }
 /* <----Banners CSS End-------> */
 
@@ -344,5 +375,21 @@
         font-size: 11px;
         line-height: 16.494px;
         letter-spacing: 0.11px;
+    }
+    .discount_banner .collection_text h1{
+        font-size: 43px;
+        line-height: 55.422px;
+        letter-spacing: 0.434px;
+        margin-bottom: 20px;
+    }
+    .discount_banner .collection_text h6{
+        font-size: 10px;
+        line-height: 19.876px;
+        letter-spacing: 0.233px;
+    }
+    .discount_banner .collection_text p{
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 32.357px;
     }
 }
