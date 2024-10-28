@@ -178,6 +178,7 @@
 .imageText .it_img .nav-pills .nav-link.active {
     border: 2px solid #C7E7DC;
     background-color: unset;
+    border-radius: 8px;
 }
 .imageText .it_img .nav-pills .nav-link{
     padding: 0;
@@ -193,6 +194,9 @@
     top: 0;
     border: unset;
     box-shadow: unset;
+}
+.imageText .it_img .it_img_content img{
+    border-radius: 7px;
 }
 @media(min-width: 768px){
     .beauty_skincare-new .bs_vs_item {

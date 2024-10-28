@@ -84,7 +84,7 @@
     right: 0;
     bottom: -10px;
     content: '';
-    width: 194px;
+    width: 125px;
     height: 9px;
     background-image: url(../assets/red-line.svg);
     background-repeat: no-repeat;
@@ -112,17 +112,22 @@
     width: auto;
     text-align: center;
 }
-
+.bf_sale-banners .main_banner2 .btn_black{
+    background-color: #fff;
+    color: #000;
+}
 .bf_sale-banners .main_banner {
     background-color: #F1F4F5;
+}
+.bf_sale-banners .main_banner2 {
+    background-color: #000;
 }
 
 .main_banner .newCycle {
     margin-left: 22px;
 }
 
-.main_banner .bf_sale-slider .newCycleSlider .swiper-slide .new-slide,
-.main_banner2 .bf_sale-slider .newCycleSlider .swiper-slide .new-slide {
+.main_banner .bf_sale-slider .newCycleSlider .swiper-slide .new-slide {
     width: 100%;
     min-height: 110px;
     padding: 9px 7px;
@@ -137,14 +142,25 @@
     box-shadow: 0px 3.922px 3.922px rgba(0, 0, 0, 0.12);
     margin-bottom: 8px;
 }
-
+.main_banner2 .bf_sale-slider .anotherSlider .swiper-slide .new-slide{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 3fr;
+    border-radius: 8px;
+    background: rgba(241, 244, 245, 0.80);
+    padding: 12px 20px;
+    gap: 20px;
+    width: 100%;
+    max-width: 471px;
+}
+.main_banner2 .bf_sale-slider{
+    padding-top: 60px;
+}
 .main_banner .new_content {
     text-align: left;
 }
 
-.main_banner .bf_sale-slider .new_content .new-header,
-.main_banner2 .bf_sale-slider .new_content .new-header {
-    font-family: "Canela Web";
+.main_banner .bf_sale-slider .new_content .new-header {
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -152,7 +168,13 @@
     letter-spacing: 0.233px;
     margin-bottom: 0;
 }
-
+.main_banner2 .bf_sale-slider .new_content .new-header{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.124px;
+}
 .main_banner .newCycleSlider .swiper-arrow:after {
     display: none;
 }
@@ -166,7 +188,8 @@
     align-items: center;
 }
 
-.main_banner .event_content-main .event_pd-content {
+.main_banner .event_content-main .event_pd-content,
+.main_banner2 .event_content-main .event_pd-content {
     max-width: 606px;
     width: 100%;
     margin: 0 auto;
@@ -255,6 +278,27 @@
     line-height: 32.357px;
     letter-spacing: 1.54px;
     color: #fff;
+}
+.main_banner2 .bf_sale-slider .new_content a {
+    font-size: 12px;
+    line-height: 16.733px;
+    letter-spacing: 0.251px;
+    font-weight: 500;
+    padding: 3px 10px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+.main_banner2 .banner_bf-text p {
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+    color: #fff;
+    padding-top: 10px;
+}
+.bf_sale-banners .main_banner2 .btn_black {
+    padding: 10px 57px;
 }
 /* <----Banners CSS End-------> */
 
@@ -391,5 +435,21 @@
         font-size: 12px;
         font-weight: 300;
         line-height: 32.357px;
+    }
+    .bf_sale-banners h1 {
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: 0.28px;
+    }
+    .bf_sale-banners .main_banner2 .banner_bf-text h5 {
+        margin: 10px 0px 16px;
+        padding: 0 25px;
+    }
+    .main_banner2 .banner_bf-text p {
+        font-size: 10px;
+    }
+    .main_banner2 .bf_sale-slider {
+        padding-top: 25px;
     }
 }

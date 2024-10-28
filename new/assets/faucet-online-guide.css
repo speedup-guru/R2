@@ -29,6 +29,7 @@
 }
 .faucet_care-detail .care_content p{
     padding-left: 0;
+    font-size: 13px;
 }
 .faucet_care-detail .care_content h6{
     margin-bottom: 10px;
@@ -41,6 +42,9 @@
     letter-spacing: 0.22px;
     font-family: "Canela light";
     margin-bottom: 0;
+}
+#London[style="display: block;"]~.tab_button a.preview-btn {
+    display: none !important;
 }
 .faucet_guide .faucet_install-guide ul li {
     font-size: 14px;
@@ -118,6 +122,40 @@
     letter-spacing: 0.14px;
     opacity: 0.8;
 }
+.play_btn .popup-youtube span img {
+    width: 44px;
+}
+.safety-banner .safety-banner-cont1 h1 {
+    font-size: 42px;
+}
+.guideline_content p {
+    font-size: 13px;
+}
+.care_contentli_wrap h6{
+    font-size: 13px;
+}
+.tab_button a.next-btn,
+.tab_button a.preview-btn{
+    gap: 10px;
+}
+.q-urify_safety .unique_c_list_block{
+    gap: 120px;
+}
+.faucet_guide .tab_section_header p{
+    font-size: 13px;
+}
+.faucet_guide .accordion-main .set-innner a{
+    font-size: 16px;
+}
+.faucet_guide .accordion-main .set-innner .content p{
+    margin-bottom: 0;
+}
+.safety-banner .safety-banner-cont1 {
+    margin-left: 76px;
+}
+.safety-banner .safety-banner-cont1 h6{
+    font-size: 14px;
+}
 @media(min-width:768px) {
     .q-urify_safety.faucet_guide .tab_con_1 .guideline_content .guideline_left {
         width: 100%;
@@ -162,5 +200,51 @@
 
     .q-urify_safety.faucet_guide .tab_con_1 .guideline_content {
         flex-direction: column;
+    }
+    .q-urify_safety .unique_c_list_block {
+        gap: 0;
+    }
+    .q-urify_safety .unique_c_list_block .unique_c_list{
+        border-bottom: 1px solid #C7E7DC;
+    }
+    .faucet_guide .accordion-main .set-innner a {
+        font-size: 15px;
+    }
+    .safety-banner .safety-banner-cont1 h1 {
+        font-size: 28px;
+    }
+    .safety-banner .safety-banner-cont1 h6{
+        font-size: 13px;
+    }
+    .tab_button a.next-btn {
+        padding: 12px;
+    }
+    .q-urify_safety.faucet_guide .unique_c_list_block ul li {
+        grid-template-columns: 1fr 190px 1fr;
+        line-height: 24px;
+    }
+    .faucet_guide .frame_img_box img{
+        max-width: 100%;
+    }
+    .faucet_guide .tab_five-content {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 32px;
+    }
+    .faucet_guide .wm_item p,
+    .faucet_guide .faucet_install-guide ul li{
+        font-size: 13px;
+    }
+    .faucet_guide .faucet_install-guide h6{
+        font-size: 20px;
+    }
+    .faucet_guide .micro_tips span{
+        font-size: 13px;
+    }
+    .tab_con .care_detail{
+        width: 100%;
+    }
+    .safety-banner .safety-banner-cont1 {
+        margin-left: 0;
     }
 }
