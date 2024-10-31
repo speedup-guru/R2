@@ -128,14 +128,13 @@
     height: 100%;
 }
 
-.reasons .reasons_wrapper {
-    display: flex;
+.faucet_filter .reasons .reasons_wrapper {
     justify-content: center;
     gap: 20px;
 }
 
 .reasons .reasons_wrapper .rs_item-main {
-    width: 20%;
+    width: 100%;
     box-sizing: border-box;
 }
 
@@ -458,6 +457,7 @@
     height: 14px;
     width: 14px;
 }
+
 @media(max-width: 767px) {
     .subscribe_save_wrapper .subscribeInfo .subscribeInfoDesc{
         font-size: 10px;
@@ -505,6 +505,7 @@
 
     .reasons .reasons_wrapper .rs_item-main {
         width: 50%;
+        padding: 10px 0;
     }
 
     .faucet_filter .reasons .rs_item {
@@ -615,5 +616,9 @@
     .faucet_filter .subscribe_save_wrapper .subscribe_save_bx {
         padding: 10px 15px;
         grid-template-columns: auto 34%;
+    }
+    .faucet_filter .reasons .reasons_wrapper {
+        display: flex;
+        gap: 0;
     }
 }

@@ -55,8 +55,8 @@
 
 .patches_tech_grid {
     display: grid;
-    grid-template-columns: repeat(5, auto);
-    align-items: center;
+    grid-template-columns: repeat(3, auto);
+    align-items: start;
     gap: 20px;
 }
 
@@ -85,8 +85,11 @@
 
 .patches_tech_item .patches_tech_content h6 {
     font-weight: 600;
+    font-size: 13px;
 }
-
+.patches_tech_item .patches_tech_content p{
+    font-size: 13px;
+}
 .patches_ingredients .pi_header {
     position: relative;
 }
