@@ -9,8 +9,8 @@
 } */
 
 .review_and-results .main_banner .main_b_wrapper h1+img {
-    max-width: 223px;
-    padding: 22px 0 14px;
+    max-width: 354px;
+    padding: 22px 0 10px;
 }
 
 .reviews_tabs .reviews_tabs-content .qure_tabs {
@@ -109,4 +109,11 @@
         gap: 5px;
         justify-content: flex-start;
     }
+    .review_and-results .main_banner .main_b_wrapper h1+img{
+        max-width: 100%;
+    }
+    
+.reviews_tabs-content ul li:nth-last-child(1) {
+    margin-right: 24px;
+}
 }

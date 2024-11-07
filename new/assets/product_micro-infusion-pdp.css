@@ -248,7 +248,27 @@
     line-height: 18px;
     letter-spacing: 0.3px;
 }
-
+.supply_steps .step_block input:checked+.serum_prd .serum_ttl{
+    font-weight: 500;
+}
+.supply_steps .step_block .serum_prd .serum_ttl{
+    border-width: 1px;
+}
+.supply-detail.supply-detail-without-counter .step_block .step_serum .serum_prd{
+    border-width: 1px;
+    height: 60px;
+    padding: 6px 15px;
+}
+.mi-pdp .supply_steps .step_block input:checked+.serum_prd{
+    border-width: 1px !important;
+}
+.supply_steps .step_block .serum_prd .serum_ttl span{
+    font-size: 12px;
+}
+.step_content.my-3.step_btn{
+    max-width: 457px;
+    margin-right: 0;
+}
 @media(min-width:991px) {
     .supply-detail.supply-detail-without-counter .step_block .step_content.serum_image {
         display: grid;
@@ -281,7 +301,7 @@
         background: #f5f5f5;
         height: 100%;
         border-radius: 30px;
-        padding: 15px 15px 60px 15px;
+        padding: 25px 10px 50px 10px;
         width: 100%;
         position: relative;
         cursor: pointer;
@@ -301,16 +321,16 @@
     }
 
     .supply-detail.supply-detail-without-counter .step_block .step_serum .serum_prd .serum_img img {
-        max-height: unset;
-        min-height: unset;
-        object-fit: contain;
+        max-height: 72px;
+        min-height: 72px;
+        /* object-fit: contain; */
     }
 
     .supply-detail.supply-detail-without-counter .step_block .step_serum .serum_prd .serum_ttl {
         flex: 0 0 auto;
         width: 100%;
         position: absolute;
-        height: 50px;
+        height: 40px;
         top: unset;
         bottom: 0;
         right: 0;
@@ -332,12 +352,16 @@
     .mi-pdp .supply-detail.supply-detail-without-counter .supply_steps .step_block .serum_prd {
         background: #fff;
         border: 2px solid #DBDBDB;
+        justify-content: center;
     }
 
     .mi-pdp .supply-detail.supply-detail-without-counter .step_block .step_serum .serum_prd .serum_ttl {
         bottom: -2px;
     }
-
+    .mi-pdp .shipping {
+        grid-template-columns: 1fr 2fr;
+        gap: 10px;
+    }
 }
 
 @media(max-width:767px) {

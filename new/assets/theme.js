@@ -1038,6 +1038,7 @@ $(document).ready(function () {
     });
 
     $(".serumBlock").click(function () {
+        
         var imageLinkss = $(".step_conten_blocks a.planBlock.active").attr('data-image');
         $("#choosen_image").attr("src", imageLinkss);
         $(".serum_img").removeClass("active");
