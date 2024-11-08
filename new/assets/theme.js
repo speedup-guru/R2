@@ -992,7 +992,7 @@ $(".serumBlock").click(function () {
 */
 $(document).ready(function () {
     $('.tab_content').hide(); // Hide all tab contents initially
-    $('.tab_content').eq(1).show(); // Show the second tab content by default
+    $('.tab_content').eq(0).show(); // Show the second tab content by default
 
     $('.step_conten_blocks .planBlock').click(function () {
         var regular_price = $(this).find(".regular_price").text();

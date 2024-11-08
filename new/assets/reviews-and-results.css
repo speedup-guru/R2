@@ -60,15 +60,29 @@
 }
 
 .review_and-results .skincare_slider_n .skin_item_n_tag .sn_tag {
-    padding: 0px 11px;
+    padding: 0px 8px;
     line-height: 30px;
     margin-left: 5px;
+    font-size: 11px;
 }
 
 ::-webkit-scrollbar {
     display: none;
 }
-
+.pd_videos-mob .toggle-columns {
+    font-size: 12px;
+    opacity: 0.8;
+    border: 0;
+    background-color: transparent;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.12px;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+.pd_videos-mob{
+    text-align: center;
+}
 @media(min-width:768px) {
     .reviews_tabs {
         overflow: hidden;

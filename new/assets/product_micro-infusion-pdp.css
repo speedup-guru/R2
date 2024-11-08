@@ -248,9 +248,7 @@
     line-height: 18px;
     letter-spacing: 0.3px;
 }
-.supply_steps .step_block input:checked+.serum_prd .serum_ttl{
-    font-weight: 500;
-}
+
 .supply_steps .step_block .serum_prd .serum_ttl{
     border-width: 1px;
 }

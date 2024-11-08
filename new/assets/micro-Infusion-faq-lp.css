@@ -21,11 +21,11 @@
 }
 
 .stamping_skin-content:not(:last-child) {
-    padding: 0 0 30px 0;
+    padding: 0 0 28px 0;
 }
 
 .how_work {
-    padding: 50px 20px;
+    padding: 50px 0px;
 }
 
 .faq_mi .section_header {
@@ -91,10 +91,25 @@
 
 .miLP_faq_use .stamping_skin-content {
     display: grid;
-    grid-template-columns: 190px 1fr;
-    gap: 20px;
+    grid-template-columns: 193px 1fr;
+    gap: 28px;
 }
-
+.how_work .how_work-inner {
+    display: grid;
+    grid-template-columns: 327px 550px;
+    justify-content: space-between;
+}
+.how_work-inner .brighter_smoother {
+    border-radius: 8px;
+    background: #C7E7DC;
+    margin-top: 15px;
+    padding: 7px 20px;
+}
+.how_work-inner .brighter_smoother p{
+    letter-spacing: 0.13px;
+    font-size: 13px;
+    color: #212529;
+}
 .video_cnt {
     border-radius: 8px;
     background: #C7E7DC;
@@ -151,6 +166,12 @@
     background-size: cover;
     height: 40px;
     width: 40px;
+}
+@media (min-width: 767px) {
+    .faq_mi .tmtFtrs_image img {
+        max-width: 455px;
+        max-height: 415px;
+    }
 }
 @media(max-width:767px) {
     .limited_offer_wrap {
@@ -230,6 +251,12 @@
         padding-bottom: 40px;
     }
     .faq_mi .mi_landing_result .result_content p{
+        font-size: 12px;
+    }
+    .how_work .how_work-inner {
+        grid-template-columns: 100%;
+    }
+    .video_cnt p {
         font-size: 12px;
     }
 }

@@ -358,9 +358,9 @@
     height: 13px;
     width: 13px;
 }
-.anti-creams-microinfusion .planBlock .plan_choosed span {
+/* .anti-creams-microinfusion .planBlock .plan_choosed span {
     background: #C92127;
-}
+} */
 
 .anti-creams-microinfusion .offer_tag {
     background-color: #C92127;
@@ -375,7 +375,7 @@
     letter-spacing: 0.13px;
 }
 
-.anti-creams-microinfusion .offer_active .supply_steps .step_block .step_content .serumBlock input.active+.serum_prd:after {
+/* .anti-creams-microinfusion .offer_active .supply_steps .step_block .step_content .serumBlock input.active+.serum_prd:after {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -386,7 +386,7 @@
     background-size: cover;
     height: 40px;
     width: 40px;
-}
+} */
 @media(max-width: 767px) {
     .anti_cream-banner .section_header h2 {
         font-size: 34px;

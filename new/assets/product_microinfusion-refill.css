@@ -96,7 +96,6 @@
 .affect_howToUse p:not(:last-child) {
     padding-bottom: 16px;
 }
-
 @media(max-width:767px) {
     .refill_bl.tabSlider .refill_info .section_header .title-xl {
         font-size: 34px;
@@ -104,7 +103,7 @@
 
     .supply-detail-2 .supply_steps .step_block .serum_prd .serum_ttl {
         font-size: 10px !important;
-        padding: 0 5px !important;
+        padding: 7px 5px !important;
     }
 
     .section.withoutTabSerum {

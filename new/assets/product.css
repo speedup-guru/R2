@@ -3088,7 +3088,8 @@
     font-weight: 300;
     font-family: 'Canela Light';
     letter-spacing: 0.16px;
-    margin-bottom: 20px;
+    padding: 10px 0;
+    margin-bottom: 0;
 }
 
 .unique_c_item .u_item_wrapper .u_item_header p {
@@ -6731,7 +6732,7 @@ p.title_mob {
 .supply_steps .step_block input:checked+.serum_prd .serum_ttl {
     background: #C7E7DC;
     border-color: #C7E7DC;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 /* Monthly plan */
@@ -6765,6 +6766,7 @@ p.title_mob {
     padding: 2px 25px;
     border-radius: 14px 14px 0 0;
     font-size: 10px;
+    vertical-align: text-bottom;
 }
 
 .planBlock .monthly_plans {

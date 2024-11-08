@@ -54,7 +54,7 @@
 .skincare_percent {
     align-items: start;
 }
-.mi_landing_men .planBlock .plan_choosed span {
+/* .mi_landing_men .planBlock .plan_choosed span {
     background: #C92127;
 }
 
@@ -82,7 +82,7 @@
     background-size: cover;
     height: 40px;
     width: 40px;
-}
+} */
 @media(max-width:767px) {
     .reasons_wrapper4 {
         grid-template-columns: repeat(1, 1fr);
