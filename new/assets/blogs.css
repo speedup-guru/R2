@@ -98,7 +98,18 @@
     padding-top: 18px;
     color: #000;
 }
-  
+.article_blog-new .blog_post_bl .title-xl {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 55px;
+    letter-spacing: 0.36px;
+    font-family: 'Canela Web';
+    opacity: 0.8;
+}
+.article_blog-new .blog_wrap .blog_info{
+    padding-bottom: 10px;
+}
 /* ------ blog new start 06-11-2024 --------- */
 
 /* ------------- blog tab button start ------ */
@@ -534,9 +545,17 @@
 }
 .subscriptions_section .cancel_section h6 {
     font-size: 22px;
+    margin-bottom: 20px;
 }
 .article_blog-new .blog_banner h2 {
     font-size: 34px;
+}
+.article_blog-new .blog_post_bl .title-xl {
+    font-size: 28px;
+    margin-bottom: 0;
+}
+.share_blog-social ul li a img {
+    width: 19px;
 }
 }
 /* ------ blog new start 06-11-2024 --------- */

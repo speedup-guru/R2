@@ -8887,7 +8887,7 @@ p.title_mob {
     border-radius: 30px;
     background: #C4121A;
     color: #fff;
-    padding: 1px 6px;
+    padding: 2px 6px 1px;
     max-width: fit-content;
     margin-bottom: 10px;
 }
@@ -9510,7 +9510,23 @@ p.title_mob {
 .surgeon_video .w-css-reset img {
     object-fit: cover !important;
 }
-
+/* -- Black Friday Nov 2024 css start -- */
+.black_friday .price_wrap h6 {
+    color: #C4121A;
+    font-size: 14px;
+    font-weight: 600;
+}
+.black_friday .saved_price {
+    height: fit-content;
+    padding: 4px 8px;
+    background: #C4121A;
+    color: #fff;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 500;
+    border-radius: 25px;
+}
+/* -- Black Friday Nov 2024 css End -- */
 @media(min-width:767px) {
     .qure_MI_ftr_wrap .it_img .wistia_responsive_padding .wistia_embed>div {
         border-radius: 20px !important;
@@ -9600,6 +9616,12 @@ p.title_mob {
 
     .pmtBlock .pmt_plans .pmt_des {
         font-size: 10px;
+    }
+    .upgrade_routine .ur_item{
+        gap: 8px;
+    }
+    .upgrade_routine .ur_btn {
+        padding: 8px 20px;
     }
 }
 

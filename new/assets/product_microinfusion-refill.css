@@ -96,6 +96,35 @@
 .affect_howToUse p:not(:last-child) {
     padding-bottom: 16px;
 }
+.black_friday .serum_bl .bf_price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.black_friday .serum_bl .planBlock .monthly_plans .price:after {
+    /* max-width: fit-content; */
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #C4121A;
+    transform: rotate(8deg);
+}
+.black_friday .serum_bl .bf_price_wrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.black_friday .serum_bl .bf_price h6 {
+    color: #C4121A;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.12px;
+    margin-bottom: 0;
+}
 @media(max-width:767px) {
     .refill_bl.tabSlider .refill_info .section_header .title-xl {
         font-size: 34px;

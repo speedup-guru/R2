@@ -8270,6 +8270,10 @@ fieldset:disabled .btn {
     color: rgba(255, 255, 255, .5) !important
 }
 
+.text-grey{
+    color: #b3b3b3;
+}
+
 .text-reset {
     color: inherit !important
 }

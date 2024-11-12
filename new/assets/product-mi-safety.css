@@ -95,9 +95,9 @@
     border: 1px solid #C7E7DC;
 }
 
-.q-urify_safety.micro_safety .u_item_wrapper .u_item_header h3 {
+/* .q-urify_safety.micro_safety .u_item_wrapper .u_item_header h3 {
     margin-bottom: 20px;
-}
+} */
 
 .treat_icon_main .treat_icon_main_icon {
     height: 70px;
@@ -129,6 +129,7 @@
 
     .q-urify_safety.micro_safety .safety-banner-cont {
         margin-bottom: 0;
+        padding: 0 10px;
     }
 
     .q-urify_safety.micro_safety .new-class ul {
@@ -141,14 +142,12 @@
     }
 
     .q-urify_safety.micro_safety .new-class {
-        justify-content: flex-start;
-        margin-bottom: -20px;
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: -12px;
+        justify-content: space-between;
     }
 
-    .q-urify_safety.micro_safety .new-class {
-        display: grid;
-        grid-template-columns: 1fr 135px;
-    }
 
 
 
