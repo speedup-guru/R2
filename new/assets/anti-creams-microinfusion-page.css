@@ -387,6 +387,18 @@
     height: 40px;
     width: 40px;
 } */
+.anti-creams-microinfusion .tmtFtr_des {
+    font-size: 11px;
+}
+.supply_steps .step_block .serum_prd .serum_ttl {
+    border-width: 1px;
+}
+@media (min-width: 767px) {
+    .anti-creams-microinfusion .tmtFtrs_image img {
+        max-width: 455px;
+        max-height: 415px;
+    }
+}
 @media(max-width: 767px) {
     .anti_cream-banner .section_header h2 {
         font-size: 34px;

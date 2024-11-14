@@ -606,7 +606,8 @@
     .ac_desc_grid .ac_desc.faq .accordion-button {
         padding: 12px 0;
     }
-    .ac_desc_grid .ac_desc ul li {
+    .ac_desc_grid .ac_desc ul li,
+    .ac_desc_grid .ac_desc .accordion-body {
         font-size: 13px;
     }
 }

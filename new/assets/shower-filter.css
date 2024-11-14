@@ -1,0 +1,222 @@
+.shower_filter .section_header .silk_heading {
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.56px;
+    text-transform: uppercase;
+}
+.doctor_advice  .dr_img {
+    padding-right: 30px;
+}
+.doctor_advice  .dr_advice {
+    padding-left: 15px;
+}
+.advanced-filtration .filter_benefit p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.advanced-filtration .filter_benefit h6 {
+    font-size: 14px;
+}
+.advanced-filtration .filter_details {
+    padding: 0px;
+    margin-top: 60px;
+    position: relative;
+}
+.filter_details .detail {
+    position: absolute;
+    border-bottom: unset;
+    border-radius: 16px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 5px 15px 0px rgba(176, 176, 176, 0.25);
+    padding: 0px 32px;
+    transform: translateY(-50%);
+    max-width: 290px;
+}
+.filter_details .detail .accordion-button .container:after {
+    right: -45px;
+    top: -30px;
+    background: #000;
+    color: #fff;
+    font-weight: 500;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filter_details .detail .accordion-body{
+    padding-bottom: 7px;
+}
+.filter_details .detail .accordion-button{
+    padding: 19px 0;
+}
+.filter_details .detail .accordion-button:not(.collapsed){
+    padding-bottom: 0;
+    padding-top: 9px;
+}
+.filter_details .detail.d-1 {
+    top: 35%;
+    left: 62%;
+}
+.filter_details .detail.d-2 {
+    top: 58%;
+    left: 10%;
+}
+.filter_details .detail.d-3 {
+    right: 7%;
+    top: 70%;
+}
+/* ---------- shower filter benefits start --------------  */
+.benefits_list ul li:before {
+    content: url(./correct_circle.svg);
+    vertical-align: sub;
+    padding-right: 10px;
+}
+.benefits_list ul li {
+    position: relative;
+    border-radius: 10px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 5px 15px 0px rgba(176, 176, 176, 0.25);
+    padding: 16px 10px;
+    font-size: 14px;
+}
+.benefits_list ul li:not(:last-child){
+    margin-bottom: 14px;
+}
+.shower_benefits-content .benefits_img p {
+    padding-bottom: 37px;
+}
+.shower_benefits-content .benefits_img {
+    padding-left: 14px;
+}
+.benefits_list {
+    padding-right: 5px;
+}
+.shower_benefits-content {
+    padding-top: 30px;
+}
+/* ---------- shower filter benefits end --------------  */
+
+/* ---------- ingredients list start --------------  */
+.ingredients_list .ingredients_img {
+    margin: 32px 0;
+    text-align: center;
+}
+
+.ingredients_list .section_header a {
+    color: #000;
+}
+
+.ingredients_list .ingredient {
+    border-radius: 8px;
+    padding: 24px 16px;
+    box-shadow: 0px 5px 15px 0px rgba(176, 176, 176, 0.25);
+    position: relative;
+    height: 100%;
+}
+
+.ingredients_list .ingredient .ingredient_flag {
+    color: #fff;
+    position: absolute;
+    top: -39px;
+    border-radius: 8px 8px 0px 0px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.12);
+    padding: 6px 26px;
+    right: 13px;
+}
+
+.ingredients_list .ingredient .ingredient_flag.flag1 {
+    background-color: #C92127;
+}
+
+.ingredients_list .ingredient .ingredient_flag.flag2 {
+    background-color: #FA6F0B;
+}
+
+.ingredients_list .ingredient .ingredient_flag.flag3 {
+    background-color: #F9C91D;
+}
+
+.ingredients_list .ingredients_content {
+    padding-top: 40px;
+}
+
+.section_header .n_sub-heading {
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.ingredients_list .skin_problems {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    text-align: center;
+}
+
+.skin_problems .problem_inner p {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.ingredients_list .ingredient p {
+    opacity: .8;
+}
+
+.ingredients_list .ingredients_img p {
+    font-size: 11px;
+}
+
+/* ---------- ingredients list end --------------  */
+@media(max-width: 767px){
+    .ingredients_list .ingredient .ingredient_flag {
+        top: -34px;
+    }
+
+    .ingredients_list .ingredient p {
+        font-size: 14px;
+    }
+
+    .ingredients_list .skin_problems {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .filter_details .detail .accordion-button .container{
+        font-size: 12px;
+        padding-right: 0 !important;
+    }
+    .filter_details .detail .accordion-button {
+        padding: 8px 0;
+    }
+    .filter_details .detail{
+        padding: 0 16px;
+    }
+    .filter_details .detail .accordion-button .container:after {
+        right: -30px;
+        top: -22px;
+        font-size: 20px;
+        width: 25px;
+        height: 25px;
+    }
+    .doctor_advice  .dr_img {
+        padding-right: 0;
+    }
+    .shower_benefits-content .benefits_img {
+        padding-left: 0;
+    }
+    .benefits_list {
+        padding-right: 0;
+    }
+    .doctor_advice  .dr_advice {
+        padding-left: 0;
+    }
+}

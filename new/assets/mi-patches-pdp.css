@@ -263,6 +263,12 @@
     .skincare_slider_n .skin_item_n_tag p {
         font-size: 11px;
     }
+    .mi-patches-pdf .refill_s_tab .nav-pills .nav-link {
+        padding: 0 14px;
+    }
+    .mi-patches-pdf .refill_s_tab ul{
+        gap: 5px;
+    }
 }
 
 @media (max-width: 575px) {

@@ -203,52 +203,6 @@
     margin-left: auto;
 }
 
-.mi-pdp.black_friday .serum_bl .planBlock .monthly_plans .price:after {
-    /* max-width: fit-content; */
-    position: absolute;
-    content: '';
-    width: 100%;
-    height: 2px;
-    background-color: #C4121A;
-    transform: rotate(8deg);
-}
-
-.mi-pdp.black_friday .serum_bl .bf_price {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10px;
-}
-
-.mi-pdp.black_friday .serum_bl .bf_price h6 {
-    color: #C4121A;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 24px;
-    letter-spacing: 0.12px;
-    margin-bottom: 0;
-}
-
-.mi-pdp.black_friday .serum_bl .bf_price_wrap {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.mi-pdp.black_friday .serum_bl .planBlock .monthly_plans .saved_price {
-    height: fit-content;
-    padding: 4px 8px;
-    background: #C4121A;
-}
-
-.mi-pdp.black_friday .serum_bl .bf_price_wrap .plan_prc.sale_price {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 18px;
-    letter-spacing: 0.3px;
-}
-
 .supply_steps .step_block .serum_prd .serum_ttl{
     border-width: 1px;
 }
@@ -290,6 +244,12 @@
 }
 
 @media(max-width:991px) {
+    .mi-pdp.black_friday .serum_bl .bf_price_wrap {
+        gap: 6px;
+    }
+    .planBlock .monthly_plans .saved_price{
+        margin-left: 0;
+    }
     .supply-detail.supply-detail-without-counter {
         display: block;
     }
@@ -498,9 +458,6 @@
 
     .mi-pdp .skin_item_n_tag p {
         text-align: start;
-    }
-    .mi-pdp.black_friday .serum_bl .bf_price h6{
-        font-size: 11px;
     }
     .mi-pdp.black_friday .serum_bl .planBlock .monthly_plans .saved_price{
         font-size: 9px;

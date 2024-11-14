@@ -451,5 +451,15 @@
     }
     .main_banner2 .bf_sale-slider {
         padding-top: 25px;
+        padding-bottom: 50px;
+    }
+    .bf_sale-banners .main_banner2 .btn_black {
+        padding: 10px 50px;
+    }
+    .main_banner2 .bf_sale-slider .new_content .new-header{
+        font-size: 12px;
+    }
+    .main_banner2 .bf_sale-slider .new_content a{
+        font-size: 11px;
     }
 }

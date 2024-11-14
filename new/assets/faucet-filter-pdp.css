@@ -457,7 +457,6 @@
     height: 14px;
     width: 14px;
 }
-
 @media(max-width: 767px) {
     .subscribe_save_wrapper .subscribeInfo .subscribeInfoDesc{
         font-size: 10px;
