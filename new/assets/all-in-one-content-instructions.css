@@ -22,7 +22,16 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
+.qure_founder_wrap .founder_info p {
+    font-weight: 300;
+}
 @media(max-width: 767px){
+    .ac_desc_grid .ac_desc.faq .accordion-button .container {
+        font-size: 13px;
+    }
+    .ac_desc_grid .ac_desc.faq .accordion-button {
+        padding: 16px 0 0;
+    }
     .ac_desc_grid-2 {
         grid-template-columns: 1fr;
     }

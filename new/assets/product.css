@@ -5,6 +5,14 @@
     font-weight: 600;
     margin-bottom: 16px;
 }
+.black_friday .price_wrap h6 span{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.14px;
+    color: #000;
+}
 .black_friday .price_wrap .new_price span {
     margin-right: 4px;
 }
@@ -7200,7 +7208,7 @@ p.title_mob {
 }
 
 .supply-detail.supply-detail-without-counter .planBlock .monthly_plans {
-    display: block;
+    /* display: block; */
     border-radius: 20px;
 }
 
@@ -8995,7 +9003,7 @@ p.title_mob {
     }
 
     .upgrade_routine .ur_heading {
-        font-size: 20px;
+        font-size: 22px;
         line-height: 24px;
         letter-spacing: 0.5px;
     }
@@ -9584,6 +9592,16 @@ p.title_mob {
 .surgeon_video .w-css-reset img {
     object-fit: cover !important;
 }
+.product_title{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 48px; 
+    letter-spacing: 0.14px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    padding-top: 5px;
+}
 @media(min-width:767px) {
     .qure_MI_ftr_wrap .it_img .wistia_responsive_padding .wistia_embed>div {
         border-radius: 20px !important;
@@ -9679,6 +9697,12 @@ p.title_mob {
     }
     .upgrade_routine .ur_btn {
         padding: 8px 20px;
+    }
+    
+    .product_title {
+        font-size: 12px;
+        line-height: 28px;
+        padding-bottom: 5px;
     }
 }
 

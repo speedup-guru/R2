@@ -163,6 +163,14 @@ main.led_mask .limited_offer {
 .see_more-question{
     padding-top: 25px;
 }
+  
+.led_mask .price_wrap h6{
+    letter-spacing: 1.68px;
+  }
+ 
+ .led_mask .price_wrap .price{
+    gap: 10px;
+  }
 @media(max-width:1024px) {
     body {
         overflow-x: unset;
@@ -170,6 +178,9 @@ main.led_mask .limited_offer {
 }
 
 @media(max-width:767px) {
+    .led_mask .price_wrap h6 span{
+        font-size: 12px;
+      }
     .led_mask .qure_advantages .qa__inner .qa_info ul li .up-icon {
         margin-right: 24px;
     }

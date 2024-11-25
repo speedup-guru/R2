@@ -222,7 +222,350 @@
     margin-left: 0;
 }
 
+/* ........... product bundle start............. */
+.product_bundle .product .product_txt {
+    padding-top: 12px;
+    display: flex;
+    flex-direction: column;
+    min-height: 150px;
+    justify-content: center;
+}
+.product_bundle .product h6 {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: Poppins;
+}
+.product_bundle .product .pd_detali-txt p {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #4A4A4A;
+}
+.product_bundle .product .price_txt, .warranty .price_txt {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.13px;
+    padding-top: 10px;
+}
+.product_bundle .warranty h6 span {
+    opacity: 0.4;
+}
+.product_bundle .warranty h6 {
+    font-size: 13px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.13px;
+    padding-top: 5px;
+    margin-bottom: 0;
+}
+.product_bundle .product-section {
+    max-width: 600px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }
+  .product_bundle .product-section .save_txt {
+    color: #008763;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.12px;
+    text-transform: uppercase;
+}
+
+.product_bundle .product,.product_bundle .warranty {
+    padding: 12px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(217, 217, 217, 0.10);
+    border: 2px solid transparent;
+  }
+  
+.product_bundle .product.selected, .warranty.selected {
+    border: 2px solid #C7E7DC;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.00);
+    box-shadow: 0px 5px 15px 0px rgba(176, 176, 176, 0.25);
+  }
+  .product_bundle .warranty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 18px 0;
+    height: 100%;
+}
+.product_bundle .total-section {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #EAEAEA;
+    padding: 15px 0;
+}
+.product_bundle .original-price {
+    text-decoration: line-through;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.12px;
+    color: #B7B7B7;
+  }
+  
+.product_bundle .total-section {
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+.product_bundle .total-section #total-price {
+    font-weight: bold;
+    color: #000;
+  }
+  
+.product_bundle .total-section .savings {
+    font-weight: 600;
+    color: #008763;
+  }
+  
+.product_bundle .buy-now {
+    font-family: Poppins;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  .product_bundle .select_bundle{
+    position: relative;
+    height: 100%;
+  }
+  .product_bundle .select_bundle .pd_info {
+    background: #C7E7DC;
+    position: absolute;
+    top: -23px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.11px;
+    border-radius: 6px 6px 0px 0px;
+    text-align: center;
+    width: max-content;
+    padding: 2px 12px;
+}
+.product_bundle .warranty_selection,
+.product_bundle .product_selection {
+    padding-top: 40px;
+}
+.product_details ul li {
+    border: 0;
+    font-size: 13px;
+    height: auto !important;
+    padding: 6px 0px 6px 28px;
+}
+.product_details .star_gp span {
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0.14px;
+    background: #008763;
+    color: #fff;
+    border-radius: 6px;
+    padding: 0 8px;
+}
+.product_bundle .select_bundle .product_popup {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+.product_popup  .modal-dialog {
+    max-width: 380px;
+}
+.product_popup  .modal-dialog .modal-content{
+    border-radius: 8px;
+}
+.product_popup  .btn-close {
+    color: #fff;
+    position: absolute;
+    right: -7px;
+    top: -7px;
+    background: url(btn_close.svg) center / 1em auto no-repeat;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    opacity: 1;
+}
+.product_popup .refill_review p {
+    font-size: 11px;
+}
+.product_popup .refill_review img{
+    max-width: 95px;
+}
+.product_popup  .bs_feature ul li {
+    font-size: 13px;
+    border: 0;
+    padding: 4px 0px 4px 28px;
+}
+.product_popup .popup_pd-info h2 {
+    font-family: "Canela Web";
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.22px;
+    margin: 12px 0;
+}
+.product_popup .popup_pd-info h4 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+}
+.product_popup .popup_pd-info h4 span {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.18px;
+    text-decoration-line: line-through;
+    color: #C4C4C4;
+}
+.product_popup .popup_pd-info h4 span.you_save {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 14.794px;
+    border-radius: 34.788px;
+    background: #008663;
+    padding: 0 10px;
+    text-decoration: none;
+    margin-left: 12px;
+}
+.product_bundle .product_details .price_wrap .see_action span {
+    color: #008763;
+    font-size: 11px;
+    display: flex;
+    gap: 7px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.product_bundle .product_details .price_wrap .see_action p {
+    border-radius: 8px;
+    border: 1px solid #008763;
+    background: #FFF;
+    padding: 2px 12px;
+}
+.product_bundle .price .new_price{
+    font-weight: 600;
+}
+.product_bundle .selection_title{
+    font-size: 13px;
+}
+/* ........... product bundle end............. */
+
+
 @media(max-width:767px) {
+    /* ........... product bundle start............. */
+    .product_bundle .product_details ul li:before {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .product_bundle .refill_slider .swiper-slide img{
+        transform: scale(calc(1 + 2 / 100));
+    }
+    .product_bundle .price .new_price {
+        font-size: 18px;
+        font-weight: 600;
+        padding-top: 5px;
+    }
+    .product_bundle .warranty_selection, .product_bundle .product_selection {
+        padding-top: 20px;
+    }
+    .product_bundle .select_bundle .product_popup{
+        padding: 0;
+    }
+    .product_bundle .total-section {
+        margin-top: 20px;
+    }
+    .product_popup  .bs_feature ul li {
+        font-size: 12px;
+    }
+    .product_popup  .modal-dialog {
+        max-width: 325px;
+        margin: auto;
+    }
+    .product_popup .popup_pd-info h4 {
+        font-size: 20px;
+    }
+    .product_popup .popup_pd-info h4 span {
+        font-size: 16px;
+    }
+    .product_popup .popup_pd-info h4 span.you_save {
+        font-size: 12px;
+    }
+    .product_popup .popup_pd-info h2 {
+        font-size: 20px;
+    }
+    .product_bundle .product {
+        padding: 10px 7px;
+        height: 100%;
+    }
+    .product_bundle .product h6 {
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .product_bundle .product .price_txt, .warranty .price_txt{
+        font-size: 12px;
+        padding-top: 6px;
+    }
+    .product_bundle .product .pd_detali-txt p {
+        line-height: 16px;
+    }
+    .product_bundle .product .product_txt {
+        padding-top: 10px;
+    }
+    .product_bundle .product-section .save_txt {
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .product_bundle .warranty h6 {
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .product_bundle .select_bundle .pd_info {
+        font-size: 10px;
+        letter-spacing: 0.1px;
+        padding: 0px 8px;
+        top: -15px;
+        line-height: 16px;
+    }
+    .qurify_lp.led_lp .product_details .title-lg {
+        font-size: 34px;
+        line-height: 55px;
+    }
+    .product_details .refill_review p {
+        font-size: 13px;
+        padding-left: 5px;
+    }
+    /* ........... product bundle end............. */
+    .led_lp .single_step .section_header h2.title-lg.paddingB {
+        font-size: 24px;
+        line-height: 36px;
+    }
     .user_report_wrap {
         flex-direction: column;
         padding: 30px 15px;
@@ -258,6 +601,7 @@
     .qurify_lp.led_lp .payment_method {
         flex-direction: column;
         align-items: center !important;
+        gap: 10px;
     }
 
     .qurify_lp.led_lp .pmt_img img {

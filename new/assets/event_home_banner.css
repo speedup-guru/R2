@@ -127,7 +127,8 @@
     margin-left: 22px;
 }
 
-.main_banner .bf_sale-slider .newCycleSlider .swiper-slide .new-slide {
+.main_banner .bf_sale-slider .newCycleSlider .swiper-slide .new-slide, 
+.holiday_banner .bf_sale-slider .swiper-slide .new-slide {
     width: 100%;
     min-height: 110px;
     padding: 9px 7px;
@@ -160,7 +161,8 @@
     text-align: left;
 }
 
-.main_banner .bf_sale-slider .new_content .new-header {
+.main_banner .bf_sale-slider .new_content .new-header,
+.holiday_banner .bf_sale-slider .new_content .new-header {
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -179,7 +181,8 @@
     display: none;
 }
 
-.main_banner .bf_sale-slider .new_img {
+.main_banner .bf_sale-slider .new_img,
+.holiday_banner .bf_sale-slider .new_img {
     text-align: center;
     background: #fff;
     height: 100%;
@@ -207,19 +210,32 @@
     box-shadow: 0px 0px 3.284px 0px rgba(0, 0, 0, 0.25);
 }
 
-.main_banner .bf_sale-slider {
+.main_banner .bf_sale-slider,
+.holiday_banner .bf_sale-slider{
     position: relative;
     margin-top: 35px;
 }
-
-.main_banner .bf_sale-slider .swiper-button-prev {
+.holiday_banner .bundle_slider-main {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+.main_banner .bf_sale-slider .swiper-button-prev,
+.holiday_banner .bf_sale-slider .swiper-button-prev {
     left: -60px;
 }
 
-.main_banner .bf_sale-slider .swiper-button-next {
+.main_banner .bf_sale-slider .swiper-button-next,
+.holiday_banner .bf_sale-slider .swiper-button-next {
     right: -60px;
 }
-
+.holiday_banner .bf_sale-slider .swiper-button {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 0px 3.284px 0px rgba(0, 0, 0, 0.25);
+}
 .main_banner .bf_sale-slider .new_content span {
     color: #F10000;
     font-family: Poppins;
@@ -229,8 +245,18 @@
     letter-spacing: 0.233px;
     text-transform: uppercase;
 }
-
-.main_banner .bf_sale-slider .new_content .new-header span {
+.holiday_banner .bf_sale-slider .new_content .discount_badge {
+    border-radius: 50px;
+    background: #C92127;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.163px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 1px 9px;
+}
+.main_banner .bf_sale-slider .new_content .new-header span,
+.holiday_banner .bf_sale-slider .new_content .new-header span {
     font-size: 12px;
     font-style: normal;
     font-weight: 300;
@@ -301,7 +327,32 @@
     padding: 10px 57px;
 }
 /* <----Banners CSS End-------> */
-
+.holiday_banner{
+    position: relative;
+}
+.holiday_banner .banner_bf-text h5{
+    font-size: 16px;
+    margin: 20px 0;
+}
+.holiday_banner .banner_bf-text p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 10.733px;
+    letter-spacing: 0.12px;
+    padding-bottom: 10px;
+}
+.bfBundle__bannerBlock {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+.discount_banner .collection_img .w-chrome.notranslate{
+    height: 100% !important;
+}
 @media(max-width:991px) {
     .main_banner .bf_sale-slider .swiper-button {
         bottom: 0;
@@ -327,7 +378,7 @@
     padding-top: 30px;
     max-width: 300px;
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
 }
 .bf_sale-banners .red-line:after {
     bottom: -8px;
@@ -335,10 +386,12 @@
     height: 10px;
     background-size: contain;
 }
-.main_banner .bf_sale-slider .swiper-button-prev {
+.main_banner .bf_sale-slider .swiper-button-prev,
+.holiday_banner .bf_sale-slider .swiper-button-prev{
     left: 20px;
 }
-.main_banner .bf_sale-slider .swiper-button-next {
+.main_banner .bf_sale-slider .swiper-button-next,
+.holiday_banner .bf_sale-slider .swiper-button-next {
     right: 20px;
 }
 .main_banner .bf_sale-slider {
@@ -461,5 +514,18 @@
     }
     .main_banner2 .bf_sale-slider .new_content a{
         font-size: 11px;
+    }
+    .holiday_banner .event_pd-content {
+        min-height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .holiday_banner .banner_bf-text h5 {
+        margin: 19px 0;
+    }
+    .holiday_banner .btn_black {
+        max-width: 100%;
     }
 }
