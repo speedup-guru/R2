@@ -221,12 +221,6 @@
     max-width: 457px;
     margin-right: 0;
 }
-.supply_steps, .next_batch_bl {
-    display: none; /* Initially hidden */
-}
-.supply_steps.active, .next_batch_bl.active {
-    display: block; /* Display when active */
-}
 
 @media(min-width:991px) {
     .supply-detail.supply-detail-without-counter .step_block .step_content.serum_image {
