@@ -102,7 +102,7 @@
 .bf_sale-banners .btn_black {
     background-color: #000;
     color: #fff;
-    padding: 10px 64px;
+    padding: 10px 45px;
     border-radius: 30px;
     font-weight: 600;
     letter-spacing: .167px;
@@ -276,7 +276,16 @@
     justify-content: center;
     height: 100%;
 }
-
+.collection_banner .collection_grid {
+    grid-template-columns: 30% 38% 30%;
+    justify-content: space-between;
+}
+.collection_banner .collection_grid .banner_text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
 /* <!--21% Discount Banner--> */
 .discount_banner .collection_text h6 {
     color: #F10000;
@@ -353,6 +362,10 @@
 .discount_banner .collection_img .w-chrome.notranslate{
     height: 100% !important;
 }
+.holiday_banner .bg_banner{
+    width: 100vw;
+    object-fit: cover;
+}
 @media(max-width:991px) {
     .main_banner .bf_sale-slider .swiper-button {
         bottom: 0;
@@ -375,7 +388,7 @@
 }
 .banner_bf-text {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 25px;
     max-width: 300px;
     width: 100%;
     margin: 0 auto;
@@ -495,6 +508,9 @@
         line-height: 36px;
         letter-spacing: 0.28px;
     }
+    .bf_sale-banners h1 br{
+        display: none;
+    }
     .bf_sale-banners .main_banner2 .banner_bf-text h5 {
         margin: 10px 0px 16px;
         padding: 0 25px;
@@ -516,16 +532,28 @@
         font-size: 11px;
     }
     .holiday_banner .event_pd-content {
-        min-height: 600px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        height: calc(100% - 20px);
     }
     .holiday_banner .banner_bf-text h5 {
         margin: 19px 0;
     }
     .holiday_banner .btn_black {
         max-width: 100%;
+    }
+    .holiday_banner .bundle_slider-main {
+        max-width: 100%;
+    }
+    .holiday_banner .container,
+    .holiday_banner .bfBundle_inner-content{
+        height: 100%;
+    }
+    .holiday_banner .bfBundle_inner-content .dots_pegi {
+        margin: 0 0 -35px;
+        padding-bottom: 5px;
+        padding-top: 10px;
     }
 }
