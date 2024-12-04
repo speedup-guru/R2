@@ -30164,7 +30164,9 @@ p {
 .rounded-20 {
     border-radius: 20px !important;
 }
-
+.rounded-12 {
+    border-radius: 12px !important;
+}
 
 @media(max-width:767px) {
     .title-lg {
