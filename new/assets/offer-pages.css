@@ -104,6 +104,10 @@
     letter-spacing: 0.14px;
     text-transform: uppercase;
 }
+.app_press_sl_img .swiper-slide-thumb-active img{
+    opacity: 1;
+    filter: invert(1) brightness(0) saturate(100%);
+}
 @media(max-width: 767px){
     .choose_bundle-offer h2 {
         font-size: 28px;
