@@ -113,7 +113,7 @@
     padding-top: 10px;
 }
 .dermal_main-main .newside_list ul li:not(:last-child){
-    border: none;
+    border-bottom-width: 0;
 }
 .dermal_main-main .beauty_skincare .bs_item h4 {
     font-size: 28px;
@@ -147,6 +147,7 @@
     .dermal_main-main .newside_list ul li {
         display: flex;
         align-items: start;
+        border-bottom: 1px solid #E8E8E8;
     }
     .purify_anything .accordion {
         grid-template-columns: repeat(1, 1fr);
@@ -240,5 +241,9 @@
     }
     .swiper-containerAffect2 {
         overflow: unset;
+    }
+    .dermal_main-main .newside_list ul li:not(:last-child){
+        border-bottom-width: 1px;
+        margin-bottom: 10px;
     }
 }

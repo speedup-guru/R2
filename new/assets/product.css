@@ -3545,6 +3545,7 @@
 .trusted_bl .trust_item .trust_item_info .quote {
     position: absolute;
     left: 10px;
+    z-index: -1;
 }
 
 .trusted_bl .trust_item .trust_img img {

@@ -69,6 +69,7 @@
 ::-webkit-scrollbar {
     display: none;
 }
+
 .pd_videos-mob .toggle-columns {
     font-size: 12px;
     opacity: 0.8;
@@ -80,8 +81,93 @@
     margin-top: 30px;
     text-decoration: underline;
 }
-.pd_videos-mob{
+
+.pd_videos-mob {
     text-align: center;
+}
+
+.certified_derm p {
+    font-size: 12px;
+    line-height: 17px;
+    padding: 0;
+}
+
+.certified_derm img {
+    max-width: 65px;
+    margin-right: 15px;
+}
+
+.certified_derm {
+    background-color: #fff;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding: 4px 14px;
+    max-width: 427px;
+    margin-top: 80px;
+}
+
+.derma_review .main_b_wrapper .title-xl {
+    line-height: 57px;
+}
+.derma_review .main_banner .main_b_wrapper{
+    align-items: center;
+}
+.derma_review .trusted_bl.bg_trust .trust_img .play_btn a {
+    background: rgb(0 0 0 / 30%);
+}
+.derma_review .trusted_bl.trustedVerified {
+    padding: 0;
+}
+.derma_review .trusted_cl_m .t_m_img {
+    border-radius: 24px;
+}
+.derma_review .trusted_bl .trust_item .trust_item_info .result_content p {
+    font-size: 12px;
+    line-height: 22px;
+}
+.advisor_content .accordion-button::after {
+    margin-left: initial;
+    width: 33px;
+    height: 33px;
+    background-color: #fff;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    background-image: none;
+    content: url(../assets/arrow-down-sm.svg);
+    transform: unset;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.advisor_content .accordion-button:not(.collapsed):after{
+    content: url(../assets/arrow-up-sm.svg);
+}
+.advisor_content .accordion-button:not(.collapsed){
+    box-shadow: none;
+}
+.advisor_content .advisor_detail {
+    margin-top: -120px;
+}
+.advisor_content .advisor_detail h6{
+    font-weight: 600;
+    line-height: 21.538px;
+}
+.advisor_detail .accordion-body p {
+    line-height: 22px;
+}
+.advisor_content .accordion-header p {
+    font-weight: 400;
+    line-height: 21.538px;
+}
+.advisor_4 .advisor_detail {
+    margin-top: -140px;
+}
+.board_of-advisors .swiper {
+    overflow: unset;
+}
+.derma_review .trusted_bl.trustedVerified .trust_item {
+    height: 100% !important;
 }
 @media(min-width:768px) {
     .reviews_tabs {
@@ -123,11 +209,44 @@
         gap: 5px;
         justify-content: flex-start;
     }
-    .review_and-results .main_banner .main_b_wrapper h1+img{
+
+    .review_and-results .main_banner .main_b_wrapper h1+img {
         max-width: 100%;
     }
-    
-.reviews_tabs-content ul li:nth-last-child(1) {
-    margin-right: 24px;
-}
+
+    .reviews_tabs-content ul li:nth-last-child(1) {
+        margin-right: 24px;
+    }
+
+    .derma_review .main_b_wrapper .title-xl {
+        font-size: 28px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .certified_derm p {
+        font-size: 10px;
+        line-height: 15px;
+        letter-spacing: 0.1px;
+    }
+    .derma_review .section_header h5 {
+        font-size: 13px;
+        text-align: center;
+    }
+    .derma_review .main_banner .main_b_wrapper {
+        align-items: start;
+    }
+    .certified_derm {
+        margin: 10px -4px;
+        padding: 4px 10px;
+    }
+    .certified_derm img {
+        max-width: 42px;
+        margin-right: 6px;
+    }
+    .derma_review .main_banner .main_b_wrapper .section_header {
+        padding-top: 35px;
+    }
+    .derma_review .trusted_cl {
+        padding: 0 !important;
+    }
 }
