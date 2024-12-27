@@ -1,0 +1,39 @@
+.safety-banner-cont h1 {
+    text-shadow: unset;
+    color: #000;
+}
+.q-urify_safety .safety-banner-cont h6 {
+    color: #000;
+}
+.q-urify_safety .safety-banner-cont p {
+    color: #000;
+}
+.instruction .instruction_inner {
+    border-width: 2px 0;
+    border-style: solid;
+    border-color: #C7E7DC;
+    padding: 15px 0 40px;
+}
+.q-urify_safety .see_work .play_btn a {
+    border-radius: 40px;
+}
+.instruction_manual h5{
+    font-weight: 600;
+}
+.contents-info .tablinks {
+    font-size: 13px;
+}
+.contents-info ul li span {
+    color: #000;
+}
+@media(max-width: 767px){
+    .instruction .instruction_manual h5 {
+        font-size: 13px;
+    }
+    .q-urify_safety .safety-banner-cont {
+        margin-bottom: 0;
+    }
+    .instruction {
+        padding: 20px 0;
+    }
+}

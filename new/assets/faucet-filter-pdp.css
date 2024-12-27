@@ -457,6 +457,23 @@
     height: 14px;
     width: 14px;
 }
+.replacment .mask_select_clr .form-check-input:checked+label img {
+    box-shadow: 0px 0px 0px 2px #C7E7DC;
+    border: unset;
+}
+.replacment .mask_select_clr img{
+    border: unset;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+}
+.replacement_info .replacement_pill {
+    border-radius: 32px;
+    background: #F5F5F5;
+    padding: 4px 13px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
 @media(max-width: 767px) {
     .subscribe_save_wrapper .subscribeInfo .subscribeInfoDesc{
         font-size: 10px;
@@ -619,5 +636,8 @@
     .faucet_filter .reasons .reasons_wrapper {
         display: flex;
         gap: 0;
+    }
+    .replacement_info .replacement_pill p {
+        font-size: 12px;
     }
 }
