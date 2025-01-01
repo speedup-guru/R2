@@ -178,9 +178,9 @@
         overflow: unset;
     }
 
-    .reviews_tabs .skincare_slider_n .twa__swiper#twa__swiper-skinSliderN5 .swiper-wrapper {
+    /* .reviews_tabs .skincare_slider_n .twa__swiper#twa__swiper-skinSliderN5 .swiper-wrapper {
         justify-content: center;
-    }
+    } */
 }
 
 @media(max-width: 767px) {

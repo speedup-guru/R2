@@ -30156,7 +30156,9 @@ p {
 .fw-medium {
     font-weight: 500;
 }
-
+.fw-semibold{
+    font-weight: 600;
+}
 .text-sm {
     font-size: 12px;
 }

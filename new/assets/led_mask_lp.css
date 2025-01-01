@@ -651,7 +651,27 @@
     max-width: 56px;
 }
 /* ........... product bundle end............. */
-
+.led_mask2 .popup_pd-info h4 span.you_save {
+    background: #CB0000;
+    font-size: 12px;
+    padding: 4px 8px;
+    font-weight: 600;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.led_mask2 .popup_pd-info h4 .free {
+    color: #008763;
+    text-decoration: none;
+}
+.led_mask2 .refill_review p {
+    color: #008763;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.led_mask2 .popup_pd-info h2 {
+    margin-top: 5px;
+}
 
 @media(max-width:767px) {
     /* ........... product bundle start............. */
@@ -888,6 +908,12 @@
     .faq .accordion-item {
         border-bottom: 1px solid #DEDADA;
         padding: 0 10px;
+    }
+    .led_mask2 .refill_review p {
+        font-size: 12px;
+    }
+    .led_mask2 .popup_pd-info h4 .free {
+        font-size: 18px;
     }
 }
 
