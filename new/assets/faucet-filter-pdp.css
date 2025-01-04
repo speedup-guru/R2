@@ -255,7 +255,7 @@
 }
 
 .ingredients_list .ingredients_img p {
-    font-size: 11px;
+    font-size: 13px;
 }
 
 /* ---------- ingredients list end --------------  */
@@ -401,10 +401,11 @@
 }
 
 .filter_comparsion .filter_info h5 {
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 24px;
+    font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.14px;
+    opacity: 0.8;
 }
 
 .filter_comparsion .filter_info p {
@@ -441,6 +442,7 @@
 
 .faucet_filter .qure_MI_ftr_wrap .nozzel_benefit p {
     font-weight: 600;
+    opacity: 0.8;
 }
 
 .faucet_filter .cp_ftr_wrapper {
@@ -474,6 +476,35 @@
     align-items: center;
     gap: 8px;
 }
+.ingredients_list .ingredients_img .ing_img-inner {
+    min-height: 47px;
+}
+.skincare_slider_n .skincare_percent:not(:last-child) {
+    margin-bottom: 10px;
+}
+.skincare_slider_n .skin_item_n_tag .sn_tag {
+    background-color: #C7E7DC;
+    border-radius: 30px;
+    padding: 2px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin: 5px;
+    line-height: 30px;
+}
+.skincare_slider_n .progessInfo {
+    font-size: 14px;
+}
+.skincare_slider_n .skin_item_n_tag p {
+    margin: 12px 0;
+}
+.more_effective_indiv ul li:last-child {
+    border-bottom: 1px solid #EDE7DD;
+}
+
+
+
+
+
 @media(max-width: 767px) {
     .subscribe_save_wrapper .subscribeInfo .subscribeInfoDesc{
         font-size: 10px;
@@ -533,7 +564,7 @@
     }
 
     .reasons_wrapper .rs_item .rs_item_content p {
-        font-size: 11px;
+        font-size: 10px;
         line-height: 16px;
         letter-spacing: 0.11px;
         text-align: center;
@@ -639,5 +670,15 @@
     }
     .replacement_info .replacement_pill p {
         font-size: 12px;
+    }
+    .skincare_slider_n .skin_item_n_tag .sn_tag {
+        font-size: 11px;
+        padding: 0 12px;
+        margin: 4px 1px;
+    }
+    .faucet_filter .dot_pagination .swiper-pagination-bullet {
+        margin: 0 4px !important;
+        height: 10px;
+        width: 10px; 
     }
 }
