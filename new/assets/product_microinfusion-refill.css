@@ -96,7 +96,27 @@
 .affect_howToUse p:not(:last-child) {
     padding-bottom: 16px;
 }
+.product-price div#subscription {
+    font-size: 25px;
+    margin-top: 15px;
+}
+.refill_s_tab ul {
+    display: flex;
+}
+
+@media(max-width:1199px){
+.refill_s_tab ul {
+    gap: 10px;
+}  
+.refill_s_tab ul li button {
+    padding: 0 10px !important;
+}
+}
+
 @media(max-width:767px) {
+    .refill_s_tab ul li button {
+        font-size: 12px;
+    }
     .black_friday .serum_bl .bf_price_wrap {
         gap: 6px;
     }

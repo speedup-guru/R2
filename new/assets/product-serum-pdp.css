@@ -202,4 +202,7 @@
         grid-template-columns: 1fr;
         gap: 0px;
     }
+    .all_in_one .subscribePrice p {
+        font-weight: 400 !important;
+    }
 }

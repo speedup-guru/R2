@@ -108,13 +108,13 @@
     margin: 0 auto;
 }
 
-.chest_pdp .app_press_sl_img1 .swiper-slide {
+/* .chest_pdp .app_press_sl_img1 .swiper-slide {
     pointer-events: none;
-}
+} */
 
-.chest_pdp .app_press_sl_img1 .swiper-slide {
+/* .chest_pdp .app_press_sl_img1 .swiper-slide {
     pointer-events: none;
-}
+} */
 
 .chest_pdp .refill_info .refill_review {
     margin-bottom: 10px;

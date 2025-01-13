@@ -261,7 +261,7 @@
 /* ---------- ingredients list end --------------  */
 .subscribe_save_wrapper .buy_btn {
     font-size: 22px;
-    padding: 13px;
+    padding: 19px;
 }
 .refill_bl .mask_select_clr h5 {
     font-size: 14px;
@@ -423,12 +423,21 @@
     }
     .subscribe_save_wrapper .buy_btn {
         font-size: 20px;
-        padding: 10px;
+        padding: 15px;
     }
     .shower_filter-benefits .section_header p br {
         display: none;
     }
     .benefits_list ul li{
         font-size: 13px;
+    }
+    .subscribe_save_wrapper .subscribeInfo h6 {
+        font-size: 12px;
+    }
+    .subscribe_save_wrapper .subscribePrice p {
+        font-weight: 500;
+    }
+    .shower_filter .subscribe_save_wrapper .subscribe_txt {
+        font-size: 10px;
     }
 }

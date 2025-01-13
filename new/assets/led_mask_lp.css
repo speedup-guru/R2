@@ -503,7 +503,7 @@
 }
 .product_bundle  .include_wrap {
     display: grid;
-    grid-template-columns: 2fr 5fr 2fr;
+    grid-template-columns: 2fr 5.3fr 2fr;
     gap: 22px;
     align-items: center;
 }
@@ -553,7 +553,7 @@
     line-height: 24px;
     letter-spacing: 0.12px;
 }
-.include .batch_h_info{
+.include .batch_h-info{
     background: #fff;
     border-radius: 20px;
     position: relative;
@@ -562,7 +562,7 @@
     z-index: 9;
     height: 9px;
 }
-.include .batch_h_info::before{
+.include .batch_h-info::before{
     content: '';
     display: block;
     width: var(--bgPercent);
@@ -672,8 +672,21 @@
 .led_mask2 .popup_pd-info h2 {
     margin-top: 5px;
 }
-
+/* .include .include_wrap .include_pd-detail .preorder_txt {
+    font-family: Poppins;
+    font-style: italic;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.11px;
+}
+.include .include_wrap .include_pd-detail .preorder_txt span{
+    color: #CB0000;
+} */
 @media(max-width:767px) {
+    .next_batch_bl.next_batch_highlight h5 {
+        font-size: 12px;
+    }
     /* ........... product bundle start............. */
     .product_bundle .product_details ul li:before {
         top: 50%;
@@ -816,7 +829,7 @@
     .include .include_stock span {
         font-size: 10px;
     }
-    .include .batch_h_info {
+    .include .batch_h-info {
         height: 6px;
     }
     .include .order_today p {
@@ -915,6 +928,9 @@
     .led_mask2 .popup_pd-info h4 .free {
         font-size: 18px;
     }
+    /* .include .include_wrap .include_pd-detail .preorder_txt {
+        font-size: 10px;
+    } */
 }
 
 @media(max-width:440px) {

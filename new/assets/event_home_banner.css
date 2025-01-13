@@ -112,13 +112,16 @@
     width: auto;
     text-align: center;
 }
-.bf_sale-banners .main_banner2 .btn_black{
+
+.bf_sale-banners .main_banner2 .btn_black {
     background-color: #fff;
     color: #000;
 }
+
 .bf_sale-banners .main_banner {
     background-color: #F1F4F5;
 }
+
 .bf_sale-banners .main_banner2 {
     background-color: #000;
 }
@@ -127,7 +130,7 @@
     margin-left: 22px;
 }
 
-.main_banner .bf_sale-slider .newCycleSlider .swiper-slide .new-slide, 
+.main_banner .bf_sale-slider .newCycleSlider .swiper-slide .new-slide,
 .holiday_banner .bf_sale-slider .swiper-slide .new-slide {
     width: 100%;
     min-height: 110px;
@@ -143,7 +146,8 @@
     box-shadow: 0px 3.922px 3.922px rgba(0, 0, 0, 0.12);
     margin-bottom: 8px;
 }
-.main_banner2 .bf_sale-slider .anotherSlider .swiper-slide .new-slide{
+
+.main_banner2 .bf_sale-slider .anotherSlider .swiper-slide .new-slide {
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 3fr;
@@ -154,9 +158,11 @@
     width: 100%;
     max-width: 471px;
 }
-.main_banner2 .bf_sale-slider{
+
+.main_banner2 .bf_sale-slider {
     padding-top: 60px;
 }
+
 .main_banner .new_content {
     text-align: left;
 }
@@ -170,13 +176,15 @@
     letter-spacing: 0.233px;
     margin-bottom: 0;
 }
-.main_banner2 .bf_sale-slider .new_content .new-header{
+
+.main_banner2 .bf_sale-slider .new_content .new-header {
     font-family: Poppins;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0.124px;
 }
+
 .main_banner .newCycleSlider .swiper-arrow:after {
     display: none;
 }
@@ -211,15 +219,17 @@
 }
 
 .main_banner .bf_sale-slider,
-.holiday_banner .bf_sale-slider{
+.holiday_banner .bf_sale-slider {
     position: relative;
     margin-top: 35px;
 }
+
 .holiday_banner .bundle_slider-main {
     width: 100%;
     max-width: 300px;
     margin: 0 auto;
 }
+
 .main_banner .bf_sale-slider .swiper-button-prev,
 .holiday_banner .bf_sale-slider .swiper-button-prev {
     left: -60px;
@@ -229,6 +239,7 @@
 .holiday_banner .bf_sale-slider .swiper-button-next {
     right: -60px;
 }
+
 .holiday_banner .bf_sale-slider .swiper-button {
     border-radius: 50%;
     height: 40px;
@@ -236,6 +247,7 @@
     background: var(--White, #FFF);
     box-shadow: 0px 0px 3.284px 0px rgba(0, 0, 0, 0.25);
 }
+
 .main_banner .bf_sale-slider .new_content span {
     color: #F10000;
     font-family: Poppins;
@@ -245,6 +257,7 @@
     letter-spacing: 0.233px;
     text-transform: uppercase;
 }
+
 .holiday_banner .bf_sale-slider .new_content .discount_badge {
     border-radius: 50px;
     background: #C92127;
@@ -255,6 +268,7 @@
     color: #fff;
     padding: 1px 9px;
 }
+
 .main_banner .bf_sale-slider .new_content .new-header span,
 .holiday_banner .bf_sale-slider .new_content .new-header span {
     font-size: 12px;
@@ -266,26 +280,73 @@
     display: block;
     text-transform: capitalize;
 }
+
 /* <!--Collection Banner--> */
 .bf_sale-banners .collection_banner h1 {
     font-family: "Canela light";
 }
-.collection_text{
+
+.collection_text {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
 }
+
 .collection_banner .collection_grid {
-    grid-template-columns: 30% 38% 30%;
+    grid-template-columns: 60% 40%;
     justify-content: space-between;
 }
-.collection_banner .collection_grid .banner_text {
+
+.hero_valentine_banner .collection_grid {
+    grid-template-columns: 60% 40%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.collection_banner .collection_grid .banner_text,
+.hero_valentine_banner .collection_grid .banner_text {
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
 }
+
+.hero_valentine_banner .collection_grid .banner_text a {
+    background-color: #E03D42;
+    padding: 10px 55px;
+    margin-top: 33px !important;
+}
+
+.love_ur_skin_content a {
+    width: max-content;
+}
+
+span.discount_badge {
+    border-radius: 50px;
+    background: #C92127;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.163px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 1px 9px;
+}
+
+.love_ur_skin_content {
+    min-height: 110px;
+    padding: 14px;
+    display: grid;
+    align-items: center;
+    color: #000;
+    grid-template-columns: 60% 40%;
+    gap: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.55);
+    box-shadow: 0px 3.922px 3.922px rgba(0, 0, 0, 0.12);
+}
+
 /* <!--21% Discount Banner--> */
 .discount_banner .collection_text h6 {
     color: #F10000;
@@ -304,9 +365,11 @@
     color: #fff;
     margin-bottom: 0;
 }
+
 .discount_banner {
     background-color: #000;
 }
+
 .discount_banner .collection_text p {
     font-size: 14px;
     font-weight: 300;
@@ -314,6 +377,7 @@
     letter-spacing: 1.54px;
     color: #fff;
 }
+
 .main_banner2 .bf_sale-slider .new_content a {
     font-size: 12px;
     line-height: 16.733px;
@@ -324,6 +388,7 @@
     align-items: center;
     width: fit-content;
 }
+
 .main_banner2 .banner_bf-text p {
     font-size: 11px;
     font-style: normal;
@@ -332,24 +397,30 @@
     color: #fff;
     padding-top: 10px;
 }
+
 .bf_sale-banners .main_banner2 .btn_black {
     padding: 10px 57px;
 }
+
 /* <----Banners CSS End-------> */
-.holiday_banner{
+.holiday_banner {
     position: relative;
+    width: 100%;
 }
-.holiday_banner .banner_bf-text h5{
+
+.holiday_banner .banner_bf-text h5 {
     font-size: 16px;
     margin: 20px 0;
 }
-.holiday_banner .banner_bf-text p{
+
+.holiday_banner .banner_bf-text p {
     font-size: 12px;
     font-weight: 400;
     line-height: 10.733px;
     letter-spacing: 0.12px;
     padding-bottom: 10px;
 }
+
 .bfBundle__bannerBlock {
     position: absolute;
     left: 0;
@@ -359,12 +430,108 @@
     display: flex;
     align-items: center;
 }
-.discount_banner .collection_img .w-chrome.notranslate{
+
+.discount_banner .collection_img .w-chrome.notranslate {
     height: 100% !important;
 }
-.holiday_banner .bg_banner{
+
+.holiday_banner .bg_banner {
     width: 100vw;
     object-fit: cover;
+}
+
+.bf_sale-banners .collection_banner h1 {
+    font-size: 32px;
+}
+
+.bf_sale-banners .collection_banner a {
+    background-color: #E03D42;
+    padding: 10px 77px;
+}
+
+.bf_sale-banners .collection_banner h6 {
+    color: #E03D42;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 17.13px;
+    /* 107.06% */
+    letter-spacing: 0.791px;
+    margin-bottom: 0;
+}
+
+.bf_sale-banners .collection_banner h6 span {
+    margin: 0 5px;
+}
+
+.homepage .hero_valentine_banner .bf_sale-slider .swiper-slide .new-slide {
+    grid-template-columns: 1.1fr 1fr;
+    padding: 14px;
+    background: rgba(255, 255, 255, 0.45);
+    backdrop-filter: blur(4.423652648925781px);
+    gap: 0;
+}
+
+.homepage .hero_valentine_banner .bf_sale-slider .new_content .discount_badge {
+    font-size: 7px;
+    font-weight: 500;
+}
+
+.homepage .hero_valentine_banner .bf_sale-slider .new_content p {
+    color: #10355D;
+    font-family: Poppins;
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 20.269px;
+    letter-spacing: 0.237px;
+    text-transform: uppercase;
+}
+
+.homepage .hero_valentine_banner .bf_sale-slider .new_content .new-header {
+    color: #10355D;
+    font-family: "Canela Web";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20.269px;
+    letter-spacing: 0.237px;
+}
+
+.homepage .hero_valentine_banner .bf_sale-slider .new_img {
+    padding: 10px 5px;
+}
+
+.homepage .hero_valentine_banner .new_content {
+    padding-left: 19px;
+}
+
+.homepage .hero_valentine_banner .bf_sale-slider .new_content a {
+    font-size: 8px;
+}
+
+.homepage .hero_valentine_banner h6 span img {
+    height: 22px;
+    margin: 0 5px;
+}
+
+.homepage .hero_valentine_banner h6 {
+    color: #E03D42;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 17.13px;
+    letter-spacing: 0.791px;
+    margin-bottom: 0;
+}
+
+.homepage .hero_valentine_banner h1 {
+    font-size: 65px;
+    font-weight: 500;
+    line-height: 57.4px;
+    letter-spacing: 0.65px;
+    padding: 22px 0;
+    margin-bottom: 12px;
+}
+.homepage .hero_valentine_banner p {
+    font-size: 18px;
 }
 @media(max-width:991px) {
     .main_banner .bf_sale-slider .swiper-button {
@@ -372,73 +539,88 @@
         top: auto;
     }
 }
+
 @media(max-width:767px) {
-/* <----Banners CSS Start-------> */
-/* <!--.Main Banner--> */
-.bf_sale-banners .main_banner h1 {
-    font-size: 28px;
-    line-height: 36px;
-    letter-spacing: 0.28px;
-}
-.bf_sale-banners .banner_bf-text h5 {
-    font-size: 13px;
-    margin: 29px 0;
-    line-height: 24px;
-    letter-spacing: 0.124px;
-}
-.banner_bf-text {
-    text-align: center;
-    padding-top: 25px;
-    max-width: 300px;
-    width: 100%;
-    margin: 0 auto;
-}
-.bf_sale-banners .red-line:after {
-    bottom: -8px;
-    width: 80px;
-    height: 10px;
-    background-size: contain;
-}
-.main_banner .bf_sale-slider .swiper-button-prev,
-.holiday_banner .bf_sale-slider .swiper-button-prev{
-    left: 20px;
-}
-.main_banner .bf_sale-slider .swiper-button-next,
-.holiday_banner .bf_sale-slider .swiper-button-next {
-    right: 20px;
-}
-.main_banner .bf_sale-slider {
-    padding: 0 12px;
-}
-.main_banner .pagination_navigation .swiper-pagination{
-    top: 0;
-}
-.main_banner .pagination_navigation .swiper-pagination
-.swiper-pagination-bullet-active{
-    background: #000;
-}
-.main_banner .event_content-main .event_pd-content{
-    padding-bottom: 36px;
-}
-.bf_sale-banners .btn_black {
-    font-size: 14px;
-}
-/* <!--Collection Banner--> */
-.bf_sale-banners .collection_banner h1 {
-    font-family: "Canela light";
-    font-size: 24px;
-    line-height: 32px;
-    letter-spacing: 0.24px;
-}
-.collection_banner .btn_black {
-    font-size: 11px;
-    padding: 6px 19px;
-    width: 100%;
-}
-.bf_sale-banners .collection_banner h1 strong {
-    display: block;
-}
-/* <----Banners CSS End-------> */
+
+    /* <----Banners CSS Start-------> */
+    /* <!--.Main Banner--> */
+    .bf_sale-banners .main_banner h1 {
+        font-size: 28px;
+        line-height: 36px;
+        letter-spacing: 0.28px;
+    }
+
+    .bf_sale-banners .banner_bf-text h5 {
+        font-size: 13px;
+        margin: 29px 0;
+        line-height: 24px;
+        letter-spacing: 0.124px;
+    }
+
+    .banner_bf-text {
+        text-align: center;
+        padding-top: 25px;
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .bf_sale-banners .red-line:after {
+        bottom: -8px;
+        width: 80px;
+        height: 10px;
+        background-size: contain;
+    }
+
+    .main_banner .bf_sale-slider .swiper-button-prev,
+    .holiday_banner .bf_sale-slider .swiper-button-prev {
+        left: 20px;
+    }
+
+    .main_banner .bf_sale-slider .swiper-button-next,
+    .holiday_banner .bf_sale-slider .swiper-button-next {
+        right: 20px;
+    }
+
+    .main_banner .bf_sale-slider {
+        padding: 0 12px;
+    }
+
+    .main_banner .pagination_navigation .swiper-pagination {
+        top: 0;
+    }
+
+    .main_banner .pagination_navigation .swiper-pagination .swiper-pagination-bullet-active {
+        background: #000;
+    }
+
+    .main_banner .event_content-main .event_pd-content {
+        padding-bottom: 36px;
+    }
+
+    .bf_sale-banners .btn_black {
+        font-size: 14px;
+    }
+
+    /* <!--Collection Banner--> */
+    .bf_sale-banners .collection_banner h1 {
+        font-family: "Canela light";
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.24px;
+    }
+
+    .collection_banner .btn_black {
+        font-size: 11px;
+        padding: 6px 19px;
+        width: 100%;
+    }
+
+    .bf_sale-banners .collection_banner h1 strong {
+        display: block;
+    }
+
+    /* <----Banners CSS End-------> */
 
     .homepage .main_banner .banner_product .product_text {
         padding-top: 0px;
@@ -450,20 +632,20 @@
 
 
     .homepage .main_banner h6 {
-        font-size: 13px;
+        font-size: 12px;
         line-height: 22px;
         letter-spacing: 0.13px;
         text-align: center;
     }
 
-    .homepage .main_banner a {
+    /* .homepage .main_banner a {
         padding: 13px 50px;
         font-size: 14px;
         font-weight: 600;
         line-height: 16.733px;
         letter-spacing: 0.251px;
         margin-bottom: 0;
-    }
+    } */
 
     .homepage .main_banner .event_banner-text {
         text-align: center;
@@ -486,51 +668,63 @@
         line-height: 16.494px;
         letter-spacing: 0.11px;
     }
-    .discount_banner .collection_text h1{
+
+    .discount_banner .collection_text h1 {
         font-size: 43px;
         line-height: 55.422px;
         letter-spacing: 0.434px;
         margin-bottom: 20px;
     }
-    .discount_banner .collection_text h6{
+
+    .discount_banner .collection_text h6 {
         font-size: 10px;
         line-height: 19.876px;
         letter-spacing: 0.233px;
     }
-    .discount_banner .collection_text p{
+
+    .discount_banner .collection_text p {
         font-size: 12px;
         font-weight: 300;
         line-height: 32.357px;
     }
+
     .bf_sale-banners h1 {
         font-size: 28px;
         font-weight: 500;
         line-height: 36px;
         letter-spacing: 0.28px;
     }
-    .bf_sale-banners h1 br{
+
+    .bf_sale-banners h1 br {
         display: none;
     }
+
     .bf_sale-banners .main_banner2 .banner_bf-text h5 {
         margin: 10px 0px 16px;
         padding: 0 25px;
     }
+
     .main_banner2 .banner_bf-text p {
         font-size: 10px;
     }
+
     .main_banner2 .bf_sale-slider {
         padding-top: 25px;
         padding-bottom: 50px;
     }
+
     .bf_sale-banners .main_banner2 .btn_black {
         padding: 10px 50px;
     }
-    .main_banner2 .bf_sale-slider .new_content .new-header{
+
+    .main_banner2 .bf_sale-slider .new_content .new-header {
         font-size: 12px;
     }
-    .main_banner2 .bf_sale-slider .new_content a{
+
+    .main_banner2 .bf_sale-slider .new_content a {
         font-size: 11px;
     }
+
     .holiday_banner .event_pd-content {
         display: flex;
         flex-direction: column;
@@ -538,22 +732,76 @@
         align-items: center;
         height: calc(100% - 20px);
     }
+
     .holiday_banner .banner_bf-text h5 {
         margin: 19px 0;
     }
+
     .holiday_banner .btn_black {
         max-width: 100%;
     }
+
     .holiday_banner .bundle_slider-main {
         max-width: 100%;
     }
+
     .holiday_banner .container,
-    .holiday_banner .bfBundle_inner-content{
+    .holiday_banner .bfBundle_inner-content {
         height: 100%;
     }
+
     .holiday_banner .bfBundle_inner-content .dots_pegi {
         margin: 0 0 -35px;
         padding-bottom: 5px;
         padding-top: 10px;
+    }
+
+    .collection_banner .collection_grid {
+        grid-template-columns: 55% 45%;
+        grid-auto-flow: dense;
+    }
+
+    .collection_banner .collection_grid div:nth-child(1) {
+        order: 2;
+    }
+
+    .collection_banner .collection_grid div:nth-child(2) {
+        order: 1;
+    }
+
+    .bf_sale-banners .collection_banner h1 {
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.16px;
+    }
+
+    .bf_sale-banners .collection_banner a {
+        padding: 6px 25px;
+        width: auto;
+    }
+
+    .bf_sale-banners .collection_banner h6 {
+        font-size: 10px;
+    }
+
+    .bf_sale-banners .collection_banner h6 span img {
+        height: 15px;
+    }
+    .homepage .hero_valentine_banner .bf_sale-slider {
+        padding: 0px 25px;
+    }
+    .bf_sale-banners .hero_valentine_banner h1 {
+        font-size: 56px;
+        padding: 12px 0;
+    }
+    .homepage .hero_valentine_banner .collection_grid .banner_text a {
+        padding: 10px 25px;
+        margin-top: 5px !important;
+    }
+    .homepage .hero_valentine_banner p {
+        font-size: 12px;
+    }
+    .homepage .hero_valentine_banner h1 {
+        margin-bottom: 8px;
     }
 }

@@ -347,6 +347,9 @@
         font-weight: 600;
         letter-spacing: 0.12px;
     }
+    .available_bar {
+        padding: 6px 0;
+    }
 }
 
 /* ----------------------- Available bar end ----------------------- */
@@ -1351,6 +1354,7 @@
 
 .subscribe_save_wrapper .subscriptionType.active>div:first-child {
     background: #c7e7dc;
+    border: 1px solid transparent;
 }
 
 .subscribe_save_wrapper .subscribeInfo p {
@@ -8983,13 +8987,14 @@ p.title_mob {
     text-decoration: line-through;
 }
 
-.black_friday .upgrade_routine .ur_price_btn {
-    margin-top: 0;
+.upgrade_routine .ur_price_btn {
+    margin-top: 10px;
     gap:4px;
+    justify-content: space-between;
 }
 
 .black_friday .upgrade_routine .ur_btn {
-    margin-top: 10px;
+    margin-top: 0px;
 }
 .black_friday .upgrade_routine .ur_price{
     font-size: 14px;
