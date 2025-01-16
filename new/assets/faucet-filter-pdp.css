@@ -500,7 +500,9 @@
 .more_effective_indiv ul li:last-child {
     border-bottom: 1px solid #EDE7DD;
 }
-
+.faucet_filter_replacement .refill_info {
+    max-width: 100% !important;
+}
 
 
 

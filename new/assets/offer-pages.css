@@ -111,6 +111,26 @@
 .planBlock .plan_choosed span{
     text-transform: uppercase;
 }
+.all_in_one_face_serum_offer span.saved_price {
+    background: #c50000 !important;
+}
+.all_in_one_face_serum_offer .plan_choosed {
+    text-align: right !important;
+    left: unset !important;
+}
+
+.microinfusion_targeted_indiv .planBlock .monthly_plans .price .sale_price {
+    font-size: 18px !important;
+}
+.microinfusion_targeted_indiv .planBlock .monthly_plans .price .regular_price{
+    font-size: 18px !important;
+}
+.microinfusion_targeted_indiv .planBlock .monthly_plans{
+    flex-wrap: nowrap;
+}
+.microinfusion_targeted_indiv span.saved_price {
+    background: #c50000 !important;
+}
 @media(max-width: 767px){
     .choose_bundle-offer h2 {
         font-size: 28px;

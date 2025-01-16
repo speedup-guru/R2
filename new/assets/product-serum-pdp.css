@@ -128,6 +128,19 @@
 .accordionTechnologyWrapper .accordion-header{
     border-radius: 16px;
 }
+.all_in_one .planBlock .monthly_plans {
+    border-radius: 100px !important;
+}
+.all_in_one .certified_derm p {
+    font-size: 11px;
+}
+.all_in_one .certified_derm {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.shipping.shipping_bg {
+    padding: 7px 0;
+}
 @media(max-width:991px) {
     /* .skin_item {
         padding: 30px;
@@ -204,5 +217,15 @@
     }
     .all_in_one .subscribePrice p {
         font-weight: 400 !important;
+    }
+    .all_in_one .certified_derm {
+        margin-top: 8px;
+        margin-bottom: 12px;
+    }
+    .all_in_one .press_bl.press_bl_4 .ps_wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .all_in_one .press_bl.press_bl_4 .ps_item img {
+        height: 22px;
     }
 }

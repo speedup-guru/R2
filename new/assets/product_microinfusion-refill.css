@@ -99,6 +99,7 @@
 .product-price div#subscription {
     font-size: 25px;
     margin-top: 15px;
+    font-weight: 500;
 }
 .refill_s_tab ul {
     display: flex;
@@ -232,6 +233,9 @@
 
     .mi_refill .trusted_cl {
         background: linear-gradient(180deg, rgba(199, 231, 220, 0.91) -98.65%, #FFFFFF 69.3%);
+    }
+    .mi_refill .subscribe_save_wrapper .subscribePrice p {
+        font-size: 18px;
     }
 }
 
