@@ -141,6 +141,22 @@
 .shipping.shipping_bg {
     padding: 7px 0;
 }
+.all_in_one .planBlock .monthly_plans .saved_price{
+    background-color: #C4121A;
+}
+.all_in_one .planBlock .plan_choosed {
+    max-width: 85%;
+}
+.all_in_one .planBlock .monthly_plans {
+    padding: 13px 20px;
+}
+.all_in_one .planBlock .monthly_plans .price .regular_price{
+    font-size: 20px;
+}
+.all_in_one .planBlock .monthly_plans 
+.plan_prc.sale_price {
+    font-weight: 500;
+}
 @media(max-width:991px) {
     /* .skin_item {
         padding: 30px;

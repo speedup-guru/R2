@@ -357,6 +357,7 @@ span.discount_badge {
     text-transform: uppercase;
     margin-bottom: 0;
 }
+
 .discount_banner .collection_text h1 {
     font-size: 71px;
     font-weight: 500;
@@ -530,9 +531,35 @@ span.discount_badge {
     padding: 22px 0;
     margin-bottom: 12px;
 }
+
 .homepage .hero_valentine_banner p {
     font-size: 18px;
 }
+
+/* .............Sub Banner............... */
+.sub_banner .sub_banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 55px;
+    flex-wrap: wrap;
+}
+
+.sub_banner .sub_banner-content a {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.sub_banner .sub_banner-content h2 {
+    font-family: "Canela Web";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 55px;
+    letter-spacing: 0.36px;
+}
+
+/* .............Sub Banner............... */
 @media(max-width:991px) {
     .main_banner .bf_sale-slider .swiper-button {
         bottom: 0;
@@ -787,21 +814,43 @@ span.discount_badge {
     .bf_sale-banners .collection_banner h6 span img {
         height: 15px;
     }
+
     .homepage .hero_valentine_banner .bf_sale-slider {
         padding: 0px 25px;
     }
+
     .bf_sale-banners .hero_valentine_banner h1 {
         font-size: 56px;
         padding: 12px 0;
     }
+
     .homepage .hero_valentine_banner .collection_grid .banner_text a {
         padding: 10px 25px;
         margin-top: 5px !important;
     }
+
     .homepage .hero_valentine_banner p {
         font-size: 12px;
     }
+
     .homepage .hero_valentine_banner h1 {
         margin-bottom: 8px;
+    }
+    /* .............Sub Banner............... */
+    .sub_banner .sub_banner-content h2 {
+        font-size: 20px;
+        line-height: 27.489px;
+        letter-spacing: 0.2px;
+    }
+    .sub_banner .sub_banner-content{
+        gap: 20px;
+        justify-content: start;
+        padding-bottom: 25px;
+    }
+    .homepage .sub_banner.main_banner .main_b_wrapper{
+        align-items: end;
+    }
+    .sub_banner .sub_banner-content a {
+        font-size: 16px !important;
     }
 }

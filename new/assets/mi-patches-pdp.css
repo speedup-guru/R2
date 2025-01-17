@@ -187,6 +187,21 @@
     text-align: center;
     margin: 12px 0;
 }
+.mi_patches_pdp span.saved_price {
+    background: #c50000 !important;
+    margin-left: 8px;
+}
+.mi_patches_pdp .plan_des {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.mi_patches_pdp .planBlock .monthly_plans{
+    padding: 13px 20px;
+}
+.mi_patches_pdp label.monthly_plans{
+    border-radius: 100px !important;
+}
 @media (max-width: 991px) {
     .skincaree {
         gap: 20px;

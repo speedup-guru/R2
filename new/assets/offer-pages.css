@@ -48,7 +48,7 @@
 .subscribe_save_wrapper .with_subscription.buy_btn {
     font-size: 22px;
     font-weight: 600;
-    padding: 14px;
+    padding: 20px;
 }
 .choose_bundle-offer h2 {
     color: #000;
@@ -128,9 +128,7 @@
 .microinfusion_targeted_indiv .planBlock .monthly_plans{
     flex-wrap: nowrap;
 }
-.microinfusion_targeted_indiv span.saved_price {
-    background: #c50000 !important;
-}
+
 @media(max-width: 767px){
     .choose_bundle-offer h2 {
         font-size: 28px;
