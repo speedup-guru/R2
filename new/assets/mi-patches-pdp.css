@@ -202,6 +202,52 @@
 .mi_patches_pdp label.monthly_plans{
     border-radius: 100px !important;
 }
+main.mi_landing.mi-patches-pdf .thumbsSlider_wrap {
+    position: relative;
+}
+main.mi_landing.mi-patches-pdf .thumbsSlider_wrap .swiper-thumbs {
+    max-width: calc(100% - 70px);
+    margin: 0 auto;
+    overflow: hidden;
+}
+main.mi_landing.mi-patches-pdf .thumbsSlider_wrap .swiper-button {
+    height: 44px;
+    width: max-content;
+    background: transparent;
+    box-shadow: unset;
+}
+main.mi_landing.mi-patches-pdf .thumbsSlider_wrap .swiper-button-prev {
+    left: 0;
+}
+main.mi_landing.mi-patches-pdf .thumbsSlider_wrap .swiper-button-next {
+    right: 0;
+}
+main.mi_landing.mi-patches-pdf .bfs_mb_wrapThumb img {
+    border: 1px solid transparent;
+    opacity: .5; 
+}
+main.mi_landing.mi-patches-pdf .swiper-slide-thumb-active .bfs_mb_wrapThumb img {
+    border: 1px solid #000;
+    border-radius: 8px;
+    opacity: 1;
+}
+.silk_heading {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.14px;
+    text-transform: uppercase;
+}
+.mi_patches_pdp .plan_choosed {
+    text-align: right !important;
+    right: 25px !important;
+    left: 0 !important;
+}
+.plan_prc {
+    font-weight: 400;
+}
 @media (max-width: 991px) {
     .skincaree {
         gap: 20px;
