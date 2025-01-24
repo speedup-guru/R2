@@ -248,6 +248,7 @@ main.mi_landing.mi-patches-pdf .swiper-slide-thumb-active .bfs_mb_wrapThumb img 
 .plan_prc {
     font-weight: 400;
 }
+
 @media (max-width: 991px) {
     .skincaree {
         gap: 20px;
@@ -347,6 +348,11 @@ main.mi_landing.mi-patches-pdf .swiper-slide-thumb-active .bfs_mb_wrapThumb img 
 
     .combat_slider .swiper-wrapper {
         justify-content: unset;
+    }
+    .mi_landing_result .pagination_navigation .swiper-button {
+        height: 25px;
+        width: 25px;
+        top: 25px;
     }
 }
 
