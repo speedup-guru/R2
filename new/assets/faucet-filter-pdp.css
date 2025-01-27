@@ -503,8 +503,10 @@
 .faucet_filter_replacement .refill_info {
     max-width: 100% !important;
 }
-
-
+.Proven_results_in {
+    font-size: 13px;
+    margin-bottom: -8px !important;
+}
 
 
 @media(max-width: 767px) {

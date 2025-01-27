@@ -248,7 +248,45 @@ main.mi_landing.mi-patches-pdf .swiper-slide-thumb-active .bfs_mb_wrapThumb img 
 .plan_prc {
     font-weight: 400;
 }
-
+.bf_discount {
+    height: fit-content;
+    padding: 4px 11px;
+    background: #C4121A;
+    color: #fff;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 500;
+    border-radius: 25px;
+}
+.planBlock .plan_choosed span {
+    text-transform: uppercase;
+}
+.video_with_slide h2.title-lg {
+    margin-top: -15px;
+}
+img#bundleImage {
+    border-radius: 5px;
+}
+.payment_method {
+    padding: 10px 0;
+}
+.mi_patches_pdp .planBlock .monthly_plans .plan_des {
+    margin-top: 0;
+    line-height: 20px;
+}
+.planBlock .monthly_plans .plan_hdr h3 {
+    margin-top: -5px;
+}
+.planBlock .monthly_plans .plan_hdr h3 {
+    font-size: 14px !important;
+    opacity: 80%;
+}
+.mi_patches_pdp .planBlock .monthly_plans .price .regular_price {
+    font-size: 20px;
+}
+.choose_bundle-offer .bundle_offer-content .planBlock .monthly_plans .price .regular_price {
+    font-size: 23px;
+}
 @media (max-width: 991px) {
     .skincaree {
         gap: 20px;
@@ -256,6 +294,12 @@ main.mi_landing.mi-patches-pdf .swiper-slide-thumb-active .bfs_mb_wrapThumb img 
 }
 
 @media (max-width: 767px) {
+    .choose_bundle-offer .bundle_offer-content .planBlock .monthly_plans .price .regular_price {
+        font-size: 20px;
+    }
+    .planBlock .monthly_plans .plan_des { 
+        font-size: 11px;
+    }
     .mi-patches-pdf .rightCircle {
         width: 100%;
     }

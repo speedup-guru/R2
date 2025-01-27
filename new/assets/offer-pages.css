@@ -91,10 +91,10 @@
     font-size: unset;
 }
 .planBlock .monthly_plans .price .regular_price{
-    font-size: 23px;
+    font-size: 18px;
 }
 .planBlock .monthly_plans .price .sale_price{
-    font-size: 21px;
+    font-size: 18px;
 }
 .offer-lp .silk_heading {
     font-family: Poppins;
@@ -128,7 +128,6 @@
 .microinfusion_targeted_indiv .planBlock .monthly_plans{
     flex-wrap: nowrap;
 }
-
 @media(max-width: 767px){
     .choose_bundle-offer h2 {
         font-size: 28px;

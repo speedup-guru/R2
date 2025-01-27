@@ -32329,20 +32329,6 @@ picture img {
     }
 }
 
-@media (max-width: 575px) {
-    .mi_landing_result  .pagination_navigation .swiper-button {
-        height: 30px;
-        width: 30px;
-    }
-    .mi_landing_result .pagination_navigation .swiper-button-prev {
-        left: -10px !important; 
-    }
-    .mi_landing_result .swiper-button-next {
-        right: -10px !important;  
-    }
-}
-
-
 .blog_banner_wrap .blog_banner_img img {
     max-height: 388px;
     object-fit: contain

@@ -318,4 +318,7 @@
     .progress__container .navigation-buttons {
         padding: 28px 0;
     }
+    .shower_filter-guide{
+        padding-top: 64px;
+    }
 }

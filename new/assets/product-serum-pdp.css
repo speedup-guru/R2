@@ -146,6 +146,7 @@
 }
 .all_in_one .planBlock .plan_choosed {
     max-width: 85%;
+    text-transform: uppercase;
 }
 .all_in_one .planBlock .monthly_plans {
     padding: 13px 20px;
@@ -157,6 +158,51 @@
 .plan_prc.sale_price {
     font-weight: 500;
 }
+.choose_bundle-offer h2 {
+    color: #000;
+    text-align: center;
+    font-family: "Canela Web";
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 57.37px;
+    letter-spacing: 0.45px;
+}
+.choose_bundle-offer .bundle_offer-content {
+    border-radius: 9.156px;
+    border: 2px solid #C7E7DC;
+    padding: 30px 40px 30px;
+    height: 100%;
+}
+.bf_discount {
+    height: fit-content;
+    padding: 4px 11px;
+    background: #C4121A;
+    color: #fff;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 500;
+    border-radius: 25px;
+}
+.planBlock .monthly_plans .plan_hdr h3 {
+    font-size: 16px;
+}
+.all_in_one .planBlock .monthly_plans .plan_prc.sale_price {
+    font-weight: 500;
+}
+.planBlock .monthly_plans .price .plan_prc+.plan_prc {
+    margin-left: 10px;
+}
+.planBlock .monthly_plans .price .sale_price {
+    font-size: 21px;
+}
+.ctm_arrow_span {
+    height: 19px;
+    display: inline-block;
+}
+.ctm_arrow_span img {
+    position: absolute;
+    top: 4px;
+}
 @media(max-width:991px) {
     /* .skin_item {
         padding: 30px;
@@ -164,6 +210,24 @@
 }
 
 @media(max-width:767px) {
+    .planBlock .monthly_plans .plan_hdr h3 {
+        font-size: 14px;
+    }
+    .bf_discount{
+        padding: 1px 6px;
+        font-size: 10px;
+    }
+    .planBlock .monthly_plans .price .sale_price{
+        font-size: 18px;
+    }
+    .choose_bundle-offer h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .choose_bundle-offer .bundle_offer-content {
+        border: 0;
+        padding: 20px 0 10px;
+    }
     h2.richtext_title {
         font-size: 20px;
         line-height: 40px;

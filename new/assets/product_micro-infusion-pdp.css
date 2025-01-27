@@ -183,9 +183,9 @@
     font-weight: 400;
 }
 
-.result_s_wrapper .pagination_navigation {
+/* .result_s_wrapper .pagination_navigation {
     max-width: fit-content;
-}
+} */
 
 .result_s_wrapper .swiper-button-prev {
     left: -60px;
@@ -462,5 +462,13 @@
     }
     .mi-pdp.black_friday .serum_bl .planBlock .monthly_plans .saved_price{
         font-size: 9px;
+    }
+}
+@media (max-width: 575px) {
+    .mi_landing_result .pagination_navigation .swiper-button-prev {
+        left: 0px !important; 
+    }
+    .mi_landing_result .swiper-button-next {
+        right: 0px !important;  
     }
 }
