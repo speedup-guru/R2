@@ -189,7 +189,7 @@
     display: grid;
     grid-template-columns: 1.1fr 1fr;
     gap: 60px;
-    padding: 20px;
+    padding: 40px 20px;
     border: 2px solid #C7E7DC;
     border-radius: 20px;
 }
@@ -317,6 +317,9 @@
 }
 
 @media(max-width:767px) {
+    .have_questions .article-list li {
+        margin-bottom: 5px;
+    }
     .img_scars {
         padding-bottom: 40px;
         padding-top: 20px;

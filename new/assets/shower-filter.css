@@ -298,6 +298,38 @@
     opacity: 0;
     visibility: hidden;
 }
+main.shower_filter .bfs_mb_wrapThumb img {
+    border: 1px solid transparent;
+    opacity: .5;
+}
+main.shower_filter .swiper-slide-thumb-active .bfs_mb_wrapThumb img {
+    border: 1px solid #000;
+    border-radius: 8px;
+    opacity: 1;
+}
+.thumbsSlider_wrap {
+    position: relative;
+}
+main.shower_filter .thumbsSlider_wrap .swiper-thumbs {
+    max-width: calc(100% - 70px);
+    margin: 0 auto;
+    overflow: hidden;
+}
+main.shower_filter .thumbsSlider_wrap .swiper-button-prev {
+    left: 17px; 
+}
+main.shower_filter .thumbsSlider_wrap .swiper-button-next {
+    right: 17px;
+}
+main.shower_filter .thumbsSlider_wrap .swiper-button {
+    height: 44px;
+    width: max-content;
+    background: transparent;
+    box-shadow: unset;
+}
+main.shower_filter .swiper-slide, main.shower_filter .swiper {
+    border-radius: 8px !important;
+}
 @media(max-width: 767px){
     .ingredients_list .ingredient .ingredient_flag {
         top: -34px;
