@@ -24,7 +24,7 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
         AWS_DEFAULT_REGION: 'us-east-1'
       run: |
-        aws s3 ls s3://${{ secrets.R2_BUCKET_NAME }} --endpoint-url=${{ secrets.R2_ENDPOINT }}
+        aws s3 ls s3://github --endpoint-url=https://ac34229f403bce2e69e97ed47465658c.r2.cloudflarestorage.com/github
 
     - name: Sync files to Cloudflare R2
       env:
@@ -32,7 +32,7 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
         AWS_DEFAULT_REGION: 'us-east-1'
       run: |
-        aws s3 sync . s3://${{ secrets.R2_BUCKET_NAME }} \
+        aws s3 sync . s3://github \
           --delete --exact-timestamps --debug \
           --exclude ".git/*" --exclude ".github/*" \
           --endpoint-url=${{ secrets.R2_ENDPOINT }} \
