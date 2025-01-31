@@ -19,17 +19,21 @@ jobs:
         echo "Endpoint: ${{ secrets.R2_ENDPOINT }}"
 
     - name: Test R2 Connection
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+        AWS_DEFAULT_REGION: 'us-east-1'
       run: |
         aws s3 ls s3://${{ secrets.R2_BUCKET_NAME }} --endpoint-url=${{ secrets.R2_ENDPOINT }}
 
     - name: Sync files to Cloudflare R2
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+        AWS_DEFAULT_REGION: 'us-east-1'
       run: |
         aws s3 sync . s3://${{ secrets.R2_BUCKET_NAME }} \
           --delete --exact-timestamps --debug \
           --exclude ".git/*" --exclude ".github/*" \
           --endpoint-url=${{ secrets.R2_ENDPOINT }} \
           --only-show-errors
-      env:
-        AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-        AWS_DEFAULT_REGION: 'us-east-1'
