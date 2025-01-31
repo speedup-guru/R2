@@ -1,3 +1,47 @@
+/* -- Thumb Slider css start -- */
+.thumbsSlider_wrap {
+    position: relative;
+}
+.thumbsSlider_wrap .swiper-thumbs {
+    max-width: calc(100% - 70px);
+    margin: 0 auto;
+    overflow: hidden;
+}
+.thumbsSlider_wrap .swiper-button {
+    height: 44px;
+    width: max-content;
+    background: transparent;
+    box-shadow: unset;
+}
+.thumbsSlider_wrap .swiper-button-prev {
+    left: 0;
+}
+.thumbsSlider_wrap .swiper-button-next {
+    right: 0;
+}
+.bfs_mb_wrapThumb img {
+    border: 1px solid transparent;
+    opacity: .5; 
+    width: 62px;
+    height: 62px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.swiper-slide-thumb-active .bfs_mb_wrapThumb img {
+    border: 1px solid #000;
+    border-radius: 8px;
+    opacity: 1;
+}
+@media(max-width: 767px){
+    .bfs_mb_wrapThumb img {
+        height: 60px;
+    }
+    .thumbsSlider_wrap .swiper-thumbs {
+        max-width: calc(100% - 40px);
+    }
+}
+/* -- Thumb Slider css End -- */
+
 /* -- Black Friday Nov 2024 css start -- */
 .black_friday .price_wrap h6 {
     color: #C4121A;

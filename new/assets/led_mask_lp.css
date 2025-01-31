@@ -640,16 +640,7 @@
 .offer-lp .thumbsSlider_wrap {
     position: relative;
 }
-.thumbsSlider_wrap .swiper-thumbs .swiper-slide-thumb-active img {
-    border: 1px solid #000;
-    border-radius: 8px;
-    opacity: 1;
-}
-.thumbsSlider_wrap .swiper-thumbs img {
-    border: 1px solid transparent;
-    margin: 0 4px;
-    max-width: 56px;
-}
+
 /* ........... product bundle end............. */
 .led_mask2 .popup_pd-info h4 span.you_save {
     background: #CB0000;

@@ -1625,7 +1625,41 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+// Thumb Slider Start
+var swiper = new Swiper(".bfs_mb_sl", {
+    spaceBetween: 8,
+    slidesPerView: 4.4,
+    freeMode: true,
+    watchSlidesProgress: true,
+    breakpoints: {
+        768: {
+            spaceBetween: 12,
+            slidesPerView: 6.5,
+        },
 
+    },
+});
+var swiper2 = new Swiper(".bfs_mb_sl2", {
+    spaceBetween: 10,
+    navigation: {
+        nextEl: ".thumb-next",
+        prevEl: ".thumb-prev",
+    },
+    thumbs: {
+        swiper: swiper,
+    },
+});
 
+$(document).ready(function () {
+    // When a planBlock is clicked
+    $('.planBlock').click(function () {
+        // Get the image path from the selected plan
+        var selectedImage = $(this).data('image');  // Retrieve the data-image attribute
 
+        // Update the image source of the first column's image
+        $('#bundleImage').attr('src', selectedImage);  // Update image src
+    });
+});
+
+// Thumb Slider End
 
