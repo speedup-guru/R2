@@ -1,9 +1,9 @@
-name: Upload to Cloudflare R2 Test
+name: Upload to Cloudflare R2
 
 on:
   push:
     branches:
-      - main  # Замените 'main' на название вашей ветки, если нужно
+      - main
 
 jobs:
   upload-to-r2:
@@ -11,12 +11,25 @@ jobs:
 
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
+
+    - name: Debug Secrets
+      run: |
+        echo "Bucket Name: ${{ secrets.R2_BUCKET_NAME }}"
+        echo "Endpoint: ${{ secrets.R2_ENDPOINT }}"
+
+    - name: Test R2 Connection
+      run: |
+        aws s3 ls s3://${{ secrets.R2_BUCKET_NAME }} --endpoint-url=${{ secrets.R2_ENDPOINT }}
 
     - name: Sync files to Cloudflare R2
       run: |
-        aws s3 sync . s3://github --delete --endpoint-url=https://ac34229f403bce2e69e97ed47465658c.r2.cloudflarestorage.com
+        aws s3 sync . s3://${{ secrets.R2_BUCKET_NAME }} \
+          --delete --exact-timestamps --debug \
+          --exclude ".git/*" --exclude ".github/*" \
+          --endpoint-url=${{ secrets.R2_ENDPOINT }} \
+          --only-show-errors
       env:
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        AWS_DEFAULT_REGION: 'us-east-1'  # Используйте 'us-east-1' как заглушку
+        AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+        AWS_DEFAULT_REGION: 'us-east-1'
