@@ -2252,6 +2252,9 @@ img.fa.fa-user.nav__icon {
         right: auto !important;
         top: auto !important;
     }
+    .header_btn a .ahorra{
+        font-size: 10px;
+    }
 }
 
 /* =================== Safety Pages Css End =============== */
