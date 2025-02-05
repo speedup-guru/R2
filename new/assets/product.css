@@ -4019,6 +4019,7 @@ p.border-r {
 .trusted_bl.trustedVerified .trust_item {
     border: 1px solid #f3f3f3;
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.12);
+    height: 100%;
 }
 
 .trusted_bl.trustedVerified .trust_item .trust_item_info .result_content {
