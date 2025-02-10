@@ -31925,7 +31925,12 @@ p {
     margin-left: 10px;
     font-size: 15px;
 }
-
+.announcement_bar .bar_shop-btn{
+    background-color: #008763;
+    color: #fff;
+    border-radius: 50px;
+    padding: 1px 6px
+}
 @media(max-width:767px) {
     .announcement_bar p {
         font-size: 12px !important;
@@ -31941,7 +31946,7 @@ p {
 
 @media(max-width: 410px) {
     .announcement_bar p {
-        font-size: 11px !important;
+        font-size: 10px !important;
     }
 }
 

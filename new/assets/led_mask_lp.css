@@ -678,17 +678,9 @@
     line-height: 40px;
     letter-spacing: 0.3px;
 }
-/* .include .include_wrap .include_pd-detail .preorder_txt {
-    font-family: Poppins;
-    font-style: italic;
-    font-size: 11px;
-    font-weight: 400;
-    line-height: 18px;
-    letter-spacing: 0.11px;
+.qurify_lp .bfs_mb_wrapThumb img {
+    height: auto;
 }
-.include .include_wrap .include_pd-detail .preorder_txt span{
-    color: #CB0000;
-} */
 @media(max-width:767px) {
     .green_txt{
         font-size: 12px;
@@ -803,7 +795,7 @@
         font-size: 18px;
     }
     .qurify_lp.led_lp .include .product_details p{
-        font-size: 12px;
+        font-size: 11px;
     }
     .led_mask-offer.qurify_lp .include .product_details .save_txt {
         font-size: 11px;
@@ -949,6 +941,9 @@
     /* .include .include_wrap .include_pd-detail .preorder_txt {
         font-size: 10px;
     } */
+    .led_mask-offer .include .include_pd-price {
+        align-self: start;
+    }
 }
 
 @media(max-width:440px) {
