@@ -249,7 +249,22 @@
     letter-spacing: 0.11px;
     padding-bottom: 10px;
 }
-
+.trusted_bl .trust_item .trust_item_info .result_content p {
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+    opacity: 1;
+}
+.trust_item .trust_item_info .result_content h6 {
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 300;
+    padding-top: 8px;
+    margin-bottom: 0;
+}
+.bg_f5{
+    background: #f5f5f5 !important;
+}
 
 @media(min-width:767px) {
     .mi_landing .tmtFtrs_image img {

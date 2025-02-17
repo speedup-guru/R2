@@ -83,7 +83,7 @@
     grid-template-columns: 232px 1fr;
     align-items: center;
     gap: 62px;
-    max-width: 870px;
+    max-width: 970px;
     margin: 0 auto;
 }
 
@@ -94,11 +94,10 @@
 /* -- qure founder start -- */
 
 /* -- amazing content start -- */
-.amazing_content_wrap {}
 
 .amazing_content_wrap .nav-tabs {
     display: grid;
-    gap: 30px;
+    gap: 40px;
     grid-template-columns: 1fr 1fr 1fr;
     border-bottom: none;
 }
@@ -110,7 +109,7 @@
     background-color: #000 !important;
     border-radius: 20px !important;
     color: #fff !important;
-    margin: 17px 0 !important;
+    margin: 17px 0 0 !important;
     text-align: left;
     padding: 10px 40px;
 }
@@ -203,7 +202,7 @@
 }
 
 .ac_desc_grid .ac_desc ul li:not(:last-child) {
-    padding-bottom: 10px;
+    padding-bottom: 8px;
 }
 
 .ac_desc_grid .ac_desc {
@@ -453,7 +452,7 @@
     .ac_desc_grid {
         grid-template-columns: repeat(1, 1fr);
         gap: 80px;
-        padding: 20px;
+        padding: 20px 0;
     }
 
     .ac_desc_grid .ac_desc:not(:last-child):after {

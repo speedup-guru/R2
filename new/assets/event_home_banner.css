@@ -558,12 +558,67 @@ span.discount_badge {
     line-height: 55px;
     letter-spacing: 0.36px;
 }
+.clinic_results h3,
+.clinic_results h4,
+.clinic_results h5 {
+    font-family: Canela Web;
+    font-size: 42px !important;
+    text-align: start;
+    line-height: 50px;
+    font-weight: 500;
+}
+.collection_banner .collection_grid .banner_text, .hero_valentine_banner .collection_grid .womens_day_offer {
+    text-align: left;
+}
+.hero_valentine_banner .collection_grid .banner_text .clinic_results a {
+    margin-top: 15px !important;
+    background: #000;
+    padding: 18px 80px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 20px;
+    border-radius: 100px;
+}
+.hero_valentine_banner .collection_grid .banner_text .clinic_results p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 15px;
+}
+.best_seller_womens_day p {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0.6px;
+    opacity: 0.8;
+}
 
 /* .............Sub Banner............... */
 @media(max-width:991px) {
     .main_banner .bf_sale-slider .swiper-button {
         bottom: 0;
         top: auto;
+    }
+    .sub_banner .sub_banner-content{
+        gap: 20px;
+    }
+    .sub_banner .sub_banner-content h2 {
+        font-size: 30px;
+    }
+    .best_seller_womens_day p {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+    }
+    .womens_day_offer_collec .collection_grid {
+        justify-content: start !important;
     }
 }
 
@@ -852,5 +907,29 @@ span.discount_badge {
     }
     .sub_banner .sub_banner-content a {
         font-size: 16px !important;
+    }
+    /* womens day offer homepage banner css  */
+    .collection_banner .collection_grid .banner_text, .hero_valentine_banner .collection_grid .womens_day_offer {
+        text-align: center;
+    }
+    .hero_valentine_banner .collection_grid{
+        justify-content: center;
+    }
+    .clinic_results h3, .clinic_results h4, .clinic_results h5 {
+        color: #fff;
+        font-weight: 500;
+        font-size: 34px !important;
+        line-height: 40px;
+        text-align: center;
+
+    }
+    .homepage .hero_valentine_banner .collection_grid .banner_text .clinic_results a {
+        padding: 15px 25px;
+        margin-top: 20px !important;
+        width: 231px !important;
+        max-width: 231px !important;
+        background: #fff;
+        color: #000;
+        font-size: 20px;
     }
 }

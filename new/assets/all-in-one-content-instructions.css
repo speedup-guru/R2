@@ -25,7 +25,62 @@
 .qure_founder_wrap .founder_info p {
     font-weight: 300;
 }
+.qure_founder .qure_founder_info h3.throughout{
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+}
+.trusted_bl.trustedVerified .trusted_verified {
+    max-width: max-content;
+}
+a.online_guide_btn {
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px !important;
+    margin-top: 21px;
+    width: 100%;
+    justify-content: center;
+    border-radius: 109.88px;
+    position: relative;
+}
+a.online_guide_btn img{
+    position: absolute;
+    right: 15px;
+    top: 16px;
+}
+.opacity-0{
+    opacity: 0;
+}
+.videos_sfc img{
+    width: 100%;
+}
+.usage_instructions_video {
+    border-radius: 7px;
+    overflow: hidden;
+}
+@media(min-width:768px){
+    .trusted_bl.trustedVerified .trusted_verified p {
+        letter-spacing: 1px;
+    }
+    .videos_sfc{
+        padding: 40px 70px;
+    }
+    .usage_instructions_video {
+        margin: 0 30px;
+    }
+}
 @media(max-width: 767px){
+    a.online_guide_btn img {
+        right: 50px;
+    }
+    .ac_desc_grid {
+        box-shadow: none;
+    }
+    .qure_founder .qure_founder_info h3.throughout, .turns_out_mob {
+        font-size: 12px;
+    }
     .ac_desc_grid .ac_desc.faq .accordion-button .container {
         font-size: 13px;
     }
