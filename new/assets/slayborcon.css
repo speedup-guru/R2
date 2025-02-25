@@ -1,0 +1,126 @@
+main.slayborcon .slayborcon_content h1{
+    font-size: 45px;
+    font-style: normal;
+    line-height: 57.4px;
+    letter-spacing: 0.45px;
+}
+main.slayborcon .slayborcon_content p{
+    font-style: normal;
+    letter-spacing: 0.14px;
+}
+main.slayborcon .slayborcon_content a{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+.step_box {
+    border-radius: 8px;
+    border: 1px solid #F0F0F0;
+    background: #fff;
+    padding: 24px 20px;
+    border-radius: 8px;
+    text-align: left;
+}
+.step_box span {
+    display: inline-block; 
+    border-radius: 50%;
+    margin-right: 8px;
+    background: #d1ede3;
+    text-align: center;
+    font-size: 17.6px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28.08px;
+    letter-spacing: 0.176px;
+    width: 28.8px;
+    height: 28.8px;
+}
+.highlight-box {
+    background: #d1ede3;
+    padding: 15px;
+    border-radius: 8px;
+}
+.step_box ul {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.14px;
+    padding-left: 20px;
+}
+.step_box ul li {
+    list-style: disc;
+}
+.dont_miss_out{
+    background: #F0F0F0; 
+}
+.save_more a {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.17px;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    border-radius: 27px;
+    display: inline; 
+}
+.claim_your_glow_heading h3 {
+    font-family: Canela Web;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 55px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.step_box p {
+    margin-top: 10px;
+}
+
+
+
+
+@media(min-width:768px){
+    main.slayborcon .slayborcon_content h1{
+        max-width: 500px;
+        margin-bottom: 40px;
+    }
+    main.slayborcon .slayborcon_content p{
+        max-width: 460px;
+    }
+    .rr-md-0{
+        border-radius: 8px 0 0 8px;
+    }
+    .rl-md-0{
+        border-radius:  0 8px 8px 0;
+    }
+}
+
+@media(max-width:991px){
+    main.slayborcon .slayborcon_content h1{
+        font-size: 28px;
+        line-height: 36px;
+    }        
+}
+
+@media(max-width:767px){
+    main.slayborcon .slayborcon_content h1{
+        margin-bottom: 20px;
+    }
+    .rb-0{
+        border-radius: 8px 8px 0 0;
+    }
+    .rt-0{
+        border-radius: 0 0 8px 8px;
+    }
+    .claim_your_glow_heading h3 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 30px;
+        text-align: start;
+    }
+}

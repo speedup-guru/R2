@@ -315,7 +315,7 @@
 .hero_valentine_banner .collection_grid .banner_text a {
     background-color: #E03D42;
     padding: 10px 55px;
-    margin-top: 33px !important;
+    /* margin-top: 33px !important; */
 }
 
 .love_ur_skin_content a {
@@ -597,6 +597,128 @@ span.discount_badge {
     letter-spacing: 0.6px;
     opacity: 0.8;
 }
+/* womens day banner  */
+.womens_day_banner p{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 17.13px;
+    letter-spacing: 0.79px;
+    color: #B35877;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+.womens_day_banner h3{
+    font-family: Canela Web;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 57.4px;
+    letter-spacing: 1;
+}
+.womens_day_banner a{
+    width: 373px !important;
+    background: #000 !important;
+}
+.womens_day_banner_outer .main_b_wrapper{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: unset;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+.womens_day_banner_outer .holiday_banner .bundle_slider-main {
+    margin: 0;
+    max-width: 430px;
+}
+.new-slide_ctm {
+    padding: 0 !important;
+    background: transparent !important;
+    box-shadow: none;
+    backdrop-filter: none !important;
+}
+.womens_day_banner_outer .holiday_banner .bf_sale-slider .swiper-button {
+    display: none !important;
+}
+.womens_day_banner_outer .holiday_banner.womens_day_holiday {
+    padding-top: 10px;
+}
+.womens_day_banner_outer .bf_sale-slider .new_img, .holiday_banner .bf_sale-slider .new_img {
+    background: transparent;
+}
+.new-slide_ctm {
+    display: grid;
+    grid-template-columns: 0fr 0fr 1fr;
+    max-width: 418px;
+}
+.womens_day_banner_outer .womens_day_banner_ctm .bf_sale-slider .new_img, 
+.womens_day_banner_outer .womens_day_banner_ctm .bf_sale-slider .new_img{
+    width: max-content;
+}
+.womens_day_banner_outer .womens_day_banner_ctm .new_content {
+    padding-left: 0;
+}
+.new-slide_ctm .mi_bndl_women {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.new-slide_ctm .mi_bndl_women p.free_text {
+    display: flex;
+    justify-content: right;
+}
+.new-slide_ctm .mi_bndl_women p.free_text span.discount_badge {
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    line-height: 39.06px;
+    letter-spacing: 0.86px;
+    text-align: center;
+    width: 66px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #B35877;
+}
+h4.mi_bndl_text {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 22.61px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.mi_bndl_dv {
+    background: #fff;
+    width: 155px;
+    border-radius: 38px;
+    padding: 1px;
+    height: 33px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+.new-slide_ctm .mi_bndl_women .valued_at {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 0 !important;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #000 !important;
+}
+.women_day_bnr_collec h3{
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 57.4px;
+
+}
+p.valued_at strong {
+    font-size: 9px;
+}
+
+/* womens day banner end */
 
 /* .............Sub Banner............... */
 @media(max-width:991px) {
@@ -619,6 +741,7 @@ span.discount_badge {
     }
     .womens_day_offer_collec .collection_grid {
         justify-content: start !important;
+        padding: 10px;
     }
 }
 
@@ -931,5 +1054,54 @@ span.discount_badge {
         background: #fff;
         color: #000;
         font-size: 20px;
+    }
+    /* womens day banner homepage  */
+    .womens_day_banner_outer .main_b_wrapper {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .womens_day_banner h3 {
+        font-size: 34px;
+        line-height: 36px;
+        text-align: center;
+        max-width: 260px;
+        margin-bottom: 15px;
+    }
+    .womens_day_banner_outer .collection_grid .banner_text a {
+        padding: 10px !important;
+    }
+    .womens_day_banner_outer .collection_grid{
+        justify-content: start;
+    }
+    .womens_day_banner_outer .bf_sale-slider{
+        margin: 0 !important;
+    }
+    .new-slide_ctm {
+        grid-template-columns: 5fr 1fr 6fr;
+        max-width: 394px;
+    }
+    .womens_day_banner_outer .main_b_wrapper{
+        max-width: 100%;
+    }
+    .women_day_bnr_collec h3{
+        font-size: 20px;
+        line-height: 26.52px;
+        text-align: center;
+        max-width: 100%;
+    }
+    .women_day_bnr_collec p{
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 17.13px;
+        letter-spacing: 0.79px;
+        text-align: center;
+    }
+    .womens_day_offer_collec .womens_day_banner.women_day_bnr_collec a {
+        margin-top: 0 !important;
+        max-width: 180px;
+        font-size: 14px;
+        padding: 8px;
     }
 }

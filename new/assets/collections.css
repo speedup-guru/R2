@@ -380,8 +380,20 @@ html.filterActive {
 .select_serum .form-select:focus {
     box-shadow: none;
 }
+.coll_mi_bndl {
+    max-width: 200px;
+}
+.coll_mi_bndl2 {
+    max-width: 150px;
+}
+.women_day_bnr_collec a{
+    font-size: 22px !important;
+}
 
 @media(max-width:767px) {
+    .women_day_bnr_collec a {
+        font-size: 14px !important;
+    }
     .col-filter.product-filters {
         display: none;
     }
@@ -422,6 +434,18 @@ html.filterActive {
 
     .collectionAccordion {
         display: none;
+    }
+    .coll_mi_bndl {
+        width: 120px;
+    }
+    .coll_mi_bndl2 {
+        width: 96px;
+    }
+    .collec_bundle h4.mi_bndl_text {
+        font-size: 8px;
+    }
+    .collec_bundle .mi_bndl_dv {
+        width: 130px;
     }
 }
 
@@ -718,7 +742,21 @@ html.filterActive {
     line-height: 16px;
     display: inline-block;
 }
-
+.img_dv_collec .new-slide_ctm {
+    display: grid;
+    grid-template-columns: 4fr 0fr 7fr;
+    max-width: 480px;
+}
+.img_dv_collec .new-slide_ctm .new_img {
+    width: max-content;
+}
+.desk_banner_collec img {
+    height: 230px;
+    width: 100%;
+}
+.womens_day_offer_collec .collection_grid{
+    height: max-content;
+}
 @media(max-width:991px) {
     .productBlockGrid .collection-form {
         flex-direction: column;
@@ -782,6 +820,18 @@ html.filterActive {
 
     .productVogue .discover_btn {
         margin-top: 10px;
+    }
+    .mob_banner_collec img {
+        height: 290px;
+        width: 100%;
+    }
+    .plus_collec_icon{
+        width: 15px;
+    }
+    .womens_day_offer_collec .new-slide_ctm .mi_bndl_women {
+        position: absolute;
+        top: 25px;
+        right: 0;
     }
 }
 

@@ -1684,6 +1684,12 @@ img.fa.fa-user.nav__icon {
         list-style: none;
         gap: 25px;
     }
+    div#include_header_why_qurify .header-new .menu {
+        width: 40.33%;
+    }
+    div#include_header_why_qurify .header-new .header-logo {
+        width: 10.33%;
+    }
 
     .mobile-menu-custome {
         display: none;
@@ -2235,6 +2241,9 @@ img.fa.fa-user.nav__icon {
 .dek-menu .saf-icon {
     width: 33.33%;
     text-align: right;
+}
+.free_water_report_announcement .announcement_bar p{
+    font-size: 13px;
 }
 
 @media(max-width:1199px) {

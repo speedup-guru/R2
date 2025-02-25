@@ -5,43 +5,62 @@
 }
 
 .free_water .banner_content .title-xl {
-    font-size: 60px;
-    line-height: 80px;
+    font-size: 45px;
+    line-height: 57.4px;
     font-weight: 500;
     letter-spacing: 0.6px;
 }
 
 .free_water .banner_content p {
-    font-size: 18px;
-    line-height: 22px;
     font-weight: 400;
-    letter-spacing: 0.16px;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.6px;
 }
 
 .free_water .btn_white {
     color: #000;
 }
 
-@media(max-width:767px) {
-    .free_water .banner_content {
-        color: #fff;
-    }
-
+@media(max-width:991px){
     .free_water .banner_content .title-xl {
-        font-size: 40px;
-        line-height: 50px;
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 40px;
         letter-spacing: 0.4px;
+        margin: 15px 30px;
     }
+    .main_banner.free_water_new .main_b_wrapper {
+        position: absolute;
+        top: 0;
+        bottom: unset;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center; 
+    }
+}
 
+@media(max-width:767px) { 
+    .free_water_new .banner_content .btn-auto {
+        margin: 0 auto;
+    }
+    .free_water_new .banner_content .section_header {
+        text-align: center;
+        margin-top: 70px;
+    }
     .free_water .btn_white {
         font-weight: 600;
         font-size: 20px;
         line-height: 20px;
         padding: 15px;
     }
-
     .free_water .banner_content p {
-        font-size: 16px;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: 0.4px;
     }
 
     .free_water .section {
@@ -103,7 +122,9 @@
 .did_you_know .dyk_wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 21px;
+    gap: 30px;
+    max-width: 970px;
+    margin: 0 auto;
 }
 
 .did_you_know .dyk_wrapper .dyk_item h6 {
@@ -154,7 +175,7 @@
 
 /* =============== did you know end ============= */
 .skincare_routine {
-    background: #C7E7DC;
+    background-image: url("water_skincare_routine.webp"); 
 }
 
 .get_report_btn {
@@ -190,6 +211,37 @@
     line-height: 24px;
     letter-spacing: 0.13px;
 }
+.qure_filter_shower_new p.save_txt .in_study {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    background: #008763;
+    border-radius: 6px;
+    color: #fff;
+    padding: 0 5px;
+    margin-right: 10px;
+}
+.adjust_icons span {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+}
+.qure_shower_filter_btn {
+    max-width: 400px;
+    height: 60px;
+    border-radius: 100px;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 20px;
+}
 
 @media(max-width:767px) {
     .meet_qurify_info .refill_review p {
@@ -203,3 +255,177 @@
         line-height: 22px;
     }
 }
+
+
+/*==== frizzy hair css ====*/
+.frizzy_hair .frizzy_hair_content h3 {
+    font-family: Canela Web;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 55px;
+    letter-spacing: 0.6px;
+}
+@media(min-width:768px){
+    .frizzy_hair_content {
+        max-width: 464px;
+    }
+    .frizzy_hair .frizzy_hair_content h3{
+        max-width: 360px;
+    }
+    .what_tap_Water_new_heading{
+        max-width: 742px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .what_tap_Water_new_heading p {
+        margin: 50px 0;
+    }
+    .giveaway_form .grab_header {
+        max-width: 445px;
+    }
+    .tick_icon_with_text{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
+
+/*=== frizzy hair css end ===*/
+
+.what_tap_Water_new_boxes{
+    gap: 37px;
+}
+.tick_icon_with_text {
+    text-align: center;
+    margin-top: 20px;
+}
+.what_tap_Water_new_heading h3 {
+    font-family: Canela Web;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 55px;
+}
+.what_tap_Water_new_heading p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+}
+.qure_filter_shower_new .thumbsSlider_wrap .swiper-thumbs .swiper-wrapper {
+    justify-content: center;
+}
+.ctm_cls_row{
+    border-radius: 8px;
+}
+.contaminants {
+    background: #f9f9f9;
+    padding: 40px 60px;
+    border-radius: 20px;
+}
+.giveaway_form {
+    background-image: url("conyaminants_bg_bnr_mob.webp");
+    background-size: contain;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    padding: 70px 0;
+}
+.giveaway_form .contaminants .textfield .buy_btn {
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 600;
+    max-width: 263px;
+    margin: 0 auto;
+}
+.truth_about_tap_water h3{
+    font-family: Canela Web;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 55px;
+}
+.truth_about_tap_water p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    margin: 0 auto;
+}
+.did_you_know .dyk_wrapper .dyk_item {
+    background: #FBFBFB;
+    border-radius: 10px;
+    padding-top: 36px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+}
+.qure_filter_shower_new .swiper-slide img {
+    border-radius: 10px;
+}
+.qure_filter_shower_new .thumbsSlider_wrap .swiper-button-prev,
+.qure_filter_shower_new .thumbsSlider_wrap .swiper-button-next {
+   display: none;
+}
+.did_you_know .progressCont{
+    margin-bottom: 20px;
+}
+
+
+@media(max-width:767px){
+    .frizzy_hair .frizzy_hair_content h3 {
+        letter-spacing: 0.6px;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .what_tap_Water_new_heading p {
+        margin: 20px 0;
+    }
+    .what_tap_Water_new_heading h3 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .what_tap_Water_new_boxes{
+        gap: 20px;
+    }
+    .what_tap_Water_new_box {
+        max-width: 90px;
+    }
+    .tick_icon_with_text p{
+        font-size: 10px;
+    }
+    .contaminants {
+        padding: 20px;
+    }
+    .giveaway_form {
+        padding: 30px 0;
+    }
+    .giveaway_form .contaminants .textfield .buy_btn {
+        font-size: 18px;
+    }
+    .truth_about_tap_water h3{
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .qure_filter_shower_new p.save_txt .in_study {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .adjust_icons span {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .qure_shower_filter_btn {
+        text-decoration: none !important;
+        font-size: 20px;
+        line-height: 20px;
+        letter-spacing: 0.3px; 
+    }
+    .qure_filter_shower_new .thumbsSlider_wrap .swiper-thumbs .swiper-wrapper .swiper-slide {
+        width: 58px !important;
+    }
+}
+
+
+
