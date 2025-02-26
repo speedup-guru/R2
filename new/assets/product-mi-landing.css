@@ -137,7 +137,7 @@
     letter-spacing: 0.13px;
 }
 
-.mi_lp .offer_active .supply_steps .step_block .step_content .serumBlock input.active+.serum_prd:after {
+/* .mi_lp .offer_active .supply_steps .step_block .step_content .serumBlock input.active+.serum_prd:after {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -148,7 +148,7 @@
     background-size: cover;
     height: 40px;
     width: 40px;
-}
+}   */
 
 .limited_offer-text {
     font-size: 11px;
@@ -280,9 +280,10 @@
     font-size: 16px;
     line-height: 19.2px;
     letter-spacing: 0.5px;
+    margin-bottom: 15px;
 }
 main.mi_landing.mi_lp .available_bar p {
-    font-weight: 700 !important;
+    font-weight: 600 !important;
 }
 
 @media(min-width:767px) {
@@ -450,3 +451,152 @@ main.mi_landing.mi_lp .available_bar p {
         padding: 6px 14px;
     }
 }
+
+
+
+
+
+
+
+/* new updated treatment */
+.new_updated_treatment_outer label.monthly_plans {
+    border-radius: 16px;
+}
+.new_updated_treatment_outer .planBlock .monthly_plans .plan_hdr .saved_price, .planBlock .monthly_plans .saved_price {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 24px;
+    text-align: right;
+    padding: 0 8px;
+}
+.new_updated_treatment_outer .planBlock:nth-child(1) .monthly_plans .plan_hdr .saved_price {
+    background: rgba(196, 18, 26, 1);
+}
+.new_updated_treatment_outer .planBlock:nth-child(2) .monthly_plans .plan_hdr .saved_price {
+    background: #FFE0E1;
+    color: #C4121A;
+}
+.new_updated_treatment_outer .best_value {
+    height: 22px;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    margin: 0 auto;
+    width: max-content;
+    background: #000;
+    color: #fff;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new_updated_treatment_outer .monthly_supply{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.new_updated_treatment_outer .planBlock .monthly_plans{
+    padding: 0;
+}
+.new_updated_treatment_outer .monthly_supply{
+   padding: 13px 14px 13px 20px;
+}
+.new_updated_treatment_outer .planBlock .monthly_plans{
+    display: block;
+}
+.supply_fire {
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(73, 73, 73, 1), rgba(0, 0, 0, 1));
+    color: #fff;
+    text-align: center;
+    border-radius: 0 0 16px 16px;
+    padding: 5px;
+    height: 24px;
+}
+.supply_fire p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.4px;
+}
+p.kits_left {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13.2px;
+}
+p.kits_left span {
+    font-weight: 400;
+}
+.new_updated_treatment_outer .planBlock .monthly_plans .plan_des {
+    margin-top: 5px;
+}
+.bg_linear_pink{
+    background: linear-gradient(to right, rgba(255, 224, 225, 1), rgba(255, 240, 241, 1), rgba(255, 224, 225, 1));
+    color: #000;
+}
+.new_updated_treatment_outer .supply_steps .step_block .serum_prd .serum_ttl span {
+    font-size: 12px;
+}
+.new_updated_treatment_outer .planBlock .monthly_plans .price .regular_price{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+}
+.new_updated_treatment_outer .planBlock input:checked+.monthly_plans {
+    background: rgba(234, 245, 242, 1);
+    border: 1px solid #000;
+}
+.new_updated_treatment_outer .supply_steps .step_block input:checked+.serum_prd .serum_ttl {
+    background: rgba(234, 245, 242, 1);
+    border-color: #000;
+    font-weight: 500;
+}
+.new_updated_treatment_outer .supply_steps .step_block .serum_prd .serum_ttl {
+    border: 1px solid #D6D6D6;
+}
+.color_red{
+    color: #C4121A;
+}
+.new_updated_treatment_outer .pmtBlock input:checked+.pmt_plans {
+    background: #EAF5F2;
+    border-color: #000;
+}
+.new_updated_treatment_outer .pmtBlock .pmt_plans .price .regular_price{
+    font-weight: 400;
+}
+.new_updated_treatment_outer .supply_steps .step_block .serum_prd {
+    border: 1px solid #D6D6D6;
+}
+.new_updated_treatment_outer .supply_steps .step_block input:checked+.serum_prd {
+    border: 1px solid #000;
+}
+
+
+@media(min-width:768px){
+    .new_updated_treatment_outer .pmtBlock .pmt_plans {
+        border-radius: 80px;
+    }
+}
+
+@media(max-width:767px){
+    .new_updated_treatment_outer .monthly_supply {
+        padding: 8px 10px 14px 10px;
+    }
+    .new_updated_treatment_outer .pmtBlock .pmt_plans .pmt_des {
+        margin: 4px 0;
+    }
+}
+
+
+/* new updated treatment end */
