@@ -114,6 +114,7 @@
 
 .mi_landing .tmtFtrs_block .tmtFtr_des {
     font-size: 11px;
+    font-weight: 300;
 }
 
 .mi_landing .cg_desc_green {
@@ -387,7 +388,7 @@ main.mi_landing.mi_lp .available_bar p {
     }
 
     .planBlock .monthly_plans .price {
-        gap: 8px;
+        gap: 3px;
     }
 
     .pmtBlock .pmt_plans .price .regular_price {
@@ -436,7 +437,7 @@ main.mi_landing.mi_lp .available_bar p {
     }
 
     .supply_steps .step_counter span {
-        font-size: 11px;
+        font-size: 12px;
     }
 
     .supply_steps .step_block .serum_prd .serum_ttl {
@@ -501,12 +502,10 @@ main.mi_landing.mi_lp .available_bar p {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding: 9px 14px 13px 20px;
 }
 .new_updated_treatment_outer .planBlock .monthly_plans{
     padding: 0;
-}
-.new_updated_treatment_outer .monthly_supply{
-   padding: 13px 14px 13px 20px;
 }
 .new_updated_treatment_outer .planBlock .monthly_plans{
     display: block;
@@ -533,6 +532,7 @@ p.kits_left {
     font-weight: 600;
     font-size: 11px;
     line-height: 13.2px;
+    justify-content: end;
 }
 p.kits_left span {
     font-weight: 400;
@@ -581,20 +581,61 @@ p.kits_left span {
 .new_updated_treatment_outer .supply_steps .step_block input:checked+.serum_prd {
     border: 1px solid #000;
 }
+.new_updated_treatment_outer .planBlock+.planBlock {
+    margin-top: 12px;
+}
+.new_updated_treatment_outer .step_block .step_header h3{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28.6px;
+}
+.new_updated_treatment_outer .supply_steps .step_block .step_content {
+    padding: 12px 0 24px 0;
+}
+.new_updated_treatment_outer .planBlock .monthly_plans .plan_hdr h3 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.6px;
 
+}
+.new_updated_treatment_outer .qst_box{
+    font-size: 12px;
+}
+.new_updated_treatment_outer .plan_bundle_detail {
+    margin-top: 10px;
+}
 
 @media(min-width:768px){
     .new_updated_treatment_outer .pmtBlock .pmt_plans {
         border-radius: 80px;
     }
+    .new_updated_treatment_outer .supply-detail {
+        padding: 20px;
+    }
 }
 
 @media(max-width:767px){
     .new_updated_treatment_outer .monthly_supply {
-        padding: 8px 10px 14px 10px;
+        padding: 8px 8px 14px 7px;
     }
     .new_updated_treatment_outer .pmtBlock .pmt_plans .pmt_des {
         margin: 4px 0;
+    }
+    .new_updated_treatment_outer{
+        background: none;
+    }
+    .new_updated_treatment_outer .planBlock .monthly_plans .plan_hdr h3 {
+        font-size: 16px;
+    }
+    .monthly_plans.limited__offer .monthly_supply .price {
+        margin-top: -14px;
+    }
+    .supply_fire p {
+        font-size: 11px;
+    }
+    .pmtBlock .pmt_plans{
+        align-items: start;
     }
 }
 

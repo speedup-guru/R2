@@ -993,10 +993,9 @@ $(".serumBlock").click(function () {
 $(document).ready(function () {
     $('.tab_content').hide(); // Hide all tab contents initially
     $('.tab_content').eq(0).show(); // Show the second tab content by default
-
     $('.step_conten_blocks .planBlock').click(function () {
         var regular_price = $(this).find(".regular_price").text();
-        var sale_price = $(this).find(".sale_price").text();
+        var sale_price = $(this).find(".sale_price:visible").text().trim();
         console.log(regular_price);
         var imageLink = $(this).attr("data-image");
         var data_per = $(this).attr("data-per");
@@ -1021,6 +1020,7 @@ $(document).ready(function () {
     });
 
     //product subscription
+
 
     var data_month1_image = $(".serum_img.active").attr('data-month1-image');
     var data_month2_image = $(".serum_img.active").attr('data-month2-image');

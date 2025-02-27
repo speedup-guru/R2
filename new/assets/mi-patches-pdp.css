@@ -259,6 +259,12 @@ img#bundleImage {
 .choose_bundle-offer .bundle_offer-content .planBlock .monthly_plans .price .regular_price {
     font-size: 23px;
 }
+.ctm_cls_mi_patches_pdp .planBlock .monthly_plans .plan_des strong {
+    text-transform: uppercase;
+}
+
+
+
 @media (max-width: 991px) {
     .skincaree {
         gap: 20px;

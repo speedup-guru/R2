@@ -681,7 +681,28 @@
 .qurify_lp .bfs_mb_wrapThumb img {
     height: auto;
 }
+.step_counter{
+    display: none;
+}
+.ctm_cls_mi_pdp .supply-detail .supply_steps {
+    justify-content: center;
+}
+.ctm_cls_mi_pdp .step_content.my-3.step_btn {
+    margin-right: auto;
+}
+
+@media(min-width:768px){
+    .ctm_cls_mi_pdp  .supply-detail {
+        padding: 50px 30px;
+    }
+}
+
 @media(max-width:767px) {
+    .ctm_cls_mi_pdp .qure__treatments .section__header .heading{
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 38px;
+    }
     .green_txt{
         font-size: 12px;
         font-style: normal;
@@ -961,4 +982,28 @@
 }
 .international_womens_bundle .bfs_mb_wrapThumb img {
     padding: 3px;
+    margin-right: 10px;
+}
+.international_womens_bundle del {
+    margin-right: 6px;
+}
+.international_womens_bundle .bfs_mb_wrapThumb img {
+    opacity: 1;
+}
+.facial_system h3{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+}
+.facial_system p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    
+}
+.mi-pdp .planBlock .plan_choosed {
+    text-align: right !important;
+}
+main.mi_refill1.mi-pdp .shipping.shipping_bg {
+    padding: 0;
 }
