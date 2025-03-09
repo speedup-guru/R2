@@ -28,7 +28,7 @@
         font-size: 34px;
         line-height: 40px;
         letter-spacing: 0.4px;
-        margin: 15px 30px;
+        margin: 15px 40px;
     }
     .main_banner.free_water_new .main_b_wrapper {
         position: absolute;
@@ -143,10 +143,14 @@
     letter-spacing: 0.13px;
     opacity: 0.8;
 }
+.header_btn span {
+    text-transform: capitalize;
+}
 
 @media(max-width:767px) {
     .did_you_know .dyk_wrapper {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
+        gap: 0;
     }
 
     .dyk_item {
@@ -267,10 +271,7 @@
 }
 @media(min-width:768px){
     .frizzy_hair_content {
-        max-width: 464px;
-    }
-    .frizzy_hair .frizzy_hair_content h3{
-        max-width: 360px;
+        max-width: 430px;
     }
     .what_tap_Water_new_heading{
         max-width: 742px;
@@ -372,11 +373,16 @@
 
 
 @media(max-width:767px){
+    .did_you_know .dyk_wrapper .dyk_item {
+        background: none;
+        padding-top: 0;
+    }
     .frizzy_hair .frizzy_hair_content h3 {
         letter-spacing: 0.6px;
         font-weight: 500;
         font-size: 28px;
         line-height: 38px;
+        max-width: 310px;
     }
     .what_tap_Water_new_heading p {
         margin: 20px 0;

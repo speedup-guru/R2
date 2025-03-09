@@ -1,10 +1,11 @@
 .shower_filter .section_header .silk_heading {
-    color: rgba(0, 0, 0, 0.60);
+    color: #000;
     font-size: 14px;
-    font-weight: 600;
+    /* font-weight: 600; */
     line-height: 20px;
     letter-spacing: 0.56px;
     text-transform: uppercase;
+    margin: 30px 0 15px;
 }
 .doctor_advice  .dr_img {
     padding-right: 30px;
@@ -13,9 +14,9 @@
 .doctor_advice .dr_advice p:not(:last-child){
     padding-bottom: 20px;
 }
-.doctor_advice  .dr_advice {
+/* .doctor_advice  .dr_advice {
     padding-left: 15px;
-}
+} */
 .doctor_advice .dr_text {
     position: absolute;
     bottom: 12px;
@@ -330,11 +331,592 @@ main.shower_filter .thumbsSlider_wrap .swiper-button {
 main.shower_filter .swiper-slide, main.shower_filter .swiper {
     border-radius: 8px !important;
 }
+h1.save_hair {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 57.37px;
+}
+.green_line hr {
+    background: #c7e7dc;
+    height: 2px;
+}
+main.shower_filter .subscribe_save_wrapper .subscriptionType.active>div:first-child {
+    background: #c7e7dc;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    box-shadow: 0px 5px 15px 0px rgba(176, 176, 176, 0.25);
+}
+.shower_filter .subscriptionType.active .subscribePrice p span{
+    opacity: 0.5;
+}
+.shower_filter .subscribe_save_wrapper .subscriptionType.active .try_free{
+    background-color: white;
+}
+.shower_filter .subscribe_save_wrapper .subscriptionType .try_free{
+    background: #c7e7dc;
+}
+main.shower_filter .subscribe_save_wrapper .subscribe_save_bx{
+    border-radius: 8px;}
+main.shower_filter .subscribe_save_wrapper .noSubscription {
+    border-radius: 8px;
+}
+main.shower_filter .subscribe_save_wrapper .subscribePrice p span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.16px;
+    margin-right: 0;
+}
+.sub_try_free h6{
+    margin-bottom: 0;
+}
+.subscribe_save_wrapper .subscribeInfo .sub_try_free p {
+    font-size: 12px;
+    line-height: 14px;
+    border: 1px solid #000;
+    border-radius: 22px;
+    padding: 2px 7px;
+    background: #fff;
+}
+.accordions_shower_filter .sub_try_free p{
+    font-size: 10px;
+    line-height: 14px;
+    border: 1px solid #000;
+    border-radius: 22px;
+    padding: 2px 7px;
+    background: #fff;
+}
+.subscribe_save_wrapper .subscribeInfo .sub_try_free h6{
+    font-size: 16px;
+    font-weight: 500;
+}
+.shower_head {
+    text-align: start;
+}
+.shower_head h6 {
+    font-weight: 300 !important;
+    line-height: 19.6px !important;
+}
+
+.skip_text {
+    font-weight: 300 !important;
+}
+.try_free_days h6{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19.2px;
+    letter-spacing: 0.16px;
+    text-align: center;
+}
+
+.subscribe_save_wrapper .noSubscription .noSubscriptionText p {
+    font-weight: 300;
+    line-height: 19.6px;
+    letter-spacing: 0.16px;
+}
+.subscriptionType.active .noSubscriptionText .one_time_purchase {
+    font-weight: 600;
+}
+span.del_price {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22.02px;
+    text-align: center;
+    text-decoration: line-through;
+    opacity: 0.4;
+    margin-left: 15px;
+}
+main.shower_filter .with_subscription{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22.02px;
+}
+main.shower_filter .shipping .s_bx {
+    place-items: center;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+/* .big_impact_water .d-grid {
+    grid-template-columns: auto 1fr;
+    gap: 15px;
+} */
+/* .water_impact_content p {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 19.8px;
+    letter-spacing: 0.16px;
+} */
+/* .big_impact_water {
+    background: #FAFAFA;
+    padding: 10px;
+    border-radius: 8px;
+} */
+.faq.accordions_shower_filter .accordion-item {
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+}
+.clr_faded{
+    color: #ADADAD;
+    text-decoration: line-through;
+}
+.faq.accordions_shower_filter {
+    padding: 30px 0;
+}
+.verified_img_kim{
+    display: flex;
+    justify-content: space-between;
+}
+.verified_img_kim p span {
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 10px;
+}
+.verified_img_kim img {
+    width: 10px;
+    height: 10px;
+}
+/* you_know_shower_water */
+.you_know_shower_water{
+    background: #FAFAFA;
+}
+.you_know_shower_water_heading{
+    font-family: Canela Web;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 55px;
+}
+.you_know_shower_water img {
+    height: 40px;
+}
+.icons_water_filter p{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0px;
+}
+h2.meet_qure_heading {
+    font-family: Canela Web;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 55px;
+}
+.water_filter_feature_icons span {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+}
+.water_filter_feature_icons img {
+    height: auto;
+    width: 22px;
+}
+.ctm_cls_shipping .s_bx {
+    grid-template-columns: auto 1fr !important;
+    text-align: start !important;
+}
+.ninety_easy_icons {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.ninety_easy_icons {
+    border-radius: 145.26px;
+    background: #F5F5F5;
+    color: #000;
+    padding: 3px 15px 3px 3px;
+}
+.ctm_cls_icon_list .ingredient {
+    border-radius: 8px;
+    padding: 24px 16px;
+    box-shadow: 0px 5px 15px 0px rgba(176, 176, 176, 0.25);
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #C7E7DC;
+}
+.ctm_cls_icon_list .ingredients_text {
+    max-width: 311px;
+}
+.step_dot {
+    width: 10px;
+    height: 10px;
+    background: #000;
+    border-radius: 100px;
+    margin-top: -6px;
+}
+.easy_setup_content_inner img {
+    height: 46px;
+}
+.easy_setup_content_inner h3 {
+    border-bottom: 1px solid #000;
+    padding-bottom: 30px;
+    margin: 0;
+}
+.easy_setup_content_inner .col-4:last-child h3 {
+    border: none !important;
+}
+.flow_angle_img p{
+    margin-top: 15px;
+}
+.step_text_ctm h4 {
+    font-family: Canela Web;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+}
+.step_text_ctm {
+    margin-top: 20px;
+}
+.easy_setup_content h3 {
+    font-family: Canela Web;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 55px;
+}
+.step_text_ctm {
+    max-width: 200px;
+}
+.easy_setup {
+    background: #FAFAFA;
+    padding: 70px 0;
+}
+.adjust_flow{
+    padding-bottom: 20px;
+    text-align: center;
+}
+.adjust_flow h3 {
+    font-family: Canela Web;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+}
+.adjustable_angle_inner {
+    text-align: center;
+}
+.adjustable_angle_icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 25px;
+}
+.adjustable_angle_inner p {
+    margin-top: 10px;
+}
+.ctm_verified{
+    background: #F3F3F3;
+    border-radius: 50px;
+    padding: 12px;
+}
+.ctm_verified p {
+    color: #797D7C;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+h3.dr_advice_new {
+    font-family: Canela Web;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 55px;
+    margin-top: 15px;
+}
+.ctm_cls_doctor .dr_img {
+    /* padding-left: 30px; */
+    padding-right: 0;
+}
+.how_it_works_img button.accordion-button {
+    width: max-content;
+    border-radius: 8px;
+    padding: 7px 14px;
+    background: rgb(243 243 243 / 50%);
+    opacity: 0.5;
+}
+.why_it_works button.collapsed .sub_try_free span {
+    padding: 6px;
+    outline-width: 8px;
+}
+.why_it_works button:not(.collapsed) .sub_try_free span {
+    padding: 10px;
+    outline-width: 4px;
+}
+
+.why_it_works .sub_try_free span{
+    background-color: #000;
+    outline-color: hsl(0deg 0% 0% / 20%);
+    display: inline-block;
+    border-radius: 50%;
+    outline-style: solid;
+    transition: all .1s ease-in-out;
+}
+.why_it_works .sub_try_free .dot_btn {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.how_it_works_img .accordion-button::after{
+    display: none;
+}
+.why_it_works .accordion-button:not(.collapsed) {
+    color: #000;
+    background: #C7E7DC;
+    opacity: 1;
+}
+.why_works_btn1 {
+    position: absolute;
+    top: 60px;
+    right: 60px;
+}
+.why_works_btn2 {
+    position: absolute;
+    top: 30%;
+}
+.why_works_btn3 {
+    position: absolute;
+    bottom: 115px;
+    right: 20px;
+}
+.how_it_works_img h6 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px; 
+}
+.how_it_works_img .container{
+    padding: 0 !important;
+}
+.why_it_works {
+    background: #FAFAFA;
+    padding: 80px 0;
+}
+.why_it_works img{
+    mix-blend-mode: darken; 
+}
+.how_it_works_heading h3 {
+    font-family: Canela Web;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 55px;
+    text-align: center;
+}
+.flow_angle_img {
+    text-align: center;
+}
+.flow_angle_img p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.flow_angle_img img {
+    height: 44px;
+}
+.flow_and_angle_icons {
+    margin: 30px 0;
+}
+.lifetime_warranty p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.16px;
+}    
+.flow_and_angle_content h3 {
+    font-family: Canela Web;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 55px;
+}
+.flow_tabs .nav-pills .nav-link{
+    border-radius: 240px;
+}
+.flow_tabs .nav-pills .nav-link.active {
+    background: #C7E7DC;
+    color: #000;
+}
+.flow_tabs .nav-link {
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    line-height: 0;
+    padding: 14px 20px;
+}
+.ctm_tab_pills {
+    box-shadow: 0px 0px 4.787px 0px rgba(0, 0, 0, 0.20);
+    border-radius: 50px;
+    padding: 10px 24px;
+    width: fit-content;
+    margin: 0 auto;
+}
+p.choose_from {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0px;
+}
+.lifetime_warranty {
+    width: 100%;
+    max-width: 354px;
+    border-radius: 8px;
+    border: 2px solid #C7E7DC;
+    background: #FFF;
+    box-shadow: 0px 5px 15px 0px rgba(176, 176, 176, 0.25);
+    align-items: center;
+    padding: 10px;
+}
+.lifetime_warranty img {
+    height: 24px;
+}
+
+.three_step .icon img {
+    width: 30px;
+}
+.three_step .icon{
+    padding: 24px 0;
+    display: inline-block;
+}
+.three_step .step h4{
+    font-family: "Canela Web";
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.18px;
+}
+.shower_filter .subscribe_save_wrapper .subscribe_save_bx{
+    padding: 14px;
+}
+.why_it_works .faq .accordion-button .container:after, .accordions_shower_filter .accordion-button .container:after {
+    height: auto;
+    width: auto;
+    font-size: 35px;
+    top: 50%;
+    font-weight: 100;
+    transform: translateY(-50%);
+}
+.shower_filter .subscribe_save_wrapper .active .subscribePrice p{
+    font-weight: 600;
+}
+.shower_filter .subscribe_save_wrapper .subscribePrice p,
+.shower_filter .subscribe_save_wrapper .noSubscription .noSubscriptionPrice{
+    font-size: 16px;
+}
+.subscribe_save_wrapper .noSubscription .noSubscriptionText {
+    opacity: 1;
+}
+.subscribe_save_wrapper .noSubscription .noSubscriptionText .one_time_purchase {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 8px;
+}
+.explained{
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.13px;
+}
+.accordions_shower_filter .accordion-body .container p {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+.faq_under_product .accordion-body .container p {
+    padding-top: 0;
+}
+.easy_setup .actVideo_block {
+    max-width: 333px;
+}
+.faq .accordion-button .container:after {
+    font-weight: 100;
+}
+.ctm_cls_vogue_icons .ps_item {
+    margin: 0 !important;
+}
+.easy_step_heading{
+    margin-bottom: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width: 767px){
+    .lifetime_warranty p {
+        font-size: 11px;
+    }  
+    .accordions_shower_filter .accordion-body .container p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .water_filled_invisible{
+        letter-spacing: 0;
+    }
+    .subscribe_save_wrapper .noSubscription .noSubscriptionText .one_time_purchase {
+        font-size: 13px;
+    }
+    .mask_select_clr h6 {
+        font-size: 10px;
+    }
+    .refill_bl .mask_select_clr h5 {
+        font-size: 13px;
+    }
+    main.shower_filter .refill_review p {
+        font-size: 12px;
+    }
+    .flow_tabs .nav-link {
+        padding: 14px 10px;
+        font-size: 10px;
+    }
+    .flow_and_angle{
+        padding: 40px 0;
+    }
+    h1.save_hair {
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .why_it_works {
+        padding: 40px 0;
+    }
+    .why_works_btn1 {
+        position: absolute;
+        top: 60px;
+        right: 0;
+    }
+    .why_works_btn2 {
+        position: absolute;
+        top: 33%;
+        left: -21px;
+    }
+    .why_works_btn3 {
+        position: absolute;
+        bottom: 25px;
+        right: 0;
+    }
+    .shower_filter .section_header .silk_heading {
+        margin: 15px 0 15px;
+    }
     .ingredients_list .ingredient .ingredient_flag {
         top: -34px;
     }
-
     .ingredients_list .skin_problems {
         grid-template-columns: repeat(3, 1fr);
         gap: 13px;
@@ -470,6 +1052,54 @@ main.shower_filter .swiper-slide, main.shower_filter .swiper {
         font-weight: 500;
     }
     .shower_filter .subscribe_save_wrapper .subscribe_txt {
-        font-size: 10px;
+        font-size: 11px;
+    }
+    .you_know_shower_water_heading {
+        font-size: 28px;
+        line-height: 38px;
+        text-align: center;
+        letter-spacing: 0;
+    }
+    .water_filter_feature_icons span {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .subscribe_save_wrapper .subscribeInfo .sub_try_free h6 {
+        font-size: 13px;
+    }
+    .three_step .section_header a p {
+        border-radius: 12px;
+        border: 2px solid #C7E7DC;
+        background: #FFF;
+        box-shadow: 0px 3px 8px 0px rgba(176, 176, 176, 0.25);
+        padding: 6px 12px;
+    }
+    .choose_from_dv {
+        border-top: 2px solid #C7E7DC;
+        margin-top: 24px;
+        padding: 20px 0;
+    }
+    p.choose_from {
+        font-size: 13px;
+    }
+    .beauty_skincare-new .bs_img img {
+        aspect-ratio: unset;
+    }
+    .bs_vs_item .bs_versace span {
+        font-size: 15px;
+    }
+    .beauty_skincare-new .bs_versace {
+        outline-width: 9px;
+        outline-style: solid;
+    }
+    .beauty_skincare-new h2{
+        font-size: 18px;
+    }
+    .beauty_skincare-new .bs_feature ul li, .beauty_skincare-new .bs_feature_l ul li {
+        font-size: 11px;
+    }
+    .why_it_works .faq .accordion-button img{
+        width: 24px;
+        height: 24px;
     }
 }

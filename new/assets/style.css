@@ -30426,7 +30426,12 @@ p {
 .mw-268 {
     max-width: 268px !important;
 }
-
+.mw-290{
+   max-width: 290px !important; 
+}
+.mw-300{
+    max-width: 300px !important;
+}
 .mw-359 {
     max-width: 359px !important;
 }
