@@ -161,3 +161,191 @@
         line-height: 20px;
     }
 }
+
+
+
+/* content creator starts  */
+.ugc_inf_btns{
+    gap: 12px;
+}
+.ugc_inf_btns .buy_btn{
+    display: flex;
+    max-width: 240px;
+    height: 60px;
+    padding: 16px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.join_creator_program_form.bg_grey  {
+    background: #F5F5F5;
+}
+.join_creator_program_form .form-check-label{
+    color: #4E4E4E;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; 
+    letter-spacing: 0.13px;
+}
+.join_creator_program_form .already_have_account{
+    color: #4E4E4E;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.13px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+body.interest_in_ugc_active{
+    position: relative;
+}
+.interest_in_ugc {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 70px;
+    max-width: 1150px;
+    z-index: 999;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
+}
+.cross_icon_ugc {
+    position: absolute;
+    right: 3px;
+    top: 0;
+    cursor: pointer;
+}
+.cross_icon_ugc img {
+    height: 20px;
+    width: 20px;
+}
+
+body.interest_in_ugc_active .interest_in_ugc{
+    display: block;
+}
+.ugc_mail{
+    text-decoration-skip-ink: none;
+}
+.interest_in_ugc h3 {
+    color: var(--Black, #000);
+    text-align: center;
+    font-family: "Canela Web";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 55px;
+    letter-spacing: 0.36px;
+}
+.join_creator_program_form label {
+    display: inline;
+    position: absolute;
+    top: 10px;
+}
+.join_creator_program_form input#g_first_name + label, .join_creator_program_form input#g_last_name + label {
+    left: 83px;
+}
+.join_creator_program_form input#g_email + label {
+    left: 50px;
+}
+.join_creator_program_form input#main_ig + label {
+    left: 216px;
+}
+.join_creator_program_form input#secondary_ig + label:after{
+    display: none;
+}
+.join_creator_program_form button {
+    width: 263px;
+    font-size: 18px;
+    margin-top: 40px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.join_creator_program_form .qure_input input {
+    margin-bottom: 16px;
+}
+.join_creator_program_form .qure_input {
+    margin-bottom: 0;
+}
+.join_creator_program_form .qure_input textarea {
+    margin-bottom: 10px;
+}
+.q_uses_bl .q_uses_item-outer+.q_uses_item-outer:before {
+    content: '';
+    height: 256px;
+    width: 1px;
+    background: #C7E7DC;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+}
+.qure_input .qure_input_field {
+    font-size: 13px;
+    padding: 11px 10px;
+}
+.qure_input {
+    position: relative; 
+}
+  input[required] + label:after {
+    content: '*';
+    color: red;
+  } 
+  input.qure_input_field.star_removed + label:after {
+    display: none;
+} 
+
+
+
+@media(max-width:767px) {
+    .join_creator_program_form .already_have_account {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .join_creator_program_form button {
+        width: 239px;
+        font-size: 16px;
+        height: 45px;
+        font-weight: 500;
+        letter-spacing: 0.3px;
+    }
+    div#btn_influencer .q_use_img {
+        margin-bottom: 0;
+        margin-top: 20px;
+        padding: 0 34px;
+    }
+    div#btn_influencer .q_uses_content h3 {
+        font-size: 22px;
+        letter-spacing: 0.22px;
+    }
+    .interest_in_ugc h3 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .interest_in_ugc{
+        padding: 30px;
+    } 
+    .ugc_inf_btns .buy_btn{
+        height: 50px;
+        max-width: 307px;
+    }
+    .ugc_inf_btns{
+        justify-content: center;
+    }
+}
+/* content creator end  */
+
+
+

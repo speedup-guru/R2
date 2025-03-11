@@ -10,9 +10,9 @@
     margin: 0 auto;
 }
 
-.mi-pdp .imageText .it_info p {
+/* .mi-pdp .imageText .it_info p {
     padding: 10px;
-}
+} */
 
 .mi-pdp .reasons {
     max-width: 1094px;
@@ -221,6 +221,15 @@
     max-width: 457px;
     margin-right: 0;
 }
+.available_bar_ctm_new p{
+    font-size: 14px;
+}
+.supply_steps .step_block .serum_prd .serum_img img {
+    max-height: 72px;
+    min-height: 72px;
+    object-fit: contain;
+} 
+
 
 @media(min-width:991px) {
     .supply-detail.supply-detail-without-counter .step_block .step_content.serum_image {
@@ -245,6 +254,9 @@
 }
 
 @media(max-width:991px) {
+    .supply_steps .step_block .serum_prd { 
+        padding: 15px 5px 60px 5px;
+    }
     .mi-pdp.black_friday .serum_bl .bf_price_wrap {
         gap: 6px;
     }
@@ -324,6 +336,10 @@
 }
 
 @media(max-width:767px) {
+    .mi-pdp .tabSlider h1.product_title {
+        font-size: 13px;
+        max-width: 270px;
+    }
     .mi-pdp .reasons_wrapper .rs_item .r_use_img img {
         width: 81px;
         height: 81px;
@@ -462,6 +478,9 @@
     }
     .mi-pdp.black_friday .serum_bl .planBlock .monthly_plans .saved_price{
         font-size: 9px;
+    }
+    .refill_bl.tabSlider .refill_info .section_header .title-xl {
+        font-size: 34px;
     }
 }
 @media (max-width: 575px) {
