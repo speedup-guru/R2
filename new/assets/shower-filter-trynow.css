@@ -1,0 +1,1187 @@
+.shower_filter .section_header .silk_heading {
+    color: #000;
+    font-size: 14px;
+    /* font-weight: 600; */
+    line-height: 20px;
+    letter-spacing: 0.56px;
+    text-transform: uppercase;
+    margin: 30px 0 15px;
+}
+.doctor_advice  .dr_img {
+    padding-right: 30px;
+    position: relative;
+}
+.doctor_advice .dr_advice p:not(:last-child){
+    padding-bottom: 20px;
+}
+/* .doctor_advice  .dr_advice {
+    padding-left: 15px;
+} */
+.doctor_advice .dr_text {
+    position: absolute;
+    bottom: 12px;
+    left: 16px;
+    color: #fff;
+}
+.doctor_advice .dr_text h6 {
+    margin-bottom: 0;
+}
+.doctor_advice .dr_text p {
+    font-weight: 400;
+}
+.advanced-filtration .filter_benefit p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.advanced-filtration .filter_benefit h6 {
+    font-size: 14px;
+}
+.advanced-filtration .filter_details {
+    padding: 0px;
+    margin-top: 60px;
+    position: relative;
+}
+.filter_details .detail {
+    position: absolute;
+    border-bottom: unset;
+    border-radius: 16px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 5px 15px 0px rgba(176, 176, 176, 0.25);
+    padding: 0px 32px;
+    max-width: 293px;
+    transform: translateY(-50%);
+    transition: width .2s ease-in-out;
+}
+.filter_details .detail .accordion-button .container:after {
+    right: -45px;
+    top: -30px;
+    background: #000;
+    color: #fff;
+    font-weight: 500;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filter_details .detail .accordion-body{
+    padding-bottom: 7px;
+}
+.filter_details .detail .accordion-button{
+    padding: 19px 0;
+    transition: padding .5s ease-out;
+}
+.filter_details .detail .accordion-button:not(.collapsed){
+    padding: 9px 0 0;
+}
+.filter_details .detail.d-1 {
+    top: 30%;
+    right: 25%;
+    width: 142px;
+}
+.filter_details .detail.d-2 {
+    top: 60%;
+    right: 70%;
+    width: 209px;
+}
+.filter_details .detail.d-3 {
+    right: 7%;
+    top: 70%;
+    width: 174px;
+}
+.filter_details .detail.d-1.active {
+    width: 278px;
+}
+.filter_details .detail.d-2.active {
+    width: 293px;
+}
+.filter_details .detail.d-3.active {
+    width: 287px;
+}
+.filter_details .accordion .collapse {
+    transition: all 1s ease;
+    transition-delay: 1s;
+}
+
+.filter_details .accordion .collapse:not(.show) {
+    width: 0;
+    height: 0;
+}
+.result_s_wrapper .swiper-button-lock {
+    display: none;
+}
+.read-more-content {
+    display: none;
+    padding-top: 22px;
+}
+
+.shower_filter .result_content p {
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0.13px;
+    padding-bottom: 0;
+}
+
+.shower_filter .read-more {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.13px;
+    text-decoration-line: underline;
+    color: #000;
+}
+.shower_filter .mi_landing_result .result_item_info {
+    padding: 0 19px 19px;
+}
+.shower_filter .newside_list ul li{
+    align-items: start;
+    border: unset;
+    padding: 0;
+}
+.shower_filter .newside_list ul li span{
+    font-weight: 400;
+}
+.shower_filter .newside_list ul li img{
+    padding-top: 5px;
+}
+.shower_filter .newside_list ul li:not(:last-child){
+    padding-bottom: 20px;
+}
+.shower_filter .newside_list ul li img{
+    min-width: auto;
+}
+/* ---------- shower filter benefits start --------------  */
+.benefits_list ul li:before {
+    content: url(./correct_circle.svg);
+    vertical-align: sub;
+    padding-right: 10px;
+}
+.benefits_list ul li {
+    position: relative;
+    border-radius: 10px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 5px 15px 0px rgba(176, 176, 176, 0.25);
+    padding: 16px 10px 14px;
+    font-size: 14px;
+}
+.benefits_list ul li:not(:last-child){
+    margin-bottom: 14px;
+}
+.shower_benefits-content .benefits_img p {
+    padding-bottom: 30px;
+}
+.shower_benefits-content .benefits_img {
+    padding-left: 14px;
+}
+.benefits_list {
+    padding-right: 5px;
+}
+.shower_benefits-content {
+    padding-top: 30px;
+}
+/* ---------- shower filter benefits end --------------  */
+
+/* ---------- ingredients list start --------------  */
+.ingredients_list .ingredients_img {
+    margin: 32px 0;
+    text-align: center;
+}
+
+.ingredients_list .section_header a {
+    color: #000;
+}
+
+.ingredients_list .ingredient {
+    border-radius: 8px;
+    padding: 24px 16px;
+    box-shadow: 0px 5px 15px 0px rgba(176, 176, 176, 0.25);
+    position: relative;
+    height: 100%;
+}
+
+.ingredients_list .ingredient .ingredient_flag {
+    color: #fff;
+    position: absolute;
+    top: -39px;
+    border-radius: 8px 8px 0px 0px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.12);
+    padding: 6px 26px;
+    right: 13px;
+}
+
+.ingredients_list .ingredient .ingredient_flag.flag1 {
+    background-color: #C92127;
+}
+
+.ingredients_list .ingredient .ingredient_flag.flag2 {
+    background-color: #FA6F0B;
+}
+
+.ingredients_list .ingredient .ingredient_flag.flag3 {
+    background-color: #F9C91D;
+}
+
+.ingredients_list .ingredients_content {
+    padding-top: 40px;
+}
+
+.section_header .n_sub-heading {
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.ingredients_list .skin_problems {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 38px;
+    text-align: center;
+}
+
+.skin_problems .problem_inner p {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.ingredients_list .ingredient p {
+    opacity: .8;
+}
+
+.ingredients_list .ingredients_img p {
+    font-size: 11px;
+}
+
+/* ---------- ingredients list end --------------  */
+.subscribe_save_wrapper .buy_btn {
+    font-size: 22px;
+    padding: 19px;
+}
+.refill_bl .mask_select_clr h5 {
+    font-size: 14px;
+    font-weight: 600;
+}
+.mask_select_clr .clr_options {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.mask_select_clr .form-check-input:checked+label img {
+    border: 2px solid #C7E7DC;
+}
+.mask_select_clr img {
+    max-width: 80px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 0px rgba(176, 176, 176, 0.25);
+    border: 2px solid transparent;
+    height: 80px;
+    object-fit: contain;
+}
+.mask_select_clr h6 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.13px;
+    opacity: 0.8;
+    text-align: center;
+    margin: 6px 0 0;
+}
+.mask_select_clr input {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+}
+main.shower_filter .bfs_mb_wrapThumb img {
+    border: 1px solid transparent;
+    opacity: .5;
+}
+main.shower_filter .swiper-slide-thumb-active .bfs_mb_wrapThumb img {
+    border: 1px solid #000;
+    border-radius: 8px;
+    opacity: 1;
+}
+.thumbsSlider_wrap {
+    position: relative;
+}
+main.shower_filter .thumbsSlider_wrap .swiper-thumbs {
+    max-width: calc(100% - 70px);
+    margin: 0 auto;
+    overflow: hidden;
+}
+main.shower_filter .thumbsSlider_wrap .swiper-button-prev {
+    left: 17px; 
+}
+main.shower_filter .thumbsSlider_wrap .swiper-button-next {
+    right: 17px;
+}
+main.shower_filter .thumbsSlider_wrap .swiper-button {
+    height: 44px;
+    width: max-content;
+    background: transparent;
+    box-shadow: unset;
+}
+main.shower_filter .swiper-slide, main.shower_filter .swiper {
+    border-radius: 8px !important;
+}
+h1.save_hair {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 57.37px;
+}
+.green_line hr {
+    background: #c7e7dc;
+    height: 2px;
+}
+main.shower_filter .subscribe_save_wrapper .subscriptionType.active>div:first-child {
+    background: #c7e7dc;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    box-shadow: 0px 5px 15px 0px rgba(176, 176, 176, 0.25);
+}
+.shower_filter .subscriptionType.active .subscribePrice p span{
+    opacity: 0.5;
+}
+.shower_filter .subscribe_save_wrapper .subscriptionType.active .try_free{
+    background-color: white;
+}
+.shower_filter .subscribe_save_wrapper .subscriptionType .try_free{
+    background: #c7e7dc;
+}
+main.shower_filter .subscribe_save_wrapper .subscribe_save_bx{
+    border-radius: 8px;}
+main.shower_filter .subscribe_save_wrapper .noSubscription {
+    border-radius: 8px;
+}
+main.shower_filter .subscribe_save_wrapper .subscribePrice p span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.16px;
+    margin-right: 0;
+}
+.sub_try_free h6{
+    margin-bottom: 0;
+}
+.subscribe_save_wrapper .subscribeInfo .sub_try_free p {
+    font-size: 12px;
+    line-height: 14px;
+    border: 1px solid #000;
+    border-radius: 22px;
+    padding: 2px 7px;
+    background: #fff;
+}
+.accordions_shower_filter .sub_try_free p{
+    font-size: 10px;
+    line-height: 14px;
+    border: 1px solid #000;
+    border-radius: 22px;
+    padding: 2px 7px;
+    font-weight: 400;
+    background: #fff;
+}
+.subscribe_save_wrapper .subscribeInfo .sub_try_free h6{
+    font-size: 16px;
+    font-weight: 500;
+}
+.shower_head {
+    text-align: start;
+}
+.shower_head h6 {
+    font-weight: 300 !important;
+    line-height: 19.6px !important;
+}
+
+.skip_text {
+    font-weight: 300 !important;
+}
+.try_free_days h6{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19.2px;
+    letter-spacing: 0.16px;
+    text-align: center;
+}
+
+.subscribe_save_wrapper .noSubscription .noSubscriptionText p {
+    font-weight: 300;
+    line-height: 19.6px;
+    letter-spacing: 0.16px;
+}
+.subscriptionType.active .noSubscriptionText .one_time_purchase {
+    font-weight: 600;
+}
+span.del_price {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22.02px;
+    text-align: center;
+    text-decoration: line-through;
+    opacity: 0.4;
+    margin-left: 15px;
+}
+main.shower_filter .with_subscription{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22.02px;
+}
+main.shower_filter .shipping .s_bx {
+    place-items: center;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+/* .big_impact_water .d-grid {
+    grid-template-columns: auto 1fr;
+    gap: 15px;
+} */
+/* .water_impact_content p {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 19.8px;
+    letter-spacing: 0.16px;
+} */
+/* .big_impact_water {
+    background: #FAFAFA;
+    padding: 10px;
+    border-radius: 8px;
+} */
+.faq.accordions_shower_filter .accordion-item {
+    border-bottom: 1px solid #C7E7DC;
+    border-radius: 0;
+}
+.clr_faded{
+    color: #ADADAD;
+    text-decoration: line-through;
+}
+.faq.accordions_shower_filter {
+    padding: 30px 0;
+}
+.verified_img_kim{
+    display: flex;
+    justify-content: space-between;
+}
+.verified_img_kim p span {
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 10px;
+}
+.verified_img_kim img {
+    width: 10px;
+    height: 10px;
+}
+/* you_know_shower_water */
+.you_know_shower_water{
+    background: #FAFAFA;
+}
+.you_know_shower_water_heading{
+    font-family: Canela Web;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 55px;
+}
+.you_know_shower_water img {
+    height: 40px;
+}
+.icons_water_filter p{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0px;
+}
+h2.meet_qure_heading {
+    font-family: Canela Web;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 55px;
+}
+.water_filter_feature_icons span {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+}
+.water_filter_feature_icons img {
+    height: auto;
+    width: 22px;
+}
+.ctm_cls_shipping .s_bx {
+    grid-template-columns: auto 1fr !important;
+    text-align: start !important;
+}
+.ninety_easy_icons {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 26px;
+    border-radius: 145.26px;
+    background: #F5F5F5;
+    color: #000;
+    padding: 4px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.ctm_cls_icon_list .ingredient {
+    border-radius: 8px;
+    padding: 24px 16px;
+    box-shadow: 0px 5px 15px 0px rgba(176, 176, 176, 0.25);
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #C7E7DC;
+}
+.ctm_cls_icon_list .ingredients_text {
+    max-width: 311px;
+}
+.step_dot {
+    width: 10px;
+    height: 10px;
+    background: #000;
+    border-radius: 100px;
+    margin-top: -6px;
+}
+.easy_setup_content_inner img {
+    height: 46px;
+}
+.easy_setup_content_inner h3 {
+    border-bottom: 1px solid #000;
+    padding-bottom: 30px;
+    margin: 0;
+}
+.easy_setup_content_inner .col-4:last-child h3 {
+    border: none !important;
+}
+.flow_angle_img p{
+    margin-top: 15px;
+}
+.step_text_ctm h4 {
+    font-family: Canela Web;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+}
+.step_text_ctm {
+    margin-top: 20px;
+}
+.easy_setup_content h3 {
+    font-family: Canela Web;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 55px;
+}
+.step_text_ctm {
+    max-width: 200px;
+}
+.easy_setup {
+    background: #FAFAFA;
+    padding: 70px 0;
+}
+.adjust_flow{
+    padding-bottom: 20px;
+    text-align: center;
+}
+.adjust_flow h3 {
+    font-family: Canela Web;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+}
+.adjustable_angle_inner {
+    text-align: center;
+}
+.adjustable_angle_icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 25px;
+}
+.adjustable_angle_inner p {
+    margin-top: 10px;
+}
+.ctm_verified{
+    background: #F3F3F3;
+    border-radius: 50px;
+    padding: 12px;
+}
+.ctm_verified p {
+    color: #797D7C;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+h3.dr_advice_new {
+    font-family: Canela Web;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 55px;
+    margin-top: 15px;
+}
+.ctm_cls_doctor .dr_img {
+    /* padding-left: 30px; */
+    padding-right: 0;
+}
+.how_it_works_img button.accordion-button {
+    width: max-content;
+    border-radius: 8px;
+    padding: 7px 14px;
+    background: rgb(243 243 243 / 50%);
+    opacity: 0.5;
+}
+.why_it_works button.collapsed .sub_try_free span {
+    padding: 6px;
+    outline-width: 8px;
+}
+.why_it_works button:not(.collapsed) .sub_try_free span {
+    padding: 10px;
+    outline-width: 4px;
+}
+
+.why_it_works .sub_try_free span{
+    background-color: #000;
+    outline-color: hsl(0deg 0% 0% / 20%);
+    display: inline-block;
+    border-radius: 50%;
+    outline-style: solid;
+    transition: all .1s ease-in-out;
+}
+.why_it_works .sub_try_free .dot_btn {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.how_it_works_img .accordion-button::after{
+    display: none;
+}
+.why_it_works .accordion-button:not(.collapsed) {
+    color: #000;
+    background: #C7E7DC;
+    opacity: 1;
+}
+.why_works_btn1 {
+    position: absolute;
+    top: 60px;
+    right: 60px;
+}
+.why_works_btn2 {
+    position: absolute;
+    top: 30%;
+}
+.why_works_btn3 {
+    position: absolute;
+    bottom: 115px;
+    right: 20px;
+}
+.how_it_works_img h6 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px; 
+}
+.how_it_works_img .container{
+    padding: 0 !important;
+}
+.why_it_works {
+    background: #FAFAFA;
+    padding: 80px 0;
+}
+.why_it_works img{
+    mix-blend-mode: darken; 
+}
+.how_it_works_heading h3 {
+    font-family: Canela Web;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 55px;
+    text-align: center;
+}
+.flow_angle_img {
+    text-align: center;
+}
+.flow_angle_img p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.flow_angle_img img {
+    height: 44px;
+}
+.flow_and_angle_icons {
+    margin: 30px 0;
+}
+.lifetime_warranty p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.16px;
+}    
+.flow_and_angle_content h3 {
+    font-family: Canela Web;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 55px;
+}
+.flow_tabs .nav-pills .nav-link{
+    border-radius: 240px;
+    color: #A6A6A6;
+}
+.flow_tabs .nav-pills .nav-link.active {
+    background: #C7E7DC;
+    color: #000;
+}
+.flow_tabs .nav-link {
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    line-height: 0;
+    padding: 14px 20px;
+}
+.ctm_tab_pills {
+    box-shadow: 0px 0px 4.787px 0px rgba(0, 0, 0, 0.20);
+    border-radius: 50px;
+    padding: 10px 24px;
+    width: fit-content;
+    margin: 0 auto;
+}
+p.choose_from {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0px;
+}
+.lifetime_warranty {
+    width: 100%;
+    max-width: 354px;
+    border-radius: 8px;
+    border: 2px solid #C7E7DC;
+    background: #FFF;
+    box-shadow: 0px 5px 15px 0px rgba(176, 176, 176, 0.25);
+    align-items: center;
+    padding: 10px;
+}
+.lifetime_warranty img {
+    height: 24px;
+}
+
+.three_step .icon img {
+    width: 30px;
+}
+.three_step .icon{
+    padding: 24px 0;
+    display: inline-block;
+}
+.three_step .step h4{
+    font-family: "Canela Web";
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.18px;
+}
+.shower_filter .subscribe_save_wrapper .subscribe_save_bx{
+    padding: 14px;
+}
+.why_it_works .faq .accordion-button .container:after, .accordions_shower_filter .accordion-button .container:after {
+    height: auto;
+    width: auto;
+    font-size: 27px;
+    top: 50%;
+    font-weight: 100;
+    transform: translateY(-50%);
+}
+.shower_filter .subscribe_save_wrapper .active .subscribePrice p{
+    font-weight: 600;
+}
+.shower_filter .subscribe_save_wrapper .subscribePrice p,
+.shower_filter .subscribe_save_wrapper .noSubscription .noSubscriptionPrice{
+    font-size: 16px;
+}
+.subscribe_save_wrapper .noSubscription .noSubscriptionText {
+    opacity: 1;
+}
+.subscribe_save_wrapper .noSubscription .noSubscriptionText .one_time_purchase {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 8px;
+}
+.explained{
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.13px;
+}
+.accordions_shower_filter .accordion-body .container p {
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+.faq_under_product .accordion-body .container p {
+    padding-top: 0;
+}
+.easy_setup .actVideo_block {
+    max-width: 333px;
+}
+.faq .accordion-button .container:after {
+    font-weight: 100;
+}
+.ctm_cls_vogue_icons .ps_item {
+    margin: 0 !important;
+}
+.easy_step_heading{
+    margin-bottom: 35px;
+}
+.flow_and_angle .tab_img img {
+    max-width: 330px;
+}
+.subscribe_save_wrapper .noSubscription {
+    border-radius: 30px;
+    border: 1px solid #D6D6D6;
+    padding: 20px 14px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.faq_under_product p{
+    padding: 0;
+}
+.faq_under_product .accordion-button {
+    padding: 14px 0;
+}
+.faq_under_product .accordion-button .container {
+    padding: 0 10px;
+}
+.faq_under_product .accordion-body>.container {
+    padding: 0 10px;
+}
+ul.under_pro_faq_ul {
+    padding-left: 20px !important;
+}
+.under_pro_faq_ul li {
+    list-style: decimal !important;
+    padding: 0 !important;
+}
+ul.sec_ul_und_prod{
+    padding-left: 20px !important;
+}
+ul.sec_ul_und_prod li {
+    padding: 0 !important;
+}
+.shower_filter_trynow .pmt_img {
+    align-items: center;
+}
+.shower_filter_trynow .accordion-body {
+    padding: 0px 0 10px;
+}
+.ask_us_question h3 {
+    text-align: center;
+    font-family: "Canela Web";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; 
+}
+.ask_us_question {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+.ask_us_question a {
+    border: 1px solid #000;
+    border-radius: 666px;
+    padding: 5px 12px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    font-family: "Canela Web";
+    gap: 6px;
+    color: #000;
+}
+.sf_try_now_faq .accordion-item:last-child {
+    border-bottom: 1px solid #DEDADA;
+}
+
+
+
+
+
+
+
+@media(max-width: 767px){
+    .ask_us_question {
+        padding-top: 40px;
+    }
+    .shower_filter_trynow .pmt_img img {
+        max-width: 44px;
+    }
+    .lifetime_warranty p {
+        font-size: 11px;
+    }  
+    .accordions_shower_filter .accordion-body .container p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .water_filled_invisible{
+        letter-spacing: 0;
+    }
+    .subscribe_save_wrapper .noSubscription .noSubscriptionText .one_time_purchase {
+        font-size: 13px;
+    }
+    .mask_select_clr h6 {
+        font-size: 10px;
+    }
+    .refill_bl .mask_select_clr h5 {
+        font-size: 13px;
+    }
+    main.shower_filter .refill_review p {
+        font-size: 12px;
+    }
+    .flow_tabs .nav-link {
+        padding: 13px 18px;
+        font-size: 10px;
+    }
+    .flow_and_angle{
+        padding: 40px 0;
+    }
+    h1.save_hair {
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .why_it_works {
+        padding: 40px 0;
+    }
+    .why_works_btn1 {
+        position: absolute;
+        top: 60px;
+        right: 0;
+    }
+    .why_works_btn2 {
+        position: absolute;
+        top: 33%;
+        left: -21px;
+    }
+    .why_works_btn3 {
+        position: absolute;
+        bottom: 25px;
+        right: 0;
+    }
+    .shower_filter .section_header .silk_heading {
+        margin: 15px 0 15px;
+    }
+    .ingredients_list .ingredient .ingredient_flag {
+        top: -34px;
+    }
+    .ingredients_list .skin_problems {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 13px;
+    }
+    .skin_problems .problem_inner p {
+        font-size: 10px;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+        line-height: 16px;
+    }
+    .filter_details .detail .accordion-button .container{
+        font-size: 12px;
+        padding-right: 0 !important;
+    }
+    .filter_details .detail .accordion-button {
+        padding: 8px 0;
+    }
+    .filter_details .detail{
+        padding: 0 16px;
+    }
+    .filter_details .detail .accordion-button .container:after {
+        right: -30px;
+        top: -22px;
+        font-size: 20px;
+        width: 25px;
+        height: 25px;
+    }
+    .doctor_advice  .dr_img {
+        padding-right: 0;
+    }
+    .shower_benefits-content .benefits_img {
+        padding-left: 0;
+        padding-bottom: 30px;
+    }
+    .shower_benefits-content {
+        padding-top: 0;
+    }
+    .benefits_list {
+        padding-right: 0;
+    }
+    .doctor_advice  .dr_advice {
+        padding-left: 0;
+    }
+    .doctor_advice  .dr_advice p {
+        font-size: 12px;
+        padding-top: 35px;
+    }
+    .filter_details .detail {
+        max-width: 250px;
+    }
+    .filter_details .detail.d-2 {
+        top: 50%;
+        right: 10%;
+    }
+    .filter_details .detail.d-3 {
+        right: 20%;
+        top: 74%;
+    }
+    .shower_filter .newside_list ul li p{
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .shower_filter .newside_list ul li span{
+        font-weight: 400;
+        font-size: 12px;
+        letter-spacing: 0.12px;
+        line-height: 22px;
+    }
+    .shower_filter .imageText .it_info p {
+        padding-bottom: 10px;
+    }
+    .ingredients_list .skin_problems {
+        gap: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .ingredients_list .problem_inner {
+        width: calc(33.33% - 14px);
+    }
+    .ingredients_list .problem_inner p img{
+        width: 16px;
+    }
+    .filter_details .accordion .collapse .container p {
+        font-size: 12px;
+    }
+    .filter_details .detail.d-1.active {
+        width: 225px;
+    }
+    .filter_details .detail.d-3.active {
+        width: 212px;
+    }
+    .advanced-filtration .filter_benefit {
+        display: flex;
+        align-items: start;
+        gap: 16px;
+    }
+    .advanced-filtration .filter_benefit p{
+        font-size: 12px;
+    }
+    .ingredients_list .ingredients_img {
+        margin: 10px 0;
+        text-align: center;
+    }
+    .shipping .s_bx {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .shipping .s_bx img{
+        margin: auto;
+    }
+    .shipping.shipping_bg{
+        padding: 7px 0;
+    }
+    .refill_info .section_header .title-lg{
+        font-size: 34px;
+    }
+    .subscribe_save_wrapper .buy_btn {
+        font-size: 20px;
+        padding: 15px;
+    }
+    .shower_filter-benefits .section_header p br {
+        display: none;
+    }
+    .benefits_list ul li{
+        font-size: 13px;
+    }
+    .subscribe_save_wrapper .subscribeInfo h6 {
+        font-size: 12px;
+    }
+    .subscribe_save_wrapper .subscribePrice p {
+        font-weight: 500;
+    }
+    .shower_filter .subscribe_save_wrapper .subscribe_txt {
+        font-size: 11px;
+    }
+    .you_know_shower_water_heading {
+        font-size: 28px;
+        line-height: 38px;
+        text-align: center;
+        letter-spacing: 0;
+    }
+    .water_filter_feature_icons span {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .subscribe_save_wrapper .subscribeInfo .sub_try_free h6 {
+        font-size: 13px;
+    }
+    .three_step .section_header a p {
+        border-radius: 12px;
+        border: 2px solid #C7E7DC;
+        background: #FFF;
+        box-shadow: 0px 3px 8px 0px rgba(176, 176, 176, 0.25);
+        padding: 6px 12px;
+        color: #000;
+    }
+    .choose_from_dv {
+        border-top: 2px solid #C7E7DC;
+        margin-top: 24px;
+        padding: 20px 0;
+    }
+    p.choose_from {
+        font-size: 13px;
+    }
+    .beauty_skincare-new .bs_img img {
+        aspect-ratio: unset;
+    }
+    .bs_vs_item .bs_versace span {
+        font-size: 15px;
+    }
+    .beauty_skincare-new .bs_versace {
+        outline-width: 9px;
+        outline-style: solid;
+    }
+    .beauty_skincare-new h2{
+        font-size: 18px;
+    }
+    .beauty_skincare-new .bs_feature ul li, .beauty_skincare-new .bs_feature_l ul li {
+        font-size: 11px;
+    }
+    .why_it_works .faq .accordion-button img{
+        width: 24px;
+        height: 24px;
+    }
+}
