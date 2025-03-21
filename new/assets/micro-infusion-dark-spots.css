@@ -1,0 +1,10 @@
+.mi_dark_spots .serum_icons_grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+.mi_dark_spots .icon_ser {
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    align-items: start;
+}

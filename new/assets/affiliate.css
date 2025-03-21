@@ -218,11 +218,12 @@ body.interest_in_ugc_active{
     z-index: 999;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     text-align: center;
+    border-radius: 20px;
 }
 .cross_icon_ugc {
     position: absolute;
-    right: 3px;
-    top: 0;
+    right: 20px;
+    top: 15px;
     cursor: pointer;
 }
 .cross_icon_ugc img {
@@ -306,6 +307,18 @@ body.interest_in_ugc_active .interest_in_ugc{
   input.qure_input_field.star_removed + label:after {
     display: none;
 } 
+body.interest_in_ugc_active:before {
+    content: "";
+    position: absolute;
+    background: #000;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+    opacity: 0.7;
+}
 
 
 
@@ -348,4 +361,174 @@ body.interest_in_ugc_active .interest_in_ugc{
 /* content creator end  */
 
 
+
+/* new video banner css  */
+.flex-horizontal {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.track-vertical-alt {
+    margin-top: -180px;
+}
+.flex-vertical {
+    margin-top: -15px;
+}
+
+.marquee {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+    transform: rotate(349deg);
+}
+
+.track-vertical-alt {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee-vertical-alt 20s linear infinite;
+    width: 100%;
+}
+
+.track-vertical {
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee-vertical 20s linear infinite;
+}
+
+.flex-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* margin-top: 30px; */
+    /* overflow: hidden; */
+}
+
+.icon-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    overflow: hidden;
+    
+}
+.spacer-30 {
+    width: 30px;
+    height: 10px;
+}
+
+main.affiliate_new {
+    overflow: hidden;
+    height: 700px;
+    background: #f5f5f5;
+}
+main.affiliate_new .main_b_wrapper {
+    max-width: 500px;
+    margin: 100px 0 0 0;
+}
+
+/* 
+@keyframes marquee-vertical {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-50%);
+    }
+}
+
+@keyframes marquee-vertical-alt {
+    from {
+        transform: translateY(-50%);
+    }
+
+    to {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes marquee-horizontal {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes marquee-horizontal-alt {
+    from {
+        transform: translateX(-50%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+} */
+
+
+
+
+@media(min-width:992px){
+    /* .flex-horizontal{
+        margin-right: -98px;
+    } */
+    .flex-horizontal {
+        margin-right: -240px;
+        width: 1040px;
+    }
+}
+@media(max-width:1440px) {
+    .track-vertical-alt {
+        margin-top: -20px;
+    }
+}
+@media(max-width:1199px){
+    .container.interest_in_ugc {
+        max-width: 98%;
+    }
+}
+@media(max-width:991px){
+    main.affiliate_new {
+        height: 650px;
+    }
+    main.affiliate_new .main_b_wrapper {
+        margin: 0 auto;
+    }
+}
+@media(max-width:767px){
+    .flex-horizontal.ctm_cls_videos_banner {
+        margin-right: -60px;
+    }
+    .overflow_hidden_mob{
+        overflow: hidden;
+    }
+    .icon-container {
+        width: 17vw;
+    }
+}
 

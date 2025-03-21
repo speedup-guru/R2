@@ -262,7 +262,25 @@ img#bundleImage {
 .ctm_cls_mi_patches_pdp .planBlock .monthly_plans .plan_des strong {
     text-transform: uppercase;
 }
-
+.next_batch_bl.next_batch_highlight .batch_h {
+    display: unset;
+    grid-template-columns: calc(100% - 70%) 1fr;
+    gap: 10px;
+}
+.mi_patches_reserve_block h5 {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.next_batch_bl.next_batch_highlight {
+    padding: 20px 16px;
+}
+.next_batch_bl.next_batch_highlight .batch_h .batch_h_month {
+    margin-top: 10px;
+}
+.next_batch_bl.next_batch_highlight .batch_h .batch_h_info {
+    padding: 0px 10px;
+}
 
 
 @media (max-width: 991px) {

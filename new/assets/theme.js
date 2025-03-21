@@ -948,7 +948,11 @@ var swiper = new Swiper(".howUSe_slider", {
 $('.monthly_plans').click(function () {
     var savedTxt = $(this).find('.saved_price').html();
     if (savedTxt !== undefined) {
-        $('.savedAmount').html('& ' + savedTxt);
+        if (document.body.hasAttribute('data-contrast-horizontal-layout')) {
+            $('.savedAmount').html('& SAVE ' + savedTxt.replace(/\bOFF\b/, "").trim());
+         } else {
+            $('.savedAmount').html('& ' + savedTxt);
+         }
     } else {
         $('.savedAmount').html('');
     }

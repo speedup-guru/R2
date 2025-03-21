@@ -1,11 +1,10 @@
 .shower_filter .section_header .silk_heading {
     color: #000;
     font-size: 14px;
-    /* font-weight: 600; */
-    line-height: 20px;
+    line-height: 26px;
     letter-spacing: 0.56px;
     text-transform: uppercase;
-    margin: 30px 0 15px;
+    margin: 20px 0 2px;
 }
 .doctor_advice  .dr_img {
     padding-right: 30px;
@@ -14,9 +13,6 @@
 .doctor_advice .dr_advice p:not(:last-child){
     padding-bottom: 20px;
 }
-/* .doctor_advice  .dr_advice {
-    padding-left: 15px;
-} */
 .doctor_advice .dr_text {
     position: absolute;
     bottom: 12px;
@@ -389,7 +385,7 @@ main.shower_filter .subscribe_save_wrapper .subscribePrice p span {
 }
 .subscribe_save_wrapper .subscribeInfo .sub_try_free h6{
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
 }
 .shower_head {
     text-align: start;
@@ -398,7 +394,9 @@ main.shower_filter .subscribe_save_wrapper .subscribePrice p span {
     font-weight: 300 !important;
     line-height: 19.6px !important;
 }
-
+.subscriptionType.active .sub_try_free h6 {
+    font-weight: 600 !important;
+}
 .skip_text {
     font-weight: 300 !important;
 }
@@ -409,14 +407,33 @@ main.shower_filter .subscribe_save_wrapper .subscribePrice p span {
     letter-spacing: 0.16px;
     text-align: center;
 }
-
 .subscribe_save_wrapper .noSubscription .noSubscriptionText p {
+    color: var(--Qure-Grey, #797D7C);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
     font-weight: 300;
-    line-height: 19.6px;
+    line-height: 140%;
+    letter-spacing: 0.16px;
+}
+.subscriptionType.active .noSubscriptionText p {
+    color: var(--Qure-Black, #000);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.16px;
+}
+.subscribe_save_wrapper .noSubscription .noSubscriptionPrice {
+    color: var(--Qure-Black, #000);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
     letter-spacing: 0.16px;
 }
 .subscriptionType.active .noSubscriptionText .one_time_purchase {
-    font-weight: 600;
+    font-weight: 600 !important;
 }
 span.del_price {
     font-weight: 500;
@@ -527,6 +544,9 @@ h2.meet_qure_heading {
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+.mobile_unfiltered_shower .ninety_easy_icons {
+    font-size: 10px;
 }
 .ctm_cls_icon_list .ingredient {
     border-radius: 8px;
@@ -780,7 +800,7 @@ p.choose_from {
     padding: 10px;
 }
 .lifetime_warranty img {
-    height: 24px;
+    height: 30px;
 }
 
 .three_step .icon img {
@@ -823,7 +843,7 @@ p.choose_from {
     padding-bottom: 8px;
 }
 .explained{
-    font-size: 13px;
+    font-size: 14px; 
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
@@ -832,7 +852,7 @@ p.choose_from {
 .accordions_shower_filter .accordion-body .container p {
     font-size: 12px;
     line-height: 26px;
-    font-weight: 400;
+    font-weight: 300;
     padding-top: 15px;
 }
 .faq_under_product .accordion-body .container p {
@@ -900,6 +920,7 @@ ul.sec_ul_und_prod li {
     font-style: normal;
     font-weight: 500;
     line-height: 100%; 
+    margin-bottom: 0;
 }
 .ask_us_question {
     display: flex;
@@ -926,14 +947,54 @@ ul.sec_ul_und_prod li {
 .sf_try_now_faq .accordion-item:last-child {
     border-bottom: 1px solid #DEDADA;
 }
-
-
-
+.shower_filter_trynow .refill_bl.tabSlider .refill_info .refill_review p {
+    letter-spacing: 0.13px;
+}
+.shipping.shipping_bg {
+    max-width: 350px;
+    margin: 0 auto;
+}
+.meet_qure_shower_filter{
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.ingredients_text p:nth-child(1) {
+    margin-bottom: 6px;
+}
+.why_it_works .accordion-body p {
+    font-size: 14px !important;
+}
+.sf_try_now_faq .accordion-body .container p{
+    padding: 0 0 5px 0;
+}
+.faq .accordion-button .container {
+    position: relative;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-left: 0;
+}
+.shipping {
+    align-items: start;
+}
 
 
 
 
 @media(max-width: 767px){
+    .order_minus_1{
+        order: -1;
+    }
+    .ctm_cls_shipping{
+        max-width: 320px !important;
+    } 
+    .why_it_works .accordion-body p {
+        font-size: 13px !important;
+    }
+    .meet_qure_shower_filter{
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
     .ask_us_question {
         padding-top: 40px;
     }
@@ -1148,7 +1209,7 @@ ul.sec_ul_und_prod li {
     .subscribe_save_wrapper .subscribeInfo .sub_try_free h6 {
         font-size: 13px;
     }
-    .three_step .section_header a p {
+    .three_step .section_header p {
         border-radius: 12px;
         border: 2px solid #C7E7DC;
         background: #FFF;

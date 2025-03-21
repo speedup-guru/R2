@@ -263,6 +263,12 @@
 .manual_content .accordion-button::after {
     transform: rotate(180deg);
 }
+.inst_guide_ctm_imr .d-grid {
+    grid-template-columns: 130px auto;
+    align-items: center;
+}
+
+
 @media(max-width: 767px){
     .instruction .instruction_manual h5 {
         font-size: 13px;

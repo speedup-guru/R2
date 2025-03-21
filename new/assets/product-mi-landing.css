@@ -605,6 +605,13 @@ p.kits_left span {
 .new_updated_treatment_outer .plan_bundle_detail {
     margin-top: 10px;
 }
+main.mi_lp .supply_steps .step_block .serum_prd .serum_img img {
+    max-height: 65px;
+}
+.new_updated_treatment_outer .supply_steps .step_block .serum_prd {
+    padding: 10px 10px 50px 10px;
+    border-radius: 25px;
+}
 
 @media(min-width:768px){
     .new_updated_treatment_outer .pmtBlock .pmt_plans {
