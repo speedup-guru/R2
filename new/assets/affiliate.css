@@ -1,7 +1,7 @@
 .join_bl .join_item {
     display: flex;
-    align-items: center;
-    padding: 12px 0;
+    align-items: start;
+    padding: 20px 0;
     max-width: 437px;
 }
 
@@ -168,7 +168,7 @@
 .ugc_inf_btns{
     gap: 12px;
 }
-.ugc_inf_btns .buy_btn{
+.ugc_inf_btns .buy_btn {
     display: flex;
     max-width: 240px;
     height: 60px;
@@ -177,6 +177,8 @@
     justify-content: center;
     align-items: center;
     gap: 8px;
+    font-size: 22px;
+    font-weight: 600;
 }
 .join_creator_program_form.bg_grey  {
     background: #F5F5F5;
@@ -267,7 +269,7 @@ body.interest_in_ugc_active .interest_in_ugc{
 .join_creator_program_form button {
     width: 263px;
     font-size: 18px;
-    margin-top: 40px;
+    margin-top: 27px;
     height: 49px;
     display: flex;
     justify-content: center;
@@ -353,6 +355,7 @@ body.interest_in_ugc_active:before {
     .ugc_inf_btns .buy_btn{
         height: 50px;
         max-width: 307px;
+        font-size: 20px;
     }
     .ugc_inf_btns{
         justify-content: center;
@@ -372,12 +375,14 @@ body.interest_in_ugc_active:before {
     gap: 12px;
 }
 .track-vertical-alt {
-    margin-top: -180px;
+    margin-top: -100px;
 }
 .flex-vertical {
-    margin-top: -15px;
+    margin-top: -56px;
 }
-
+.flex-horizontal.ctm_cls_videos_banner {
+    transform: rotate(-8deg);
+}
 .marquee {
     position: relative;
     display: flex;
@@ -432,13 +437,11 @@ body.interest_in_ugc_active:before {
     border: 1px solid #eaeaea;
     background-color: #ffffff;
     overflow: hidden;
-    
 }
 .spacer-30 {
     width: 30px;
-    height: 10px;
+    height: 8px;
 }
-
 main.affiliate_new {
     overflow: hidden;
     height: 700px;
@@ -494,9 +497,6 @@ main.affiliate_new .main_b_wrapper {
 
 
 @media(min-width:992px){
-    /* .flex-horizontal{
-        margin-right: -98px;
-    } */
     .flex-horizontal {
         margin-right: -240px;
         width: 1040px;
@@ -513,22 +513,52 @@ main.affiliate_new .main_b_wrapper {
     }
 }
 @media(max-width:991px){
-    main.affiliate_new {
-        height: 650px;
-    }
     main.affiliate_new .main_b_wrapper {
         margin: 0 auto;
     }
 }
 @media(max-width:767px){
+    .spacer-30 {
+        width: 30px;
+        height: 4px;
+    }
+    .spacer_second {
+        width: 40px;
+        height: 0;
+    }
+    .flex-vertical {
+        margin-top: -55px;
+    }
     .flex-horizontal.ctm_cls_videos_banner {
-        margin-right: -60px;
+        margin-right: -120px;
     }
     .overflow_hidden_mob{
         overflow: hidden;
+        position: relative;
+        margin-top: 0;
+    }
+    .overflow_hidden_mob:before {
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.00) 18.96%, #F5F5F5 39.12%);
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 300px;
+        top: 0;
+        z-index: 999;
+        margin-top: -184px;
+        margin-left: -15px;
     }
     .icon-container {
-        width: 17vw;
+        width: 22vw;
+    }
+    .overflow_hidden_mob{
+        padding: 0;
+    }
+    .affiliate_new .container{
+        padding: 0 !important;
+    }
+    .flex-horizontal{
+        gap: 0;
     }
 }
 

@@ -687,7 +687,11 @@
 .ctm_cls_mi_pdp .step_content.my-3.step_btn {
     margin-right: auto;
 }
-
+.app_press .press_bl {
+    max-width: 940px;
+    margin: 0 auto;
+    background-color: transparent;
+}
 @media(min-width:768px){
     .ctm_cls_mi_pdp  .supply-detail {
         padding: 50px 30px;

@@ -124,14 +124,14 @@
     font-size: 45px;
     line-height: 57.37px;
 }
-main.shower_filter.shower-filter-replacement .subscribe_save_wrapper .subscribePrice p span {
+/* main.shower_filter.shower-filter-replacement .subscribe_save_wrapper .subscribePrice p span {
     font-weight: 700;
     font-size: 20px;
     line-height: 20px;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.3px; 
     text-align: right;
     margin-right: 10px;
-}
+} */
 main.shower_filter.shower-filter-replacement .subscribe_save_wrapper .subscriptionType.active>div:first-child {
     border-radius: 24px;
 }

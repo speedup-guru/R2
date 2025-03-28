@@ -1450,12 +1450,13 @@ main .certified_derm p {
 }
 
 .subscribe_save_wrapper .subscribePrice p span {
-    font-size: 20px;
-    line-height: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.16px;
+    margin-right: 0;
     text-decoration: line-through;
     opacity: 0.3;
-    margin-right: 8px;
-    font-weight: 700;
 }
 
 .subscribe_save_wrapper .subscribeInfo h6 {

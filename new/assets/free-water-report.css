@@ -179,7 +179,7 @@
 
 /* =============== did you know end ============= */
 .skincare_routine {
-    background-image: url("water_skincare_routine.webp"); 
+    position: relative; 
 }
 
 .get_report_btn {

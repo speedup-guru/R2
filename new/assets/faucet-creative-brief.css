@@ -1,0 +1,27 @@
+.qure_founder_info.trusted_bl.trustedVerified h3.harsh_water{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 34px; 
+    letter-spacing: 0.2px;
+}
+.ctmVideo__block .player>.wistia_responsive_padding .w-bpb-wrapper {
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+}
+
+@media(min-width:768px){
+    .qure_founder img {
+        max-width: 193px;
+    }
+}
+
+
+@media(max-width:767px){
+    .sm_size_in_mob{
+        height: 20px;
+    }
+}
