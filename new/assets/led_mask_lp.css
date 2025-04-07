@@ -35,7 +35,6 @@
 }
 
 .user_report_wrap .progressCont {
-    text-align: center;
     width: 100%;
 }
 
@@ -692,6 +691,177 @@
     margin: 0 auto;
     background-color: transparent;
 }
+.led_offer_btn a {
+    display: flex;
+    width: 300px;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 27px;
+    background: var(--Qure-Light-Green, #C7E7DC);
+    color: var(--Qure-Black, #000);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.18px;
+    text-transform: uppercase;
+    height: 45px;
+}
+.announcement_bar.announce_led_offer_new {
+    padding: 15px 20px;
+}
+.led_offer_ann_content p, .led_offer_ann_content h6 {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.led_offer_ann_content del {
+    color: #00000080;
+}
+.announcement_bar.announce_led_offer_new .container {
+    padding: 0 !important;
+}
+.led_offer_ann_content p {
+    text-align: start;
+}
+.apr_cls25_led .bfs_mb_wrapThumb img {
+    width: 88px;
+    margin-right: 15px;
+}
+.led_slider_vid_btn {
+    position: absolute;
+    bottom: 15px;
+    max-width: max-content;
+    background: #fff;
+    padding: 6px 14px;
+    width: 100%;
+    left: 15px;
+    border-radius: 10px;
+    border: 0.833px solid var(--Qure-Black, #000);
+}
+.led_slider_vid_btn p {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0.14px;
+    text-transform: uppercase;
+}
+.limited_time_offer {
+    color: #FFF;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 666px;
+    background: #C92127;
+    width: 110px;
+    height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content_free_neck p {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+.img_dv_free_neck {
+    max-width: 90px;
+}
+.receive_free_mask {
+    display: grid;
+    grid-template-columns: 1fr 3.3fr;
+    gap: 12px;
+}
+.content_free_neck h5 {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 10px 0 8px;
+    line-height: 120%;
+}
+.rec_free_mask_led{
+    border-radius: 8px;
+    border: 2px solid var(--Qure-Light-Green, #C7E7DC);
+    background: #F7F7F7;
+    padding: 12px;
+}
+.get_clearer_wrapper img {
+    width: 20px;
+    filter: invert(1);
+}
+.led_mask_btn{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.marquee-row {
+    width: 100%;
+    overflow-x: hidden;
+    padding: 20px 0;
+}
+  .marquee-block{
+    position:relative;
+    display: flex;
+    width: 100%;  
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    justify-content: space-between;
+  }
+  .marquee-item-list{
+   display: inline-flex;
+  }
+  .marquee-item-list li{
+  width: 100%;
+  list-style: none;
+  padding-right: 90px;
+  font-size: 40px;
+  white-space: nowrap
+  }
+  .marquee-row img {
+    height: 25px;
+}
+.endless_marquee .marquee-row {
+    max-width: 870px;
+    margin: 0 auto;
+}
+.q_uses_bl .q_uses_item-outer+.q_uses_item-outer:before {
+    content: '';
+    width: 0;
+}
+.q_uses_bl .q_uses_header {
+    padding: 13px 0px;
+}
+.q_uses_desczzz {
+    margin-top: 20px;
+}
+.user_report_wrap {
+    display: unset;
+    border-radius: 16px;
+    background: rgb(251 251 251);
+    box-shadow: none;
+}
+.user_report_wrap .progressCont {
+    text-align: start;
+    margin-bottom: 10px;
+}
+.progressCont {
+    display: flex;
+}
+
+
+
+
+
+
+
+
 @media(min-width:768px){
     .ctm_cls_mi_pdp  .supply-detail {
         padding: 50px 30px;
@@ -699,6 +869,33 @@
 }
 
 @media(max-width:767px) {
+    .q_uses_bl .q_uses_res {
+        grid-template-columns: 1fr;
+    }
+    
+    .marquee1{animation-name: marquee1;}
+    @keyframes marquee1 {
+      0% { left: 0; }
+      100% {left: -100%;}
+    }
+    .marquee-item-list li {
+        padding-right: 50px;
+    }
+    .marquee-row img {
+        height: 22px;
+    }
+    .receive_free_mask{
+        grid-template-columns: 1fr;
+    }
+    .announcement_bar.announce_led_offer_new {
+        padding: 14px 20px;
+    }
+    .led_offer_btn a {
+        width: 120px;
+        padding: 0;
+        font-size: 14px;
+        letter-spacing: 0.14px;
+    }
     .ctm_cls_mi_pdp .qure__treatments .section__header .heading{
         font-weight: 500;
         font-size: 28px;

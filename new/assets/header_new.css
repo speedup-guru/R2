@@ -1717,7 +1717,7 @@ img.fa.fa-user.nav__icon {
 
     ul.dropdown-menu-hp.mega-dropdown-menu.row {
         position: absolute;
-        /* top: 100%; */
+        top: 0;
         left: 0;
         width: 100%;
         min-width: 300px;
@@ -2141,10 +2141,9 @@ img.fa.fa-user.nav__icon {
         width: 100%;
     }
 
-    .mi-landing-page .header-new.new-hp-header .mobile-menu-custome {
-        width: max-content;
+    /* .mi-landing-page .header-new.new-hp-header .mobile-menu-custome {
         margin-right: 15px;
-    }
+    } */
 
     .mi-landing-page .header-new.new-hp-header {
         justify-content: unset;
@@ -2152,7 +2151,6 @@ img.fa.fa-user.nav__icon {
     }
 
     .mi-landing-page .header-new.new-hp-header .header-logo {
-        width: max-content;
         position: relative;
         z-index: 99;
     }

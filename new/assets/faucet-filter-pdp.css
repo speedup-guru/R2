@@ -8,6 +8,7 @@
 
 .refill_bl .refill_info .buy_btn {
     font-size: 18px;
+    font-weight: 500;
 }
 
 .refill_bl .mask_select_clr h5 {
@@ -22,9 +23,7 @@
     border: 2px solid #C7E7DC;
 }
 
-/* .subscribe_save_wrapper .noSubscription .noSubscriptionPrice{
-    font-size: 14px;
-} */
+
 .subscribe_save_bx p {
     font-size: 14px;
     font-weight: 600;
@@ -38,10 +37,6 @@
     max-width: 300px;
 }
 
-/* .subscribe_save_wrapper .subscribePrice p,
-.subscribe_save_wrapper .subscribePrice p span {
-    font-size: 14px;
-} */
 .press_bl .ps_wrapper .ps_item {
     margin: 0;
 }
@@ -507,9 +502,513 @@
     font-size: 13px;
     margin-bottom: -8px !important;
 }
+.faucet_filter .subscribe_save_wrapper .subscribe_save_bx {
+    border-radius: 8px;
+}
+.faucet_filter .subscribe_save_wrapper .subscriptionType .try_free {
+    background: #c7e7dc;
+}
+.faucet_filter .subscribe_save_wrapper .subscriptionType.active .try_free {
+    background-color: white;
+}
+.subscribe_save_wrapper .subscribeInfo .sub_try_free p {
+    font-size: 12px;
+    line-height: 14px;
+    border: 1px solid #000;
+    border-radius: 22px;
+    padding: 2px 7px;
+    background: #fff;
+}
+.faucet_filter .subscribe_save_wrapper .noSubscription{
+    border-radius: 8px;
+    align-items: start;
+}
+.subscribe_save_wrapper .subscribeInfo .sub_try_free h6{
+    font-size: 16px;
+}
+.subscriptionType.active .sub_try_free h6 {
+    font-weight: 500 !important;
+}
+.shower_head h6 {
+    font-weight: 400 !important;
+    line-height: 19.6px !important;
+    letter-spacing: 0.16px;
+}
+.subscribe_save_wrapper .noSubscription .noSubscriptionText{
+    opacity: 1;
+}
+.subscriptionType .noSubscriptionText .one_time_purchase {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.16px;
+}
+.subscriptionType .noSubscriptionText p {
+    color: #797D7C;
+    font-weight: 300;
+    line-height: 140%;
+}
+.subscriptionType.active .noSubscriptionText p {
+    color: #000;
+}
+.subscribe_save_wrapper .noSubscription .noSubscriptionPrice {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0.16px;
+}
+.subscribe_save_wrapper .subscribePrice p {
+    color: var(--Qure-Black, #000);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0.16px;
+}
+.subscribe_save_wrapper .subscribePrice p span {
+    opacity: 0.6;
+}
+main.faucet_filter .shipping .s_bx {
+    place-items: center;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+.faq_under_product .accordion-button {
+    padding: 14px 0;
+}
+main.faucet_filter .accordion-item p {
+    padding: 0;
+    color: #000;
+}
+.faq .accordion-button .container:after {
+    font-weight: 100;
+}
+.faq.accordions_shower_filter .accordion-item {
+    border-bottom: 1px solid #C7E7DC;
+    border-radius: 0;
+}
+.faq .accordion-item ul.under_pro_faq_ul_faucet li {
+    list-style-type: number;
+    padding: 0;
+}
+.faq .accordion-item ul.under_pro_faq_ul_faucet {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.faq.accordions_shower_filter.faq_under_product {
+    padding: 0;
+}
+.faq_under_product button.accordion-button .container p{
+    font-weight: 400 !important;
+}
+.faucet_filter .progress_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.faucet_filter .progress_grid .progressInfo {
+    padding: 0 3px;
+}
+.faucet_filter .progress_grid .progressInfo p {
+    padding-top: 0;
+}
+.italic_text{
+    color: #000;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 16px; 
+    text-align: center;
+}
 
+/* faucet after before switch slider start */
+
+.faucet_slide_me_btn_with_images {
+    text-align: center;
+}
+.faucet_slide_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.toggle-text {
+    transition: color 0.3s;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+}
+.faucet_after_before_slider {
+    width: 155px;
+    height: 44px;
+    padding: 4px;
+    background-color: #ccc;
+    border-radius: 25px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.slider-circle {
+    width: 78px;
+    height: 35.98px;
+    padding: 10px 9px;
+    font-size: 11px;
+    background-color: white;
+    border-radius: 23px;
+    position: absolute;
+    left: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    transition: left 0.3s;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.faucet_after_before_slider.active {
+    border-radius: 999px;
+    background: #C7E7DC;
+    box-shadow: 1px 1px 8px 0px rgba(0, 0, 0, 0.10) inset;
+}
+.active .slider-circle {
+    left: 73px;
+}
+.inactive-text {
+    color: black;
+}
+.active-text {
+    color: gray;
+}
+.tl_img img {
+    display: none;
+    max-width: 100%;
+}
+.tl_img img.active {
+    display: block;
+}
+/* faucet after before switch slider  end*/
+
+main.faucet_filter .flow_and_angle .tab_img img{
+    max-width: 100%;
+}
+.ctm_cls_adj_cov {
+    max-width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.why_works_btn1 {
+    top: 13%;
+    left: 24%;
+}
+.why_works_btn2 {
+    top: 30%;
+    left: 14%;
+}
+.why_works_btn3 {
+    bottom: 46%;
+    right: 30px;
+}
+.why_works_btn4 {
+    position: absolute;
+    bottom: 13%;
+    left: 20%;
+}
+.how_it_works_img {
+    display: flex;
+    justify-content: center;
+}
+.easy_setup_content_inner img {
+    margin-left: -16px;
+}
+.easy_setup_content_inner div:nth-child(1) img {
+    margin-left: 0 !important;
+}
+.faucet_offer_btn a {
+    display: flex;
+    width: 350px;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 27px;
+    background: var(--Qure-Light-Green, #C7E7DC);
+    color: var(--Qure-Black, #000);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.18px;
+    height: 50px;
+}
+
+.announcement_bar.announce_fau_offer_new .fau_content_ann p {
+    text-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+}
+.announcement_bar.announce_fau_offer_new {
+    padding: 20px;
+}
+main.faucet_filter .you_know_shower_water img {
+    height: auto;
+}
+
+/* press moving slider  */
+/* Ensure container hides overflow */
+.ps_wrapper {
+    overflow: hidden;
+    position: relative; /* Needed for proper bounding */
+    width: 100%;
+}
+
+/* Moving track inside container */
+.track-vertical-alt {
+    display: flex;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee-vertical 20s linear infinite;
+    width: max-content;
+}
+
+/* Items inside track */
+.flex-vertical {
+    display: flex;
+    gap: 50px;
+    width: max-content;
+}
+.why_it_works .faq.accordions_shower_filter .accordion-item {
+    border-bottom: 1px solid #000000;
+    border-radius: 0;
+}
+
+/* Animation */
+/* @keyframes marquee-vertical {
+    from {
+        transform: translateX(100%); /* Start from right 
+    }
+    to {
+        transform: translateX(-100%); /* Move left 
+    }
+} */
+
+/* .marquee-row{
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .marquee-block{
+    position:relative;
+    display: flex;
+    width: 100%;  
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    justify-content: space-between;
+  }
+  .marquee-item-list{
+   display: inline-flex;
+  }
+  .marquee-item-list li{
+  width: 100%;
+  list-style: none;
+  padding-right: 30px;
+  font-size: 40px;
+  white-space: nowrap
+  }
+  .marquee-item-list li img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  .marquee1{animation-name: marquee1;}
+  @keyframes marquee1 {
+    0% { left: 0; }
+    100% {left: -100%;}
+  }
+   */
+  
+/* press moving slider  */
+
+
+.marquee-row {
+    width: 100%;
+    overflow-x: hidden;
+    padding: 20px 0;
+}
+  .marquee-block{
+    position:relative;
+    display: flex;
+    width: 100%;  
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    justify-content: space-between;
+  }
+  .marquee-item-list{
+   display: inline-flex;
+  }
+  .marquee-item-list li{
+  width: 100%;
+  list-style: none;
+  padding-right: 90px;
+  font-size: 40px;
+  white-space: nowrap
+  }
+  .marquee-row img {
+    height: 25px;
+}
+.fauc_offer_ann_img img {
+    height: 50px;
+    width: 76px;
+}
+.announce_fau_offer_new .fau_content_ann h5 {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0;
+}
+.announce_fau_offer_new .fau_content_ann p span {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.14px;
+}
+.clinically_proven_ctm h2.title-lg.paddingB {
+    padding-bottom: 8px;
+}
+p.clinically_para {
+    padding-bottom: 22px;
+}
+
+
+
+@media(min-width:768px) {
+    .bs_vs_item {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0 -48px;
+    }
+    .beauty_skincare .bs_versace {
+        border: 12px solid #fff; 
+        height: 116px;
+        width: 116px;
+    }
+}
 
 @media(max-width: 767px) {
+
+    .why_it_works .section_header {
+        text-align: start !important;
+    }
+    .faucet_filter .progress_grid {
+        margin-bottom: 0;
+    }
+    .clinically_proven_ctm .progressWrapper svg {
+        height: 70px;
+        width: 70px;
+    }
+
+    .marquee1{animation-name: marquee1;}
+    @keyframes marquee1 {
+      0% { left: 0; }
+      100% {left: -100%;}
+    }
+    .marquee-item-list li {
+        padding-right: 50px;
+    }
+    .marquee-row img {
+        height: 22px;
+    }
+    .why_it_works button:not(.collapsed) .sub_try_free span {
+        padding: 6px;
+    }
+    .how_it_works_img h6 {
+        font-size: 11px;
+    }
+    .announce_fau_offer_new .fau_content_ann h5 {
+        font-size: 14px;
+        margin-bottom: 3px;
+        line-height: 12px;
+    }
+    .announce_fau_offer_new p {
+        font-size: 10px;
+        line-height: 10px;
+        letter-spacing: 0.1px;
+    }
+    .announce_fau_offer_new .fau_content_ann p span {
+        font-size: 10px;
+        line-height: 10px;
+        letter-spacing: 0.1px;
+    }
+    .announcement_bar.announce_fau_offer_new .faucet_offer_btn a {
+        width: 100%;
+        font-size: 14px;
+        font-weight: 400;
+        height: 34px;
+        padding: 12px 14px;
+        max-width: 350px;
+    }
+    .led_offer_ann_content {
+        display: grid !important;
+        grid-template-columns: auto 1fr;
+    }
+    .announcement_bar.announce_fau_offer_new .fau_content_ann p {
+        margin-bottom: 4px;
+    }
+    .fau_content_ann img {
+        height: 10px;
+        width: 10px;
+    }
+    .slider-circle {
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .beauty_skincare .bs_content h4 {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 100%;
+        letter-spacing: 0.065px;
+    }
+    .italic_text {
+        font-size: 10px;
+    }
+    .faucet_filter .progress_grid .progressInfo p{
+        font-size: 10px;
+        line-height: 16px;
+    }
+    main.faucet_filter .bs_img img {
+        aspect-ratio: 4/3;
+    }
+    .why_works_btn1 {
+        top: 4%;
+        left: 14%;
+    }
+    .why_works_btn2 {
+        top: 35%;
+        left: -1%;
+    }
+    .why_works_btn3 {
+        bottom: 42%;
+        right: -10px;
+    }
+    .why_works_btn4 {
+        bottom: 3%;
+        left: 8%;
+    }
+    .you_know_shower_water_heading {
+        text-align: start;
+    }
     .subscribe_save_wrapper .subscribeInfo .subscribeInfoDesc{
         font-size: 10px;
     }
@@ -579,10 +1078,6 @@
         width: 40px;
     }
 
-    .faucet_filter .section_header h2.title-lg {
-        font-size: 24px;
-    }
-
     .mi_landing_result .result_content p {
         font-size: 12px;
         line-height: 22px;
@@ -631,16 +1126,17 @@
     }
 
     .faucet_filter .beauty_skincare .bs_versace span {
-        font-size: 8px;
+        font-size: 15px;
     }
 
     .faucet_filter .beauty_skincare .bs_versace {
-        width: 28px;
-        height: 28px;
+        width: 45px;
+        height: 45px;
+        border: 6px solid #fff;
     }
 
     .faucet_filter .beauty_skincare .bs_item ul li {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .faucet_filter .beauty_skincare .bs_vs_item {
@@ -649,7 +1145,7 @@
     }
 
     .faucet_filter .beauty_skincare .bs_img img {
-        padding: 15px;
+        padding: 0px;
     }
 
     .faucet_filter .beauty_skincare .bs_item ul li {
