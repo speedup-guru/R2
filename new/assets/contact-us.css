@@ -42,6 +42,17 @@
     color: #000;
     text-decoration: underline;
 }
+.consent_message p {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 15px;
+    letter-spacing: 0.12px;
+    opacity: 0.8;
+    max-width: 585px;
+    width: 100%;
+    color: var(--Dark-Grey, #4E4E4E);
+}
 
 @media(max-width: 767px) {
     .contact_info {
