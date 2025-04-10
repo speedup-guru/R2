@@ -1669,5 +1669,25 @@ $(document).ready(function () {
 
 
 
+// header js for if there is button or not
 
+document.addEventListener("DOMContentLoaded", function () {
+    const headerBtn = document.querySelector(".header_btn");
+    const mobileMenu = document.querySelector(".mobile-menu-custome");
+
+    if (headerBtn && mobileMenu) {
+        mobileMenu.style.width = "45px";
+    } else if (mobileMenu) {
+        mobileMenu.style.width = "33.33%"; // fallback or default
+    }
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    const header = document.querySelector(".header-new");
+    const button = document.querySelector(".header_btn");
+
+    if (header && button) {
+        header.classList.add("has-button");
+    }
+});
 

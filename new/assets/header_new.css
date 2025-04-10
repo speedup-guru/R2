@@ -178,7 +178,7 @@ img.fa.cus-support {
 }
 
 .header_btn a span {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 20px;
     font-weight: 700;
     letter-spacing: 0.4px;
@@ -2156,7 +2156,7 @@ img.fa.fa-user.nav__icon {
     }
 
     .mi-landing-page .icon-section-landing.icon-section .header_btn {
-        margin-right: 15px;
+        margin: 0 10px;
     }
 
     .mi-landing-page .header-new.new-hp-header .icon-section {
@@ -2269,6 +2269,29 @@ img.fa.fa-user.nav__icon {
     }
     .header_btn a .ahorra{
         font-size: 10px;
+    }
+    
+/* button issue fixed css  */
+    .header-new {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 12px;
+    }
+    .header-logo {
+        text-align: center;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+    .header-new.has-button .header-logo {
+        justify-content: flex-start;
+    }
+    li.new-menu:empty {
+        display: none;
+    }
+    .header-new.has-button .mobile-menu-custome {
+        width: 45px;
     }
 }
 

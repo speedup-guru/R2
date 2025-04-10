@@ -1038,62 +1038,345 @@
 .timeline-step {
     position: relative;
     padding-bottom: 60px;
-    padding-left: 12px;
+    padding-left: 20px;
 }
 
-  .timeline-step::before {
+.timeline-step::before {
     content: "";
     position: absolute;
-    left: -11px;
+    left: -6px;
     top: 7px;
     width: 12px;
     height: 12px;
     background-color: #000;
     border-radius: 50%;
     z-index: 1;
-  }
-  .timeline-step:after {
+}
+.timeline-step:after {
     content: "";
     position: absolute;
     height: 100%;
     width: 1px;
     background: #000;
-    left: -6px;
+    left: 0px;
     top: 8px;
 }
     .timeline .timeline-step:nth-child(3):after {
         display: none;
 }
-  .step-label {
-    background-color: #d8f3dc;
-    color: #000;
-    font-size: 12px;
-    font-weight: 600;
-    padding: 4px 10px;
-    border-radius: 20px;
+.step-label {
+    padding: 6px 10px;
     display: inline-block;
     margin-bottom: 6px;
-  }
-
-  .step-title {
-    font-weight: 700;
+    border-radius: 666px;
+    background: var(--Qure-Light-Green, #C7E7DC);
+    color: var(--Qure-Black, #000);
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+}
+.step-title {
+    color: var(--Qure-Black, #000);
+    font-family: "Canela Web";
     font-size: 18px;
-  }
-
-  .step-description {
-    font-size: 15px;
-    color: #333;
-  }
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.18px;
+}
+.step-description {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.13px;
+}
   .ctm_gap_10{
     gap: 10px;
   }
-
-
 /* use three steps end */
 
+
+/* how it works start */
+.nav-pills .nav-link {
+    border-radius: 999px;
+  }
+  .nav-pills .nav-link.active {
+    background-color: #d2f0df !important;
+    color: #1f1f1f !important;
+  }
+  .wavelength-bar {
+    height: 11px;
+    border-radius: 999px;
+    overflow: hidden;
+    gap: 1px;
+}
+  
+  .infrared { background-color: #840D43; }
+  .deep-red { background-color: #B80E0D; }
+  .red { background-color: #F5181E; }
+  .amber { background-color: #FD8E15; }
+  .blue { background-color: #2B5AA2; }
+
+  .infrared_color { color: #840D43; }
+  .deep-red_color { color: #B80E0D; }
+  .red_color { color: #F5181E; }
+  .amber_color { color: #FD8E15; }
+  .blue_color { color: #2B5AA2; }
+
+  .how_it_words_right ul.nav {
+    border-radius: 666px;
+    border: 1px solid var(--Qure-Light-Green, #C7E7DC);
+    background: #FFF;
+    box-shadow: 0px 5px 15px 0px rgba(176, 176, 176, 0.25);
+    padding: 10px 12px;
+}
+.how_it_words_right .nav-link {
+    color: #AEADAD;
+}
+.how_it_words_right .nav-item .nav-link {
+    padding: 10px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.14px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+}
+.how_it_works .icon-feature {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.14px;
+    margin-bottom: 12px;
+}
+
+
+
+
+/* how it works end */
+
+/* light therapy start */
+.faq_technical .accordion-button .container{
+    position: relative;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 600;
+    padding-left: 0;
+}
+.faq_technical .container{
+    padding: 0;
+}
+.faq_technical .accordion-item {
+    border: none;
+    margin-bottom: 15px;
+    max-width: 500px;
+    border-radius: 8px;
+}
+.faq_technical .accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.faq_technical .accordion-button::after{
+    display: none;
+}
+.faq_technical .accordion-button .container:after {
+    content: '+';
+    height: 20px;
+    width: 20px;
+    color: var(--clr-1);
+    font-size: 25px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-weight: 600;
+}
+.faq_technical button.accordion-button{
+    background: #fff;
+    border-radius: 8px;
+}
+.faq_technical .accordion-button:not(.collapsed){
+    color: #000;
+}
+/* light therapy end */
+
+
+/* trusted recom */
+.trusted_cl_m .play_btn {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 20px;
+    justify-content: space-between;
+    text-align: left;
+    color: #fff;
+}
+.trusted_verified {
+    background-color: #F3F3F3;
+    padding: 12px 16px 12px 12px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 21px 1fr;
+    align-items: center;
+    gap: 5px;
+    text-transform: uppercase;
+    color: var(--Qure-Grey, #797D7C);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.32px;
+    width: max-content;
+}
+.trusted_cl_m .play_btn h6 {
+    font-size: 14px;
+}
+.trusted_recom .trusted_left .title-lg {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.32px;
+}
+/* trusted recom */
+
+
+
+/* maximize_benfits */
+.btn-dark-rounded {
+    border-radius: 2rem;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  .review-stars {
+    color: #0cab73;
+    font-size: 0.9rem;
+  }
+  .old-price {
+    text-decoration: line-through;
+    color: #777;
+  }
+  .price-badge {
+    background-color: #0cab73;
+    color: #fff;
+    font-size: 0.875rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.5rem;
+  }
+  .check-list i {
+  }
+  .maximize_benefits{
+    position: relative;
+  }
+  .maximize_benefits .container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.maximize_benefits .star_gp img {
+    height: 16px;
+}
+.maximize_benefits .price-badge {
+    color: #fff;
+    font-size: 14px;
+    padding: 0.25rem 0.5rem;
+    border-radius: 666px;
+    background: var(--Qure-Dark-Green, #008763);
+    font-weight: 400;
+}
+.maximize_benefits .check-list span {
+    font-size: 13px;
+}
+.led_mask_btn img {
+    filter: invert(1);
+    margin-left: 2px;
+}
+/* maximize_benfits */
+
+div#collapseOnezzz ul.nav li.nav-item {
+    list-style: none;
+}
+div#collapseOnezzz .nav-tabs .nav-item.show .nav-link, div#collapseOnezzz .nav-tabs .nav-link.active {
+    background-color: transparent;
+    border: none;
+}
+div#collapseOnezzz .nav-tabs {
+    border-bottom: none;
+}
+div#collapseOnezzz .nav-tabs, div#collapseOnezzz .nav-item , div#collapseOnezzz .nav-link{
+    border: 0;
+}
+
+div#collapseOnezzz .nav-tabs {
+    display: flex;
+    gap: 20px;
+}
+div#collapseOnezzz ul {
+    padding-left: 0;
+}
+div#collapseOnezzz .nav-link {
+    padding: 0;
+    color: #AEADAD;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+}
+div#collapseOnezzz .nav-link.active{
+    color: var(--Qure-Black, #000);
+    text-decoration: underline;
+}
+.dark_line{
+    background: #DEDEDE;
+    height: 1px;
+    width: 100%;
+    margin: 20px 0;
+}
+.featured_in h5{
+    text-transform: uppercase;
+    color: #D9D9D9;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 15.682px;
+    letter-spacing: 1.12px;
+    padding-top: 40px;
+    margin-bottom: 0;
+}
+
+
 @media(min-width:768px){
+    .maximize_benefits .container .row{
+        width: 100%;
+    }
+    .anti_aging_box{
+        border-radius: 8px;
+        border: 1px solid var(--Qure-Light-Green, #C7E7DC);
+        background: #FFF;
+        box-shadow: 0px 5px 15px 0px rgba(176, 176, 176, 0.25);
+    }
+    .how_it_words_right {
+        padding: 0 40px;
+    }
     .use_three_steps_wrapper {
-        gap: 70px;
+        gap: 80px;
         padding-left: 70px;
     }
     .use_three_steps_wrapper .actVideo_block {
@@ -1117,11 +1400,20 @@
 
 
 @media(max-width:767px) {
+    .maximize_benefits .container {
+        justify-content: center;
+        align-items: start;
+    }
+    .how_it_words_right .nav-item .nav-link {
+        padding: 10px 5px;
+        font-size: 13px;
+        letter-spacing: 0.13px;
+        height: 30px;
+        width: 150px;
+    }
     .use_three_steps_wrapper .actVideo_block{
         padding: 0 20px;
-    }
-    .timeline {
-        margin-top: 50px;
+        order: 2;
     }
     .progessInfo {
         font-size: 16px;
@@ -1461,4 +1753,16 @@
 }
 main.mi_refill1.mi-pdp .shipping.shipping_bg {
     padding: 0;
+}
+
+
+
+@media(max-width:374px){
+    .how_it_words_right .nav-item .nav-link {
+        padding: 2px;
+        font-size: 10px;
+        letter-spacing: 0.13px;
+        height: 30px;
+        width: 115px;
+    }
 }
