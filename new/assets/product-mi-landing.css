@@ -612,6 +612,34 @@ main.mi_lp .supply_steps .step_block .serum_prd .serum_img img {
     padding: 10px 10px 50px 10px;
     border-radius: 25px;
 }
+.pre_order {
+    background: rgba(0, 0, 0, 0.20) !important;
+}
+.ctm_cls_next_batch_mi_lp h5{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.13px;
+    margin-bottom: 2px;
+}
+.choose_serum .cs_item__accordion {
+    font-size: 12px;
+}
+.step_conten_blocks a.planBlock:nth-child(3)  .monthly_plans .price {
+    font-weight: 500;
+}
+.step_conten_blocks a.planBlock:nth-child(3) input:checked+.monthly_plans .plan_prc.sale_price{
+    font-weight: 500;
+}
+.choose_serum .u_item__hidden-div p {
+    font-size: 10px;
+}
+
+
+
+
+
+
 
 @media(min-width:768px){
     .new_updated_treatment_outer .pmtBlock .pmt_plans {
@@ -623,6 +651,9 @@ main.mi_lp .supply_steps .step_block .serum_prd .serum_img img {
 }
 
 @media(max-width:767px){
+    .new_updated_treatment_outer .btn.btn-atc {
+        font-size: 22px;
+    }
     .new_updated_treatment_outer .monthly_supply {
         padding: 8px 8px 14px 7px;
     }

@@ -32370,4 +32370,38 @@ picture img {
     max-height: 388px;
     object-fit: contain
 }
+.ctm_thumbnail_swiper .swiper {
+    max-width: calc(100% - 70px);
+    margin: 15px auto;
+    overflow: hidden;
+}
+.ctm_thumbnail_swiper{
+    position: relative;
+}
+.ctm_thumbnail_swiper .swiper-prev,
+.ctm_thumbnail_swiper .swiper-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 90.323px;
+    border: 1.1px solid var(--Qure-Light-Grey, #F3F3F3);
+    background: #FFF;
+    box-shadow: 0 0 3.613px rgba(0, 0, 0, 0.25);
+    padding: 5px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10; 
+}
 
+/* Left arrow */
+.ctm_thumbnail_swiper .swiper-prev {
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+/* Right arrow */
+.ctm_thumbnail_swiper .swiper-next {
+    right: 0;
+    transform: translate(6%, -50%);
+}

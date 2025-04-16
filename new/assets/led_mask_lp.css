@@ -33,11 +33,10 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
-.user_report_wrap .progressCont {
+.ctm_cls_led_mask_progress .user_report_wrap .progressCont {
     width: 100%;
 }
-.user_report_wrap .progressCont p {
+.ctm_cls_led_mask_progress .user_report_wrap .progressCont p {
     color: #000;
     font-weight: 400;
     text-align: center;
@@ -46,7 +45,7 @@
 .tooltip_btn {
     width: 100%;
 }
-
+.ctm_cls_led_mask_progress 
 .user_report_wrap {
     display: flex;
     align-items: center;
@@ -187,6 +186,7 @@
 .led_lp .single_step .section_header h2.title-lg.paddingB {
     font-size: 30px;
     line-height: 45px;
+    padding-bottom: 10px;
 }
 
 
@@ -343,6 +343,7 @@
     border: none;
     cursor: pointer;
     border-radius: 50px;
+    font-weight: 500;
   }
   .product_bundle .select_bundle{
     position: relative;
@@ -765,6 +766,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 120%;
+    letter-spacing: 0;
 }
 .img_dv_free_neck {
     max-width: 90px;
@@ -836,14 +838,16 @@
     padding: 13px 0px;
 }
 .q_uses_desczzz {
-    margin-top: 20px;
+    margin-top: 6px;
 }
+.ctm_cls_led_mask_progress 
 .user_report_wrap {
     display: unset;
     border-radius: 16px;
     background: rgb(251 251 251);
     box-shadow: none;
 }
+.ctm_cls_led_mask_progress 
 .user_report_wrap .progressCont {
     text-align: start;
     margin-bottom: 10px;
@@ -861,6 +865,10 @@
     place-items: center;
     border-top: 1px solid var(--Qure-Light-Green, #C7E7DC);
     padding: 10px;
+    height: 65px;
+}
+.product_bundle .product_bundle-content .product_details h2 {
+    line-height: normal;
 }
 .learn_more_prod a {
     font-size: 10px;
@@ -1154,22 +1162,29 @@
     letter-spacing: 0.14px;
     margin-bottom: 12px;
 }
-
-
-
+.faq_technical .accordion-item p {
+    padding: 3px 0;
+}
+.faq_technical .accordion-button:not(.collapsed){
+    box-shadow: none;
+}
+.faq_technical .accordion-body{
+    padding-top: 0;
+}
 
 /* how it works end */
 
 /* light therapy start */
 .faq_technical .accordion-button .container{
-    position: relative;
-    font-size: 13px;
+    color: var(--Qure-Black, #000);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
     line-height: 24px;
-    font-weight: 600;
-    padding-left: 0;
+    letter-spacing: 0.14px;
 }
 .faq_technical .container{
-    padding: 0;
+    padding: 0 !important;
 }
 .faq_technical .accordion-item {
     border: none;
@@ -1192,19 +1207,33 @@
     font-size: 25px;
     display: inline-block;
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 17px;
+    top: 17px;
     font-weight: 600;
 }
-.faq_technical button.accordion-button{
-    background: #fff;
+.accordion-item:last-of-type .accordion-button.collapsed {
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.single_step .faq_technical button.accordion-button{
     border-radius: 8px;
+}
+.single_step .accordion-button:not(.collapsed) {
+    background-color: #fff;
 }
 .faq_technical .accordion-button:not(.collapsed){
     color: #000;
 }
 /* light therapy end */
-
+div#collapseTech1 a{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px; 
+    letter-spacing: 0.14px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+}
 
 /* trusted recom */
 .trusted_cl_m .play_btn {
@@ -1228,7 +1257,7 @@
     display: grid;
     grid-template-columns: 21px 1fr;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
     text-transform: uppercase;
     color: var(--Qure-Grey, #797D7C);
     font-size: 15px;
@@ -1236,10 +1265,10 @@
     font-weight: 500;
     line-height: 140%;
     letter-spacing: 0.32px;
-    width: max-content;
 }
 .trusted_cl_m .play_btn h6 {
     font-size: 14px;
+    font-weight: 400;
 }
 .trusted_recom .trusted_left .title-lg {
     font-size: 32px;
@@ -1274,8 +1303,14 @@
     padding: 0.25rem 0.5rem;
     border-radius: 0.5rem;
   }
-  .check-list i {
-  }
+  h5.preorder_txt {
+    color: var(--Qure-Black, #000);
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+}
   .maximize_benefits{
     position: relative;
   }
@@ -1295,17 +1330,25 @@
 .maximize_benefits .price-badge {
     color: #fff;
     font-size: 14px;
-    padding: 0.25rem 0.5rem;
+    padding: 11px 5px;
     border-radius: 666px;
     background: var(--Qure-Dark-Green, #008763);
     font-weight: 400;
+    width: 130px;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    line-height: 0;
 }
 .maximize_benefits .check-list span {
     font-size: 13px;
 }
 .led_mask_btn img {
     filter: invert(1);
-    margin-left: 2px;
+    margin-left: 4px;
+    margin-top: -3px;
 }
 /* maximize_benfits */
 
@@ -1360,9 +1403,110 @@ div#collapseOnezzz .nav-link.active{
     padding-top: 40px;
     margin-bottom: 0;
 }
+.learn_more_prod a:hover{
+    color: #000;
+}
+.product_bundle .buy-now img{
+    filter: invert(1);
+    margin-left: 10px;
+}
+main.qurify_lp.led_lp .product_bundle .buy-now {
+    max-width: 451px;
+    height: 62px;
+    margin: 0 auto;
+}
+.rtt__page-scrolling-content:before {
+    z-index: 9;
+}
+.ctm_cls_vid_new .pagination_navigation {
+    max-width: 300px;
+}
+div#collapseOnezzz .accordion-body .accordion-item p {
+    padding: 5px 0;
+}
+.treat_tech_details p {
+    display: flex;
+    gap: 10px;
+    align-items: start;
+}
+.max_ben{
+    border-radius: 8px;
+}
+.maximize_benefits .old-price{
+    font-size: 20px;
+    font-weight: 500;
+}
+.free_text{
+    font-size: 22px;
+    font-weight: 600;
+}
+.led_lp .bs_item h4 {
+    font-size: 24px;
+    line-height: 150%;
+}
+.price_ctm{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 100%;
+}
+.bs_feature ul li{
+    display: flex;
+    align-items: center;
+}
+.tootltip_text {
+    font-size: 13px;
+    line-height: 22px;
+}
+.trusted_cl_m .t_m_img {
+    border: 2px solid transparent;
+    box-shadow: none;
+    border-radius: 28px;
+}
+.mfp-iframe-scaler iframe {
+    border-radius: 20px;
+}
+.faq .accordion-button .container {
+    font-size: 14px;
+}
+.faq .accordion-body .container p{
+    padding: 10px 0;
+}
+.modal.fade .modal-dialog{
+    padding-top: 15px;
+}
+div#collapseOnezzz .tab-pane .col-4 p strong {
+    opacity: 0.8;
+    color: var(--Qure-Black, #000);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 200%; /* 28px */
+    letter-spacing: 0.3px;
+}
+.content_free_neck del {
+    color: rgba(0, 0, 0, 0.50);
+}
+.mi_landing_result .refill_review p {
+    font-size: 13px !important;
+}
+
+
+
+
+
+
+
+
 
 
 @media(min-width:768px){
+     .led_lp .bs_item h4 {
+        height: 66px;
+    }
+    .trusted_verified {
+        width: max-content;
+    }
     .maximize_benefits .container .row{
         width: 100%;
     }
@@ -1400,6 +1544,101 @@ div#collapseOnezzz .nav-link.active{
 
 
 @media(max-width:767px) {
+    .tooltip_info {
+        display: none;
+    }
+    .tooltip_info.visible {
+        display: block;
+    }
+    
+    .tootltip_text:hover .tooltip_info {
+        left: -102px;
+    }
+    .q_uses_bl .pagination_navigation {
+        max-width: 225px;
+        padding-bottom: 27px;
+    }
+    div#collapseOnezzz .tab-pane .col-4 p strong {
+        font-size: 13px;
+    }
+    .faq .accordion-button .container {
+        font-size: 13px;
+    }
+    .content_free_neck h5 {
+        margin: 6px 0;
+    }
+    .content_free_neck h5 {
+        max-width: 220px;
+    }
+    .maximize_benefits h2.title-lg {
+        letter-spacing: 0.28px;
+    }
+    .maximize_benefits .refill_review p {
+        font-size: 12px;
+    }
+    .shipping.shipping_bg {
+        padding: 7px 10px;
+    }
+    .rec_free_mask_led{
+        padding: 9px;
+    }
+    .trusted_cl_m .play_btn {
+        gap: 1px;
+    }
+    .step-label {
+        width: 85px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 19px;
+        line-height: 9px;
+    }
+    .steps_main h3.title-lg {
+        text-align: center;
+    }
+    .maximize_benefits .old-price {
+        font-size: 16.097px;
+    }
+    .free_text {
+        font-size: 17.706px;
+    }
+    .maximize_benefits .price-badge {
+        font-size: 11.268px;
+        width: 104px;
+    }
+    .trusted_recom .trusted_left .title-lg {
+        font-size: 24px;
+    }
+    .led_slider_vid_btn p {
+        font-size: 12px;
+    }
+    .OKwUu {
+        stroke-width: 5px !important;
+    }
+    .bs_feature ul li {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 16px; 
+        letter-spacing: 0.1px; 
+    }
+    .price_ctm{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px; 
+        letter-spacing: 0.18px;
+    }
+    .led_lp .bs_item h4 {
+        font-size: 18px;
+    }
+    .led_mask_btn {
+        font-size: 16px;
+    }
+    div#collapseOnezzz .nav-link {
+        font-size: 11px;
+    }
+    .videosQure_dropdown .pagination_navigation .swiper-button {
+        display: flex;
+    }
     .maximize_benefits .container {
         justify-content: center;
         align-items: start;
@@ -1451,7 +1690,7 @@ div#collapseOnezzz .nav-link.active{
         line-height: 38px;
     }
     .green_txt{
-        font-size: 12px;
+        font-size: 14px;
         font-style: normal;
         font-weight: 600;
         line-height: 150%;
@@ -1619,7 +1858,7 @@ div#collapseOnezzz .nav-link.active{
         font-size: 24px;
         line-height: 36px;
     }
-    .user_report_wrap {
+    .ctm_cls_led_mask_progress .user_report_wrap {
         flex-direction: column;
         padding: 30px 15px;
     }
@@ -1637,13 +1876,6 @@ div#collapseOnezzz .nav-link.active{
     .qurify_lp.led_lp .progressWrapper svg {
         height: 83px;
         width: 83px;
-    }
-
-    .qurify_lp.led_lp .thumbnail_qurify .title-lg,
-    .neck_led_bundle .title-lg,
-    .qurify_lp.led_lp .title-lg {
-        font-size: 24px;
-        line-height: 36px;
     }
 
     .qurify_lp.led_lp .get_clearer_wrapper p {
@@ -1698,7 +1930,6 @@ div#collapseOnezzz .nav-link.active{
 
     .faq .accordion-item {
         border-bottom: 1px solid #DEDADA;
-        padding: 0 10px;
     }
     .led_mask2 .refill_review p {
         font-size: 12px;
@@ -1756,13 +1987,17 @@ main.mi_refill1.mi-pdp .shipping.shipping_bg {
 }
 
 
-
+@media(max-width:425px){
+    .led_lp .bs_item h4 {
+        font-size: 16px;
+    }
+}
 @media(max-width:374px){
     .how_it_words_right .nav-item .nav-link {
         padding: 2px;
-        font-size: 10px;
+        font-size: 12px;
         letter-spacing: 0.13px;
         height: 30px;
-        width: 115px;
+        width: 143px;
     }
 }

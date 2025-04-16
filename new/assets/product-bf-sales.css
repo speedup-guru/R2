@@ -518,7 +518,287 @@
     padding-bottom: 10px;
 }
 
+/* updated design css start */
+.bef_price{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    vertical-align: middle;
+    text-decoration: line-through;
+
+}
+.aft_price{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 1%;
+    vertical-align: middle;
+    color: #C92127;
+}
+.discount_percentage_new {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    border-radius: 66px;
+    padding: 8px 10px;
+    gap: 10px;
+    background: #008763;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 1%;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+}
+.faq .accordion-button {
+    padding:0;
+}
+.refill_bl .refill_info {
+    padding-bottom: 10px;
+}
+.certified_derm {
+    padding: 7px 14px;
+}
+
+
+
+
+
+
+
+
+
+
+.holiday-banner {
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #C7E7DC;
+    border-radius: 4px;
+    padding: 16px 20px;
+    max-width: 700px;
+    background-color: #fff;
+    box-shadow: 0px 5px 15px 0px #B0B0B026;
+}
+  
+  .banner-left {
+    display: flex;
+    align-items: center;
+  }
+  .icon-circle {
+    width: 30px;
+    height: 30px;
+    background-color: #008763;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 18px;
+    margin-right: 10px;
+}
+  
+.banner-text p {
+    margin: 0;
+    font-size: 12px;
+    color: #000;
+    line-height: 1.4;
+}
+.shop-button {
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 100px;
+    text-decoration: none;
+    font-weight: 500;
+    width: 185px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    gap: 5px;
+}
+.shop-button img {
+    width: 10px;
+}
+.bndl_pdp_outer .bndl_pdp_new a.btn {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    height: 53px;
+    width: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bndl_pdp_outer .payment_method p {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 17.33px;
+    letter-spacing: 0.11px;
+}
+.bndl_pdp_outer .payment_method{
+    padding: 6px 0;
+}
+.bndl_pdp_outer .bndl_pdp_new .bundle_price {
+    gap: 15px;
+}
+.app_press .press_bl {
+    max-width: 924px;
+}
+.app_press_slider .app_press_sl_img .swiper-wrapper {
+    justify-content: space-between;
+    align-items: center;
+}
+.press_bl .p_bl_header p {
+    color: #D9D9D9;
+}
+.faq .accordion-button .container:after {
+    font-weight: 300;
+    right: 4px;
+    top: 12px;
+}
+.faq .accordion-item {
+    border-color: #c7e7dc;
+}
+.faq .accordion-item:last-child {
+    border-bottom: 1px solid #c7e7dc;
+    border-radius: 0;
+}
+.app_press .app_subhheading {
+    font-size: 26px;
+}
+.ss_list p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    letter-spacing: 0.16px;
+    vertical-align: middle;
+}
+.realResultSlider .swiper-slide {
+    border-radius: 8px;
+    overflow: hidden;
+}
+.mw-430{
+    max-width: 430px;
+}
+
+.faq .accordion-body .container p, .faq .accordion-item ul li {
+    font-weight: 300;
+}
+.bndl_pdp_outer .swiper-button:after {
+    padding: 14px 18px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 3.7px 0px #00000040;
+    border: 1.13px solid var(--Qure-Light-Grey, #F3F3F3);
+}
+.ctm_swiper_outer .thumbsSlider_wrap {
+    max-width: 80%;
+    margin: 0 auto;
+}
+.ctm_swiper_outer .thumbsSlider_wrap .swiper-thumbs {
+    max-width: calc(100% - 110px);
+}
+.ctm_swiper_outer .ctm_swiper_main_images .swiper-slide, .ctm_swiper_outer .ctm_swiper_main_images .swiper-slide * {
+    border-radius: 8px;
+    overflow: hidden;
+}
+.bndl_pdp_outer .refill_review p {
+    font-size: 14px;
+    line-height: 200%;
+}
+/* updated design css end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:768px){
+    .bndl_pdp_outer .pmt_img img {
+        max-width: 50px;
+    }
+    .shipping .s_bx p {
+        font-size: 12px;
+    }
+}
+
+
+
 @media(max-width:767px) {
+    /* .refill_bl.bndl_pdp_outer h1.title-lg.save_hair {
+        font-size: 34px;
+    } */
+     .ss_list p{
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 22px;
+        letter-spacing: 1%;
+        vertical-align: middle;
+     }
+    .bndl_pdp_outer .refill_review p {
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 0.16px;
+    }
+    .bndl_pdp_outer .swiper-button:after {
+        padding: 7px 11px;
+    }
+    .ctm_swiper_outer .thumbsSlider_wrap {
+        max-width: 100%;
+    }
+    .ctm_swiper_outer .thumbsSlider_wrap .swiper-thumbs {
+        max-width: calc(100% - 77px);
+    }
+    .bndl_pdp_outer .bndl_pdp_new .bundle_price{
+        gap: 5px;
+    }
+    .faq .accordion-body {
+        padding: 0px 0 10px;
+    }
+    .shipping.shipping_bg {
+        padding: 7px 5px;
+    }
+    .shipping .s_bx img {
+        height: 18px;
+    }
+    .certified_derm img {
+        margin-right: 6px;
+    }
+    main .certified_derm p {
+        font-size: 10px;
+        letter-spacing: 0;
+    }
+    .app_press .app_subhheading {
+        font-size: 22px;
+    }
+    .press_bl .p_bl_header p {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .app_press_slider .app_press_sl_img .swiper-wrapper {
+        gap: 40px;
+    }
+    .bndl_pdp_outer .payment_method p {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 17.33px;
+    }
     .bf-bundles-section {
         padding: 27px 0;
     }
@@ -769,10 +1049,10 @@
     color: #fff;
     width: fit-content;
     border-radius: 30px;
-    padding: 0 11px;
-    font-size: 11px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 28px;
     font-weight: 300;
+    padding: 4px 13px;
 }
 
 .sale-bf-info {
@@ -800,7 +1080,7 @@
 .sale-bg-cont ul li {
     font-size: 11px;
     font-weight: 300;
-    line-height: 16px;
+    line-height: 22px;
     color: #000;
     opacity: 0.8;
     position: relative;

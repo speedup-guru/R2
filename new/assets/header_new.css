@@ -2146,7 +2146,7 @@ img.fa.fa-user.nav__icon {
     } */
 
     .mi-landing-page .header-new.new-hp-header {
-        justify-content: unset;
+        /* justify-content: unset; */
         border-bottom: none;
     }
 
@@ -2160,8 +2160,8 @@ img.fa.fa-user.nav__icon {
     }
 
     .mi-landing-page .header-new.new-hp-header .icon-section {
-        width: auto;
-        margin-left: auto;
+        width: auto; 
+        /* margin-left: auto; */
     }
 
     #shopify-section-serum-boost-section .boost-video.dekstop-view,
@@ -2272,7 +2272,7 @@ img.fa.fa-user.nav__icon {
     }
     
 /* button issue fixed css  */
-    .header-new {
+    /* .header-new {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -2283,15 +2283,31 @@ img.fa.fa-user.nav__icon {
         flex: 1;
         display: flex;
         justify-content: center;
-    }
-    .header-new.has-button .header-logo {
+    } */
+    /* .header-new.has-button .header-logo {
         justify-content: flex-start;
-    }
-    li.new-menu:empty {
+    } */
+    /* li.new-menu:empty {
         display: none;
     }
     .header-new.has-button .mobile-menu-custome {
         width: 45px;
+    }
+    .header-new.has-button .icon-section {
+        width: auto;
+    }
+  */
+
+
+    /* new css    */
+    .header-new .header-logo {
+        width: auto;
+    }
+    .mobile-menu-custome {
+        width: 45px;
+    }
+    .header-new .icon-section {
+        width: auto;
     }
 }
 
