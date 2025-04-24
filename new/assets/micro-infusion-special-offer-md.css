@@ -1,0 +1,1232 @@
+/* mothers day countdown css starts   */
+.mothers_day_header {
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+    padding: 30px 70px;
+}
+.offer-button {
+    background-color: #f97316;
+    border-radius: 999px;
+    border: none;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 0;
+    text-transform: capitalize;
+    width: 249px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offer-text {
+    color: var(--Qure-Black, #000);
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 0.9;
+}
+.countdown-label {
+    color: var(--Qure-Black, #000);
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 0.9;
+    margin-bottom: 14px;
+}
+.countdown_timer {
+    color: var(--Qure-Black, #000);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 0.9;
+    text-transform: capitalize;
+}
+/* mothers day countdown css end */
+
+ /* mothers day skin care start  */
+ .text-teal {
+    color: var(--Qure-Dark-Green, #008763);
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+.text-teal:hover{
+    color: var(--Qure-Dark-Green, #008763);
+    cursor: pointer;
+}
+  .check-list li {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  .award-badge {
+    width: 90px;
+    height: auto;
+  }
+  .youthful_skin {
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 0.36px;
+    line-height: 140%;
+    padding-top: 20px;
+    padding-bottom: 22px;
+}
+.happy_cust_mothers_day{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px; 
+    letter-spacing: 0.2px;
+}
+.review_count img {
+    height: 16px;
+}
+.skincare-section p.more_for_women {
+    color: var(--Qure-Black, #000);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 200%;
+    letter-spacing: 0.2px;
+}
+ul.smoothes_fine li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    color: var(--Qure-Black, #000);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+}
+ul.smoothes_fine li img {
+    margin-right: 8px;
+}
+  
+ /* mothers day skin care end */
+ .award_winning_skincare strong {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 200%;
+    letter-spacing: 0.2px;
+}
+ .award_winning_skincare p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 200%; 
+    letter-spacing: 0.2px;
+ }
+/* benefit callout */
+.benefit-callout {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .benefit-wrapper {
+    position: relative;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .face-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+  }
+  
+  .benefit-tag {
+    position: absolute;
+    background-color: #D0F1E1;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    white-space: nowrap;
+    color: #000;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+}
+  
+  /* Dot on LEFT */
+  .dot-left::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-color: #000;
+    border-radius: 50%;
+    border: 4px solid #A4BDB6; 
+}
+  
+  /* Dot on RIGHT */
+  .dot-right::after {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-color: #000;
+    border-radius: 50%;
+    border: 4px solid #A4BDB6;
+  }
+  
+  /* Tag positions */
+  
+  /* LEFT TAGS */
+  .tag-top-left {
+    top: 15%;
+    left: 17%;
+}
+.tag-middle-left {
+    top: 36%;
+    left: 8%;
+}
+  .tag-bottom-left {
+    top: 56%;
+    left: 15%;
+}
+  
+  /* RIGHT TAGS */
+  .tag-top-right {
+    top: 15%;
+    right: 8%;
+}
+.tag-middle-right {
+    top: 37%;
+    right: 10%;
+}
+.tag-bottom-right {
+    top: 56%;
+    right: 8%;
+}
+  
+/* benefit callout */
+
+.mothers_day_review .skincare_right{
+    padding-left: 10px;
+}
+
+/* secret to better skin  */
+.secret_to_better_skin {
+  background-color: #000; 
+}
+.better_skin_subtitle {
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 120%;
+}
+.better_skin_text p {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+.secret_heading_wrapper{
+  max-width: max-content;
+}
+.better_skin_device {
+  max-width: 100%;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+/* Secret to Better Skin */
+.better_skin_text p,
+.better_skin_info p,
+.results_intro p,
+.results_disclaimer p,
+.results_bottom p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 200%;
+  letter-spacing: 0.2px;
+}
+
+.results_subheading,
+.results_bottom h4 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 120%;
+}
+/* Secret to Better Skin end */
+
+
+/* Five Minute Treatment */
+.circle_anim_text {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0.2px;
+  margin-top: 24px;
+}
+
+.results_intro p {
+  padding-bottom: 40px;
+}
+
+.results_disclaimer p {
+  text-align: center;
+}
+
+.results_bottom p {
+  margin-bottom: 16px;
+}
+
+/* five minute treatment end */
+
+  /* menupause  */
+  .menopause-heading {
+    line-height: 120%;
+}
+  .menopause-image-wrapper {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .menopause-intro p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 200%;
+    letter-spacing: 0.2px;
+    margin-bottom: 15px;
+}
+  .menopause-benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .benefit {
+    display: flex;
+    gap: 20px;
+    max-width: 552px;
+    margin: 0 auto;
+}
+  .benefit {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    max-width: 552px;
+    margin: 0 auto;
+}
+  .menopause-benefits .benefit img {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+  }
+  .benefit-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 200%; 
+    letter-spacing: 0.22px;
+}
+
+.benefit-description {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 200%;
+  letter-spacing: 0.2px;
+}
+  
+  .menopause-footer {
+    margin-top: 30px;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: left;
+  }
+  .menopause-footer p{
+    color: var(--Qure-Black, #000);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 200%;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+.mi_landing_result .result_c_info .star_gp p {
+  line-height: 14px;
+} 
+
+  /* menupause end */
+
+  .celebrity_approved_item {
+    text-align: center;
+}
+.celebrity_approved_item img {
+  margin-bottom: 5px;
+}
+.celebrity_approved_item h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 200%;
+  letter-spacing: 0.24px;
+  margin-bottom: 0;
+}
+.celebrity_approved_item P {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0.2px;
+}
+.cel_app_grid {
+  grid-template-columns: 1fr 1fr 1.2fr;
+}
+
+/* Leading derm   */
+.derm-section {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.derm-badge {
+  display: inline-flex;
+  border-radius: 666px;
+  border: 1px solid var(--Qure-Light-Green, #C7E7DC);
+  background: var(--Qure-Light-Grey, #F3F3F3);
+  box-shadow: 0px 3px 8px 0px rgba(176, 176, 176, 0.18);
+  padding: 4px 16px;
+  gap: 8px;
+  color: var(--Qure-Black, #000);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 200%;
+  letter-spacing: 0.12px;
+  align-items: center;
+  margin-bottom: 22px;
+}
+.derm-subheading {
+  margin-bottom: 40px;
+  color: var(--Qure-Black, #000);
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 120%;
+}
+.derm-badge img {
+  width: 20px;
+  height: 20px;
+}
+.derm-heading {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.derm-testimonial {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  margin-bottom: 20px;
+  gap: 20px;
+  text-align: left;
+  border-radius: 10px;
+  border: 1px solid #C7E7DC;
+  background: #FFF;
+  box-shadow: 0px 3.3px 8.8px 0px rgba(176, 176, 176, 0.18);
+}
+.derm-text {
+  flex: 1;
+}
+.derm-photo {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.quote {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%; 
+  letter-spacing: 0.2px;
+}
+.author {
+  font-size: 14px;
+  color: #555;
+}
+.author .name {
+  color: var(--Qure-Dark-Green, #008763);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 120%;
+}
+.board_cert{
+  color: var(--Qure-Black, #000);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 120%;
+}
+/* Leading derm  end */
+
+/* how does it work start */
+.secret_subheading{
+  color: var(--Qure-Black, #000);
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 120%; 
+  text-transform: capitalize;
+}
+.why_does_work p{
+  padding-bottom: 18px;
+}
+/* how does it work end */
+
+.serum-card {
+  border-radius: 10px;
+  border: 2px solid var(--Qure-Light-Green, #C7E7DC);
+  background: #FFF;
+  box-shadow: 0px 5px 15px 0px rgba(176, 176, 176, 0.25);
+  max-width: 1068px;
+  margin: 60px auto;
+}
+.serum-card ul li span {
+  color: var(--Qure-Black, #000);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0.2px;
+}
+.serum-image {
+  max-width: 250px;
+  width: 100%;
+}
+/* step section  */
+
+.step-label {
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 0.5rem;
+}
+
+.step-section h2 {
+  font-size: 28px;
+}
+
+.step-list li span {
+  color: var(--Qure-Black, #000);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+
+.step-list img {
+  flex-shrink: 0;
+}
+.prep_title{
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 120%; 
+}
+.step_section .row {
+  margin-bottom: 70px;
+}
+.step_section .row:last-of-type {
+  margin-bottom: 0;
+}
+
+/* step section  */
+
+/* Why Women Love It start */
+.why_women_love_heading {
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+.why_women_love_content p, .why_women_love_content ul li {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 200%;
+  letter-spacing: 0.2px;
+}
+.why_women_love_content p, .why_women_love_content ul {
+  margin-bottom: 35px;
+}
+.why_women_love_content ul li {
+  list-style: disc;
+}
+.why_women_love_content ul{
+  padding-left: 25px;
+}
+.sbf_heading_wrapper {
+  max-width: 950px;
+  margin: 0 auto;
+  width: 100%;
+}
+.science_backed_formulation_content {
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+}
+.science_backed_formulation_content p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 200%;
+  letter-spacing: 0.2px;
+  margin-bottom: 25px;
+}
+
+/* Why Women Love It end */
+
+/* uneven skin start */
+.step-number {
+  color: var(--Qure-Black, #000);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 120%;
+}
+.uneven_skin_tone p {
+  color: var(--Qure-Black, #000);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 200%;
+  letter-spacing: 0.2px;
+  margin-bottom: 13px;
+}
+.uneven_skin_tone ul li {
+  margin-bottom: 10px;
+}
+.dark_spots_main p {
+  color: var(--Qure-Black, #000);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 120%;
+}
+.name_jessie{
+  color: var(--Qure-Dark-Green, #008763);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 120%;
+}
+.dark_spots_main h3 {
+  color: var(--Qure-Black, #000);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.2px;
+}
+.dark_spots_main {
+  padding: 40px 30px;
+  border-radius: 10px;
+  border: 1px solid var(--Qure-Light-Green, #C7E7DC);
+  background: #FAFAFA;
+  width: 100%;
+  margin: 0 auto;
+}
+.uneven_ctm_des{
+  border-radius: 10px;
+  border: 2px solid var(--Qure-Light-Green, #C7E7DC);
+  background: #FFF;
+  box-shadow: 0px 5px 15px 0px rgba(176, 176, 176, 0.25);
+}
+.rich_skin_content p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0.2px;
+  margin-bottom: 10px;
+}
+.works_for_rich_skin.section .dr_alexis{
+  color: var(--Qure-Dark-Green, #008763);
+  font-size: 18px;
+  font-weight: 600; 
+  line-height: 120%; 
+}
+
+/* uneven skin end */
+
+/* what does feel    */
+  .what_does_feel_content p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 200%;
+    letter-spacing: 0.2px;
+    margin-bottom: 10px;
+}
+/* what does feel    */
+
+
+/* wondering right  */
+.wondering_ryt_content {
+  padding: 80px 120px;
+  border-radius: 20px;
+  border: 2px solid var(--Qure-Light-Green, #C7E7DC);
+  background: #FFF;
+  box-shadow: 0px 5px 15px 0px rgba(176, 176, 176, 0.25);
+}
+.wondering_ryt_content h3 {
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 120%;
+}
+.wondering_ryt_content p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 200%;
+  letter-spacing: 0.2px;
+  margin-bottom: 15px;
+}
+/* wondering right  */
+
+/* celebrity_approved_item */
+p.name_shani {
+  color: var(--Qure-Dark-Green, #008763);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 120%;
+}
+.without_risk{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 200%;
+  letter-spacing: 0.2px;
+}
+.compare_section .compare_listRow:before{
+  display: none;
+}
+.compare_list_elements.active:before {
+  content: '';
+  display: block;
+  height: calc(100%);
+  width: 100%;
+  background: #CBF1E4;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  left: 0;
+  border-radius: 8px 8px 0px 0px;
+}
+.compare_list_elements {
+  padding: 0;
+}
+.compare_listRow .compare_listHeadings {
+  padding: 0;
+}
+.compare__titleBlock {
+  border-bottom: 1px solid var(--Qure-Light-Grey, #F3F3F3);
+  margin-bottom: 0;
+  align-items: center;
+  padding: 24px 0;
+  height: 70px;
+  justify-content: start;
+}
+.compare_list_column .swiper-slide:last-child .compareTxt__element:before {
+  display: none;
+}
+.compare_list_column .compare__titleBlock {
+  padding-left: 15px;
+}
+.compare__title {
+  display: flex;
+  gap: 10px;
+  color: var(--Qure-Black, #000);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 200%;
+  letter-spacing: 0.2px;
+  font-family: 'poppins' !important;
+  align-items: center;
+}
+.compare__titleBlock .compare__title strong {
+  font-family: 'Poppins';
+}
+.compare__titleBlock .compare__title {
+  color: var(--Qure-Black, #000);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0.2px;
+  margin-bottom: 0;
+}
+.compare_list_elements.active:before {
+  border-radius: 0;
+}
+.ctm_month h5 {
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 40.8px;
+  margin-bottom: 0;
+}
+.ctm_month p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32.4px;
+  letter-spacing: 0.18px;
+  padding: 12px 0;
+}
+.ctm_month {
+  display: flex;
+  align-items: flex-start;
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 50px 0 0;
+}
+.ctm_month span {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  letter-spacing: 0.18px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  background: #FA6F0B;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.12);
+  padding: 10px 16px;
+  display: inline-block;
+  color: #fff;
+}
+.border_row {
+  position: relative;
+}
+.border_row .border_verticle {
+  background: #797D7C;
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+.border_row .border_horizontal {
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  background: #797D7C;
+  bottom: 0;
+  left: 0;
+}
+.ctm_list {
+  padding: 32px 40px;
+}
+.ctm_list ul li {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.2px;
+}
+.compare_listRow .compare_listHeadings {
+  width: 170px;
+}
+/* want even better  */
+.want_even_better_content p {
+  color: var(--Qure-Black, #000);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 200%;
+  letter-spacing: 0.2px;
+  margin-bottom: 35px;
+}
+.benefits_include p {
+  margin: 0;
+}
+.benefits_include ul li {
+  color: var(--Qure-Black, #000);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 200%;
+  letter-spacing: 0.2px;
+}
+.benefits_include ul li img {
+  margin-right: 15px;
+}
+.want_even_better_wrapper {
+  border-radius: 12px;
+  background: #EEF7F4;
+  padding: 72px 48px;
+}
+.want_even_better_inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.want_even_better .result_s .result_s_wrapper .result_item {
+  background: #fff;
+}
+.every_two_weeks{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 200%;
+  letter-spacing: 0.2px;
+  margin-bottom: 25px;
+}
+.love_the_results .sbf_heading_wrapper h3 {
+  line-height: 120%;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+.love_the_results_wrapper {
+  border-radius: 12px;
+  border: 5px dashed var(--Qure-Dark-Green, #008763);
+  padding: 72px 48px;
+  position: relative;
+}
+.satisfaction_logo {
+  position: absolute;
+  right: -65px;
+  top: -77px;
+}
+.love_the_results_wrapper p:last-child {
+  margin: 0;
+}
+.love_the_results_wrapper .sbf_heading_wrapper {
+  margin-bottom: 16px;
+}
+
+/* want even better  */
+/* try qure skin free  */
+.try_qure_risk_free_content .effects_youthful_skin{
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 120%; 
+  text-transform: capitalize;
+}
+.try_qure_risk_free_content p{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 200%; 
+  letter-spacing: 0.2px;
+}
+.risk_free_qure{
+  line-height: 140%; 
+}
+.try_qure_risk_free_content ul li {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 200%;
+  letter-spacing: 0.2px;
+  list-style: disc;
+}
+.try_qure_risk_free_content ul {
+  padding-left: 25px;
+  margin-bottom: 18px;
+}
+.women_transform_skin p{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 200%; 
+  letter-spacing: 0.2px;
+}
+.women_transform_skin p {
+  margin-bottom: 20px;
+}
+
+
+/* try qure skin free end */
+
+.gift_youthful_skin{
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 120%; 
+  text-transform: capitalize;
+}
+.offer-button_below {
+  background-color: #FA6F0B;
+} 
+.offer_banner_below {
+  background: #FFF;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+  padding: 30px;
+  border-radius: 20px;
+  border: 4px dashed #03B020;
+}
+.choosing_your_savings_item {
+  padding: 24px;
+  border-radius: 8px;
+  background: #FFF;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.border_orange {
+  border: 4px solid #FA6F0B;
+}
+.choosing_your_savings_item h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.24px;
+  margin: 3px;
+}
+p.mi_treat {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+  margin-bottom: 24px;
+}
+p.treatment_text {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0.16px;
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+p.off_text {
+  border-radius: 28.696px;
+  border: 1.304px solid var(--Qure-Black, #000);
+  background: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 30px;
+  margin: 15px auto 8px;
+}
+p.you_save {
+  color: #FA6F0B;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 100%;
+  letter-spacing: 0.16px;
+}
+a.mothers_offer_buy_now {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.018px;
+  letter-spacing: 0.18px;
+  border-radius: 100px;
+  background: var(--Qure-Black, #000);
+  display: flex;
+  width: 228px;
+  padding: 14px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin: 24px auto 0;
+  color: #fff;
+}
+.border_green {
+  border: 4px solid #03B020;
+}
+.border_lime {
+  border: 1px solid var(--Qure-Light-Green, #C7E7DC);
+}
+.choosing_your_savings_item img{
+  max-width: 193px;
+}
+.best_offer {
+  width: 160px;
+  height: 44px;
+  border-radius: 8px 8px 0px 0px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 16px 0 auto;
+  color: #FFF;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px; 
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+}
+.bg_orange{ 
+  background: #FA6F0B;
+}
+.bg_green{
+  background: #03B020;
+}
+.every_order_heading{
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 120%; 
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.every_order_comes_text p{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 200%; 
+  letter-spacing: 0.2px;
+}
+.every_order_comes_with_wrapper{
+  background: #FAFAFA; 
+  padding: 40px 0px;
+}
+.still_any_help p, .still_any_help a, .for_ninety_days p{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+}
+.mothers_day_faqs .accordion-body .container p, .mothers_day_faqs .accordion-button .container{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 180%; 
+  letter-spacing: 0.2px;
+}
+.mothers_day_faqs .section_header p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 200%; 
+  letter-spacing: 0.18px;
+}
+.marquee-item-list li {
+  padding-right: 65px;
+}
+span.features_text {
+  color: var(--Qure-Black, #000);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.skin_item_header {
+  font-weight: 300;
+}
+.ss_list ul li {
+  font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+@media(min-width:768px){
+
+  .want_even_better .swiper-wrapper {
+    justify-content: center;
+    gap: 12px;
+  }
+  .want_even_better .swiper-slide {
+    width: 47% !important;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 767px) {
+    .satisfaction_logo {
+      right: 50%;
+      top: -76px;
+      width: 140px;
+      height: 140px;
+      transform: translate(50%, 0);
+  }
+  .satisfaction_logo img {
+    transform: rotate(-15deg);
+}
+    .love_the_results_wrapper {
+      border: 5px dashed #03B020;
+      padding: 60px 20px;
+  }
+    .want_even_better_wrapper {
+      padding: 60px 20px;
+  }
+    .ctm_month h5, .ctm_month p{
+      text-align: center;
+    }
+    .border_horizontal_mob{
+      background: #797D7C;
+      height: 1px;
+      margin: 32px 0;
+    }
+    .after_months_results .border_row {
+      border-radius: 10px;
+      border: 1px solid #000;
+      padding: 24px 16px;
+  }
+  .after_months_results .ctm_month {
+      padding: 0;
+  }
+  .after_months_results .ctm_list {
+      padding: 0;
+      padding-top: 20px;
+  }
+    .border_row .border_verticle, .border_row .border_horizontal{
+      display: none;
+    }
+    .compare_listRow .compare_listHeadings {
+      width: 125px;
+  }
+    .compare_listHeadings h4.compare__title {
+      font-size: 16px;
+  }
+    .wondering_ryt_content {
+      padding: 50px 20px;
+  }
+    .step_section .row {
+      margin-bottom: 50px;
+    }
+    .serum-card {
+      flex-direction: column-reverse;
+  }
+    .derm-text{
+      text-align: center;
+    }
+    .derm-testimonial {
+      padding: 16px;
+  }
+    .celebrity_approved_item {
+      margin-bottom: 70px;
+  }
+    .cel_app_grid {
+      grid-template-columns: 1fr;
+    }
+    .progressWrapper svg {
+      height: 83px;
+      width: 83px;
+  }
+    .countdown {
+      margin-top: 20px;
+    }
+    .mothers_day_header .container {
+        padding: 0 !important;
+    }
+    .mothers_day_header {
+        padding: 16px;
+    }
+    .youthful_skin {
+        padding-top: 14px;
+        padding-bottom: 6px;
+    }
+    ul.smoothes_fine li img {
+        height: 18px;
+    }
+    /* benefit callout  */
+    .benefit-tag {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8rem;
+      }
+    /* benefit callout end */
+  }

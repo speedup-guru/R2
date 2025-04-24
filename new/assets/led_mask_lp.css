@@ -798,38 +798,6 @@
     font-weight: 500;
 }
 
-
-.marquee-row {
-    width: 100%;
-    overflow-x: hidden;
-    padding: 20px 0;
-}
-  .marquee-block{
-    position:relative;
-    display: flex;
-    width: 100%;  
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    justify-content: space-between;
-  }
-  .marquee-item-list{
-   display: inline-flex;
-  }
-  .marquee-item-list li{
-  width: 100%;
-  list-style: none;
-  padding-right: 90px;
-  font-size: 40px;
-  white-space: nowrap
-  }
-  .marquee-row img {
-    height: 25px;
-}
-.endless_marquee .marquee-row {
-    max-width: 870px;
-    margin: 0 auto;
-}
 .q_uses_bl .q_uses_item-outer+.q_uses_item-outer:before {
     content: '';
     width: 0;
@@ -1490,13 +1458,60 @@ div#collapseOnezzz .tab-pane .col-4 p strong {
 .mi_landing_result .refill_review p {
     font-size: 13px !important;
 }
-
-
-
-
-
-
-
+.mothers_day_offer_prods {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    place-items: center;
+    max-width: 414px;
+    margin-top: 12px;
+    margin-bottom: 21px;
+}
+.limited_time_offer {
+    width: 199px;
+    height: 24px;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 18px;
+    text-transform: uppercase;
+    gap: 2px;
+}
+.buy_led_mask{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 120%; 
+}
+.mothers_day_offer {
+    max-width: 430.077px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid var(--Qure-Light-Green, #C7E7DC);
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+}
+.prod_dv{
+    position: relative;
+}
+.prod_dv p {
+    position: absolute;
+    right: 0;
+    bottom: -12px;
+    height: 18px;
+    border-radius: 3.424px;
+    background: #E3F7F0;
+    color: var(--Qure-Dark-Green, #008763);
+    font-size: 11.744px;
+    font-weight: 500;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mothers_day_offer_prods .prod_dv:last-child p {
+    width: 104px;
+}
+.prod_dv, .prod_dv img {
+    border-radius: 6px;
+}
 
 
 
@@ -1544,6 +1559,16 @@ div#collapseOnezzz .tab-pane .col-4 p strong {
 
 
 @media(max-width:767px) {
+    .buy_led_mask {
+        font-size: 11px;
+    }
+    .limited_time_offer {
+        width: 185px;
+        font-size: 10px !important;
+    }
+    .mothers_day_offer {
+        padding: 12px 15px;
+    }
     .tooltip_info {
         display: none;
     }
@@ -1659,18 +1684,6 @@ div#collapseOnezzz .tab-pane .col-4 p strong {
     }
     .q_uses_bl .q_uses_res {
         grid-template-columns: 1fr;
-    }
-    
-    .marquee1{animation-name: marquee1;}
-    @keyframes marquee1 {
-      0% { left: 0; }
-      100% {left: -100%;}
-    }
-    .marquee-item-list li {
-        padding-right: 50px;
-    }
-    .marquee-row img {
-        height: 22px;
     }
     .receive_free_mask{
         grid-template-columns: 1fr;
@@ -1838,7 +1851,7 @@ div#collapseOnezzz .tab-pane .col-4 p strong {
         font-size: 11px;
     }
     .include .include_pd-price {
-        align-self: center;
+        align-self: flex-start;
     }
     .include .include_stock p {
         font-size: 12px;

@@ -836,33 +836,6 @@ main.faucet_filter .you_know_shower_water img {
 /* press moving slider  */
 
 
-.marquee-row {
-    width: 100%;
-    overflow-x: hidden;
-    padding: 20px 0;
-}
-  .marquee-block{
-    position:relative;
-    display: flex;
-    width: 100%;  
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    justify-content: space-between;
-  }
-  .marquee-item-list{
-   display: inline-flex;
-  }
-  .marquee-item-list li{
-  width: 100%;
-  list-style: none;
-  padding-right: 90px;
-  font-size: 40px;
-  white-space: nowrap
-  }
-  .marquee-row img {
-    height: 25px;
-}
 .fauc_offer_ann_img img {
     height: 50px;
     width: 76px;
@@ -917,18 +890,6 @@ p.clinically_para {
     .clinically_proven_ctm .progressWrapper svg {
         height: 70px;
         width: 70px;
-    }
-
-    .marquee1{animation-name: marquee1;}
-    @keyframes marquee1 {
-      0% { left: 0; }
-      100% {left: -100%;}
-    }
-    .marquee-item-list li {
-        padding-right: 50px;
-    }
-    .marquee-row img {
-        height: 22px;
     }
     .why_it_works button:not(.collapsed) .sub_try_free span {
         padding: 6px;

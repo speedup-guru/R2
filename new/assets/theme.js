@@ -1630,29 +1630,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 // Thumb Slider Start
-// var swiper = new Swiper(".bfs_mb_sl", {
-//     spaceBetween: 8,
-//     slidesPerView: 4.4,
-//     freeMode: true,
-//     watchSlidesProgress: true,
-//     breakpoints: {
-//         768: {
-//             spaceBetween: 12,
-//             slidesPerView: 6.5,
-//         },
+var swiper = new Swiper(".bfs_mb_sl", {
+    spaceBetween: 8,
+    slidesPerView: 4.4,
+    freeMode: true,
+    watchSlidesProgress: true,
+    breakpoints: {
+        768: {
+            spaceBetween: 12,
+            slidesPerView: 6.5,
+        },
 
-//     },
-// });
-// var swiper2 = new Swiper(".bfs_mb_sl2", {
-//     spaceBetween: 10,
-//     navigation: {
-//         nextEl: ".thumb-next",
-//         prevEl: ".thumb-prev",
-//     },
-//     thumbs: {
-//         swiper: swiper,
-//     },
-// });
+    },
+});
+var swiper2 = new Swiper(".bfs_mb_sl2", {
+    spaceBetween: 10,
+    navigation: {
+        nextEl: ".thumb-next",
+        prevEl: ".thumb-prev",
+    },
+    thumbs: {
+        swiper: swiper,
+    },
+});
 
 $(document).ready(function () {
     // When a planBlock is clicked
@@ -1739,7 +1739,7 @@ var BlsEventMainProductShopify = {
 BlsEventMainProductShopify.init();
 
 
-
+// best swiper ever 
 
 document.querySelectorAll('.ctm_swiper_main_images').forEach((mainEl) => {
     const thumbsEl = mainEl.closest('.ctm_swiper_outer').querySelector('.ctm_swiper_thumb_images');
@@ -1773,5 +1773,7 @@ document.querySelectorAll('.ctm_swiper_main_images').forEach((mainEl) => {
     });
   });
   
+// best swiper ever end 
+
 
 

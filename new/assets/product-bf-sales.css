@@ -673,7 +673,7 @@
 }
 .ss_list p {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 200%;
     letter-spacing: 0.16px;
     vertical-align: middle;
@@ -710,6 +710,13 @@
     font-size: 14px;
     line-height: 200%;
 }
+.ctm_swiper_outer {
+    padding-top: 50px;
+}
+.shipping .s_bx img {
+    height: 22px;
+}
+
 /* updated design css end */
 
 
@@ -737,9 +744,9 @@
 
 
 @media(max-width:767px) {
-    /* .refill_bl.bndl_pdp_outer h1.title-lg.save_hair {
-        font-size: 34px;
-    } */
+    .ctm_swiper_outer {
+        padding-top: 30px;
+    }
      .ss_list p{
         font-weight: 400;
         font-size: 13px;

@@ -457,7 +457,7 @@ span.del_price {
 }
 main.shower_filter .with_subscription{
     font-weight: 500;
-    font-size: 18px;
+    /* font-size: 18px; */
     line-height: 22.02px;
 }
 main.shower_filter .shipping .s_bx {
