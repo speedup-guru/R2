@@ -124,6 +124,44 @@
 .imageText .newside_list ul li img {
     padding-top: 4px;
 }
+.hidden-li {
+    display: none !important;
+  }
+  .ctm_see_more {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.14px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    padding-top: 10px;
+}
+  .cleanses_surface ul li {
+    border: 1px solid #E8E8E8;
+    padding: 16px;
+    height: 160px;
+}
+.ctm_cls_swiper_derm .swiper{
+    margin-right: -24px;
+    padding-bottom: 0;
+}
+.ctm_cls_swiper_derm {
+    padding-left: 8px;
+}
+.imageText .newside_list ul li img {
+    padding-top: 0;
+}
+.derm_vid_new {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+
+
+
 @media (max-width: 767px) {
     .press_bl {
         padding: 23px 0;

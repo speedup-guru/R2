@@ -123,10 +123,6 @@
     bottom: 23px;
 }
 
-.patches_ingredients .skincare_right .accordion-button {
-    /* padding: 0; */
-}
-
 .patches_ingredients .skincare_right {
     font-size: 14px;
     line-height: 26px;
@@ -191,18 +187,12 @@
     background: #c50000 !important;
     margin-left: 8px;
 }
-.mi_patches_pdp .plan_des {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
 .mi_patches_pdp .planBlock .monthly_plans{
     padding: 13px 20px;
 }
 .mi_patches_pdp label.monthly_plans{
-    border-radius: 100px !important;
+    border-radius: 12px !important;
 }
-
 .silk_heading {
     font-family: 'Poppins';
     font-size: 14px;
@@ -213,9 +203,15 @@
     text-transform: uppercase;
 }
 .mi_patches_pdp .plan_choosed {
-    text-align: right !important;
-    right: 25px !important;
     left: 0 !important;
+}
+.mi_patches_pdp .planBlock .plan_choosed {
+    max-width: 100%;
+    text-transform: uppercase;
+}
+.mi_patches_pdp .planBlock .plan_choosed span {
+    display: flex;
+    justify-content: center;
 }
 .plan_prc {
     font-weight: 400;
@@ -281,6 +277,117 @@ img#bundleImage {
 .next_batch_bl.next_batch_highlight .batch_h .batch_h_info {
     padding: 0px 10px;
 }
+.mi-patches-pdf .planBlock:nth-child(1) .monthly_plans {
+    border-radius: 0 0 12px 12px !important;
+}
+.mi-patches-pdf .planBlock .monthly_plans {
+    flex-direction: column;
+    justify-content: start;
+}
+
+.mi-patches-pdf .planBlock .monthly_plans {
+    padding: 0;
+}
+.mi-patches-pdf label.monthly_plans {
+    height: 144px;
+}
+.mi-patches-pdf .planBlock .monthly_plans .price {
+    justify-content: center;
+}
+.mi-patches-pdf label.monthly_plans {
+    position: relative;
+}
+.mi-patches-pdf .planBlock .monthly_plans .saved_price {
+    background-color: #C4121A;
+    margin-bottom: -9px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.11px;
+    padding: 6px 8px;
+    position: absolute;
+    bottom: 0;
+}
+.mi_patches_pdp .planBlock {
+    max-width: 130px;
+}
+.mi_patches_pdp .step_conten_blocks {
+    display: grid;
+    align-items: end;
+    gap: 6px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.max_eff p {
+    text-align: center;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+}
+.max_eff_images {
+    margin: 12px 0;
+    display: flex;
+    gap: 10px;
+}
+.mi_patches_pdp .planBlock .monthly_plans .plan_hdr h3 {
+    text-align: center;
+    font-size: 13px !important;
+    font-weight: 600;
+    line-height: 13px;
+    letter-spacing: 0.13px;
+    margin-bottom: 5px;
+}
+.mi_patches_pdp .planBlock .monthly_plans .price .regular_price {
+    font-size: 14px;
+}
+.mi_patches_pdp .planBlock .monthly_plans .plan_prc.sale_price {
+    font-weight: 500 !important;
+    font-size: 14px;
+}
+.mi_patches_pdp .plan_hdr {
+    margin-top: 10px;
+}
+.max_eff {
+    width: 100%;
+    background: #F6F6F6;
+    border-radius: 12px 12px 0 0;
+}
+.mi_patches_pdp .planBlock:nth-child(1) .monthly_plans .max_eff {
+    border-radius: 0;
+    background: #D9EEE9;
+}
+.mi_patches_pdp .planBlock.active .max_eff {
+    background: #D9EEE9;
+}
+.mi_patches_pdp .buy_btn {
+    font-size: 22px;
+    font-weight: 500;
+}
+.mi_patches_pdp span.savedAmount {
+    font-weight: 700;
+}
+.planBlock input:checked+.monthly_plans {
+    border: 1px solid #000;
+}
+.planBlock input:checked+.monthly_plans {
+    background: #EAF5F2;
+}
+.max_eff_images img {
+    height: 40px;
+    width: 27px;
+}
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 991px) {
@@ -290,6 +397,52 @@ img#bundleImage {
 }
 
 @media (max-width: 767px) {
+    .supply-detail.supply-detail-without-counter .supply_steps {
+        padding-top: 0;
+    }
+    .max_eff_images {
+        margin: 10px 0;
+    }
+    .mi_patches_pdp label.monthly_plans {
+        height: 136px;
+    }
+    .max_eff p {
+        letter-spacing: -0.2px;
+    }
+    .mi_patches_pdp .planBlock .plan_choosed span {
+        padding: 2px;
+    }
+    .mi_patches_pdp .planBlock .monthly_plans .price .regular_price {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .mi_patches_pdp .buy_btn {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .mi_patches_pdp span.savedAmount{
+        font-weight: 700;
+    }
+    .mi_patches_pdp .planBlock .monthly_plans .plan_prc.sale_price{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .max_eff_images {
+        gap: 3px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
     .choose_bundle-offer .bundle_offer-content .planBlock .monthly_plans .price .regular_price {
         font-size: 20px;
     }

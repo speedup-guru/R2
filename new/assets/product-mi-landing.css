@@ -634,7 +634,24 @@ main.mi_lp .supply_steps .step_block .serum_prd .serum_img img {
 .choose_serum .u_item__hidden-div p {
     font-size: 10px;
 }
-
+.press_bl .p_bl_header p {
+    color: #D9D9D9;
+}
+.refill_s_tab_content .tab-content .tab_img {
+    border-radius: 12px;
+}
+div#u_item_question_3 .containers p:last-child {
+    background: #EDE7DD;
+    margin: 35px  -20px -18px;
+    padding: 19px 24px;
+    border-radius: 0 0 30px 30px;
+}
+div#u_item_question_6 .containers p:last-child{
+    background: #E9E9E9;
+    margin: 35px -20px -18px;
+    padding: 19px 24px;
+    border-radius: 0 0 30px 30px;
+}
 
 
 
@@ -648,9 +665,21 @@ main.mi_lp .supply_steps .step_block .serum_prd .serum_img img {
     .new_updated_treatment_outer .supply-detail {
         padding: 20px;
     }
+    .refill_bl{
+        padding-top: 32px;
+    }
 }
 
 @media(max-width:767px){
+    div#u_item_question_3 .containers p:last-child{
+        padding: 13px 21px;
+    }
+    div#u_item_question_6 .containers p:last-child{
+        padding: 13px 21px;
+    }
+    .press_bl .p_bl_header p {
+        font-size: 14px;
+    }
     .new_updated_treatment_outer .btn.btn-atc {
         font-size: 22px;
     }

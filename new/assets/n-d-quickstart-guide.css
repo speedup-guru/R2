@@ -40,9 +40,6 @@
 .ct_lis_nd li{
     margin-bottom: 20px !important;
 }
-.manual_content .accordion-body {
-    padding: 0;
-}
 .manual_content .step ul li {
     margin-bottom: 20px;
 }
@@ -56,7 +53,9 @@
 .search_main button {
     right: 24px;
 }
-
+.manual_content .step ul li:last-child{
+    margin-bottom: 0 !important;
+}
 
 @media(max-width:767px){
     .inst_guide_ctm_imr .d-grid {
@@ -69,5 +68,8 @@
     div#manual_content-5_3 .inst_guide_ctm_imr .d-grid {
         grid-template-columns: 1fr 2fr;
         place-items: start;
+    }
+    .q-urify_safety .safety-banner-cont {
+        margin-bottom: 15px;
     }
 }

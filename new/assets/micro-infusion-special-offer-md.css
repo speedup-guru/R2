@@ -37,7 +37,7 @@
 }
 .countdown_timer {
     color: var(--Qure-Black, #000);
-    font-size: 48px;
+    font-size: 44px;
     font-weight: 600;
     line-height: 0.9;
     text-transform: capitalize;
@@ -212,6 +212,7 @@ ul.smoothes_fine li img {
 
 .mothers_day_review .skincare_right{
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* secret to better skin  */
@@ -313,11 +314,12 @@ ul.smoothes_fine li img {
     max-width: 552px;
     margin: 0 auto;
 }
-  .menopause-benefits .benefit img {
-    width: 60px;
-    height: 60px;
-    flex-shrink: 0;
-  }
+.menopause-benefits .benefit img {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  margin-top: 8px;
+}
   .benefit-title {
     font-size: 22px;
     font-weight: 700;
@@ -575,10 +577,7 @@ ul.smoothes_fine li img {
 
 /* uneven skin start */
 .step-number {
-  color: var(--Qure-Black, #000);
-  font-size: 28px;
-  font-weight: 400;
-  line-height: 120%;
+  font-size: 28px !important;
 }
 .uneven_skin_tone p {
   color: var(--Qure-Black, #000);
@@ -590,6 +589,7 @@ ul.smoothes_fine li img {
 }
 .uneven_skin_tone ul li {
   margin-bottom: 10px;
+  font-size: 20px;
 }
 .dark_spots_main p {
   color: var(--Qure-Black, #000);
@@ -629,7 +629,7 @@ ul.smoothes_fine li img {
   font-weight: 400;
   line-height: 160%;
   letter-spacing: 0.2px;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 .works_for_rich_skin.section .dr_alexis{
   color: var(--Qure-Dark-Green, #008763);
@@ -646,7 +646,7 @@ ul.smoothes_fine li img {
     font-weight: 400;
     line-height: 200%;
     letter-spacing: 0.2px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 /* what does feel    */
 
@@ -675,11 +675,17 @@ ul.smoothes_fine li img {
 /* wondering right  */
 
 /* celebrity_approved_item */
-p.name_shani {
+.name_shani {
   color: var(--Qure-Dark-Green, #008763);
   font-size: 18px;
   font-weight: 600;
   line-height: 120%;
+  margin-bottom: 0 !important;
+}
+.celeb{
+  font-size: 18px!important;
+  font-weight: 300 !important;
+  line-height: 120%!important;
 }
 .without_risk{
   font-size: 20px;
@@ -930,16 +936,18 @@ p.name_shani {
 .offer_banner_below {
   background: #FFF;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
-  padding: 30px;
+  padding: 34px 70px;
   border-radius: 20px;
   border: 4px dashed #03B020;
 }
+.choosing_savings_item_wrapper{
+  height: 100%;
+}
 .choosing_your_savings_item {
-  padding: 24px;
+  padding: 15px;
   border-radius: 8px;
   background: #FFF;
   text-align: center;
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -960,14 +968,13 @@ p.mi_treat {
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 0.16px;
-  margin-bottom: 24px;
 }
 p.treatment_text {
   font-size: 20px;
   font-weight: 600;
   line-height: 100%;
   letter-spacing: 0.16px;
-  margin-top: 24px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 p.off_text {
@@ -1003,7 +1010,7 @@ a.mothers_offer_buy_now {
   justify-content: center;
   align-items: center;
   gap: 16px;
-  margin: 24px auto 0;
+  margin: 5px auto 0;
   color: #fff;
 }
 .border_green {
@@ -1064,10 +1071,16 @@ a.mothers_offer_buy_now {
   line-height: 22px;
   letter-spacing: 0.2px;
 }
-.mothers_day_faqs .accordion-body .container p, .mothers_day_faqs .accordion-button .container{
+.mothers_day_faqs .accordion-body .container p{
   font-size: 20px;
   font-weight: 400;
   line-height: 180%; 
+  letter-spacing: 0.2px;
+}
+.mothers_day_faqs .accordion-button .container{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 150%; 
   letter-spacing: 0.2px;
 }
 .mothers_day_faqs .section_header p{
@@ -1093,8 +1106,77 @@ span.features_text {
 .ss_list ul li {
   font-size: 13px;
 }
-
-
+.progressCont {
+  max-width: 200px;
+  margin: 0 auto;
+}
+.step_section img {
+  margin-top: 5px;
+}
+.compare_listRow .compare_list_column {
+  width: calc(100% - 170px);
+}
+.mw-810{
+  max-width: 810px !important;
+}
+.mothers_day_review .r_c_info {
+  background: #F4F4F4;
+  width: 357.798px;
+  height: 33.028px;
+}
+.mothers_day_review .skin_item_header {
+  border-bottom: 1px solid #EDE7DD;
+  margin: 15px 15px 5px;
+  padding: 0;
+  padding-bottom: 10px;
+}
+.mothers_day_review .skincare_left{
+  padding: 0;
+}
+.mothers_day_review .skincare_right{
+  padding-top: 0px;
+}
+.customer_transformation .youthful_skin {
+  line-height: 120%;
+}
+.every_order_comes_text {
+  max-width: 190px;
+  margin: 0 auto;
+}
+.Swipe_to_see_more p {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 200%;
+  letter-spacing: 0.2px;
+  margin-top: 15px;
+}
+.compare_listRow .compare_list_column .swiper-pagination { 
+  display: none;
+}
+.swiper-slide.video_popup .play_btn {
+  height: 100%;
+}
+.swiper-slide{
+  height: auto;
+  margin-bottom: 20px;
+}
+.result_item{
+  height: 100%;
+}
+.skincare-section .youthful_skin_wrapper{
+  max-width: 650px;
+}
+.skincare-section .mothers_day_banner {
+  max-width: 450px;
+  margin-left: auto;
+}
+.progessInfo {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0.2px;
+}
 
 
 
@@ -1104,7 +1186,9 @@ span.features_text {
 
 
 @media(min-width:768px){
-
+  .micro_benefits .swiper-wrapper .swiper-slide:first-child {
+    width: 260px !important;
+  }
   .want_even_better .swiper-wrapper {
     justify-content: center;
     gap: 12px;
@@ -1112,16 +1196,10 @@ span.features_text {
   .want_even_better .swiper-slide {
     width: 47% !important;
 }
+.choosing_your_savings_item{
+  height: 100%;
 }
-
-
-
-
-
-
-
-
-
+}
 
 
 
@@ -1136,6 +1214,53 @@ span.features_text {
 
 
   @media (max-width: 767px) {
+    .container {
+      padding-right: 16px !important;
+      padding-left: 16px !important;
+  }
+    .why_women_love_heading {
+      font-size: 36px;
+      line-height: 38px !important;
+  }
+    .even_more_photos .title-lg {
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 120%;
+  }
+    .compare_section .compare_listRow {
+      margin-right: -120px;
+  }
+  .compare_listRow .compare_list_column .swiper-pagination {
+    display: none;
+}
+    .mothers_day_faqs .get_clearer_wrapper .btn-lg {
+      font-size: 15px;
+  }
+    .every_order_comes_text {
+      margin-bottom: 35px;
+    }
+    .ctm_month{
+      justify-content: center;
+    }
+    .want_even_better .title-lg {
+      font-size: 36px;
+      line-height: 120%;
+  }
+    .five_minute_treatment .title-lg {
+      text-align: left;
+      font-size: 36px;
+      margin-bottom: 20px;
+  }
+    .better_skin_subtitle{
+      text-align: center;
+    }
+    span.features_text {
+      font-size: 18px;
+  }
+    .offer_banner_below{
+      padding: 30px 20px;
+    }
     .satisfaction_logo {
       right: 50%;
       top: -76px;
@@ -1204,9 +1329,9 @@ span.features_text {
       grid-template-columns: 1fr;
     }
     .progressWrapper svg {
-      height: 83px;
-      width: 83px;
-  }
+      height: 87px;
+      width: 87px;
+    }
     .countdown {
       margin-top: 20px;
     }

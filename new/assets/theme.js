@@ -214,7 +214,7 @@ window.addEventListener('load', function () {
 // =================================== js for same height ===============================
 $(function () {
     //setTimeout(function () {
-    $('.q_uses_header, .dfrc__hdr, .s_name, .result_item, .serum_bx, .bs_content, .skin_item, .safety_content, .mc_desc, .blog_wrap, .see_item img, .menu li a, .return_step1, .result_tabs .rt_wrap_header .nav-link').matchHeight({
+    $('.q_uses_header, .dfrc__hdr, .s_name, .serum_bx, .bs_content, .skin_item, .safety_content, .mc_desc, .blog_wrap, .see_item img, .menu li a, .return_step1, .result_tabs .rt_wrap_header .nav-link').matchHeight({
         property: 'height',
         target: null,
         remove: false
@@ -329,7 +329,7 @@ if ($(".plan_bundle_hdr")[0]) {
 
 // =================================== js for slider ===============================
 
-//result slider
+// result slider
 var swiper = new Swiper(".result_slider", {
     spaceBetween: 15,
     pagination: {
@@ -352,6 +352,8 @@ var swiper = new Swiper(".result_slider", {
         },
     },
 });
+
+
 
 
 //micro infusion-lp result slider
@@ -1774,6 +1776,28 @@ document.querySelectorAll('.ctm_swiper_main_images').forEach((mainEl) => {
   });
   
 // best swiper ever end 
+// show more and show less in dermal mist   
 
+  const seeMoreBtn = document.getElementById('seeMoreBtn');
 
+  seeMoreBtn.addEventListener('click', function() {
+    const hiddenItems = document.querySelectorAll('#featuresList li:nth-child(4), #featuresList li:nth-child(5)');
+    const isExpanded = this.getAttribute('data-expanded') === 'true';
+
+    if (isExpanded) {
+      // If expanded, hide the extra items
+      hiddenItems.forEach(function(item) {
+        item.classList.add('hidden-li');
+      });
+      this.textContent = 'See More';
+      this.setAttribute('data-expanded', 'false');
+    } else {
+      // If collapsed, show the extra items
+      hiddenItems.forEach(function(item) {
+        item.classList.remove('hidden-li');
+      });
+      this.textContent = 'See Less';
+      this.setAttribute('data-expanded', 'true');
+    }
+  });
 

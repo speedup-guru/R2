@@ -28470,7 +28470,7 @@ fieldset:disabled .btn {
     height: 100%;
     position: relative;
     transition-property: transform;
-    display: block
+    display: block;
 }
 
 .swiper-slide-invisible-blank {
@@ -32443,6 +32443,24 @@ picture img {
 .marquee-row img {
     height: 25px;
 }
+.result_s_wrapper .swiper-slide {
+    height: auto;
+}
+.result_s_wrapper .swiper-slide .result_item {
+    height: 100%;
+}
+.result_s_wrapper .swiper {
+    padding-bottom: 20px;
+}
+
+@media (min-width: 1400px) {
+    .custom_container {
+        max-width: 1200px;
+    }
+  }
+  
+
+
 @media(max-width:767px){
     .marquee1{
         animation-name: marquee1;

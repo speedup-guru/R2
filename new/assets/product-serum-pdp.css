@@ -129,7 +129,7 @@
     border-radius: 16px;
 }
 .all_in_one .planBlock .monthly_plans {
-    border-radius: 100px !important;
+    border-radius: 12px !important;
 }
 .all_in_one .certified_derm p {
     font-size: 11px;
@@ -141,22 +141,37 @@
 .shipping.shipping_bg {
     padding: 7px 0;
 }
-.all_in_one .planBlock .monthly_plans .saved_price{
+.all_in_one .planBlock .monthly_plans .saved_price {
     background-color: #C4121A;
+    margin-bottom: -9px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.11px;
+    padding: 6px 8px;
+    position: absolute;
+    bottom: 0;
+}
+.all_in_one .plan_des_indiv {
+    margin-top: 3px;
 }
 .all_in_one .planBlock .plan_choosed {
-    max-width: 85%;
+    max-width: 100%;
     text-transform: uppercase;
 }
 .all_in_one .planBlock .monthly_plans {
-    padding: 13px 20px;
+    padding: 0;
 }
 .all_in_one .planBlock .monthly_plans .price .regular_price{
-    font-size: 20px;
+    font-size: 14px;
 }
-.all_in_one .planBlock .monthly_plans 
-.plan_prc.sale_price {
-    font-weight: 500;
+.all_in_one .planBlock .monthly_plans .plan_prc.sale_price {
+    font-weight: 500 !important;
 }
 .choose_bundle-offer h2 {
     color: #000;
@@ -184,16 +199,18 @@
     border-radius: 25px;
 }
 .planBlock .monthly_plans .plan_hdr h3 {
-    font-size: 16px;
-}
-.all_in_one .planBlock .monthly_plans .plan_prc.sale_price {
-    font-weight: 500;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 13px; 
+    letter-spacing: 0.13px;
+    margin-bottom: 5px;
 }
 .planBlock .monthly_plans .price .plan_prc+.plan_prc {
     margin-left: 10px;
 }
 .planBlock .monthly_plans .price .sale_price {
-    font-size: 21px;
+    font-size: 14px;
 }
 .ctm_arrow_span {
     height: 19px;
@@ -203,6 +220,100 @@
     position: absolute;
     top: 4px;
 }
+.all_in_one_offer .planBlock .monthly_plans {
+    flex-direction: column;
+    justify-content: start;
+}
+.all_in_one_offer .planBlock {
+    max-width: 130px;
+}
+.all_in_one_offer .planBlock .plan_choosed span {
+    display: flex;
+    justify-content: center;
+}
+.all_in_one_offer .supply-detail.supply-detail-without-counter .planBlock .plan_choosed {
+    left: 0;
+}
+.max_eff p {
+    text-align: center;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+}
+.max_eff {
+    width: 100%;
+    background: #F6F6F6;
+    border-radius: 12px 12px 0 0;
+}
+.max_eff_images {
+    margin: 12px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.planBlock .monthly_plans .plan_hdr .saved_price, .planBlock .monthly_plans .saved_price{
+    margin-left: 0;
+}
+.planBlock .monthly_plans .price {
+    justify-content: center;
+}
+.planBlock input:checked+.monthly_plans {
+    border: 1px solid #C7E7DC;
+    background: #EAF5F2;
+}
+.all_in_one .planBlock:nth-child(1) .monthly_plans {
+    border-radius: 0 0 12px 12px !important;
+}
+.all_in_one .step_conten_blocks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: end;
+    gap: 6px;
+}
+.all_in_one label.monthly_plans {
+    height: 144px;
+}
+.all_in_one .next_batch_bl.next_batch_highlight {
+    padding: 18px 14px;
+}
+.all_in_one .next_batch_bl.next_batch_highlight h5 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.14px;
+    margin-bottom: 0;
+}
+ .next_batch_bl.next_batch_highlight .batch_h {
+    grid-template-columns: 1fr;
+    gap: 0;
+}
+.all_in_one .next_batch_bl.next_batch_highlight .batch_h .batch_h_info {
+    padding: 0px 10px;
+}
+.all_in_one .next_batch_bl.next_batch_highlight .batch_h .batch_h_info {
+    font-size: 10px;
+}
+.all_in_one .buy_btn {
+    font-size: 22px;
+    font-weight: 500;
+}
+.all_in_one span.savedAmount{
+    font-weight: 700;
+}
+.all_in_one .planBlock:nth-child(1) .monthly_plans .max_eff {
+    border-radius: 0;
+    background: #D9EEE9;
+}
+.all_in_one .planBlock.active .max_eff{
+    background: #D9EEE9;
+}
+.payment_method {
+    padding: 7px 0;
+}
+.planBlock input:checked+.monthly_plans {
+    border: 1px solid #000;
+}
+
 @media(max-width:991px) {
     /* .skin_item {
         padding: 30px;
@@ -210,6 +321,36 @@
 }
 
 @media(max-width:767px) {
+    .supply-detail.supply-detail-without-counter .supply_steps {
+        padding-top: 0;
+    }
+    .max_eff_images {
+        margin: 10px 0;
+    }
+    .all_in_one label.monthly_plans {
+        height: 136px;
+    }
+    .max_eff p {
+        letter-spacing: -0.2px;
+    }
+    .all_in_one .planBlock .plan_choosed span {
+        padding: 2px;
+    }
+    .all_in_one .planBlock .monthly_plans .price .regular_price {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .all_in_one .buy_btn {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .all_in_one span.savedAmount{
+        font-weight: 700;
+    }
+    .all_in_one .planBlock .monthly_plans .plan_prc.sale_price{
+        font-size: 12px;
+        font-weight: 500;
+    }
     .planBlock .monthly_plans .plan_hdr h3 {
         font-size: 14px;
     }
