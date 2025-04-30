@@ -1,8 +1,8 @@
-.our_story .skincare_right .skincare_percent .progressCont {
+.our_story .skincare_percent .progressCont {
     margin-right: 10px;
 }
 
-.our_story .skincare_right .skincare_percent .ss_c_link {
+.our_story .skincare_percent .ss_c_link {
     font-size: 13px;
     line-height: 24px;
     font-weight: 400;
@@ -55,26 +55,96 @@
 .fastest_growing_startup .row {
     max-width: 1040px;
 }
+.our_story .skincare_left {
+    box-shadow: 0px 5px 15px 0px #B0B0B040;
+    border: 1px solid var(--clr-light-green);
+    border-radius: 10px;
+    margin: 0 20px;
+}
+.our_story .skincare_percent {
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+    padding: 15px 32px;
+}
+.our_story .ss_skin_mask{
+    padding: 15px 32px;
+    margin-top: 0;
+    gap: 16px;
+}
+.our_story .skin_item_ctm {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+.our_story .ss_mask_info{
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.our_story .ss_mask_info a {
+    padding: 6px 13px;
+}
+.our_story .ss_mask_info h5 {
+    font-weight: 400;
+    color: rgb(0 0 0 / 60%);
+    margin: 0 0 15px;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: .01em;
+}
+.trusted_cl_m .play_btn {
+    bottom: 45px;
+}
+.trusted_bl .section_header h2.title-lg {
+    margin-bottom: 18px;
+}
+
+
+
+
+
+
+
 
 
 
 
 
 @media(max-width:767px) {
+    .trusted_bl .section_header h2.title-lg {
+        margin-bottom: 5px;
+    }
+    .trusted_cl .section_header {
+        padding-bottom: 20px;
+    }
+    .trusted_withInfo  p{
+        padding: 12px 0;
+    }
+    .our_story .skincare_percent {
+        padding: 15px 24px;
+    }
+    .our_story .ss_skin_mask {
+        padding: 15px 24px;
+    }
+    .skincare_left{
+        padding: 0;
+    }
+    .qa__inner {
+        align-items: center;
+        padding: 0 30px;
+        bottom: 140px;
+        top: 0;
+    }
     .p_bl_header p{
         font-size: 20px;
         font-weight: 500;
         line-height: 28px;
         letter-spacing: 1px;
     }
-
     .main_banner .main_b_wrapper.bg_gradient_mob {
         background: none;
     }
     .main_banner .main_b_wrapper .section_header {
         padding: 40px 0 0px 0;
     }
-    .our_story .skincare_right .skincare_percent .ss_c_link {
+    .our_story .skincare_percent .ss_c_link {
         font-size: 10px;
         line-height: 22px;
         padding-left: 3px;
