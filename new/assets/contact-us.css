@@ -54,6 +54,75 @@
     color: var(--Dark-Grey, #4E4E4E);
 }
 
+
+
+
+
+
+
+
+
+
+
+.custom-checkbox input[type="checkbox"] {
+    display: none;
+  }
+  .custom-checkbox label {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    position: relative;
+    cursor: pointer;
+}
+  .custom-checkbox input[type="checkbox"]:checked + label {
+    background-color: black;
+  }
+  .custom-checkbox input[type="checkbox"]:checked + label::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 21px;
+    height: 21px;
+    background-image: url('checked_tick.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translate(-50%, -50%);
+}
+.consent_message {
+    display: flex;
+    gap: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width: 767px) {
     .contact_info {
         grid-template-columns: 1fr;
