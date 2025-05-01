@@ -1185,7 +1185,9 @@ main.mothers_day .mi_landing_result .result_item_info .result_content p {
 .even_more_outer .pagination_navigation {
   margin-top: 10px;
 }
-
+.mothers_day_review .swiper{
+  margin-right: -15px;
+} 
 
 
 
