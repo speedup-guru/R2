@@ -407,32 +407,44 @@ var swiper = new Swiper(".result_slider_3", {
 
 
 // =================
-//YOUTUBE VIDEO
+// //YOUTUBE VIDEO
+// $(document).ready(function () {
+
+//     $('.play_btn').on('click', function () {
+//         $('.video-popup').fadeIn('slow');
+//         return false;
+//     });
+
+//     $('.popup-bg').on('click', function () {
+//         $('.video-popup').slideUp('slow');
+//         return false;
+//     });
+
+//     $('.close-btn').on('click', function () {
+//         $('.video-popup').fadeOut('slow');
+//         return false;
+//     });
+// });
+
+
+// // Video Popup
+// $(document).ready(function () {
+//     $('.popup-youtube').magnificPopup({
+//         type: 'iframe'
+//     });
+// });
 $(document).ready(function () {
-
-    $('.play_btn').on('click', function () {
-        $('.video-popup').fadeIn('slow');
-        return false;
-    });
-
-    $('.popup-bg').on('click', function () {
-        $('.video-popup').slideUp('slow');
-        return false;
-    });
-
-    $('.close-btn').on('click', function () {
-        $('.video-popup').fadeOut('slow');
-        return false;
-    });
-});
-
-
-// Video Popup
-$(document).ready(function () {
+    // Initialize Magnific Popup for YouTube links
     $('.popup-youtube').magnificPopup({
-        type: 'iframe'
+      type: 'iframe',
+      mainClass: 'mfp-fade',
+      removalDelay: 160,
+      preloader: false,
+      fixedContentPos: false
     });
-});
+  });
+
+  
 
 // Image PopUp Refill Banner
 // document.addEventListener('DOMContentLoaded', function () {

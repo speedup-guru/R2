@@ -247,12 +247,30 @@
     letter-spacing: 0.14px;
     color: #4E4E4E;
 }
+.faq .accordion-button .container:after {
+    content: '';
+    background: url(faq_closed.svg);
+    height: 25px;
+    width: 25px;
+}
+.faq .accordion-button:not(.collapsed) .container:after {
+    content: '';
+    background: url(faq_opened.svg);
+}
 /* ...... way to earn start end ....... */
+
+.redeem_steps img {
+    margin-bottom: 40px;
+    max-width: 500px;
+    width: 100%;
+}
+.faq .accordion-item {
+    border-bottom: 1px solid #C7E7DC;
+}
 @media(max-width: 768px) {
     .main_banner .section_header h1 {
         font-size: 34px;
     }
-
     .main_banner .section_header .qure_logo {
         max-width: 140px;
     }

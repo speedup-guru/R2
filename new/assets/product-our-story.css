@@ -22,6 +22,11 @@
 }
 .marquee-item-list li {
     padding-right: 40px;
+    display: flex;
+    align-items: center;
+}
+.endless_mar_abt .marquee-row {
+    padding: 45px 0;
 }
 .fastest_growing_item {
     padding: 20px 15px;
@@ -53,8 +58,9 @@
     line-height: 26px;
     letter-spacing: 0.14px;
 }
-.fastest_growing_startup .row {
+.fastest_growing_startup .container {
     max-width: 1040px;
+    margin: 0 auto;
 }
 .our_story .skincare_left {
     box-shadow: 0px 5px 15px 0px #B0B0B040;
@@ -91,9 +97,6 @@
     line-height: 26px;
     letter-spacing: .01em;
 }
-.trusted_cl_m .play_btn {
-    bottom: 45px;
-}
 .trusted_bl .section_header h2.title-lg {
     margin-bottom: 18px;
 }
@@ -106,17 +109,55 @@
 .trusted_bl .trust_item .trust_item_info .result_content p {
     font-size: 12px;
 }
+.our_story .main_b_wrapper .title-xl {
+    font-size: 45px;
+}
+.marquee-row img {
+    height: 28px;
+}
+.skincare_sliderz .title-lg{
+    letter-spacing: 0.1px;
+}
+.main_b_wrapper p {
+    padding-bottom: 0;
+}
 
-
-
-
-
-
-
+@media(min-width:768px){
+    .trusted_cl_m .play_btn {
+        bottom: 45px;
+    }
+}
 
 @media(max-width:767px) {
-    .endless_mar_abt .marquee-row{
-        padding-top: 0;
+    .our_story .skincare_percent{
+        height: 90px;
+    }
+    .our_story .ss_skin_mask{
+        height: 115px;
+    }
+    .our_story .ss_mask_info a {
+        padding: 4px 10px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 0.13px;
+    }
+    .our_story .skincare_percent .progressCont {
+        margin-right: 5px;
+    }
+    .skincare_percent p{
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+    .our_story .skincare_left {
+        margin: 0 10px;
+    }
+    .our_story .main_b_wrapper .title-xl {
+        font-size: 34px;
+    }
+    .endless_mar_abt .marquee-row {
+        padding: 14px 0 20px;
     }
     .main_b_wrapper p {
         max-width: 260px;
@@ -132,7 +173,7 @@
         padding: 12px 0;
     }
     .our_story .skincare_percent {
-        padding: 15px 24px;
+        padding: 12px;
     }
     .our_story .ss_skin_mask {
         padding: 15px 24px;
@@ -142,7 +183,7 @@
     }
     .qa__inner {
         align-items: center;
-        padding: 0 30px;
+        padding: 0 15px;
         bottom: 140px;
         top: 0;
     }
