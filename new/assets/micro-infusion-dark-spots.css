@@ -8,3 +8,9 @@
     justify-content: start;
     align-items: start;
 }
+.mi_dark_spots .img_ser {
+    margin-top: 0;
+}
+.mi_dark_spots .img_ser img {
+    height: 157px;
+}

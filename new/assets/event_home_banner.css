@@ -720,6 +720,127 @@ p.valued_at strong {
 
 /* womens day banner end */
 
+
+/* quiz */
+.take_the_quiz {
+    background: #CCE5DD;
+  }
+  .hero-desc {
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    max-width: 500px;
+}
+  .cta-btn {
+    display: flex;
+    width: 250px;
+    height: 61px;
+    padding: 12px 24px;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid #C7E7DC;
+    background: #FFF;
+    gap: 5px;
+    color: #000;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0.16px;
+}
+.quiz_content h5 {
+    color: var(--Qure-Black, #000);
+    font-family: "Canela Light";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0.28px;
+}
+.get_custom_plan{
+    color: var(--Qure-Black, #000);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.14px;
+}
+  .step-section {
+    text-align: left;
+  }
+  
+  .step-circle {
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.step-1 {
+    background: #000;
+    color: #FFF;
+    font-family: "Canela Web";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.24px;
+    text-transform: capitalize;
+}
+  .step-2 {
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #DDD9D9;
+    font-family: "Canela Web";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.24px;
+    text-transform: capitalize;
+}
+  
+  .step-line {
+    width: 2px;
+    height: 150px; 
+    background: linear-gradient(to bottom, #000, #ccc);
+    margin: 0 auto;
+  }
+  
+  .quiz-btn {
+    display: flex;
+    height: 63px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: var(--Qure-Black, #000);
+    max-width: 269px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.018px;
+    letter-spacing: 0.18px;
+}
+  
+    .quiz-info {
+        color: #000;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0.14px;
+        max-width: 260px;
+    }
+  
+  .personalized_skincare{
+    color: #797D7C;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%; 
+  }
+  .quiz_content {
+    max-width: 295px;
+}
+  /* quiz end */
+  
+
 /* .............Sub Banner............... */
 @media(max-width:991px) {
     .main_banner .bf_sale-slider .swiper-button {
@@ -746,6 +867,14 @@ p.valued_at strong {
 }
 
 @media(max-width:767px) {
+    .cta-btn {
+        width: 196px;
+        height: 46px;
+    }
+    .step-circle {
+        width: 35px;
+        height: 35px;
+    }
 
     /* <----Banners CSS Start-------> */
     /* <!--.Main Banner--> */

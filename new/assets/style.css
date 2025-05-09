@@ -32452,7 +32452,9 @@ picture img {
 .result_s_wrapper .swiper {
     padding-bottom: 20px;
 }
-
+.faq_technical .accordion-button:not(.collapsed) .container:after{
+    content: "-";
+}
 @media (min-width: 1400px) {
     .custom_container {
         max-width: 1200px;
