@@ -7468,6 +7468,9 @@ fieldset:disabled .btn {
 .mw-100 {
     max-width: 100% !important
 }
+.mw-213 {
+    max-width: 213px !important
+}
 
 .vw-100 {
     width: 100vw !important
@@ -29749,6 +29752,21 @@ a:focus {
     font-display: swap;
 }
 
+
+
+@font-face {
+  font-family: 'TT Commons';
+  src: url('../assets/tt_commons_font/TTCommons-Light.eot');
+  src: url('../assets/tt_commons_font/TTCommons-Light.eot?#iefix') format('embedded-opentype'),
+       url('../assets/tt_commons_font/TTCommons-Light.woff2') format('woff2'),
+       url('../assets/tt_commons_font/TTCommons-Light.woff') format('woff'),
+       url('../assets/tt_commons_font/TTCommons-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 p {
     margin-bottom: 0;
     font-size: 14px;
@@ -32455,6 +32473,31 @@ picture img {
 .faq_technical .accordion-button:not(.collapsed) .container:after{
     content: "-";
 }
+.bg_cyan_blue {
+    background: #91BAEC;
+    border-radius: 50px;
+    color: #212428;
+    font-family: 'poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 8px 16px;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 1400px) {
     .custom_container {
         max-width: 1200px;

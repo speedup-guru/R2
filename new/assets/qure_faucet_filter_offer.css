@@ -1,0 +1,321 @@
+main.shower_plus_faucet_water_filter .header-wrapper header {
+    background-color: #212428;
+    display: block;
+}
+.may_cls25_shwr_plus_faucet .bfs_mb_wrapThumb img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+.may_cls25_shwr_plus_faucet .refill_info .title-xl{
+    font-weight: 300;
+    font-family: 'Canela Light';
+}
+.complete_filter_bundle{
+    border-radius: 10px;
+    border: 1px solid var(--Charcoal-50, #8B8C8E);
+    background: #FFF;
+    display: flex;
+    max-width: 414px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.complete_filter_bundle h4 {
+    color: var(--Charcoal, #212428);
+    font-family: "TT Commons";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    margin-bottom: 5px;
+}
+.complete_filter_bundle .text_bundle p {
+    color: var(--Charcoal, #212428);
+    font-family: 'TT Commons';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+.complete_filter_bundle .mothers_day_offer_prods {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    max-width: 315px;
+    margin-top: 12px;
+    margin-bottom: 21px;
+    margin: 0 auto !important;
+}
+.complete_filter_bundle .prod_dv p {
+    position: absolute;
+    right: -12px;
+    bottom: -12px;
+    height: 18px;
+    min-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #EEF7F4;
+    color: #008763;
+    font-family: "TT Commons";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 5px 10px;
+}
+.supplies_last {
+    padding: 20px 10px;
+    background: var(--Mist, #F6F6F7);
+    margin-top: 10px;
+    width: 100%;
+}
+.supplies_last .batch_h-info {
+    position: relative;
+    max-width: 100%;
+    border-radius: 99.608px;
+    border: 1px solid var(--Charcoal-50, #8B8C8E);
+    background: #FFF;
+    height: 25px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 8px;
+}
+.supplies_last .batch_h-info::before {
+    content: '';
+    display: block;
+    width: var(--bgPercent);
+    background: #F23440;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 15px;
+    z-index: 1;
+    height: 23px;
+    border-radius: 99.608px;
+    background: var(--Orange, #FF5429);
+    box-shadow: 0px 0px 6.641px 0px rgba(0, 0, 0, 0.10);
+}
+.supplies_last .batch_h-info span {
+    color: var(--Orange, #FF5429);
+    font-family: "TT Commons";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.supplies_last .buy_led_mask {
+    color: var(--Charcoal, #212428);
+    text-align: center;
+    font-family: "TT Commons";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 15px;
+}
+.complete_filter_bundle del {
+    font-family: "TT Commons";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-decoration-line: line-through;
+}
+.claim_offer_now {
+    color: #FFF;
+    text-align: center;
+    font-family: "TT Commons";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.des_shwr_fau p{
+    color: var(--Charcoal, #212428);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    font-family: 'TT Commons';
+}
+.des_shwr_fau {
+    max-width: 485px;
+}
+.unfiltered_water_outer{
+    background: var(--Mist, #F6F6F7);
+    padding: 60px 120px;
+}
+.unfiltered_water {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    align-self: stretch;
+    text-align: center;
+    max-width: 860px;
+    margin: 0 auto;
+}
+.unfiltered_water h4 {
+    color: var(--Charcoal, #212428);
+    text-align: center;
+    font-family: "Canela Light";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 36px;
+    margin: 0;
+}
+.unfiltered_water p {
+    color: var(--Charcoal, #212428);
+    text-align: center;
+    font-family: "TT Commons";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.content_skin_hair {
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+    border: 1px solid var(--Charcoal-50, #8B8C8E);
+    background: #FFF;
+}
+.img_dv_skin_hair img {
+    width: 100%;
+}
+.biggest_hair_issues_slider .pagination_navigation {
+    max-width: 300px;
+}
+.caused_by {
+    gap: 10px;
+}
+.caused_by p {
+    border-radius: 6666px;
+    background: var(--Mist, #F6F6F7);
+    color: var(--Charcoal, #212428);
+    font-family: "TT Commons";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px;
+}
+.content_skin_hair h3 {
+    color: var(--Charcoal, #212428);
+    font-family: "TT Commons";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+.content_skin_hair h5 {
+    color: var(--Charcoal, #212428);
+    font-family: "TT Commons";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+}
+.content_skin_hair h6 {
+    color: var(--Charcoal, #212428);
+    font-family: "TT Commons";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+}
+.biggest_hair_issues_inner h3 {
+    color: var(--Charcoal, #212428);
+    font-family: "Canela light";
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 44px;
+}
+.biggest_hair_issues_inner p {
+    color: var(--Charcoal, #212428);
+    font-family: "TT Commons";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+.real_problem{
+    padding: 20px;
+    border-radius: 10px;
+    background: var(--Mist, #F6F6F7);
+}
+.real_problem h3 {
+    color: var(--Charcoal, #212428);
+    text-align: center;
+    font-family: "TT Commons";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+.real_problem p {
+    color: var(--Charcoal, #212428);
+    text-align: center;
+    font-family: "TT Commons";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+} 
+.real_problem img {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+@media(min-width:768px){
+    .biggest_hair_issues_inner {
+        max-width: 553px;
+        margin-left: auto;
+        padding-right: 50px;
+    }
+    .biggest_hair_issues_slider {
+        margin-right: -12px;
+    }
+}
+
+
+
+
+@media(max-width:767px){
+    .real_problem {
+        margin-bottom: 20px;
+    }
+    .biggest_hair_issues.section {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .may_cls25_shwr_plus_faucet .bfs_mb_wrapThumb img {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+    }
+    .unfiltered_water_outer{
+        padding: 30px 50px;
+    }
+}
