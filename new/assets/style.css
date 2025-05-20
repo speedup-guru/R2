@@ -29801,7 +29801,9 @@ p {
 .bg-grey {
     background-color: var(--clr-grey);
 }
-
+.bg-grey_new {
+    background: #F6F6F7;
+}
 .bg-yellowGrey {
     background: linear-gradient(90deg, #FFFAF1 0%, #F5F5F5 100%);
 
