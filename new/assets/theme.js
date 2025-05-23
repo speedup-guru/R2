@@ -331,7 +331,7 @@ if ($(".plan_bundle_hdr")[0]) {
 
 // result slider
 var swiper = new Swiper(".result_slider", {
-    spaceBetween: 15,
+    spaceBetween: 25,
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -1687,72 +1687,112 @@ $(document).ready(function () {
 
 
 
+
+
+
+
+
+
 var BlsEventMainProductShopify = {
     init: function() {
-        this.eventMediaGalleryProduct()
+        this.eventMediaGalleryProduct();
     },
+
     eventMediaGalleryProduct: function() {
-        const e = document.querySelector(".bls__swiper-gallery-thumbnails"),
-            t = document.querySelector(".bls__swiper-gallery");
-        if (e)
-            // if (e.classList.contains("bls__swiper-vertical")) var r = new Swiper(".bls__swiper-gallery-thumbnails.bls__swiper-vertical", {
-            //     spaceBetween: 10,
-            //     slidesPerView: 8,
-            //     freeMode: !0,
-            //     direction: "vertical",
-            //     watchSlidesProgress: !0
-            // });
-            //else 
-            r = new Swiper(".bls__swiper-gallery-thumbnails", {
-                spaceBetween: 10,
-                slidesPerView: 5,
-                freeMode: !0,
-                watchSlidesProgress: !0,
-                navigation: {
-                    nextEl: ".swiper-next",
-                    prevEl: ".swiper-prev"
-                }
-            });
-        if (t)
-            if (r) var o = new Swiper(".bls__swiper-gallery", {
-                loop: !1,
-                speed: 600,
+        const thumbnailEl = document.querySelector(".bls__swiper-gallery-thumbnails");
+        const mainEl = document.querySelector(".bls__swiper-gallery");
+        let thumbnailSwiper, mainSwiper;
+
+        // ---------- Thumbnail Swiper ----------
+        if (thumbnailEl) {
+            const slidesPerViewDesktop = Number(thumbnailEl.dataset.desktop) || 5;
+            const slidesPerViewTablet = Number(thumbnailEl.dataset.tablet) || 4;
+            const slidesPerViewMobile = Number(thumbnailEl.dataset.mobile) || 3;
+            const spacingThumbs = Number(thumbnailEl.dataset.spacing) || 10;
+
+            thumbnailSwiper = new Swiper(".bls__swiper-gallery-thumbnails", {
+                spaceBetween: spacingThumbs,
+                slidesPerView: slidesPerViewDesktop,
+                freeMode: true,
+                watchSlidesProgress: true,
                 navigation: {
                     nextEl: ".swiper-next",
                     prevEl: ".swiper-prev"
                 },
-                thumbs: {
-                    swiper: r
+                breakpoints: {
+                    0: {
+                        slidesPerView: slidesPerViewMobile
+                    },
+                    768: {
+                        slidesPerView: slidesPerViewTablet
+                    },
+                    1024: {
+                        slidesPerView: slidesPerViewDesktop
+                    }
                 }
             });
-            else {
-                const e = "true" === t.dataset.autoplay,
-                    r = t?.dataset.mobile,
-                    i = t?.dataset.spacing,
-                    a = t?.dataset.sectionId;
-                o = new Swiper(".bls__swiper-gallery", {
-                    slidesPerView: r,
-                    spaceBetween: Number(i),
-                    autoplay: e,
+        }
+
+        // ---------- Main Swiper ----------
+        if (mainEl) {
+            if (thumbnailSwiper) {
+                mainSwiper = new Swiper(".bls__swiper-gallery", {
+                    loop: false,
                     speed: 600,
-                    loop: !1,
-                    grid: {
-                        rows: a
+                    navigation: {
+                        nextEl: ".swiper-next",
+                        prevEl: ".swiper-prev"
                     },
+                    thumbs: {
+                        swiper: thumbnailSwiper
+                    }
+                });
+            } else {
+                const autoplay = mainEl.dataset.autoplay === "true";
+                const slidesPerViewMobile = Number(mainEl.dataset.mobile) || 1;
+                const slidesPerViewTablet = Number(mainEl.dataset.tablet) || 1;
+                const slidesPerViewDesktop = Number(mainEl.dataset.desktop) || 1;
+                const spacing = Number(mainEl.dataset.spacing) || 0;
+                const sectionId = mainEl.dataset.sectionId;
+
+                mainSwiper = new Swiper(".bls__swiper-gallery", {
+                    loop: false,
+                    speed: 600,
+                    autoplay: autoplay,
+                    spaceBetween: spacing,
+                    slidesPerView: slidesPerViewDesktop,
                     navigation: {
                         nextEl: ".swiper-next",
                         prevEl: ".swiper-prev"
                     },
                     pagination: {
-                        clickable: !0,
-                        el: ".swiper-pagination"
+                        el: ".swiper-pagination",
+                        clickable: true
+                    },
+                    breakpoints: {
+                        0: {
+                            slidesPerView: slidesPerViewMobile
+                        },
+                        768: {
+                            slidesPerView: slidesPerViewTablet
+                        },
+                        1024: {
+                            slidesPerView: slidesPerViewDesktop
+                        }
+                    },
+                    grid: {
+                        rows: sectionId ? Number(sectionId) : 1
                     }
-                })
-            } 
-            
+                });
+            }
+        }
     }
 };
+
 BlsEventMainProductShopify.init();
+
+
+
 
 
 // best swiper ever 

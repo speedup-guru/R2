@@ -975,6 +975,47 @@ ul.sec_ul_und_prod li {
     line-height: 100%;
     margin-bottom: 0;
 }
+.shower_filter_aft_bef .progressInfo {
+    text-align: center;
+    padding: 5px;
+}
+.italic_text {
+    color: #000;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+}
+.shower_filter_aft_bef .nav-pills{
+    max-width: 340px;
+    margin: 0 auto;
+    border: 1px solid #C7E7DC;
+    padding: 10px;
+    border-radius: 666px;
+}
+.shower_filter_aft_bef li.nav-item, .shower_filter_aft_bef .nav-link {
+    border-radius: 666px;
+}
+.shower_filter_aft_bef .nav-link {
+    color: #AEADAD;
+}
+.shower_filter_aft_bef .nav-pills .nav-link.active, .shower_filter_aft_bef .nav-pills .show>.nav-link {
+    color: #000;
+    background-color: #C7E7DC;
+    border-radius: 666px;
+}
+.shower_filter_aft_bef .nav-link {
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
 
 @media(max-width: 767px){
     .order_minus_1{

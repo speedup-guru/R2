@@ -861,6 +861,18 @@ main.faucet_filter .you_know_shower_water img {
 p.clinically_para {
     padding-bottom: 22px;
 }
+ul.wrongCircle li {
+    opacity: 0.6;
+}
+ul.wrongCircle li.correct {
+    opacity: 1;
+}
+.bs_feature ul li:before, .bs_feature_l ul li:before {
+    margin-top: 0;
+
+}
+
+
 
 
 
