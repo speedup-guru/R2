@@ -27,10 +27,10 @@ main.shower_plus_faucet_water_filter .header-wrapper header {
 .complete_filter_bundle h4 {
     color: var(--Charcoal, #212428);
     font-family: "TT Commons";
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    line-height: 18px;
+    line-height: 24px;
     margin-bottom: 5px;
 }
 .complete_filter_bundle .text_bundle p {
@@ -65,9 +65,12 @@ main.shower_plus_faucet_water_filter .header-wrapper header {
     font-family: "TT Commons";
     font-size: 18px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 24px;
     padding: 5px 10px;
+}
+.complete_filter_bundle .prod_dv p span{
+    font-weight: 600;
 }
 .supplies_last {
     padding: 20px 10px;
@@ -115,7 +118,7 @@ main.shower_plus_faucet_water_filter .header-wrapper header {
     color: var(--Charcoal, #212428);
     text-align: center;
     font-family: "TT Commons";
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
@@ -180,7 +183,7 @@ main.shower_plus_faucet_water_filter .header-wrapper header {
     color: var(--Charcoal, #212428);
     text-align: center;
     font-family: "TT Commons";
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
@@ -204,7 +207,7 @@ main.shower_plus_faucet_water_filter .header-wrapper header {
     width: 100%;
 }
 .biggest_hair_issues_slider .pagination_navigation {
-    max-width: 250px;
+    max-width: 200px;
     margin-top: 34px;
 }
 .caused_by {
@@ -273,11 +276,12 @@ main.shower_plus_faucet_water_filter .header-wrapper header {
 }
 .real_problem h3 {
     color: var(--Charcoal, #212428);
-    font-family: "TT Commons";
+    font-family: "TT Commons Medium";
     font-size: 20px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 26px;
+    margin-bottom: 5px;
 }
 .real_problem p {
     color: var(--Charcoal, #212428);
@@ -332,7 +336,7 @@ main.shower_plus_faucet_water_filter .header-wrapper header {
     font-family: "TT Commons";
     font-size: 20px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 26px;
 }
 .shower_vs_faucet .water_filter_feature_icons {
@@ -358,7 +362,7 @@ main.shower_plus_faucet_water_filter .header-wrapper header {
 }
 .shower_vs_faucet .water_filter_feature_icons span{
     font-family: "TT Commons";
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 20px; 
 }
@@ -430,6 +434,7 @@ main.shower_plus_faucet_water_filter .trusted_recom .trusted_verified p {
 }
 main.shower_plus_faucet_water_filter .trusted_verified {
     padding: 10px 20px;
+    text-transform: capitalize;
 }
 main.shower_plus_faucet_water_filter .trusted_recom .trusted_left .title-lg {
     font-family: 'Canela light';
@@ -508,6 +513,7 @@ main.shower_plus_faucet_water_filter .trusted_recom .dr_text {
     border: 1px solid transparent;
     padding: 10px;
     cursor: pointer;
+    gap: 10px;
 }
 .item_swatch.active{
     border-color: var(--Charcoal-50, #8B8C8E);
@@ -580,14 +586,14 @@ main.shower_plus_faucet_water_filter .trusted_recom .dr_text {
     font-family: "TT Commons";
     font-size: 20px;
     font-style: normal;
-    font-weight: 600;
-    line-height: 26px; 
+    font-weight: 500;
+    line-height: 24px; 
 }
 .include .include_wrap .include_pd-price h6, .include .include_checkout h6{
     font-family: "TT Commons";
     font-size: 20px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
 }
 .skip_pause {
     color: var(--Charcoal, #212428);
@@ -628,7 +634,7 @@ main.shower_plus_faucet_water_filter .trusted_recom .dr_text {
     font-family: "TT Commons";
     font-size: 14px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 20px;
 }
 .thumb_swiper .swiper-slide {
@@ -758,14 +764,12 @@ main.shower_plus_faucet_water_filter .faq.accordions_shower_filter .accordion-it
     font-size: 26px;
     font-family: 'Canela Light';
 }
+
 .may_cls25_shwr_plus_faucet .title-xl {
     font-family: 'Canela Light';
 }
 .trusted_recom .title-lg {
     font-family: 'Canela Light';
-}
-.warranty_compat p{
-    font-family: 'TT Commons';
 }
 .product_bundle  .include_wrap {
     display: grid;
@@ -810,6 +814,15 @@ main.shower_plus_faucet_water_filter .faq.accordions_shower_filter .accordion-it
     font-weight: 300;
     line-height: 44px; 
 }
+.skin_deserves_qure h5 {
+    color: var(--Charcoal, #212428);
+    text-align: center;
+    font-family: "TT Commons";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
 .skin_deserves_qure p{
     color: var(--Charcoal, #212428);
     font-family: "TT Commons";
@@ -824,6 +837,7 @@ main.shower_plus_faucet_water_filter strong {
 main.shower_plus_faucet_water_filter .refill_review p a {
     font-size: 16px;
     font-family: 'TT Commons';
+    text-decoration: none;
 }
 main.shower_plus_faucet_water_filter .refill_review {
     border-radius: 5px;
@@ -866,9 +880,13 @@ p.clinically_para {
     font-size: 18px;
     font-family: 'TT Commons';
 }
+main.shower_plus_faucet_water_filter .refill_review p{
+    text-decoration: none;
+}
 .progress_text{
     font-size: 18px;
     font-family: 'TT Commons';
+    padding-top: 0 !important;
 }
 .result_s_wrapper .swiper-slide .result_item {
     height: auto;
@@ -898,13 +916,19 @@ main.shower_plus_faucet_water_filter .star_gp {
     padding: 10px 20px !important;
 }
 main.shower_plus_faucet_water_filter .product_bundle .buy-now {
-    font-family: 'TT Commons';
-    padding: 15px;
-    font-size: 18px;
+    color: #FFF;
+    font-family: "TT Commons";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    height: 60px;
+    max-width: 450px;
+    margin: 0 auto;    
 }
 .shwr_fau_know_water p {
     font-family: 'TT Commons';
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
@@ -1053,7 +1077,7 @@ main.shower_plus_faucet_water_filter .product_bundle .include  .selection_title 
 }
 main.shower_plus_faucet_water_filter .include .include_wrap .include_pd-detail h6 {
     font-family: 'TT Commons';
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.14px;
@@ -1153,33 +1177,64 @@ main.shower_plus_faucet_water_filter .warranty_compat img {
 main.shower_plus_faucet_water_filter .videosQure .vid_arrows_wrapper{
     margin-top: 50px;
 }
+main.shower_plus_faucet_water_filter .green_txt {
+    color: #008763;
+    text-align: center;
+    font-family: "TT Commons";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+}
+.skin_deserves_qure .col-2 img {
+    height: 20px;
+    width: 20px;
+}
+main.shower_plus_faucet_water_filter .faq .accordion-button:not(.collapsed) .container p{
+    font-weight: 600 !important;
+}
+main.shower_plus_faucet_water_filter .faq .accordion-button:not(.collapsed) .container:after {
+    content: '';
+    background-image: url('accord_minus_icon.svg');
+    background-repeat: no-repeat;
+}
+main.shower_plus_faucet_water_filter .faq .accordion-button .container:after{
+    content: '';
+    background-image: url('accord_plus_icon.svg');
+    background-repeat: no-repeat;
+}
+main.shower_plus_faucet_water_filter .shwr_fau_faq .container{
+    font-weight: 400;
+}
+main.shower_plus_faucet_water_filter .shwr_fau_faq .accordion-button:not(.collapsed) .container{
+    font-weight: 600;
+}
+.ctm_cls_arrows .swiper-pagination-current {
+    font-weight: 600;
+}
 
 
 
-@media (min-width: 1440px) {
-    .biggest_hair_issues_slider {
-        margin-right: -400px;
+
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+    .biggest_hair_issues_inner {
+        margin-left: auto;
+        padding-right: 147px;
     }
 }
 
-@media (min-width: 1200px) and (max-width:1440px) {
-    .biggest_hair_issues_slider {
-        margin-right: -160px;
-    }
-}
-
-@media(min-width:768px) and (max-width:1199px) {
-.biggest_hair_issues_slider {
-        margin-right: -120px;
+@media(min-width:1600px){
+    .biggest_hair_issues_inner {
+        margin-left: auto; 
+        padding-right: 187px;
     }
 }
 
 
 @media(min-width:768px){
-   .biggest_hair_issues_inner {
-        max-width: 650px;
-        margin-left: auto;
-        padding-right: 90px;
+    .water_filter_feature_icons .col-6{  
+        padding-left: 0;
     }
     .biggest_hair_issues {
     overflow: hidden;
@@ -1191,35 +1246,35 @@ main.shower_plus_faucet_water_filter .videosQure .vid_arrows_wrapper{
 
 
 @media(max-width:767px){
+    p.clinically_para{
+        padding-bottom: 0;
+    }
+    main.shower_plus_faucet_water_filter .green_txt {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+    }
     .skin_deserves_qure h5 {
-    font-size: 18px;
-    font-family: 'TT Commons';
-    font-weight: 400;
-}
+        font-size: 18px;
+        font-family: 'TT Commons';
+        font-weight: 400;
+    }
     main.shower_plus_faucet_water_filter .next_batch_bl.next_batch_highlight {
-    margin-top: 0;
-}
+        margin-top: 0;
+    }
       main.shower_plus_faucet_water_filter  .endless_marquee .container {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
     main.shower_plus_faucet_water_filter .offer-lp .thumbsSlider_wrap .swiper-thumbs {
-    max-width: 256px;
-}
+        max-width: 256px;
+    }
     .container{
         padding-left: 16px !important;
         padding-right: 16px !important;
     }
     main.shower_plus_faucet_water_filter .refill_review p a {
-    font-size: 14px;
-}
-    .skin_deserves_qure p{
-        color: var(--Charcoal, #212428);
-        font-family: "TT Commons";
         font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 20px;
     }
     .title-xl-commons{
         font-size: 32px;
@@ -1228,24 +1283,23 @@ main.shower_plus_faucet_water_filter .videosQure .vid_arrows_wrapper{
     .title-lg-commons{
         font-size: 28px;
         line-height: 34px; 
-}
+    }
     .ann_shwr_fau_water_filter a{
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 16px;
-}
-
+    }
     .bg_cyan_blue {
         font-size: 12px;
     }
     .announcement_bar p {
-    font-size: 12px !important;
-}
+        font-size: 12px !important;
+    }
     .product_bundle .buy-now {
-    font-weight: 600;
-    font-family: 'TT Commons';
-}
+        font-weight: 600;
+        font-family: 'TT Commons';
+    }
     .product_bundle  .include_wrap {
     grid-template-columns: 2fr 6.3fr 3fr;
     gap: 20px;
@@ -1274,9 +1328,13 @@ main.shower_plus_faucet_water_filter .videosQure .vid_arrows_wrapper{
     }
     .result_s .section_header .title-lg, .result_s .section_header p {
         text-align: center;
+        font-size: 18px;
+        font-family: 'TT Commons';
+        padding-top: 0;
     }
     .faucet_offer_aft_bef .section_header .title-lg, .faucet_offer_aft_bef .section_header  .clinically_para {
         text-align: center;
+        padding-top: 0;
     }
     .biggest_hair_issues_inner h3 {
         font-size: 28px;
@@ -1309,13 +1367,12 @@ main.shower_plus_faucet_water_filter .videosQure .vid_arrows_wrapper{
         gap: 20px;
     }
     .real_problem h3 {
-        font-size: 18px;
+        font-size: 20px;
         font-style: normal;
         line-height: 24px;
-        margin-bottom: 0;
     }
     .real_problem p {
-        font-size: 14px;
+        font-size: 18px;
         line-height: 20px;
     }
     .biggest_hair_issues.section {
@@ -1337,7 +1394,40 @@ main.shower_plus_faucet_water_filter .videosQure .vid_arrows_wrapper{
       height: 40px;
     }
     .icons_water_filter p {
-        font-size: 14px;
+        font-size: 16px;
+    }
+    .ser_icons p {
+        font-size: 16px;
+    }
+    .complete_filter_bundle h4 {
+        font-size: 16px;
+        font-family: 'TT Commons';
+        font-weight: 600;
+    }
+    main.shower_plus_faucet_water_filter .faq .accordion-button .container{
+        color: var(--Charcoal, #212428);
+        font-family: "TT Commons";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    .complete_filter_bundle .text_bundle p{
+        font-size: 16px;
+    }
+    main.shower_plus_faucet_water_filter .product_bundle .buy-now {
+        font-weight: 400;
+        font-size: 18px;
+        height: 50px;
+    }
+    .warranty_compat p{
+        font-size: 16px;
+    }
+    main.shower_plus_faucet_water_filter .warranty_compat {
+        grid-template-columns: 1fr 1fr;
+    }
+    .select_color_swatches{
+        margin-top: 15px;
     }
 }
 

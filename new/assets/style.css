@@ -29766,6 +29766,18 @@ a:focus {
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'TT Commons Medium';
+  src: url('../assets/tt_commons_font/TTCommons-Medium.eot');
+  src: url('../assets/tt_commons_font/TTCommons-Medium.eot?#iefix') format('embedded-opentype'),
+       url('../assets/tt_commons_font/TTCommons-Medium.woff2') format('woff2'),
+       url('../assets/tt_commons_font/TTCommons-Medium.woff') format('woff'),
+       url('../assets/tt_commons_font/TTCommons-Medium.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 
 p {
     margin-bottom: 0;
