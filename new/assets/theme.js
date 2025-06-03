@@ -63,6 +63,7 @@ setTimeout(function () {
                     },
                     pagination: {
                         clickable: !0,
+                        type: 'fraction',
                         el: e.querySelector(".swiper-pagination")
                     },
                     breakpoints: {
@@ -335,6 +336,7 @@ var swiper = new Swiper(".result_slider", {
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
+        type: 'fraction',
     },
     navigation: {
         nextEl: ".qureSlider-swiper-next",
@@ -410,10 +412,10 @@ var swiper = new Swiper(".result_slider_3", {
 // //YOUTUBE VIDEO
 // $(document).ready(function () {
 
-//     $('.play_btn').on('click', function () {
-//         $('.video-popup').fadeIn('slow');
-//         return false;
-//     });
+    // $('.play_btn').on('click', function () {
+    //     $('.video-popup').fadeIn('slow');
+    //     return false;
+    // });
 
 //     $('.popup-bg').on('click', function () {
 //         $('.video-popup').slideUp('slow');
@@ -512,15 +514,51 @@ $(function () {
 
 
 // navbar
-setTimeout(function () {
-    $('.hamburger-container').click(function () {
-        $('body').toggleClass("openmenu");
+// setTimeout(function () {
+//     $('.hamburger-container').click(function () {
+//         $('body').toggleClass("openmenu");
+//     });
+//     $("#menu li > a").click(function () {
+//         $('body').removeClass("openmenu");
+//         bottomBar.removeClass("hidden");
+//     })
+// }, 500);
+
+function initMobileMenu() {
+    const hamburgerContainer = document.querySelector('.hamburger-container');
+    const menuLinks = document.querySelectorAll('#menu li > a');
+    const bottomBar = document.querySelector('.bottom-bar'); // Adjust selector if needed
+    const body = document.body;
+
+    if (!hamburgerContainer || menuLinks.length === 0) return;
+
+    hamburgerContainer.addEventListener('click', function () {
+        body.classList.toggle('openmenu');
     });
-    $("#menu li > a").click(function () {
-        $('body').removeClass("openmenu");
-        bottomBar.removeClass("hidden");
-    })
-}, 500);
+
+    menuLinks.forEach(function (link) {
+        link.addEventListener('click', function () {
+            body.classList.remove('openmenu');
+            if (bottomBar) {
+                bottomBar.classList.remove('hidden');
+            }
+        });
+    });
+}
+
+// Run when DOM is ready and target element is found
+function waitForElement(selector, callback) {
+    const checkExist = setInterval(function () {
+        if (document.querySelector(selector)) {
+            clearInterval(checkExist);
+            callback();
+        }
+    }, 100); // check every 100ms
+}
+
+waitForElement('.hamburger-container', initMobileMenu);
+
+
 
 
 
@@ -1688,11 +1726,6 @@ $(document).ready(function () {
 
 
 
-
-
-
-
-
 var BlsEventMainProductShopify = {
     init: function() {
         this.eventMediaGalleryProduct();
@@ -1854,4 +1887,7 @@ document.querySelectorAll('.ctm_swiper_main_images').forEach((mainEl) => {
       this.setAttribute('data-expanded', 'true');
     }
   });
+
+
+
 

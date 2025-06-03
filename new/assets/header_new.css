@@ -2120,11 +2120,7 @@ img.fa.fa-user.nav__icon {
         margin: 20px 0;
     }
 
-    .openmenu nav.mobile-menu-custome #menu li {
-        margin: 20px 0;
-    }
-
-    .dek-menu .mobile-menu-custome #menu li a {
+    .dek-menu .mobile-menu-custome #menu li a { 
         display: flex;
         font-size: 20px;
         line-height: 100%;

@@ -179,7 +179,7 @@
     border-bottom: none;
 }
 
-.faq .accordion-item:last-child {
+main.led_lp .faq .accordion-item:last-child {
     border-bottom: 1px solid #DEDADA;
 }
 
@@ -1062,10 +1062,10 @@
 
 
 /* how it works start */
-.nav-pills .nav-link {
+.how_it_works .nav-pills .nav-link {
     border-radius: 999px;
   }
-  .nav-pills .nav-link.active {
+  .how_it_works .nav-pills .nav-link.active {
     background-color: #d2f0df !important;
     color: #1f1f1f !important;
   }

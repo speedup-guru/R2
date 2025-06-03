@@ -30493,7 +30493,9 @@ p {
 .mw-402 {
     max-width: 402px !important;
 }
-
+.mw-414{
+    max-width: 414px;
+}
 .mw-421 {
     max-width: 421px;
 }
@@ -30541,20 +30543,23 @@ p {
 .mw-500 {
     max-width: 500px;
 }
-
 .mw-512 {
     max-width: 512px;
 }
-
+.mw-522{
+    max-width: 522px;
+}
 .mw-525 {
     max-width: 525px !important;
 }
 .mw-542{
     max-width: 542px !important;
 }
-
 .mw-546 {
     max-width: 546px !important;
+}
+.mw-550 {
+    max-width: 550px !important;
 }
 .mw-560 {
     max-width: 560px !important;
@@ -32499,10 +32504,6 @@ picture img {
     padding: 8px 16px;
     display: inline-block;
 }
-
-
-
-
 
 
 

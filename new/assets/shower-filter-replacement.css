@@ -94,7 +94,7 @@
     padding: 3px 15px 3px 3px;
 }
 .supply_icons {
-    gap: 10px;
+    gap: 5px;
 }
 .caring_for_your_skin .caring_skin h3 {
     font-family: Canela Web;
@@ -111,6 +111,7 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 26px;
+    gap: 3px;
 }
 .bg_light_grey{
     background: #FBFBFB;
