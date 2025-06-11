@@ -29756,11 +29756,11 @@ a:focus {
 
 @font-face {
   font-family: 'TT Commons';
-  src: url('../assets/tt_commons_font/TTCommons-Regular.eot');
-  src: url('../assets/tt_commons_font/TTCommons-Regular.eot?#iefix') format('embedded-opentype'),
-       url('../assets/tt_commons_font/TTCommons-Regular.woff2') format('woff2'),
-       url('../assets/tt_commons_font/TTCommons-Regular.woff') format('woff'),
-       url('../assets/tt_commons_font/TTCommons-Regular.ttf') format('truetype'); 
+  src: url('../assets/TTCommons-Regular.eot');
+  src: url('../assets/TTCommons-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../assets/TTCommons-Regular.woff2') format('woff2'),
+       url('../assets/TTCommons-Regular.woff') format('woff'),
+       url('../assets/TTCommons-Regular.ttf') format('truetype'); 
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -29768,11 +29768,11 @@ a:focus {
 
 @font-face {
   font-family: 'TT Commons Medium';
-  src: url('../assets/tt_commons_font/TTCommons-Medium.eot');
-  src: url('../assets/tt_commons_font/TTCommons-Medium.eot?#iefix') format('embedded-opentype'),
-       url('../assets/tt_commons_font/TTCommons-Medium.woff2') format('woff2'),
-       url('../assets/tt_commons_font/TTCommons-Medium.woff') format('woff'),
-       url('../assets/tt_commons_font/TTCommons-Medium.ttf') format('truetype'); 
+  src: url('../assets/TTCommons-Medium.eot');
+  src: url('../assets/TTCommons-Medium.eot?#iefix') format('embedded-opentype'),
+       url('../assets/TTCommons-Medium.woff2') format('woff2'),
+       url('../assets/TTCommons-Medium.woff') format('woff'),
+       url('../assets/TTCommons-Medium.ttf') format('truetype'); 
   font-weight: normal;
   font-style: normal;
   font-display: swap;

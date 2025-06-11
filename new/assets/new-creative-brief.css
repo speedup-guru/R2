@@ -1,0 +1,345 @@
+.new_creative-brief .main_b_wrapper h1 {
+    font-family: 'Canela light';
+    font-size: 46px;
+    line-height: 52px;
+}
+.discover_product .discover_content {
+    background: #F6F6F7;
+    border-radius: 10px;
+    padding: 32px;
+}
+
+.discover_product .discover_content h6, 
+.discover_product .discover_content p,
+.brief_content-tabs .tabs_ul ul li,
+.how_to-install ul li,
+.how_to-install h5,
+.brief_tabs p,
+.brief_tabs h5,
+.trusted_expert p {
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'TT Commons';
+    color: #212428;
+}
+.discover_product .discover_content h6{
+    font-weight: 600;
+}
+.discover_product .discover_content p{
+    font-weight: 400;
+}
+
+.brief_content-tabs {
+    padding-bottom: 60px;
+}
+.brief_content-tabs .nav-link.active {
+    background-color: transparent;
+    font-family: 'TT Commons Medium';
+    color: #212428;
+}
+.brief_content-tabs .content_side-bar button {
+    border-bottom: 1.5px solid var(--Charcoal-10, #DFE0E0);
+    border-radius: 0;
+    width: 100%;
+    text-align: left;
+    padding: 28px 0;
+    display: flex;
+    justify-content: space-between;
+    color: #212428;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'TT Commons';
+    line-height: normal;
+}
+.content_side-bar button img{
+    vertical-align: middle;
+}
+.brief_content-tabs .must_read {
+    background: #C7E5DB;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 2px 10px;
+    font-family: 'TT Commons';
+    margin-left: 5px;
+}
+div#v-pills-tab {
+    width: 100%;
+}
+
+.brief_content-tabs .tabs_ul ul li{
+    list-style: disc;
+    font-family: 'TT Commons';
+}
+.brief_content-tabs h2,
+.trusted_expert-text h2{
+    font-family: "Canela light";
+    font-size: 38px;
+    margin-bottom: 0;
+    color: #212428;
+}
+.brief_content-tabs .tabs_ul {
+    padding: 40px 0 32px 20px;
+}
+.brief_content-tabs .brief_tabs a {
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'TT Commons';
+    text-decoration: underline;
+    color: #000;
+}
+.how_to-install ul {
+  counter-reset: step-counter;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.how_to-install ul li {
+  counter-increment: step-counter;
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+
+.how_to-install ul li::before {
+  content: counter(step-counter);
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+}
+.brief_tabs .remember_box {
+    background: #F4F8FD;
+    padding: 12px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin-top: 30px;
+}
+.brief_tabs .remember_box p, .brief_tabs .remember_box ul li {
+    font-size: 16px;
+}
+.brief_tabs .tab_img-box{
+    max-width: 616px;
+    display: flex;
+    gap: 16px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.angles_item {
+    background: #F6F6F7;
+    border-radius: 10px;
+    padding: 70px 24px 24px;
+}
+
+.angles_item .angles_item-inner {
+    background: #fff;
+    padding: 16px;
+    border-radius: 10px;
+    margin-top: 24px;
+}
+
+.angles_item .angles_item-inner p, .angles_item .angles_item-inner h6 {
+    font-size: 16px;
+}
+.angles_item h6 {
+    font-size: 18px;
+    font-family: 'TT Commons Medium';
+    color: #212428;
+}
+.angles_wrapper {
+  counter-reset: angle-counter;
+}
+
+.angles_wrapper .swiper-slide {
+  counter-increment: angle-counter;
+  position: relative;
+}
+
+.angles_wrapper .swiper-slide::before {
+  content: counter(angle-counter);
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  width: 24px;
+  height: 24px;
+  background: #000;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+
+.qure_founder {
+    padding: 60px 0;
+    background: #F6F6F7;
+}
+.dermatologist-approved .trusted_bl.trustedVerified .trusted_verified {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: 21px 1fr;
+    align-items: center;
+    gap: 10px;
+    font-family: 'TT Commons';
+    line-height: 22px;
+}
+.dermatologist-approved .trusted_verified p {
+    line-height: 22px !important;
+    font-family: 'TT Commons';
+    text-transform: capitalize !important;
+    letter-spacing: 0 !important;
+    font-size: 18px !important;
+}
+.dermatologist-approved .qure_founder_info {
+    display: grid;
+    gap: 32px;
+}
+.dermatologist-approved .qure_founder_img p span {
+    font-size: 20px;
+}
+.dermatologist-approved .qure_founder_img p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    padding: 20px;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'TT Commons';
+}
+.dermatologist-approved .qure_founder_info h3 {
+    font-size: 38px !important;
+    font-weight: 300 !important;
+    line-height: 42px !important;
+    max-width: 100% !important;
+    margin: 0;
+}
+.dermatologist-approved .qure_founder_wrap {
+    grid-template-columns: 1fr 350px ;
+    gap: 100px;
+    max-width: 1140px;
+}
+.dermatologist-approved .qure_founder_img{
+    position: relative;
+}
+.dermatologist-approved .qure_founder_img img {
+    max-width: 100%;
+    width: 100%;
+}
+.dermatologist-approved .qure_founder_img p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    padding: 20px;
+    width: 100%;
+    color: #fff;
+}
+.trusted_expert .approved h5 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'TT Commons';
+    margin-bottom: 0;
+    color:#8B8C8E;
+}
+.trusted_expert .approved {
+    background: #fff;
+    max-width: 242px;
+    padding: 9px;
+    text-align: center;
+    border-radius: 25px;
+}
+.trusted_expert-text .approved h5 img {
+    vertical-align: sub;
+    margin-right: 5px;
+}
+.trusted_expert p span {
+    background: #C7E5DB;
+}
+.trusted_expert {
+    background: #F6F6F7;
+}
+.trusted_expert-text h2{
+    padding: 32px 0 28px;
+}
+.brief_content-tabs .tabs_ul ul li::marker {
+    font-size: 8px;
+}
+@media(max-width: 767px){
+    .new_creative-brief .main_b_wrapper h1 {
+    font-size: 32px;
+    line-height: 36px;
+    color: #fff; 
+}
+.new_creative-brief .main_b_wrapper {
+    align-items: end;
+    padding-bottom: 18px;
+}
+.new_creative-brief .main_b_wrapper .container {
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+}
+.trusted_expert-text h2 {
+    font-size: 28px;
+}
+.trusted_expert .approved {
+    margin: 0 auto;
+}
+.trusted_expert-img p {
+    padding: 30px 0;
+}
+.discover_product .discover_content {
+    background: #fff;
+    padding: 10px 0;
+}
+.new_creative-brief .ac_desc.faq .accordion-button {
+    padding: 30px 0;
+}
+.new_creative-brief .ac_desc.faq .accordion-button .container{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'TT Commons Medium';
+}
+.brief_content-tabs .tabs_ul {
+    padding: 0;
+}
+.brief_content-tabs .ac_desc.faq .accordion-item {
+    border-bottom: 1px solid #DFE0E0;
+}
+.brief_content-tabs .brief_tabs,
+.brief_content-tabs .how_to-install {
+    padding-bottom: 30px;
+}
+.new_creative-brief .tabs_ul ul li {
+    padding: 0 !important;
+    line-height: 22px;
+}
+.new_creative-brief .ac_desc .how_to-install li {
+    padding: 0 0 0 35px;
+    line-height: 22px;
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.new_creative-brief .ac_desc .how_to-install P{
+    font-size: 18px;
+     font-family: 'TT Commons';
+}
+.ac_desc_grid .ac_desc ul {
+    padding-left: 25px;
+}
+}
