@@ -1,7 +1,6 @@
 /* 
 * Common JS Start
 */
-
 setTimeout(function () {
     var TwaSettingsSwiper = {
         init: function () {

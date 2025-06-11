@@ -840,7 +840,41 @@ p.valued_at strong {
 }
   /* quiz end */
   
-
+.faucet_offer-banner p{
+    font-size: 18px;
+    letter-spacing: 0.124px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.faucet_offer-banner .faucet_offer-text a{
+    font-size: 22px;
+    padding: 19px 10px;
+    line-height: 20px;
+    max-width: 354px;
+    width: 100%;
+}
+.faucet_offer-banner h6{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.13px;
+    padding-top: 12px;
+}
+.faucet_offer-banner .faucet_offer-text{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.faucet_offer-banner{
+    padding: 28px 0;
+}
+.faucet_offer-banner h5{
+    font-family: Canela Web;
+    font-size: 42px !important;
+    line-height: 50px;
+    font-weight: 500;
+}
 /* .............Sub Banner............... */
 @media(max-width:991px) {
     .main_banner .bf_sale-slider .swiper-button {

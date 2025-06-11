@@ -132,11 +132,14 @@ div#v-pills-tab {
     padding-top: 40px;
     padding-bottom: 10px;
 }
-
+.brief_tabs .swiper-slide{
+    height: auto;
+}
 .angles_item {
     background: #F6F6F7;
     border-radius: 10px;
     padding: 70px 24px 24px;
+    height: 100%;
 }
 
 .angles_item .angles_item-inner {
@@ -148,6 +151,7 @@ div#v-pills-tab {
 
 .angles_item .angles_item-inner p, .angles_item .angles_item-inner h6 {
     font-size: 16px;
+    font-family: 'TT Commons';
 }
 .angles_item h6 {
     font-size: 18px;
@@ -161,6 +165,7 @@ div#v-pills-tab {
 .angles_wrapper .swiper-slide {
   counter-increment: angle-counter;
   position: relative;
+  height: auto;
 }
 
 .angles_wrapper .swiper-slide::before {
@@ -320,7 +325,7 @@ div#v-pills-tab {
 .brief_content-tabs .ac_desc.faq .accordion-item {
     border-bottom: 1px solid #DFE0E0;
 }
-.brief_content-tabs .brief_tabs,
+
 .brief_content-tabs .how_to-install {
     padding-bottom: 30px;
 }
@@ -341,5 +346,15 @@ div#v-pills-tab {
 }
 .ac_desc_grid .ac_desc ul {
     padding-left: 25px;
+}
+
+.angles_item p{
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'TT Commons';
+    color: #212428;
+}
+.brief_content-mob .swiper {
+    overflow: unset;
 }
 }
