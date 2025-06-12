@@ -1267,4 +1267,27 @@ p.valued_at strong {
         font-size: 14px;
         padding: 8px;
     }
+    .faucet_offer-banner h5 {
+    font-size: 32px !important;
+}
+.faucet_offer-banner p {
+    font-size: 13px;
+    padding-top: 25px;
+    padding-bottom: 0;
+}
+.faucet_offer-banner h6 {
+    font-size: 10px;
+    padding-top: 5px;
+}
+.faucet_offer-banner .faucet_offer-text a {
+    font-size: 14px;
+    padding: 11px 10px;
+    max-width: 180px;
+}
+.faucet_offer-banner {
+    padding: 24px 0;
+}
+.faucet_offer-banner .faucet_offer-text {
+    justify-content: center;
+}
 }
