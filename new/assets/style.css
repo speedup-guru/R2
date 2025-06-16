@@ -29809,7 +29809,9 @@ p {
 .bg-lightGrey {
     background-color: rgb(251 251 251) !important;
 }
-
+.bg-charcoal-grey {
+    background-color: #212428 !important;
+}
 .bg-grey {
     background-color: var(--clr-grey);
 }
@@ -30356,7 +30358,23 @@ p {
 .ss_list.incorrectCircle ul li:before {
     content: url(../assets/incorrect_circle.svg);
 }
-
+.ss_list-blue ul li:before {
+    position: absolute;
+    content: url(../assets/blue_tick.svg);
+    left: 0;
+    top: 8px;
+}
+.ss_list-blue ul li{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    position: relative;
+    padding-left: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-family: 'TT Commons';
+}
 @media(max-width:767px) {
     .ss_list ul li {
         font-size: 13px;
@@ -31004,7 +31022,6 @@ p {
     letter-spacing: 0.2px;
     padding: 7px 0;
 }
-
 .f_apps h5 {
     font-size: 18px;
     line-height: 27px;
@@ -31133,6 +31150,122 @@ p {
 }
 
 /* ===============================  Footer End ======================================= */
+
+/* ===============================  Brief Footer Start ======================================= */
+.brief_footer, 
+.brief_footer *{
+    font-family: 'TT Commons';
+}
+.brife_footer-wrap li a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.brife_footer-wrap li:not(:last-child) {
+    padding-bottom: 10px;
+}
+.brief_footer .f_apps p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #fff;
+    opacity: 1;
+}
+.f_copyright-brief .f_c_upper,
+.f_copyright-brief .f_c_upper ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer .f_main .brife_footer-wrap .f_title{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #8B8C8E;
+    font-family: 'TT Commons Medium';
+}
+.f_copyright-brief .f_c_upper p, .f_copyright-brief .f_c_upper ul li {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.f_copyright-brief .f_c_upper p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.brief_copyright-bottom p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #8B8C8E;
+}
+.brief_footer.f_apps h5{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.brief_footer .f_main {
+    padding: 0 0 40px;
+    border-bottom: 1px solid #8B8C8E;
+    margin-bottom: 30px;
+}
+@media(max-width: 991px){
+    .f_copyright-brief .f_c_upper {
+    gap: 10px;
+    padding-bottom: 10px;
+}
+.brief_footer .brife_footer-wrap li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.brief_footer .faq .accordion-item ul li {
+    list-style: none;
+}
+
+.brief_footer .faq .accordion-item ul {
+    padding-left: 0;
+}
+.brief_footer .faq .accordion-button .container {
+    color: #8B8C8E;
+    font-size: 20px;
+    font-weight: 500;
+}
+.brief_footer .faq .accordion-item:last-child {
+    border-bottom: 1px solid #8B8C8E;
+}
+.brief_footer .faq .accordion-item {
+    border-color: #8B8C8E;
+    border-radius: 0;
+}
+.brief_footer .ac_desc.faq .accordion-button .container:after {
+    content: '+';
+    color: var(--clr-1);
+    font-size: 45px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-weight: 300;
+    height: auto;
+    width: auto;
+}
+.brief_footer .ac_desc.faq .accordion-button:not(.collapsed) .container:after {
+    content: '-';
+}
+.brief_footer .f_app_wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.brief_footer .f_apps p {
+    padding-bottom: 0;
+    font-size: 16px;
+}
+}
+/* ===============================  Brief Footer End ======================================= */
+
 /* ============================= footer landing start ============================ */
 .footer-landing {
     background-color: #000;

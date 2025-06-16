@@ -183,10 +183,10 @@
     text-align: center;
     margin: 12px 0;
 }
-.mi_patches_pdp span.saved_price {
+/* .mi_patches_pdp span.saved_price {
     background: #c50000 !important;
     margin-left: 8px;
-}
+} */
 .mi_patches_pdp .planBlock .monthly_plans{
     padding: 13px 20px;
 }
@@ -212,6 +212,11 @@
 .mi_patches_pdp .planBlock .plan_choosed span {
     display: flex;
     justify-content: center;
+    background: #212428;
+    font-size: 14px;
+    font-family: 'TT Commons';
+    line-height: 18px;
+    padding-top: 2px;
 }
 .plan_prc {
     font-weight: 400;
@@ -242,13 +247,7 @@ img#bundleImage {
     margin-top: 0;
     line-height: 20px;
 }
-.planBlock .monthly_plans .plan_hdr h3 {
-    margin-top: -5px;
-}
-.planBlock .monthly_plans .plan_hdr h3 {
-    font-size: 14px !important;
-    opacity: 80%;
-}
+
 .mi_patches_pdp .planBlock .monthly_plans .price .regular_price {
     font-size: 20px;
 }
@@ -287,9 +286,11 @@ img#bundleImage {
 
 .mi-patches-pdf .planBlock .monthly_plans {
     padding: 0;
+    border-width: 2px;
+    transition: all .3s ease;
 }
 .mi-patches-pdf label.monthly_plans {
-    height: 144px;
+    height: 150px;
 }
 .mi-patches-pdf .planBlock .monthly_plans .price {
     justify-content: center;
@@ -298,28 +299,33 @@ img#bundleImage {
     position: relative;
 }
 .mi-patches-pdf .planBlock .monthly_plans .saved_price {
-    background-color: #C4121A;
-    margin-bottom: -9px;
     height: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 11px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 600;
     line-height: 24px;
     letter-spacing: 0.11px;
-    padding: 6px 8px;
+    padding: 6px 10px;
     position: absolute;
-    bottom: 0;
+    bottom: -10px;
+    background-color: #FFEEEA;
+    color: #FF5429;
+    margin-left: 0;
+    transition: all .3s ease;
+    font-family: "TT Commons";
 }
-.mi_patches_pdp .planBlock {
-    max-width: 130px;
+.planBlock input:checked+.monthly_plans .saved_price{
+    background-color: #FF5429;
+    color: #fff;
 }
+
 .mi_patches_pdp .step_conten_blocks {
     display: grid;
     align-items: end;
-    gap: 6px;
+    gap: 12px;
     grid-template-columns: 1fr 1fr 1fr;
 }
 .max_eff p {
@@ -334,23 +340,28 @@ img#bundleImage {
     gap: 10px;
 }
 .mi_patches_pdp .planBlock .monthly_plans .plan_hdr h3 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'TT Commons';
     text-align: center;
-    font-size: 13px !important;
-    font-weight: 600;
-    line-height: 13px;
-    letter-spacing: 0.13px;
-    margin-bottom: 5px;
+    padding: 6px 0;
+}
+.mi_patches_pdp .planBlock .monthly_plans .plan_hdr h3 span {
+    display: inline-block;
+    font-size: 14px;
 }
 .mi_patches_pdp .planBlock .monthly_plans .price .regular_price {
-    font-size: 14px;
+    font-size: 18px;
+    font-family: 'TT Commons';
+    color: #8B8C8E;
+    font-weight: 400;
 }
 .mi_patches_pdp .planBlock .monthly_plans .plan_prc.sale_price {
-    font-weight: 500 !important;
-    font-size: 14px;
+    color: #FF5429;
+    font-weight: 400 !important;
+    font-family: 'TT Commons';
 }
-.mi_patches_pdp .plan_hdr {
-    margin-top: 10px;
-}
+
 .max_eff {
     width: 100%;
     background: #F6F6F6;
@@ -371,21 +382,127 @@ img#bundleImage {
     font-weight: 700;
 }
 .planBlock input:checked+.monthly_plans {
-    border: 1px solid #000;
+    border: 2px solid #212428;
 }
 .planBlock input:checked+.monthly_plans {
-    background: #EAF5F2;
+    background: #F6F6F7;
 }
 .max_eff_images img {
     height: 40px;
     width: 27px;
 }
 
+.mi-patches-pdf .refill_review {
+    border-radius: 5px;
+    background: var(--Mist, #F6F6F7);
+    padding: 10px;
+    max-width: max-content;
+}
 
-
-
-
-
+.title-xl-commons {
+    color: var(--Charcoal, #212428);
+    font-family: "Canela Light";
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 54px;
+}
+.monthly_plans .new_patches img {
+    max-width: 54px;
+}
+.monthly_plans .new_patches{
+    padding-top: 12px;
+}
+.mi-patches-pdf .refill_review p a {
+    font-size: 16px;
+    font-family: 'TT Commons';
+    text-decoration: none;
+}
+.mi-patches-pdf .product_title {
+    color: var(--Charcoal, #212428);
+    font-family: "TT Commons";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 24px 0 8px;
+}
+.select_your_supply {
+    color: var(--Charcoal, #212428);
+    font-family: "TT Commons";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 24px 0 10px;
+}
+.mi-patches-pdf hr {
+    background: #DFE0E0;
+    opacity: 1;
+}
+.mi_patches_pdp .planBlock:last-child .monthly_plans .plan_prc.sale_price{
+    color: #212428;
+}
+.upgrade_routine .ur_heading {
+    font-family: "TT Commons";
+    font-size: 20px;
+    font-weight: 400;
+}
+.upgrade_routine .ur_itemName {
+    color: var(--Charcoal, #212428);
+    font-family: "TT Commons";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; 
+}
+.mi-patches-pdf .faq_patches_pdp .accordion-button {
+    padding: 4px 0;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: transparent;
+}
+.mi-patches-pdf .faq .accordion-button .container:after {
+    top: 50%;
+    font-weight: 300;
+    transform: translate(0, -50%);
+} 
+.mi-patches-pdf .accordion-button:not(.collapsed) .container:after {
+    content: '';
+    background-image: url('accord_minus_icon.svg');
+    background-repeat: no-repeat;
+}
+.mi-patches-pdf .accordion-button .container:after{
+    content: '';
+    background-image: url('accord_plus_icon.svg');
+    background-repeat: no-repeat;
+}
+.mi-patches-pdf .accordion-button:not(.collapsed) .container p {
+    font-weight: 600 !important;
+}
+.jump_to a {
+    border: 1px solid #000;
+    border-radius: 100px;
+    font-family: 'TT Commons';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 24px;
+}
+.jump_to img {
+    margin-bottom: 1px;
+}
+.jump_to_heading h3 {
+    color: var(--Charcoal, #212428);
+    font-family: "TT Commons";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.faq_patches_pdp .accordion-item:last-child {
+    border-bottom: 1px solid #DEDADA;
+}
 
 
 
