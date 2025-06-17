@@ -402,7 +402,7 @@
     }
 
     .header-new .menu {
-        width: 45%;
+        /* width: 45%; */
         gap: 18px;
     }
 }

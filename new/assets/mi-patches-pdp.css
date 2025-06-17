@@ -270,9 +270,6 @@ img#bundleImage {
 .next_batch_bl.next_batch_highlight {
     padding: 20px 16px;
 }
-.next_batch_bl.next_batch_highlight .batch_h .batch_h_month {
-    margin-top: 10px;
-}
 .next_batch_bl.next_batch_highlight .batch_h .batch_h_info {
     padding: 0px 10px;
 }
@@ -486,8 +483,12 @@ img#bundleImage {
     font-family: 'TT Commons';
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 20px;
     padding: 8px 24px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .jump_to img {
     margin-bottom: 1px;
@@ -503,6 +504,183 @@ img#bundleImage {
 .faq_patches_pdp .accordion-item:last-child {
     border-bottom: 1px solid #DEDADA;
 }
+.next_batch_bl.next_batch_highlight .batch_h {
+    display: grid;
+    grid-template-columns: calc(100% - 50%) 1fr;
+    gap: 10px;
+}
+.batch_h {
+    color: var(--Charcoal, #212428);
+    font-family: "TT Commons";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+.skincare_slider_n .title-lg {
+    font-family: 'Canela Light';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.next_batch_bl {
+    background-color: #ffffff7d;
+    border: 1px solid var(--Charcoal-10, #DFE0E0);
+    border-radius: 10px;
+}
+ .batch_h.batch_h_fade {
+    padding: 4px 10px;
+    border-radius: 99.608px;
+    border: 1px solid var(--Charcoal-50, #8B8C8E);
+    opacity: 0.6;
+    background: var(--Charcoal-10, #DFE0E0);
+}
+.next_batch_bl.next_batch_highlight .batch_h.batch_h_fade .batch_h_info.sold_out_h {
+    border: none;
+    text-align: right;
+}
+.next_batch_bl.next_batch_highlight .batch_h .batch_h_info:before {
+    content: '';
+    display: block;
+    width: var(--bgPercent);
+    background: #DFE0E0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 15px;
+    z-index: -9;
+}
+.next_batch_bl.next_batch_highlight .batch_h.batch_h_fade .batch_h_info.sold_out_h span {
+    color: #212428;
+}
+.next_batch_bl.next_batch_highlight .batch_h .batch_h_info {
+    background: #DFE0E0;
+    border-radius: 20px;
+    position: relative;
+    color: #fff;
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: 400;
+    margin: auto 0;
+    padding: 4px 10px;
+    border-color: none !important;
+    z-index: 9;
+}
+
+.next_batch_bl.next_batch_highlight .batch_h.batch_h_fade .batch_h_info {
+    text-align: right;
+}
+
+.next_batch_bl.next_batch_highlight .batch_h {
+    display: grid;
+    grid-template-columns: calc(100% - 50%) 1fr;
+    gap: 10px;
+}
+.batch_h.reserved_batch {
+    border-radius: 99.608px;
+    border: 1px solid var(--Ice, #91BAEC);
+    background: #FFF;
+}
+.batch_h.reserved_batch .batch_h_month {
+    border-radius: 99.608px;
+    background: var(--Ice, #91BAEC);
+    box-shadow: 0px 0px 6.641px 0px rgba(0, 0, 0, 0.10);
+    max-width: 200px;
+    padding: 3px 10px;
+    font-size: 14px !important;
+    color: #212428;
+}
+.next_batch_bl.next_batch_highlight .batch_h .batch_h_month{
+    color: #212428;
+    font-size: 12px;
+    font-weight: 500 !important;
+}
+.next_batch_bl.next_batch_highlight .batch_h.batch_h_fade .batch_h_month {
+    opacity: 1;
+}
+.batch_h.reserved_batch .batch_h_info:before {
+    content: '';
+    display: block;
+    width: var(--bgPercent);
+    background: #fff !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 15px;
+    z-index: -9;
+}
+.batch_h.reserved_batch .batch_h_info {
+    background: #fff !important;
+    border: 0 !important;
+    color: #000 !important;
+    text-align: right;
+}
+.reserved_batch .batch_h_info {
+    font-size: 12px !important;
+}
+ .next_batch_bl.next_batch_highlight {
+    padding: 20px 10px;
+    margin-top: 20px;
+}
+ .next_batch_bl.next_batch_highlight h5 {
+    font-size: 16px;
+}
+ .next_batch_bl.next_batch_highlight p {
+    font-size: 16px;
+    font-family: 'TT Commons';
+}
+ .next_batch_bl.next_batch_highlight h5 {
+    font-family: "TT Commons";
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

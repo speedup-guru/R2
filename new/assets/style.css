@@ -7465,8 +7465,15 @@ fieldset:disabled .btn {
     width: auto !important
 }
 
+.mw-60 {
+    max-width: 60px !important
+}
 .mw-100 {
     max-width: 100% !important
+}
+
+.mw-184 {
+    max-width: 184px !important
 }
 .mw-213 {
     max-width: 213px !important
@@ -32637,7 +32644,22 @@ picture img {
     padding: 8px 16px;
     display: inline-block;
 }
-
+.title-xl-commons {
+    color: var(--Charcoal, #212428);
+    font-family: "Canela Light";
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 54px;
+}
+.title-lg-commons {
+    color: var(--Charcoal, #212428);
+    font-family: "Canela light";
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 44px;
+}
 
 
 
