@@ -9077,6 +9077,9 @@ fieldset:disabled .btn {
 }
 
 @media (min-width:768px) {
+    .mw-60_desktop {
+        max-width: 60px !important
+    }
     .float-md-start {
         float: left !important
     }
@@ -29678,7 +29681,7 @@ h1 {
     --clr-yellow: #FFFAF1;
     --clr-green: #008763;
     --clr-light-green: #C7E7DC;
-    --clr-grey: #F5F5F5;
+    --clr-grey: #F6F6F7;
     --clr-white: #fff;
     --clr-black: #000;
 }
@@ -29820,7 +29823,7 @@ p {
     background-color: #212428 !important;
 }
 .bg-grey {
-    background-color: var(--clr-grey);
+    background-color: var(--clr-grey) !important;
 }
 .bg-grey_new {
     background: #F6F6F7;
@@ -32689,6 +32692,20 @@ picture img {
     }
     .marquee-row img {
         height: 22px;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+  *[style*="--mw-md"] {
+    max-width: var(--mw-md) !important;
+  }
+}
+
+@media (max-width: 767px) {
+    *[style*="--mw-mob"] {
+        max-width: var(--mw-mob) !important;
     }
 }
 /* css for endless slider  */

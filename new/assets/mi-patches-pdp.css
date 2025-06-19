@@ -4,7 +4,7 @@
 }
 
 .mi-patches-pdf .skincare_right {
-    padding: 0px 0px 0px 40px;
+    padding: 0px 0px 0px 0px;
 }
 
 .mi-patches-pdf .accordion-button::after {
@@ -95,8 +95,7 @@
 }
 
 .patches_ingredients .accordion-item {
-    max-width: 380px;
-    margin-bottom: 20px;
+    max-width: 450px;
 }
 
 .patches_ingredients .pi_header {
@@ -112,9 +111,12 @@
 }
 
 .patches_ingredients .skincare_right .accordion-body p {
-    font-size: 14px;
-    line-height: 26px;
-    letter-spacing: 0.14px;
+    color: #000;
+    font-family: "TT Commons";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; 
 }
 
 .patches_ingredients .pi-item .accordion-button::after {
@@ -171,17 +173,25 @@
 }
 
 .skincare_slider_n .skin_item_n_tag .sn_tag {
-    background-color: #C7E7DC;
-    border-radius: 30px;
-    padding: 2px 15px;
-    display: inline-block;
-    font-weight: 600;
-    margin-left: 21px;
+    color: var(--Charcoal, #212428);
+    font-family: "TT Commons";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    border-radius: 100px;
+    background: var(--Teal, #C7E5DB);
+    backdrop-filter: blur(10px);
+    padding: 6px 24px;
 }
-
+.skin_item_n {
+    border-radius: 10px;
+    border: 1px solid var(--Charcoal-10, #DFE0E0);
+    padding: 24px;
+}
 .skincare_slider_n .skin_item_n_tag p {
     text-align: center;
-    margin: 12px 0;
+    margin: 18px 0 0;
 }
 /* .mi_patches_pdp span.saved_price {
     background: #c50000 !important;
@@ -525,32 +535,6 @@ img#bundleImage {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .next_batch_bl {
     background-color: #ffffff7d;
     border: 1px solid var(--Charcoal-10, #DFE0E0);
@@ -664,17 +648,136 @@ img#bundleImage {
     font-size: 16px;
     font-weight: 600;
 }
+.target_areas_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.get_compliment_wrap .gc_img img {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.gc_img{
+    height: auto;
+}
 
-
-
-
-
-
-
-
-
-
-
+.get_compliment_wrap #pills-tab-skin {
+    max-width: 422px;
+    border-bottom: 1px solid var(--Charcoal-30, #B5B6B7);
+}
+.tab_with_slider_new .swiper-button-next, .tab_with_slider_new .swiper-button-prev {
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 100%;
+    width: 44px;
+}
+.get_compliment_wrap .nav-pills .nav-link.active, .get_compliment_wrap .nav-pills .show>.nav-link {
+    text-decoration: none;
+}
+.get_compliment_wrap .nav-pills .nav-link {
+    text-decoration: none;
+    padding: 0 30px;
+    border-radius: 0;
+    margin-bottom: 0;
+    color: var(--Charcoal, #212428);
+    font-family: "TT Commons";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+.get_compliment_wrap .nav-pills .nav-link.active{
+   border-bottom: 2px solid var(--Charcoal, #212428);
+   font-weight: 600;
+}
+.refill_bl .thumbsSlider_wrap .swiper-button {
+    border: 1px solid #000;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+.refill_bl .bfs_mb_wrapThumb img {
+    height: 70px;
+    width: 70px;
+}
+.refill_bl .thumbsSlider_wrap .swiper-thumbs {
+    max-width: calc(100% - 120px);
+}
+.bs_feature.correctCircle ul li:before {
+    content: url(./tick_blue.svg);
+}
+.bs_feature.incorrectCircle ul li:before {
+    content: url(./cross_grey.svg);
+}
+.mi-patches-pdf .bs_versace {
+    top: calc((var(--height-header)) / 1 - 48px);
+    background: #212428;
+}
+.mi-patches-pdf .bs_vs_item .bs_versace span {
+    font-weight: 600;
+}
+.mi-patches-pdf .videosQure .swiper {
+    padding-bottom: 10px;
+}
+.mi-patches-pdf .videosQure .pagination_navigation {
+    margin: 32px auto;
+}
+.View_full_ingredient_list_wrapper{
+    width: 100%;
+    display: flex;
+    margin-top: 32px;
+}
+.View_full_ingredient_list_wrapper a.View_full_ingredient_list {
+    margin: 0 auto;
+    display: flex;
+    height: 50px;
+    padding: 0px 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border-radius: 100px;
+    background: var(--Mist, #F6F6F7);
+}
+.cross_icon_ugc {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+.cross_icon_ugc img {
+    height: 30px;
+    width: 30px;
+}
+body.interest_in_ugc_active {
+    position: relative;
+}
+body.interest_in_ugc_active:before {
+    content: "";
+    position: absolute;
+    background: #000;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+    opacity: 0.7;
+}
+.targeted_Patches_ingredients {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    z-index: 999;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 32px 40px;
+}
+body.interest_in_ugc_active .targeted_Patches_ingredients{
+    display: block;
+}
 
 
 
@@ -689,9 +792,33 @@ img#bundleImage {
     .skincaree {
         gap: 20px;
     }
+    .upgrade_routine .ur_item_grid {
+        grid-template-columns: 1fr 1fr;
+        overflow-x: scroll;
+    }
 }
 
 @media (max-width: 767px) {
+    .upgrade_routine .ur_item {
+        min-width: 250px;
+    }
+    .skin_item_n {
+        padding: 16px;
+    }
+    .mi-patches-pdf .shipping {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.mi-patches-pdf .shipping .s_bx {
+    grid-template-columns: 1fr;
+    place-items: center;
+    text-align: center;
+}
+    .get_compliment_wrap .nav-pills .nav-link {
+        padding: 0 15px;
+    }
+    .get_compliment_wrap #pills-tab-skin {
+        max-width: 298px;
+    }
     .supply-detail.supply-detail-without-counter .supply_steps {
         padding-top: 0;
     }
@@ -725,18 +852,6 @@ img#bundleImage {
     .max_eff_images {
         gap: 3px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
 
     .choose_bundle-offer .bundle_offer-content .planBlock .monthly_plans .price .regular_price {
         font-size: 20px;
@@ -819,6 +934,11 @@ img#bundleImage {
     .mi-patches-pdf .refill_s_tab ul{
         gap: 5px;
     }
+    .target_areas_grid{
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+}
+
 }
 
 @media (max-width: 575px) {
@@ -838,8 +958,6 @@ img#bundleImage {
         justify-content: unset;
     }
     .mi_landing_result .pagination_navigation .swiper-button {
-        height: 25px;
-        width: 25px;
         top: 25px;
     }
 }

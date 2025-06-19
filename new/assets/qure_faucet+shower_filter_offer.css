@@ -26,7 +26,7 @@ main.shower_plus_faucet_water_filter .header-wrapper header {
 .complete_filter_bundle h4 {
     color: var(--Charcoal, #212428);
     font-family: "TT Commons";
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: 24px;
@@ -53,23 +53,23 @@ main.shower_plus_faucet_water_filter .header-wrapper header {
     position: absolute;
     right: -12px;
     bottom: -12px;
-    height: 18px;
+    height: 23px;
     min-width: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    background: #EEF7F4;
-    color: #008763;
+    background: #FFEEEA;
+    color: #FF5429;
     font-family: "TT Commons Medium";
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
     padding: 5px 10px;
 }
 .complete_filter_bundle .prod_dv p span{
-    font-weight: 600;
+    font-weight: 500;
 }
 .supplies_last {
     padding: 20px 10px;
@@ -108,7 +108,7 @@ main.shower_plus_faucet_water_filter .header-wrapper header {
 .supplies_last .batch_h-info span {
     color: var(--Orange, #FF5429);
     font-family: "TT Commons";
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
@@ -125,7 +125,7 @@ main.shower_plus_faucet_water_filter .header-wrapper header {
 }
 .complete_filter_bundle del {
     font-family: "TT Commons";
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 22px;
     text-decoration-line: line-through;
@@ -507,35 +507,23 @@ main.shower_plus_faucet_water_filter .trusted_recom .dr_text {
     background-color: #DFE0E0 !important;
     color: #1f1f1f !important;
 }
-.circle_swatch{
-    height: 35px;
-    width: 35px;
-    border: 2px solid #F6F6F7;
-    border-radius: 100%;
-}
 .item_swatch {
     border-radius: 10px;
-    border: 1px solid transparent;
+    border: 1px solid #DFE0E0;
     padding: 10px;
     cursor: pointer;
     gap: 10px;
 }
-.item_swatch.active{
-    border-color: var(--Charcoal-50, #8B8C8E);
-}
-.circle_swatch.white_swatch {
-    background: #fff;
-}
-.circle_swatch.black_swatch {
-    background: #212428;
+.item_swatch.active {
+    border: 2px solid var(--Charcoal, #212428);
+    background: #F6F6F7;
 }
 .item_swatch.active .circle_swatch {
     border-color: #C7E5DB;
 }
 .select_color_swatches {
     margin-top: 30px;
-    border-bottom: 1px solid #8B8C8E;
-    border-top: 1px solid #8B8C8E;
+    border-top: 1px solid #DFE0E0;
     padding: 20px 0;
 }
 .ctm_swatches .item_swatch span {
@@ -1069,7 +1057,7 @@ main.shower_plus_faucet_water_filter .product_bundle  * {
     line-height: 20px; 
 }
 main.shower_plus_faucet_water_filter .product_bundle .include  .selection_title {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     font-family: 'TT Commons';
 }
@@ -1147,11 +1135,12 @@ main.shower_plus_faucet_water_filter .result_s .pagination_navigation {
 }
 main.shower_plus_faucet_water_filter .select_color{
     font-family: "TT Commons";
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
 }
+
 main.shower_plus_faucet_water_filter .unfiltered_water_outer img {
     max-width: 190px;
 }
@@ -1479,6 +1468,132 @@ main.shower_plus_faucet_water_filter .qure_mob_menu .nav{
     font-weight: 400;
 }
 
+/* subscribe block css  */
+.subs_fir_blk, .shower_with_faucet_free {
+    border-bottom: 1px solid #DFE1E0;
+}
+.subs_fir_blk p {
+    font-size: 18px;
+    line-height: 22px;
+}
+.subs_fir_blk p span {
+    font-weight: 600;
+}
+.one_time_purchase_offer  span.clr_orange {
+    font-weight: 600;
+}
+.subs_fir_blk del {
+    color: var(--Charcoal-50, #8B8C8E);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-decoration-line: line-through;
+}
+.subs_fir_blk h6 span {
+    color: var(--Charcoal, #212428);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.shower_with_faucet_free p {
+    color: var(--Charcoal, #212428);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.new_filters_auto_ship p{
+    color: var(--Charcoal, #212428);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.shower_with_faucet_free del {
+    color: var(--Charcoal-50, #8B8C8E);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration-line: line-through;
+}
+.free_orange_text{
+    color: #FF5429;
+}
+.one_time_purchase_offer{
+    border-radius: 10px;
+    border: 1px solid var(--Charcoal-10, #DFE0E0);
+    padding: 18px;
+    margin-top: 20px;
+}
+h6.one_time_purchase_text {
+    color: var(--Charcoal, #212428);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.one_time_purchase_offer p {
+    color: var(--Charcoal, #212428);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.circle_swatch{
+    position: relative;
+}
+.free_label {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 5px;
+    background: var(--Orange-10, #FFEEEA);
+    color: var(--Orange, #FF5429);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    height: 21px;
+    padding: 6px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bundle_select-main .item_swatch{
+    padding: 18px;
+} 
+.bundle_select-main .product-section{
+    max-width: 452px;
+    margin: 0;
+} 
+/* subscribe block css  */
+.ctm_images_zz img{
+    max-width: 80px;
+}
+.shower_with_faucet_free h6 {
+    margin-bottom: 0;
+}
+.best_value {
+    border-radius: 10px 10px 0px 0px;
+    background: var(--Charcoal, #212428);
+    display: flex;
+    padding: 6px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    color: var(--White, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    max-width: 131px;
+    margin: 0 20px 0 auto;
+}
+.one_time_purchase_offer.active {
+    background: var(--Mist, #F6F6F7);
+    border: 2px solid var(--Charcoal, #212428);
+}
+.wrapper_qure_shwr_one_time{
+    border-top: 1px solid #DFE0E0;
+}
 
   @keyframes shine {
     0% {
@@ -1495,6 +1610,58 @@ main.shower_plus_faucet_water_filter .qure_mob_menu .nav{
   }
 
 
+p.pause_cancel_text {
+    color: var(--Charcoal-50, #8B8C8E);
+    font-family: "TT Commons";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+p.pause_cancel_text a {
+    text-decoration-line: underline;
+}
+.subs_and_save:not( .active) span.clr_orange {
+    background: var(--Mist, #F6F6F7);
+    color: var(--Charcoal, #212428);
+}
+.subscribe_save_wrapper_new .active .subs_save_wrapper {
+    border: 2px solid var(--Charcoal, #212428);
+    background: var(--Mist, #F6F6F7);
+}
+
+.subs_save_wrapper {
+    border-radius: 10px;
+    border: 1px solid var(--Charcoal-10, #DFE0E0);
+    padding: 18px;
+}
+.subs_and_save:not(.active) .best_value {
+    opacity: 0;
+}
+.subs_and_save:not(.active) .shower_with_faucet_free, .subs_and_save:not(.active) .new_filters_auto_ship {
+    display: none;
+}
+.subs_and_save:not(.active) .subs_fir_blk{
+    border: 0;
+}
+.subs_and_save:not(.active) .subs_fir_blk .pb-2 {
+    padding-bottom: 0 !important;
+}
+.one_time_purchase_offer:not(.active) span.clr_orange {
+    display: none;
+}
+.one_time_purchase_offer:not(.active) .ctm_cls_price del {
+    display: none;
+}
+.one_time_purchase_offer:not(.active) .wrapper_qure_shwr_one_time{
+    display: none;
+}
+.one_time_purchase_offer:not(.active) .pb-2{
+    padding-bottom: 0 !important;
+}
+p.pause_cancel_text a:hover {
+    color: var(--Charcoal-50, #8B8C8E) !important;
+}
 
 
 
@@ -1506,6 +1673,15 @@ main.shower_plus_faucet_water_filter .qure_mob_menu .nav{
     } 
   }
 @media (max-width: 767px) {
+    .circle_swatch img {
+    max-width: 51px;
+}
+.free_label {
+    bottom: -5px;
+    font-size: 12px;
+    height: 15px;
+    border-radius: 3px;
+}
 
   #green-product-sticky-form-btn,
   #green-product-sticky-btn {

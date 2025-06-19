@@ -1889,5 +1889,3 @@ document.querySelectorAll('.ctm_swiper_main_images').forEach((mainEl) => {
   });
 
 
-
-
