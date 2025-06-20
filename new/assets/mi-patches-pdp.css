@@ -778,7 +778,9 @@ body.interest_in_ugc_active:before {
 body.interest_in_ugc_active .targeted_Patches_ingredients{
     display: block;
 }
-
+.marquee-row img {
+    height: auto;
+}
 
 
 
