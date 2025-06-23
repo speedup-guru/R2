@@ -901,6 +901,12 @@ p.valued_at strong {
 }
 
 @media(max-width:767px) {
+    .faucet_offer-banner.qure_anniversary_banner h5 {
+    font-size: 30px !important;
+}
+    .faucet_offer-banner.qure_anniversary_banner p {
+    padding-top: 0 !important; 
+}
     .cta-btn {
         width: 196px;
         height: 46px;
