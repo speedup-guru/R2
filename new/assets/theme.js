@@ -63,7 +63,7 @@ setTimeout(function () {
                     },
                     pagination: {
                         clickable: !0,
-                        type: 'fraction',
+                        type: 'bullets',
                         el: e.querySelector(".swiper-pagination")
                     },
                     breakpoints: {
@@ -336,7 +336,7 @@ var swiper = new Swiper(".result_slider", {
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
-        type: 'fraction',
+        type: 'bullets',
     },
     navigation: {
         nextEl: ".qureSlider-swiper-next",

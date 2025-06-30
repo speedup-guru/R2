@@ -1759,3 +1759,9 @@
  .result_tabs .rt_wrap .rt_wrap_header .nav-link.active h6 {
      font-weight: 700;
  }
+ .swiper_buttons_wrapper {
+    position: relative;
+}
+.swiper_buttons_wrapper .swiper-pagination {
+    padding-top: 20px;
+}

@@ -4,7 +4,7 @@
 }
 
 .mi-patches-pdf .skincare_right {
-    padding: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 40px;
 }
 
 .mi-patches-pdf .accordion-button::after {
@@ -55,10 +55,11 @@
 
 .patches_tech_grid {
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: 3fr 1fr 3fr 1fr 3fr;
     align-items: start;
     gap: 20px;
-}
+    place-items: center;
+}   
 
 .patches_tech_grid .patches_tech_item {
     max-width: 284px;
@@ -95,7 +96,8 @@
 }
 
 .patches_ingredients .accordion-item {
-    max-width: 450px;
+    max-width: 380px;
+    margin-bottom: 20px;
 }
 
 .patches_ingredients .pi_header {
@@ -111,12 +113,9 @@
 }
 
 .patches_ingredients .skincare_right .accordion-body p {
-    color: #000;
-    font-family: "TT Commons";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22px; 
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.14px;
 }
 
 .patches_ingredients .pi-item .accordion-button::after {
@@ -173,30 +172,22 @@
 }
 
 .skincare_slider_n .skin_item_n_tag .sn_tag {
-    color: var(--Charcoal, #212428);
-    font-family: "TT Commons";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22px;
-    border-radius: 100px;
-    background: var(--Teal, #C7E5DB);
-    backdrop-filter: blur(10px);
-    padding: 6px 24px;
+    background-color: #C7E7DC;
+    border-radius: 30px;
+    padding: 2px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-left: 21px;
 }
-.skin_item_n {
-    border-radius: 10px;
-    border: 1px solid var(--Charcoal-10, #DFE0E0);
-    padding: 24px;
-}
+
 .skincare_slider_n .skin_item_n_tag p {
     text-align: center;
-    margin: 18px 0 0;
+    margin: 12px 0;
 }
-/* .mi_patches_pdp span.saved_price {
+.mi_patches_pdp span.saved_price {
     background: #c50000 !important;
     margin-left: 8px;
-} */
+}
 .mi_patches_pdp .planBlock .monthly_plans{
     padding: 13px 20px;
 }
@@ -222,11 +213,6 @@
 .mi_patches_pdp .planBlock .plan_choosed span {
     display: flex;
     justify-content: center;
-    background: #212428;
-    font-size: 14px;
-    font-family: 'TT Commons';
-    line-height: 18px;
-    padding-top: 2px;
 }
 .plan_prc {
     font-weight: 400;
@@ -257,7 +243,13 @@ img#bundleImage {
     margin-top: 0;
     line-height: 20px;
 }
-
+.planBlock .monthly_plans .plan_hdr h3 {
+    margin-top: -5px;
+}
+.planBlock .monthly_plans .plan_hdr h3 {
+    font-size: 14px !important;
+    opacity: 80%;
+}
 .mi_patches_pdp .planBlock .monthly_plans .price .regular_price {
     font-size: 20px;
 }
@@ -280,6 +272,9 @@ img#bundleImage {
 .next_batch_bl.next_batch_highlight {
     padding: 20px 16px;
 }
+.next_batch_bl.next_batch_highlight .batch_h .batch_h_month {
+    margin-top: 10px;
+}
 .next_batch_bl.next_batch_highlight .batch_h .batch_h_info {
     padding: 0px 10px;
 }
@@ -293,11 +288,9 @@ img#bundleImage {
 
 .mi-patches-pdf .planBlock .monthly_plans {
     padding: 0;
-    border-width: 2px;
-    transition: all .3s ease;
 }
 .mi-patches-pdf label.monthly_plans {
-    height: 150px;
+    height: 144px;
 }
 .mi-patches-pdf .planBlock .monthly_plans .price {
     justify-content: center;
@@ -306,33 +299,36 @@ img#bundleImage {
     position: relative;
 }
 .mi-patches-pdf .planBlock .monthly_plans .saved_price {
+    background-color: #C4121A;
+    margin-bottom: -9px;
     height: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 14px;
+    font-size: 11px;
     font-style: normal;
     font-weight: 600;
     line-height: 24px;
     letter-spacing: 0.11px;
-    padding: 6px 10px;
+    padding: 6px 8px;
     position: absolute;
-    bottom: -10px;
-    background-color: #FFEEEA;
-    color: #FF5429;
-    margin-left: 0;
-    transition: all .3s ease;
-    font-family: "TT Commons";
+    bottom: 0;
 }
-.planBlock input:checked+.monthly_plans .saved_price{
-    background-color: #FF5429;
-    color: #fff;
+.ctm_cls_mi_patches_pdp label.monthly_plans {
+    height: unset;
 }
-
+.ctm_cls_mi_patches_pdp .planBlock .monthly_plans {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px !important;
+}
+.ctm_cls_mi_patches_pdp .planBlock:nth-child(1) .monthly_plans {
+    border-radius: 100px !important;
+}
 .mi_patches_pdp .step_conten_blocks {
     display: grid;
     align-items: end;
-    gap: 12px;
+    gap: 6px;
     grid-template-columns: 1fr 1fr 1fr;
 }
 .max_eff p {
@@ -347,28 +343,23 @@ img#bundleImage {
     gap: 10px;
 }
 .mi_patches_pdp .planBlock .monthly_plans .plan_hdr h3 {
-    font-size: 18px;
-    font-weight: 400;
-    font-family: 'TT Commons';
     text-align: center;
-    padding: 6px 0;
-}
-.mi_patches_pdp .planBlock .monthly_plans .plan_hdr h3 span {
-    display: inline-block;
-    font-size: 14px;
+    font-size: 13px !important;
+    font-weight: 600;
+    line-height: 13px;
+    letter-spacing: 0.13px;
+    margin-bottom: 5px;
 }
 .mi_patches_pdp .planBlock .monthly_plans .price .regular_price {
-    font-size: 18px;
-    font-family: 'TT Commons';
-    color: #8B8C8E;
-    font-weight: 400;
+    font-size: 14px;
 }
 .mi_patches_pdp .planBlock .monthly_plans .plan_prc.sale_price {
-    color: #FF5429;
-    font-weight: 400 !important;
-    font-family: 'TT Commons';
+    font-weight: 500 !important;
+    font-size: 14px;
 }
-
+.mi_patches_pdp .plan_hdr {
+    margin-top: 10px;
+}
 .max_eff {
     width: 100%;
     background: #F6F6F6;
@@ -376,6 +367,8 @@ img#bundleImage {
 }
 .mi_patches_pdp .planBlock:nth-child(1) .monthly_plans .max_eff {
     border-radius: 0;
+}
+.planBlock input:checked+.monthly_plans .max_eff{
     background: #D9EEE9;
 }
 .mi_patches_pdp .planBlock.active .max_eff {
@@ -389,397 +382,21 @@ img#bundleImage {
     font-weight: 700;
 }
 .planBlock input:checked+.monthly_plans {
-    border: 2px solid #212428;
+    border: 1px solid #000;
 }
 .planBlock input:checked+.monthly_plans {
-    background: #F6F6F7;
+    background: #EAF5F2;
 }
 .max_eff_images img {
     height: 40px;
     width: 27px;
 }
-
-.mi-patches-pdf .refill_review {
-    border-radius: 5px;
-    background: var(--Mist, #F6F6F7);
-    padding: 10px;
-    max-width: max-content;
-}
-
-.title-xl-commons {
-    color: var(--Charcoal, #212428);
-    font-family: "Canela Light";
-    font-size: 46px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 54px;
-}
-.monthly_plans .new_patches img {
-    max-width: 54px;
-}
-.monthly_plans .new_patches{
-    padding-top: 12px;
-}
-.mi-patches-pdf .refill_review p a {
-    font-size: 16px;
-    font-family: 'TT Commons';
-    text-decoration: none;
-}
-.mi-patches-pdf .product_title {
-    color: var(--Charcoal, #212428);
-    font-family: "TT Commons";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px;
-    margin: 24px 0 8px;
-}
-.select_your_supply {
-    color: var(--Charcoal, #212428);
-    font-family: "TT Commons";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22px;
-    margin: 24px 0 10px;
-}
-.mi-patches-pdf hr {
-    background: #DFE0E0;
-    opacity: 1;
-}
-.mi_patches_pdp .planBlock:last-child .monthly_plans .plan_prc.sale_price{
-    color: #212428;
-}
-.upgrade_routine .ur_heading {
-    font-family: "TT Commons";
-    font-size: 20px;
-    font-weight: 400;
-}
-.upgrade_routine .ur_itemName {
-    color: var(--Charcoal, #212428);
-    font-family: "TT Commons";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22px; 
-}
-.mi-patches-pdf .faq_patches_pdp .accordion-button {
-    padding: 4px 0;
-    font-weight: 600;
-    font-size: 14px;
-    background-color: transparent;
-}
-.mi-patches-pdf .faq .accordion-button .container:after {
-    top: 50%;
-    font-weight: 300;
-    transform: translate(0, -50%);
-} 
-.mi-patches-pdf .accordion-button:not(.collapsed) .container:after {
-    content: '';
-    background-image: url('accord_minus_icon.svg');
-    background-repeat: no-repeat;
-}
-.mi-patches-pdf .accordion-button .container:after{
-    content: '';
-    background-image: url('accord_plus_icon.svg');
-    background-repeat: no-repeat;
-}
-.mi-patches-pdf .accordion-button:not(.collapsed) .container p {
-    font-weight: 600 !important;
-}
-.jump_to a {
-    border: 1px solid #000;
-    border-radius: 100px;
-    font-family: 'TT Commons';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    padding: 8px 24px;
-    height: 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.jump_to img {
-    margin-bottom: 1px;
-}
-.jump_to_heading h3 {
-    color: var(--Charcoal, #212428);
-    font-family: "TT Commons";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-}
-.faq_patches_pdp .accordion-item:last-child {
-    border-bottom: 1px solid #DEDADA;
-}
-.next_batch_bl.next_batch_highlight .batch_h {
-    display: grid;
-    grid-template-columns: calc(100% - 50%) 1fr;
-    gap: 10px;
-}
-.batch_h {
-    color: var(--Charcoal, #212428);
-    font-family: "TT Commons";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
-}
-.skincare_slider_n .title-lg {
-    font-family: 'Canela Light';
-}
-
-
-
-
-
-.next_batch_bl {
-    background-color: #ffffff7d;
-    border: 1px solid var(--Charcoal-10, #DFE0E0);
-    border-radius: 10px;
-}
- .batch_h.batch_h_fade {
-    padding: 4px 10px;
-    border-radius: 99.608px;
-    border: 1px solid var(--Charcoal-50, #8B8C8E);
-    opacity: 0.6;
-    background: var(--Charcoal-10, #DFE0E0);
-}
-.next_batch_bl.next_batch_highlight .batch_h.batch_h_fade .batch_h_info.sold_out_h {
-    border: none;
-    text-align: right;
-}
-.next_batch_bl.next_batch_highlight .batch_h .batch_h_info:before {
-    content: '';
-    display: block;
-    width: var(--bgPercent);
-    background: #DFE0E0;
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    border-radius: 15px;
-    z-index: -9;
-}
-.next_batch_bl.next_batch_highlight .batch_h.batch_h_fade .batch_h_info.sold_out_h span {
-    color: #212428;
-}
-.next_batch_bl.next_batch_highlight .batch_h .batch_h_info {
-    background: #DFE0E0;
-    border-radius: 20px;
-    position: relative;
-    color: #fff;
-    font-size: 11px;
-    line-height: 16px;
-    font-weight: 400;
-    margin: auto 0;
-    padding: 4px 10px;
-    border-color: none !important;
-    z-index: 9;
-}
-
-.next_batch_bl.next_batch_highlight .batch_h.batch_h_fade .batch_h_info {
-    text-align: right;
-}
-
-.next_batch_bl.next_batch_highlight .batch_h {
-    display: grid;
-    grid-template-columns: calc(100% - 50%) 1fr;
-    gap: 10px;
-}
-.batch_h.reserved_batch {
-    border-radius: 99.608px;
-    border: 1px solid var(--Ice, #91BAEC);
-    background: #FFF;
-}
-.batch_h.reserved_batch .batch_h_month {
-    border-radius: 99.608px;
-    background: var(--Ice, #91BAEC);
-    box-shadow: 0px 0px 6.641px 0px rgba(0, 0, 0, 0.10);
-    max-width: 200px;
-    padding: 3px 10px;
-    font-size: 14px !important;
-    color: #212428;
-}
-.next_batch_bl.next_batch_highlight .batch_h .batch_h_month{
-    color: #212428;
-    font-size: 12px;
-    font-weight: 500 !important;
-}
-.next_batch_bl.next_batch_highlight .batch_h.batch_h_fade .batch_h_month {
-    opacity: 1;
-}
-.batch_h.reserved_batch .batch_h_info:before {
-    content: '';
-    display: block;
-    width: var(--bgPercent);
-    background: #fff !important;
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    border-radius: 15px;
-    z-index: -9;
-}
-.batch_h.reserved_batch .batch_h_info {
-    background: #fff !important;
-    border: 0 !important;
-    color: #000 !important;
-    text-align: right;
-}
-.reserved_batch .batch_h_info {
-    font-size: 12px !important;
-}
- .next_batch_bl.next_batch_highlight {
-    padding: 20px 10px;
-    margin-top: 20px;
-}
- .next_batch_bl.next_batch_highlight h5 {
-    font-size: 16px;
-}
- .next_batch_bl.next_batch_highlight p {
-    font-size: 16px;
-    font-family: 'TT Commons';
-}
- .next_batch_bl.next_batch_highlight h5 {
-    font-family: "TT Commons";
-    font-size: 16px;
-    font-weight: 600;
-}
-.target_areas_grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-}
-.get_compliment_wrap .gc_img img {
-    width: 100%;
-    height: 100%;
-}
-.swiper-slide.gc_img{
-    height: auto;
-}
-
-.get_compliment_wrap #pills-tab-skin {
-    max-width: 422px;
-    border-bottom: 1px solid var(--Charcoal-30, #B5B6B7);
-}
-.tab_with_slider_new .swiper-button-next, .tab_with_slider_new .swiper-button-prev {
-    background: #fff;
-    border: 1px solid #000;
-    border-radius: 100%;
-    width: 44px;
-}
-.get_compliment_wrap .nav-pills .nav-link.active, .get_compliment_wrap .nav-pills .show>.nav-link {
-    text-decoration: none;
-}
-.get_compliment_wrap .nav-pills .nav-link {
-    text-decoration: none;
-    padding: 0 30px;
-    border-radius: 0;
-    margin-bottom: 0;
-    color: var(--Charcoal, #212428);
-    font-family: "TT Commons";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22px;
-}
-.get_compliment_wrap .nav-pills .nav-link.active{
-   border-bottom: 2px solid var(--Charcoal, #212428);
-   font-weight: 600;
-}
-.refill_bl .thumbsSlider_wrap .swiper-button {
-    border: 1px solid #000;
-    border-radius: 100%;
-    width: 40px;
-    height: 40px;
-}
-.refill_bl .bfs_mb_wrapThumb img {
-    height: 70px;
-    width: 70px;
-}
-.refill_bl .thumbsSlider_wrap .swiper-thumbs {
-    max-width: calc(100% - 120px);
-}
-.bs_feature.correctCircle ul li:before {
-    content: url(./tick_blue.svg);
-}
-.bs_feature.incorrectCircle ul li:before {
-    content: url(./cross_grey.svg);
-}
-.mi-patches-pdf .bs_versace {
-    top: calc((var(--height-header)) / 1 - 48px);
-    background: #212428;
-}
-.mi-patches-pdf .bs_vs_item .bs_versace span {
-    font-weight: 600;
-}
-.mi-patches-pdf .videosQure .swiper {
-    padding-bottom: 10px;
-}
-.mi-patches-pdf .videosQure .pagination_navigation {
-    margin: 32px auto;
-}
-.View_full_ingredient_list_wrapper{
-    width: 100%;
-    display: flex;
-    margin-top: 32px;
-}
-.View_full_ingredient_list_wrapper a.View_full_ingredient_list {
-    margin: 0 auto;
-    display: flex;
-    height: 50px;
-    padding: 0px 50px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-    border-radius: 100px;
-    background: var(--Mist, #F6F6F7);
-}
-.cross_icon_ugc {
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    cursor: pointer;
-}
-.cross_icon_ugc img {
-    height: 30px;
-    width: 30px;
-}
-body.interest_in_ugc_active {
-    position: relative;
-}
-body.interest_in_ugc_active:before {
-    content: "";
-    position: absolute;
-    background: #000;
-    top: 0;
-    left: 0;
-    display: block;
-    height: 100%;
-    width: 100%;
-    z-index: 999;
-    opacity: 0.7;
-}
-.targeted_Patches_ingredients {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #fff;
-    z-index: 999;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    padding: 32px 40px;
-}
-body.interest_in_ugc_active .targeted_Patches_ingredients{
-    display: block;
-}
-.marquee-row img {
-    height: auto;
+.skincare_slider_n .pagination_navigation {
+    max-width: 260px;
+}
+.plus_cls img {
+    height: 17px;
+    width: 17px;
 }
 
 
@@ -789,38 +406,18 @@ body.interest_in_ugc_active .targeted_Patches_ingredients{
 
 
 
-
+@media(min-width:768px){
+    .plus_cls {
+    padding-bottom: 66px;
+}
+}
 @media (max-width: 991px) {
     .skincaree {
         gap: 20px;
     }
-    .upgrade_routine .ur_item_grid {
-        grid-template-columns: 1fr 1fr;
-        overflow-x: scroll;
-    }
 }
 
 @media (max-width: 767px) {
-    .upgrade_routine .ur_item {
-        min-width: 250px;
-    }
-    .skin_item_n {
-        padding: 16px;
-    }
-    .mi-patches-pdf .shipping {
-    grid-template-columns: 1fr 1fr 1fr;
-}
-.mi-patches-pdf .shipping .s_bx {
-    grid-template-columns: 1fr;
-    place-items: center;
-    text-align: center;
-}
-    .get_compliment_wrap .nav-pills .nav-link {
-        padding: 0 15px;
-    }
-    .get_compliment_wrap #pills-tab-skin {
-        max-width: 298px;
-    }
     .supply-detail.supply-detail-without-counter .supply_steps {
         padding-top: 0;
     }
@@ -854,6 +451,18 @@ body.interest_in_ugc_active .targeted_Patches_ingredients{
     .max_eff_images {
         gap: 3px;
     }
+
+
+
+
+
+
+
+
+
+
+
+
 
     .choose_bundle-offer .bundle_offer-content .planBlock .monthly_plans .price .regular_price {
         font-size: 20px;
@@ -936,11 +545,6 @@ body.interest_in_ugc_active .targeted_Patches_ingredients{
     .mi-patches-pdf .refill_s_tab ul{
         gap: 5px;
     }
-    .target_areas_grid{
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-}
-
 }
 
 @media (max-width: 575px) {
@@ -960,6 +564,8 @@ body.interest_in_ugc_active .targeted_Patches_ingredients{
         justify-content: unset;
     }
     .mi_landing_result .pagination_navigation .swiper-button {
+        height: 25px;
+        width: 25px;
         top: 25px;
     }
 }
