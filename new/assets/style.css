@@ -32667,6 +32667,9 @@ picture img {
     height: 14px;
     width: 14px;
 }
+.bar_shop-btn{
+    background: var(--ann_bg_clr) !important;
+}
 
 
 
