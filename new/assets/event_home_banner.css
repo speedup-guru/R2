@@ -563,7 +563,7 @@ span.discount_badge {
 .clinic_results h5 {
     font-family: Canela Web;
     font-size: 42px !important;
-    text-align: center;
+    text-align: start;
     line-height: 50px;
     font-weight: 500;
 }
@@ -573,7 +573,7 @@ span.discount_badge {
     margin: 0 auto 10px;
 }
 .collection_banner .collection_grid .banner_text, .hero_valentine_banner .collection_grid .womens_day_offer {
-    text-align: center;
+    text-align: start;
 }
 .hero_valentine_banner .collection_grid .banner_text .clinic_results a {
     margin-top: 15px !important;
